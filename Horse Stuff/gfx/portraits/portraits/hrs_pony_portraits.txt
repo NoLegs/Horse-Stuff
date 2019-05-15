@@ -672,6 +672,436 @@ portrait_groups = {
 }
 
 portrait_groups = {
+    unitedponyfh = {
+		default = alicornh1
+		game_setup = { 
+           		add = {
+                	portraits = {
+						alicornf1
+						alicornf2
+						alicornf3
+						alicornf4
+						alicornf5
+						
+						alicornh1
+						alicornh2
+						alicornh3
+						
+						pegasusf1
+						pegasusf2
+						pegasusf3
+						pegasusf4
+						pegasusf5
+						pegasusf6
+						pegasusf7
+						pegasusf8
+						pegasusf9
+						pegasusf10
+						pegasusf11
+						pegasusf12
+						
+						pegasush1
+						pegasush2
+						pegasush3
+						pegasush4
+						pegasush5
+						pegasush6
+						
+						unicornf1
+						unicornf2
+						unicornf3
+						unicornf4
+						unicornf5
+						unicornf6
+						unicornf7
+						unicornf8
+						unicornf9
+						unicornf10
+						unicornf11
+						unicornf12
+						unicornf13
+						
+						unicornh1
+						unicornh2
+						unicornh3
+						unicornh4
+						unicornh5
+						unicornh6
+						unicornh7
+						
+						earthf1
+						earthf2
+						earthf3
+						earthf4
+						earthf5
+						earthf6
+						earthf7
+						earthf8
+						earthf9
+						earthf10
+						earthf11
+						earthf12
+						earthf13
+						earthf14
+						earthf15
+						
+						earthh1
+						earthh2
+						earthh3
+						earthh4
+						earthh5
+						earthh6
+						earthh7
+						
+						crystalf1
+						crystalf2
+						crystalf3
+						crystalf4
+						crystalf5
+						crystalf6
+					}
+				}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					pegasusf1
+					pegasusf2
+					pegasusf3
+					pegasusf4
+					pegasusf5
+					pegasusf6
+					pegasusf7
+					pegasusf8
+					pegasusf9
+					pegasusf10
+					pegasusf11
+					pegasusf12
+					
+					
+					pegasush1
+					pegasush2
+					pegasush3
+					pegasush4
+					pegasush5
+					pegasush6
+					
+					unicornf1
+					unicornf2
+					unicornf3
+					unicornf4
+					unicornf5
+					unicornf6
+					unicornf7
+					unicornf8
+					unicornf9
+					unicornf10
+					unicornf11
+					unicornf12
+					unicornf13
+					
+					unicornh1
+					unicornh2
+					unicornh3
+					unicornh4
+					unicornh5
+					unicornh6
+					unicornh7
+					
+					earthf1
+					earthf2
+					earthf3
+					earthf4
+					earthf5
+					earthf6
+					earthf7
+					earthf8
+					earthf9
+					earthf10
+					earthf11
+					earthf12
+					earthf13
+					earthf14
+					earthf15
+
+					earthh1
+					earthh2
+					earthh3
+					earthh4
+					earthh5
+					earthh6
+					earthh7
+					
+					crystalf2
+					crystalf3
+					crystalf4
+					crystalf5
+					crystalf6
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					pegasusf1
+					pegasusf2
+					pegasusf3
+					pegasusf4
+					pegasusf5
+					pegasusf6
+					pegasusf7
+					pegasusf8
+					pegasusf9
+					pegasusf10
+					pegasusf11
+					pegasusf12
+
+					pegasush1
+					pegasush2
+					pegasush3
+					pegasush4
+					pegasush5
+					pegasush6
+					
+					unicornf1
+					unicornf2
+					unicornf3
+					unicornf4
+					unicornf5
+					unicornf6
+					unicornf7
+					unicornf8
+					unicornf9
+					unicornf10
+					unicornf11
+					unicornf12
+					unicornf13
+
+					unicornh1
+					unicornh2
+					unicornh3
+					unicornh4
+					unicornh5
+					unicornh6
+					unicornh7
+					
+					earthf1
+					earthf2
+					earthf3
+					earthf4
+					earthf5
+					earthf6
+					earthf7
+					earthf8
+					earthf9
+					earthf10
+					earthf11
+					earthf12
+					earthf13
+					earthf14
+					earthf15
+					
+					earthh1
+					earthh2
+					earthh3
+					earthh4
+					earthh5
+					earthh6
+					earthh7
+					
+					crystalf2
+					crystalf3
+					crystalf4
+					crystalf5
+					crystalf6
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+                	portraits = {
+						alicornf1
+						alicornf2
+						alicornf3
+						alicornf4
+						alicornf5
+						
+						alicornh1
+						alicornh2
+						alicornh3
+						
+						pegasusf1
+						pegasusf2
+						pegasusf3
+						pegasusf4
+						pegasusf5
+						pegasusf6
+						pegasusf7
+						pegasusf8
+						pegasusf9
+						pegasusf10
+						pegasusf11
+						pegasusf12
+						
+						pegasush1
+						pegasush2
+						pegasush3
+						pegasush4
+						pegasush5
+						pegasush6
+						
+						unicornf1
+						unicornf2
+						unicornf3
+						unicornf4
+						unicornf5
+						unicornf6
+						unicornf7
+						unicornf8
+						unicornf9
+						unicornf10
+						unicornf11
+						unicornf12
+						unicornf13
+						
+						unicornh1
+						unicornh2
+						unicornh3
+						unicornh4
+						unicornh5
+						unicornh6
+						unicornh7
+						
+						earthf1
+						earthf2
+						earthf3
+						earthf4
+						earthf5
+						earthf6
+						earthf7
+						earthf8
+						earthf9
+						earthf10
+						earthf11
+						earthf12
+						earthf13
+						earthf14
+						earthf15
+						
+						earthh1
+						earthh2
+						earthh3
+						earthh4
+						earthh5
+						earthh6
+						earthh7
+						
+						crystalf1
+						crystalf2
+						crystalf3
+						crystalf4
+						crystalf5
+						crystalf6
+					}
+				}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+               	portraits = {
+						alicornf1
+						alicornf2
+						alicornf3
+						alicornf4
+						alicornf5
+						
+						alicornh1
+						alicornh2
+						alicornh3
+						
+						pegasusf1
+						pegasusf2
+						pegasusf3
+						pegasusf4
+						pegasusf5
+						pegasusf6
+						pegasusf7
+						pegasusf8
+						pegasusf9
+						pegasusf10
+						pegasusf11
+						pegasusf12
+						
+						pegasush1
+						pegasush2
+						pegasush3
+						pegasush4
+						pegasush5
+						pegasush6
+						
+						unicornf1
+						unicornf2
+						unicornf3
+						unicornf4
+						unicornf5
+						unicornf6
+						unicornf7
+						unicornf8
+						unicornf9
+						unicornf10
+						unicornf11
+						unicornf12
+						unicornf13
+						
+						unicornh1
+						unicornh2
+						unicornh3
+						unicornh4
+						unicornh5
+						unicornh6
+						unicornh7
+						
+						earthf1
+						earthf2
+						earthf3
+						earthf4
+						earthf5
+						earthf6
+						earthf7
+						earthf8
+						earthf9
+						earthf10
+						earthf11
+						earthf12
+						earthf13
+						earthf14
+						earthf15
+						
+						earthh1
+						earthh2
+						earthh3
+						earthh4
+						earthh5
+						earthh6
+						earthh7
+						
+						crystalf1
+						crystalf2
+						crystalf3
+						crystalf4
+						crystalf5
+						crystalf6
+					}
+				}
+        }
+	}
+}
+
+portrait_groups = {
     pegasus = {
 		default = pegasusf2
 		game_setup = {
