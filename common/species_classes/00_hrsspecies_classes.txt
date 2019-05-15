@@ -4,7 +4,6 @@ HRS = {
 
 	portraits = {
 		"unitedpony"
-		"unitedponyfh"
 		"pegasus"
 		"unicorn"
 		"earth"
