@@ -1,0 +1,87 @@
+portraits = {
+
+	griffonf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffonf1.dds"	}
+	griffonf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffonf2.dds"	}
+	griffonf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffonf3.dds"	}
+	griffonf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffonf4.dds"	}
+	griffonf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffonf5.dds"	}
+	griffonf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffonf6.dds"	}
+	griffonf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffonf7.dds"	}	
+
+}
+
+portrait_groups = {
+    griffon = {
+		default = griffonf3
+		game_setup = { 
+           		add = {
+                	portraits = {
+						griffonf1
+						griffonf2
+						griffonf3
+						griffonf4
+						griffonf5
+						griffonf6
+						griffonf7
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					griffonf1
+					griffonf2
+					griffonf3
+					griffonf4
+					griffonf5
+					griffonf6
+					griffonf7
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					griffonf1
+					griffonf2
+					griffonf3
+					griffonf4
+					griffonf5
+					griffonf6
+					griffonf7
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					griffonf1
+					griffonf2
+					griffonf3
+					griffonf4
+					griffonf5
+					griffonf6
+					griffonf7
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					griffonf1
+					griffonf2
+					griffonf3
+					griffonf4
+					griffonf5
+					griffonf6
+					griffonf7
+                }
+            }
+        }
+	}
+}

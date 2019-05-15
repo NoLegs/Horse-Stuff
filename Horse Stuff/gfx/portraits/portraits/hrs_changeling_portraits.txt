@@ -1,0 +1,103 @@
+portraits = {
+
+	changelingf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf1.dds"	}
+	changelingf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf2.dds"	}
+	changelingf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf3.dds"	}
+	changelingf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf4.dds"	}
+	changelingf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf5.dds"	}
+	changelingf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf6.dds"	}
+	changelingf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf7.dds"	}
+	changelingf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf8.dds"	}
+	changelingf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf9.dds"	}
+	changelingf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf10.dds"	}
+	
+}
+
+portrait_groups = {
+    changeling = {
+		default = changelingf1
+		game_setup = { 
+           		add = {
+                	portraits = {
+						changelingf1
+						changelingf2
+						changelingf3
+						changelingf4
+						changelingf5
+						changelingf6
+						changelingf7
+						changelingf8
+						changelingf9
+						changelingf10
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					changelingf2
+					changelingf3
+					changelingf4
+					changelingf5
+					changelingf6
+					changelingf7
+					changelingf8
+					changelingf9
+					changelingf10
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					changelingf2
+					changelingf3
+					changelingf4
+					changelingf5
+					changelingf6
+					changelingf7
+					changelingf8
+					changelingf9
+					changelingf10
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					changelingf1
+					changelingf2
+					changelingf3
+					changelingf4
+					changelingf5
+					changelingf6
+					changelingf7
+					changelingf8
+					changelingf9
+					changelingf10
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					changelingf1
+					changelingf2
+					changelingf3
+					changelingf4
+					changelingf5
+					changelingf6
+					changelingf7
+					changelingf8
+					changelingf9
+					changelingf10
+                }
+            }
+        }
+	}
+}
