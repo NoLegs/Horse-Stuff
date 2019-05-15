@@ -1,0 +1,6 @@
+HRS = { 
+	inherit_traits_from = { BIOLOGICAL } 
+        inherit_trait_points_from = BIOLOGICAL
+}
+
+

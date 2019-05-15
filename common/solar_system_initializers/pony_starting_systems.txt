@@ -1,0 +1,167 @@
+equestria_initializer = {
+	name = "NAME_equis"
+	
+	flags = { empire_home_system equis_start_system }
+	
+	usage = custom_empire
+
+	class = "sc_g"
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
+	
+	planet = {
+		name = "secret_star"
+		class = pc_invisible_star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 1
+		has_ring = no
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+	
+	planet = {
+		name = "NAME_equestria"
+		class = "pc_continental"
+		orbit_distance = 1
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+		starting_planet = yes
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+			generate_empire_home_planet = yes	
+			add_district = district_generator
+			add_district = district_generator
+			add_district = district_mining
+			add_district = district_mining
+		}
+		
+		moon = {
+			name = "NAME_Luna"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 10
+			orbit_angle = 180
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_society_3
+			}
+		}
+	}
+	
+	planet = {
+		name = "NAME_equus"
+		class = pc_g_star
+		orbit_distance = 30
+		orbit_angle = 90
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_marsh"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 60
+		size = 12
+		has_ring = yes		
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			add_deposit = d_engineering_4
+		}
+	}
+	
+	planet = {
+		name = "NAME_ursa_major"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 60
+		size = 30
+		has_ring = yes		
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			add_deposit = d_energy_4
+		}
+		
+		moon = {
+			name = "NAME_ursa_minor"
+			class = "pc_molten"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 130
+			has_ring = no
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_minerals_5
+			}
+		}
+		moon = {
+			name = "NAME_Manticorea"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 3
+			orbit_angle = 10
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Eris"
+			class = "pc_frozen"
+			size = 9
+			orbit_distance = 2.5
+			orbit_angle = 80
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Discordia"
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 3
+			orbit_angle = -155
+			has_ring = no
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				add_deposit = d_engineering_3
+			}
+		}
+	}
+	
+	planet = {
+		class = pc_asteroid
+		orbit_distance = 45
+		orbit_angle = 90
+	}
+	planet = {
+		class = pc_asteroid
+		orbit_distance = 46
+		orbit_angle = 120
+	}
+	planet = {
+		class = pc_asteroid
+		orbit_distance = 44
+		orbit_angle = 10
+	}
+}

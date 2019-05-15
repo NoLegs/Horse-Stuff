@@ -1,9 +1,0 @@
-# United Equestria
-#part = {
-#	location = 0
-#	localization = "START_SCREEN_equestria"
-#	
-#	trigger = {
-#		has_country_flag = horse1
-#	}
-#}
