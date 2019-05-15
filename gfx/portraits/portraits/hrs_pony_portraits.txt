@@ -172,6 +172,19 @@ portrait_groups = {
 						crystalf4
 						crystalf5
 						crystalf6
+						
+						zebraf1
+					zebraf2
+					zebraf3
+					zebraf4
+					zebraf5
+					zebraf6
+					zebraf7
+					zebraf8
+					zebraf9
+					zebraf10
+					zebraf11
+					zebraf12
 					}
 				}
 		}
@@ -250,6 +263,19 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
+					
+					zebraf1
+					zebraf2
+					zebraf3
+					zebraf4
+					zebraf5
+					zebraf6
+					zebraf7
+					zebraf8
+					zebraf9
+					zebraf10
+					zebraf11
+					zebraf12
 				}
 			}
 		}
@@ -328,6 +354,19 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
+					
+					zebraf1
+					zebraf2
+					zebraf3
+					zebraf4
+					zebraf5
+					zebraf6
+					zebraf7
+					zebraf8
+					zebraf9
+					zebraf10
+					zebraf11
+					zebraf12
 				}
 			}
 		}
@@ -417,6 +456,19 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
+					
+					zebraf1
+					zebraf2
+					zebraf3
+					zebraf4
+					zebraf5
+					zebraf6
+					zebraf7
+					zebraf8
+					zebraf9
+					zebraf10
+					zebraf11
+					zebraf12
 				}
 			}
 
@@ -507,8 +559,21 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
-					}
+					
+					zebraf1
+					zebraf2
+					zebraf3
+					zebraf4
+					zebraf5
+					zebraf6
+					zebraf7
+					zebraf8
+					zebraf9
+					zebraf10
+					zebraf11
+					zebraf12
 				}
+			}
         }
 	}
 }
