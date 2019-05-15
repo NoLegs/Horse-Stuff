@@ -1,0 +1,25 @@
+HRS = {
+	equestrian = {
+		name = Equestrian
+		plural = Equestrians
+		home_planet = Equestria
+		home_system = "Equus"
+		name_list = "horse"
+	}
+	
+	changeling = {
+		name = Changeling
+		plural = Changelings
+		home_planet = Vesalipol
+		home_system = "Ixtrix"
+		name_list = "horse"
+	}
+	
+	griffon = {
+		name = Griffon
+		plural = Griffons
+		home_planet = Griffonia
+		home_system = "Grifux"
+		name_list = "horse"
+	}
+}

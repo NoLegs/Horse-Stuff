@@ -1,0 +1,7 @@
+on_ruler_set = {
+	events = {
+		horse.1
+		horse.2
+		horse.3
+	}
+}
