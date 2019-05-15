@@ -45,7 +45,7 @@ civic_alicorn_leader = {
 		}
 	}
 	modifier = {
-	pop_government_ethic_attraction = 0.25
+	pop_government_ethic_attraction = 0.20
 	}
 }
 
