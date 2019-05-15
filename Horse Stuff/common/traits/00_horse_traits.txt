@@ -12,7 +12,7 @@ leader_trait_alicorn_ruler = {
 	
 	modifier = {
 		country_base_influence_produces_add = 1
-		pop_government_ethic_attraction = 0.10
+		planet_stability_add = 5
 		country_unity_produces_mult = 0.10
 	}
 }
@@ -30,7 +30,9 @@ leader_trait_changeling_queen = {
 	immortal_leaders = yes	
 	
 	modifier = {
-		country_claim_influence_cost_mult = -0.50
+		country_claim_influence_cost_mult = -0.20
+		country_starbase_influence_cost_mult = -0.20
+		pop_growth_speed = 0.15
 	}
 }
 
@@ -44,7 +46,10 @@ leader_trait_dark_queen = {
 	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_dark_queen.dds"
 	
+	immortal_leaders = yes	
+	
 	modifier = {
-		leader_age = 200
+		pop_amenities_usage_mult = -0.10
+		planet_crime_add = -20
 	}
 }
