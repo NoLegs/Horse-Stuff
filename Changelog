@@ -1,2 +1,42 @@
-1.04(In Progress)
-Added Futa/Female only Portrait list
+1.04 (Testing)
+Added Female/Futa only List
+
+Revamped Civics and Traits
+
+Alicorn Leader Civic
+Added Flat 25% Bonus to Ethics Attract
+Alicorn Leader Trait 
+Still has 1 Influence
+Now increases Planet Stability by 5
+Still Increases unity by 10%
+
+Changeling Hive
+Now adds 0.5 Influence (Down from 1)
+Lowers Leader upkeep by 10%
+		
+Changeling Swarm
+
+No Changes 
+
+Changling Queen (Trait)
+The Trait now lowers Claim and Starbase influence cost by 20% 
+Now has 15% bonus to growth speed 
+
+
+Dark Queen
+No longer usable with Slaver guilds (80% slave ratio is not a healthy planet's make!)
+
+		
+Dark Queen (Trait)
+Now Immortal
+Lowers Pop Amenities usage by 10%
+Lowers Planet Crime by -20	
+
+All Loc files have been updated to reflect changes
+
+
+<<<<<<< HEAD
+(Todo, lore behind prebuild empires)
+=======
+(Todo, lore behind prebuild empires)
+>>>>>>> 243b77744e02276ca239f779ff57eb400381c663

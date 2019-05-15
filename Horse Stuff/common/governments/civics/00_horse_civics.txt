@@ -45,6 +45,7 @@ civic_alicorn_leader = {
 		}
 	}
 	modifier = {
+	pop_government_ethic_attraction = 0.20
 	}
 }
 
@@ -78,8 +79,8 @@ civic_changeling_hive = {
 		}
 	}
 	modifier = {
-		country_unity_produces_mult = 0.20
-		country_base_influence_produces_add = 1
+		country_base_influence_produces_add = 0.5
+		leaders_upkeep_mult = -0.10
 	}
 }
 
@@ -120,6 +121,7 @@ civic_dark_queen = {
 			NOT = { 
 				value = civic_changeling_hive 
 				value = civic_alicorn_leader 
+				value = civic_slaver_guilds
 			}
 		}
 	}

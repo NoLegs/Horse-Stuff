@@ -118,7 +118,7 @@ equestria_initializer = {
 			}
 		}
 		moon = {
-			name = "NAME_manticorea"
+			name = "NAME_Manticorea"
 			class = "pc_frozen"
 			size = 6
 			orbit_distance = 3
