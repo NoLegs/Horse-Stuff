@@ -1,109 +1,86 @@
 portraits = {
-	pegasusf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf1.dds"	}
-	pegasusf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf2.dds"	}
-	pegasusf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf3.dds"	}
-	pegasusf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf4.dds"	}
-	pegasusf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf5.dds"	}
-	pegasusf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf6.dds"	}
-	pegasusf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf7.dds"	}
-	pegasusf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf8.dds"	}
-	pegasusf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf9.dds"	}
-	pegasusf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf10.dds"	}
-	pegasusf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf11.dds"	}
-	pegasusf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusf12.dds"	}
+	pegasusf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf1.dds"	}
+	pegasusf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf2.dds"	}
+	pegasusf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf3.dds"	}
+	pegasusf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf4.dds"	}
+	pegasusf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf5.dds"	}
+	pegasusf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf6.dds"	}
+	pegasusf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf7.dds"	}
+	pegasusf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf8.dds"	}
+	pegasusf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf9.dds"	}
+	pegasusf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf10.dds"	}
+	pegasusf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf11.dds"	}
+	pegasusf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf12.dds"	}
+
+	unicornf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf1.dds"	}
+	unicornf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf2.dds"	}
+	unicornf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf3.dds"	}
+	unicornf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf4.dds"	}
+	unicornf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf5.dds"	}
+	unicornf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf6.dds"	}
+	unicornf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf7.dds"	}
+	unicornf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf8.dds"	}
+	unicornf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf9.dds"	}
+	unicornf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf10.dds"	}
+	unicornf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf11.dds"	}
+	unicornf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf12.dds"	}
+	unicornf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf13.dds"	}
 	
-	pegasusm1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusm1.dds"	}
-	pegasusm2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusm2.dds"	}
-	pegasusm3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusm3.dds"	}
-	pegasusm4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusm4.dds"	}
-	pegasusm5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusm5.dds"	}
-	pegasusm6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusm6.dds"	}
-	pegasusm7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusm7.dds"	}
-	pegasusm8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasusm8.dds"	}
+	earthf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf1.dds"	}
+	earthf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf2.dds"	}
+	earthf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf3.dds"	}
+	earthf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf4.dds"	}
+	earthf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf5.dds"	}
+	earthf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf6.dds"	}
+	earthf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf7.dds"	}
+	earthf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf8.dds"	}
+	earthf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf9.dds"	}
+	earthf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf10.dds"	}
+	earthf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf11.dds"	}
+	earthf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf12.dds"	}
+	earthf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf13.dds"	}
+	earthf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf14.dds"	}
+	earthf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf15.dds"	}
 	
-	unicornf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf1.dds"	}
-	unicornf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf2.dds"	}
-	unicornf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf3.dds"	}
-	unicornf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf4.dds"	}
-	unicornf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf5.dds"	}
-	unicornf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf6.dds"	}
-	unicornf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf7.dds"	}
-	unicornf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf8.dds"	}
-	unicornf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf9.dds"	}
-	unicornf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf10.dds"	}
-	unicornf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf11.dds"	}
-	unicornf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf12.dds"	}
-	unicornf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornf13.dds"	}
+	alicornf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf1.dds"	}
+	alicornf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf2.dds"	}
+	alicornf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf3.dds"	}
+	alicornf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf4.dds"	}
+	alicornf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf5.dds"	}
 	
-	unicornm1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornm1.dds"	}
-	unicornm2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornm2.dds"	}
-	unicornm3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornm3.dds"	}
-	unicornm4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornm4.dds"	}
-	unicornm5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornm5.dds"	}
-	unicornm6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornm6.dds"	}
+	crystalf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf1.dds"	}
+	crystalf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf2.dds"	}
+	crystalf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf3.dds"	}
+	crystalf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf4.dds"	}
+	crystalf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf5.dds"	}
+	crystalf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf6.dds"	}
 	
-	earthf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf1.dds"	}
-	earthf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf2.dds"	}
-	earthf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf3.dds"	}
-	earthf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf4.dds"	}
-	earthf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf5.dds"	}
-	earthf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf6.dds"	}
-	earthf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf7.dds"	}
-	earthf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf8.dds"	}
-	earthf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf9.dds"	}
-	earthf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf10.dds"	}
-	earthf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf11.dds"	}
-	earthf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf12.dds"	}
-	earthf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf13.dds"	}
-	earthf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf14.dds"	}
-	earthf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthf15.dds"	}
+	alicornh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornh1.dds"	}
+	alicornh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornh2.dds"	}
+	alicornh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornh3.dds"	}
 	
-	earthm1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthm1.dds"	}
-	earthm2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthm2.dds"	}
-	earthm3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthm3.dds"	}
-	earthm4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthm4.dds"	}
-	earthm5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthm5.dds"	}
-	earthm6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthm6.dds"	}
+	earthh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthh1.dds"	}
+	earthh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthh2.dds"	}
+	earthh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthh3.dds"	}
+	earthh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthh4.dds"	}
+	earthh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthh5.dds"	}
+	earthh6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthh6.dds"	}
+	earthh7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthh7.dds"	}
 	
-	alicornf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/alicornf1.dds"	}
-	alicornf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/alicornf2.dds"	}
-	alicornf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/alicornf3.dds"	}
-	alicornf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/alicornf4.dds"	}
-	alicornf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/alicornf5.dds"	}
+	pegasush1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasush1.dds"	}
+	pegasush2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasush2.dds"	}
+	pegasush3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasush3.dds"	}
+	pegasush4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasush4.dds"	}
+	pegasush5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasush5.dds"	}
+	pegasush6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasush6.dds"	}
 	
-	crystalf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/crystalf1.dds"	}
-	crystalf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/crystalf2.dds"	}
-	crystalf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/crystalf3.dds"	}
-	crystalf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/crystalf4.dds"	}
-	crystalf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/crystalf5.dds"	}
-	crystalf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/crystalf6.dds"	}
-	
-	alicornh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/alicornh1.dds"	}
-	alicornh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/alicornh2.dds"	}
-	alicornh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/alicornh3.dds"	}
-	
-	earthh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthh1.dds"	}
-	earthh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthh2.dds"	}
-	earthh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthh3.dds"	}
-	earthh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthh4.dds"	}
-	earthh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthh5.dds"	}
-	earthh6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthh6.dds"	}
-	earthh7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/earthh7.dds"	}
-	
-	pegasush1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasush1.dds"	}
-	pegasush2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasush2.dds"	}
-	pegasush3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasush3.dds"	}
-	pegasush4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasush4.dds"	}
-	pegasush5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasush5.dds"	}
-	pegasush6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pegasush6.dds"	}
-	
-	unicornh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornh1.dds"	}
-	unicornh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornh2.dds"	}
-	unicornh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornh3.dds"	}
-	unicornh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornh4.dds"	}
-	unicornh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornh5.dds"	}
-	unicornh6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornh6.dds"	}
-	unicornh7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/unicornh7.dds"	}
+	unicornh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornh1.dds"	}
+	unicornh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornh2.dds"	}
+	unicornh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornh3.dds"	}
+	unicornh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornh4.dds"	}
+	unicornh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornh5.dds"	}
+	unicornh6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornh6.dds"	}
+	unicornh7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornh7.dds"	}
 	
 }
 
@@ -111,570 +88,6 @@ portrait_groups = {
     unitedpony = {
 		default = alicornf1
 		game_setup = { 
-				add = {
-					trigger = {
-						ruler = { gender = male}
-					}	
-					portraits = {
-						pegasusm1
-						pegasusm2
-						pegasusm3
-						pegasusm4
-						pegasusm5
-						pegasusm6
-						pegasusm7
-						pegasusm8
-
-						unicornm1
-						unicornm2
-						unicornm3
-						unicornm4
-						unicornm5
-						unicornm6
-						
-						earthm1
-						earthm2
-						earthm3
-						earthm4
-						earthm5
-						earthm6
-					}
-				}
-           		add = {
-					trigger = {
-						ruler = { gender = female}
-					}
-                	portraits = {
-						alicornf1
-						alicornf2
-						alicornf3
-						alicornf4
-						alicornf5
-						
-						alicornh1
-						alicornh2
-						alicornh3
-						
-						pegasusf1
-						pegasusf2
-						pegasusf3
-						pegasusf4
-						pegasusf5
-						pegasusf6
-						pegasusf7
-						pegasusf8
-						pegasusf9
-						pegasusf10
-						pegasusf11
-						pegasusf12
-						
-						pegasush1
-						pegasush2
-						pegasush3
-						pegasush4
-						pegasush5
-						pegasush6
-						
-						unicornf1
-						unicornf2
-						unicornf3
-						unicornf4
-						unicornf5
-						unicornf6
-						unicornf7
-						unicornf8
-						unicornf9
-						unicornf10
-						unicornf11
-						unicornf12
-						unicornf13
-						
-						unicornh1
-						unicornh2
-						unicornh3
-						unicornh4
-						unicornh5
-						unicornh6
-						unicornh7
-						
-						earthf1
-						earthf2
-						earthf3
-						earthf4
-						earthf5
-						earthf6
-						earthf7
-						earthf8
-						earthf9
-						earthf10
-						earthf11
-						earthf12
-						earthf13
-						earthf14
-						earthf15
-						
-						earthh1
-						earthh2
-						earthh3
-						earthh4
-						earthh5
-						earthh6
-						earthh7
-						
-						crystalf1
-						crystalf2
-						crystalf3
-						crystalf4
-						crystalf5
-						crystalf6
-					}
-				}
-		}
-		#species scope
-		species = { #generic portrait for a species
-			add = {
-				portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					
-					pegasusm1
-					pegasusm2
-					pegasusm3
-					pegasusm4
-					pegasusm5
-					pegasusm6
-					pegasusm7
-					pegasusm8
-					
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
-					
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					
-					unicornm1
-					unicornm2
-					unicornm3
-					unicornm4
-					unicornm5
-					unicornm6
-					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
-					
-					earthf1
-					earthf2
-					earthf3
-					earthf4
-					earthf5
-					earthf6
-					earthf7
-					earthf8
-					earthf9
-					earthf10
-					earthf11
-					earthf12
-					earthf13
-					earthf14
-					earthf15
-					
-					earthm1
-					earthm2
-					earthm3
-					earthm4
-					earthm5
-					earthm6
-					
-					earthh1
-					earthh2
-					earthh3
-					earthh4
-					earthh5
-					earthh6
-					earthh7
-					
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-				}
-			}
-		}
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					
-					pegasusm1
-					pegasusm2
-					pegasusm3
-					pegasusm4
-					pegasusm5
-					pegasusm6
-					pegasusm7
-					pegasusm8
-					
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
-					
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					
-					unicornm1
-					unicornm2
-					unicornm3
-					unicornm4
-					unicornm5
-					unicornm6
-					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
-					
-					earthf1
-					earthf2
-					earthf3
-					earthf4
-					earthf5
-					earthf6
-					earthf7
-					earthf8
-					earthf9
-					earthf10
-					earthf11
-					earthf12
-					earthf13
-					earthf14
-					earthf15
-					
-					earthh1
-					earthh2
-					earthh3
-					earthh4
-					earthh5
-					earthh6
-					earthh7
-					
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-				}
-			}
-		}
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			add = {
-					trigger = {
-						ruler = { gender = male}
-					}	
-					portraits = {
-						pegasusm1
-						pegasusm2
-						pegasusm3
-						pegasusm4
-						pegasusm5
-						pegasusm6
-						pegasusm7
-						pegasusm8
-
-						unicornm1
-						unicornm2
-						unicornm3
-						unicornm4
-						unicornm5
-						unicornm6
-						
-						earthm1
-						earthm2
-						earthm3
-						earthm4
-						earthm5
-						earthm6
-					}
-				}
-           		add = {
-					trigger = {
-						ruler = { gender = female}
-					}
-                	portraits = {
-						alicornf1
-						alicornf2
-						alicornf3
-						alicornf4
-						alicornf5
-						
-						alicornh1
-						alicornh2
-						alicornh3
-						
-						pegasusf1
-						pegasusf2
-						pegasusf3
-						pegasusf4
-						pegasusf5
-						pegasusf6
-						pegasusf7
-						pegasusf8
-						pegasusf9
-						pegasusf10
-						pegasusf11
-						pegasusf12
-						
-						pegasush1
-						pegasush2
-						pegasush3
-						pegasush4
-						pegasush5
-						pegasush6
-						
-						unicornf1
-						unicornf2
-						unicornf3
-						unicornf4
-						unicornf5
-						unicornf6
-						unicornf7
-						unicornf8
-						unicornf9
-						unicornf10
-						unicornf11
-						unicornf12
-						unicornf13
-						
-						unicornh1
-						unicornh2
-						unicornh3
-						unicornh4
-						unicornh5
-						unicornh6
-						unicornh7
-						
-						earthf1
-						earthf2
-						earthf3
-						earthf4
-						earthf5
-						earthf6
-						earthf7
-						earthf8
-						earthf9
-						earthf10
-						earthf11
-						earthf12
-						earthf13
-						earthf14
-						earthf15
-						
-						earthh1
-						earthh2
-						earthh3
-						earthh4
-						earthh5
-						earthh6
-						earthh7
-						
-						crystalf1
-						crystalf2
-						crystalf3
-						crystalf4
-						crystalf5
-						crystalf6
-					}
-				}
-
-		}	
-		#leader scope 
-		ruler = {
-			add = {
-					trigger = {
-						ruler = { gender = male}
-					}	
-					portraits = {
-						pegasusm1
-						pegasusm2
-						pegasusm3
-						pegasusm4
-						pegasusm5
-						pegasusm6
-						pegasusm7
-						pegasusm8
-
-						unicornm1
-						unicornm2
-						unicornm3
-						unicornm4
-						unicornm5
-						unicornm6
-						
-						earthm1
-						earthm2
-						earthm3
-						earthm4
-						earthm5
-						earthm6
-					}
-				}
-           		add = {
-					trigger = {
-						ruler = { gender = female}
-					}
-                	portraits = {
-						alicornf1
-						alicornf2
-						alicornf3
-						alicornf4
-						alicornf5
-						
-						alicornh1
-						alicornh2
-						alicornh3
-						
-						pegasusf1
-						pegasusf2
-						pegasusf3
-						pegasusf4
-						pegasusf5
-						pegasusf6
-						pegasusf7
-						pegasusf8
-						pegasusf9
-						pegasusf10
-						pegasusf11
-						pegasusf12
-						
-						pegasush1
-						pegasush2
-						pegasush3
-						pegasush4
-						pegasush5
-						pegasush6
-						
-						unicornf1
-						unicornf2
-						unicornf3
-						unicornf4
-						unicornf5
-						unicornf6
-						unicornf7
-						unicornf8
-						unicornf9
-						unicornf10
-						unicornf11
-						unicornf12
-						unicornf13
-						
-						unicornh1
-						unicornh2
-						unicornh3
-						unicornh4
-						unicornh5
-						unicornh6
-						unicornh7
-						
-						earthf1
-						earthf2
-						earthf3
-						earthf4
-						earthf5
-						earthf6
-						earthf7
-						earthf8
-						earthf9
-						earthf10
-						earthf11
-						earthf12
-						earthf13
-						earthf14
-						earthf15
-						
-						earthh1
-						earthh2
-						earthh3
-						earthh4
-						earthh5
-						earthh6
-						earthh7
-						
-						crystalf1
-						crystalf2
-						crystalf3
-						crystalf4
-						crystalf5
-						crystalf6
-					}
-				}
-        }
-	}
-}
-
-portrait_groups = {
-    unitedponyfh = {
-		default = alicornh1
-		game_setup = { 
            		add = {
                 	portraits = {
 						alicornf1
@@ -779,7 +192,6 @@ portrait_groups = {
 					pegasusf11
 					pegasusf12
 					
-					
 					pegasush1
 					pegasush2
 					pegasush3
@@ -824,7 +236,7 @@ portrait_groups = {
 					earthf13
 					earthf14
 					earthf15
-
+					
 					earthh1
 					earthh2
 					earthh3
@@ -857,7 +269,7 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
-
+					
 					pegasush1
 					pegasush2
 					pegasush3
@@ -878,7 +290,7 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
-
+					
 					unicornh1
 					unicornh2
 					unicornh3
@@ -921,180 +333,180 @@ portrait_groups = {
 		}
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			add = {
+           		add = {
                 	portraits = {
-						alicornf1
-						alicornf2
-						alicornf3
-						alicornf4
-						alicornf5
+					alicornf1
+					alicornf2
+					alicornf3
+					alicornf4
+					alicornf5
 						
-						alicornh1
-						alicornh2
-						alicornh3
+					alicornh1
+					alicornh2
+					alicornh3
 						
-						pegasusf1
-						pegasusf2
-						pegasusf3
-						pegasusf4
-						pegasusf5
-						pegasusf6
-						pegasusf7
-						pegasusf8
-						pegasusf9
-						pegasusf10
-						pegasusf11
-						pegasusf12
+					pegasusf1
+					pegasusf2
+					pegasusf3
+					pegasusf4
+					pegasusf5
+					pegasusf6
+					pegasusf7
+					pegasusf8
+					pegasusf9
+					pegasusf10
+					pegasusf11
+					pegasusf12
 						
-						pegasush1
-						pegasush2
-						pegasush3
-						pegasush4
-						pegasush5
-						pegasush6
+					pegasush1
+					pegasush2
+					pegasush3
+					pegasush4
+					pegasush5
+					pegasush6
 						
-						unicornf1
-						unicornf2
-						unicornf3
-						unicornf4
-						unicornf5
-						unicornf6
-						unicornf7
-						unicornf8
-						unicornf9
-						unicornf10
-						unicornf11
-						unicornf12
-						unicornf13
+					unicornf1
+					unicornf2
+					unicornf3
+					unicornf4
+					unicornf5
+					unicornf6
+					unicornf7
+					unicornf8
+					unicornf9
+					unicornf10
+					unicornf11
+					unicornf12
+					unicornf13
 						
-						unicornh1
-						unicornh2
-						unicornh3
-						unicornh4
-						unicornh5
-						unicornh6
-						unicornh7
+					unicornh1
+					unicornh2
+					unicornh3
+					unicornh4
+					unicornh5
+					unicornh6
+					unicornh7
 						
-						earthf1
-						earthf2
-						earthf3
-						earthf4
-						earthf5
-						earthf6
-						earthf7
-						earthf8
-						earthf9
-						earthf10
-						earthf11
-						earthf12
-						earthf13
-						earthf14
-						earthf15
+					earthf1
+					earthf2
+					earthf3
+					earthf4
+					earthf5
+					earthf6
+					earthf7
+					earthf8
+					earthf9
+					earthf10
+					earthf11
+					earthf12
+					earthf13
+					earthf14
+					earthf15
 						
-						earthh1
-						earthh2
-						earthh3
-						earthh4
-						earthh5
-						earthh6
-						earthh7
+					earthh1
+					earthh2
+					earthh3
+					earthh4
+					earthh5
+					earthh6
+					earthh7
 						
-						crystalf1
-						crystalf2
-						crystalf3
-						crystalf4
-						crystalf5
-						crystalf6
-					}
+					crystalf1
+					crystalf2
+					crystalf3
+					crystalf4
+					crystalf5
+					crystalf6
 				}
+			}
 
 		}	
 		#leader scope 
 		ruler = {
-			add = {
-               	portraits = {
-						alicornf1
-						alicornf2
-						alicornf3
-						alicornf4
-						alicornf5
+           	add = {
+                portraits = {
+					alicornf1
+					alicornf2
+					alicornf3
+					alicornf4
+					alicornf5
 						
-						alicornh1
-						alicornh2
-						alicornh3
+					alicornh1
+					alicornh2
+					alicornh3
 						
-						pegasusf1
-						pegasusf2
-						pegasusf3
-						pegasusf4
-						pegasusf5
-						pegasusf6
-						pegasusf7
-						pegasusf8
-						pegasusf9
-						pegasusf10
-						pegasusf11
-						pegasusf12
+					pegasusf1
+					pegasusf2
+					pegasusf3
+					pegasusf4
+					pegasusf5
+					pegasusf6
+					pegasusf7
+					pegasusf8
+					pegasusf9
+					pegasusf10
+					pegasusf11
+					pegasusf12
 						
-						pegasush1
-						pegasush2
-						pegasush3
-						pegasush4
-						pegasush5
-						pegasush6
+					pegasush1
+					pegasush2
+					pegasush3
+					pegasush4
+					pegasush5
+					pegasush6
 						
-						unicornf1
-						unicornf2
-						unicornf3
-						unicornf4
-						unicornf5
-						unicornf6
-						unicornf7
-						unicornf8
-						unicornf9
-						unicornf10
-						unicornf11
-						unicornf12
-						unicornf13
+					unicornf1
+					unicornf2
+					unicornf3
+					unicornf4
+					unicornf5
+					unicornf6
+					unicornf7
+					unicornf8
+					unicornf9
+					unicornf10
+					unicornf11
+					unicornf12
+					unicornf13
 						
-						unicornh1
-						unicornh2
-						unicornh3
-						unicornh4
-						unicornh5
-						unicornh6
-						unicornh7
+					unicornh1
+					unicornh2
+					unicornh3
+					unicornh4
+					unicornh5
+					unicornh6
+					unicornh7
 						
-						earthf1
-						earthf2
-						earthf3
-						earthf4
-						earthf5
-						earthf6
-						earthf7
-						earthf8
-						earthf9
-						earthf10
-						earthf11
-						earthf12
-						earthf13
-						earthf14
-						earthf15
+					earthf1
+					earthf2
+					earthf3
+					earthf4
+					earthf5
+					earthf6
+					earthf7
+					earthf8
+					earthf9
+					earthf10
+					earthf11
+					earthf12
+					earthf13
+					earthf14
+					earthf15
 						
-						earthh1
-						earthh2
-						earthh3
-						earthh4
-						earthh5
-						earthh6
-						earthh7
-						
-						crystalf1
-						crystalf2
-						crystalf3
-						crystalf4
-						crystalf5
-						crystalf6
+					earthh1
+					earthh2
+					earthh3
+					earthh4
+					earthh5
+					earthh6
+					earthh7
+					
+					crystalf1
+					crystalf2
+					crystalf3
+					crystalf4
+					crystalf5
+					crystalf6
 					}
 				}
         }
@@ -1105,45 +517,27 @@ portrait_groups = {
     pegasus = {
 		default = pegasusf2
 		game_setup = {
-			add = {
-				trigger = { 
-					ruler = { gender = male }
-				}
-               	portraits = {
-					pegasusm1
-					pegasusm2
-					pegasusm3
-					pegasusm4
-					pegasusm5
-					pegasusm6
-					pegasusm7
-					pegasusm8
-					}
-			}
            	add = {
-				trigger = { 
-					ruler = { gender = female }
-				}
-                	portraits = {
-						pegasusf1
-						pegasusf2
-						pegasusf3
-						pegasusf4
-						pegasusf5
-						pegasusf6
-						pegasusf7
-						pegasusf8
-						pegasusf9
-						pegasusf10
-						pegasusf11
-						pegasusf12
+                portraits = {
+					pegasusf1
+					pegasusf2
+					pegasusf3
+					pegasusf4
+					pegasusf5
+					pegasusf6
+					pegasusf7
+					pegasusf8
+					pegasusf9
+					pegasusf10
+					pegasusf11
+					pegasusf12
 						
-						pegasush1
-						pegasush2
-						pegasush3
-						pegasush4
-						pegasush5
-						pegasush6
+					pegasush1
+					pegasush2
+					pegasush3
+					pegasush4
+					pegasush5
+					pegasush6
 				}
 			}
 		}
@@ -1163,15 +557,6 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
-					
-					pegasusm1
-					pegasusm2
-					pegasusm3
-					pegasusm4
-					pegasusm5
-					pegasusm6
-					pegasusm7
-					pegasusm8
 					
 					pegasush1
 					pegasush2
@@ -1199,15 +584,6 @@ portrait_groups = {
 					pegasusf11
 					pegasusf12
 					
-					pegasusm1
-					pegasusm2
-					pegasusm3
-					pegasusm4
-					pegasusm5
-					pegasusm6
-					pegasusm7
-					pegasusm8
-					
 					pegasush1
 					pegasush2
 					pegasush3
@@ -1219,90 +595,54 @@ portrait_groups = {
 		}
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			add = {
-				trigger = { 
-					ruler = { gender = male }
-				}
-               	portraits = {
-					pegasusm1
-					pegasusm2
-					pegasusm3
-					pegasusm4
-					pegasusm5
-					pegasusm6
-					pegasusm7
-					pegasusm8
-					}
-			}
            	add = {
-				trigger = { 
-					ruler = { gender = female }
-				}
-                	portraits = {
-						pegasusf1
-						pegasusf2
-						pegasusf3
-						pegasusf4
-						pegasusf5
-						pegasusf6
-						pegasusf7
-						pegasusf8
-						pegasusf9
-						pegasusf10
-						pegasusf11
-						pegasusf12
+                portraits = {
+					pegasusf1
+					pegasusf2
+					pegasusf3
+					pegasusf4
+					pegasusf5
+					pegasusf6
+					pegasusf7
+					pegasusf8
+					pegasusf9
+					pegasusf10
+					pegasusf11
+					pegasusf12
 						
-						pegasush1
-						pegasush2
-						pegasush3
-						pegasush4
-						pegasush5
-						pegasush6
+					pegasush1
+					pegasush2
+					pegasush3
+					pegasush4
+					pegasush5
+					pegasush6
 				}
 			}
 
 		}	
 		#leader scope 
 		ruler = {
-			add = {
-				trigger = { 
-					ruler = { gender = male }
-				}
-               	portraits = {
-					pegasusm1
-					pegasusm2
-					pegasusm3
-					pegasusm4
-					pegasusm5
-					pegasusm6
-					pegasusm7
-					pegasusm8
-					}
-			}
            	add = {
-				trigger = { 
-					ruler = { gender = female }
-				}
-                	portraits = {
-						pegasusf1
-						pegasusf2
-						pegasusf3
-						pegasusf4
-						pegasusf5
-						pegasusf6
-						pegasusf7
-						pegasusf8
-						pegasusf9
-						pegasusf10
-						pegasusf11
-						pegasusf12
+                portraits = {
+					pegasusf1
+					pegasusf2
+					pegasusf3
+					pegasusf4
+					pegasusf5
+					pegasusf6
+					pegasusf7
+					pegasusf8
+					pegasusf9
+					pegasusf10
+					pegasusf11
+					pegasusf12
 						
-						pegasush1
-						pegasush2
-						pegasush3
-						pegasush4
-						pegasush5
-						pegasush6
+					pegasush1
+					pegasush2
+					pegasush3
+					pegasush4
+					pegasush5
+					pegasush6
 				}
 			}
         }
@@ -1313,23 +653,7 @@ portrait_groups = {
     unicorn = {
 		default = unicornf1
 		game_setup = { 
-			add = {
-				trigger = { 
-					ruler = { gender = male }
-				}
-				portraits = {
-					unicornm1
-					unicornm2
-					unicornm3
-					unicornm4
-					unicornm5
-					unicornm6
-				}
-			}
            	add = {
-				trigger = { 
-					ruler = { gender = female }
-				}
                 portraits = {
 					unicornf1
 					unicornf2
@@ -1408,13 +732,6 @@ portrait_groups = {
 					unicornf12
 					unicornf13
 					
-					unicornm1
-					unicornm2
-					unicornm3
-					unicornm4
-					unicornm5
-					unicornm6
-					
 					unicornh1
 					unicornh2
 					unicornh3
@@ -1427,23 +744,7 @@ portrait_groups = {
 		}
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			add = {
-				trigger = { 
-					ruler = { gender = male }
-				}
-				portraits = {
-					unicornm1
-					unicornm2
-					unicornm3
-					unicornm4
-					unicornm5
-					unicornm6
-				}
-			}
            	add = {
-				trigger = { 
-					ruler = { gender = female }
-				}
                 portraits = {
 					unicornf1
 					unicornf2
@@ -1472,23 +773,7 @@ portrait_groups = {
 		}	
 		#leader scope 
 		ruler = {
-			add = {
-				trigger = { 
-					ruler = { gender = male }
-				}
-				portraits = {
-					unicornm1
-					unicornm2
-					unicornm3
-					unicornm4
-					unicornm5
-					unicornm6
-				}
-			}
            	add = {
-				trigger = { 
-					ruler = { gender = female }
-				}
                 portraits = {
 					unicornf1
 					unicornf2
@@ -1521,23 +806,7 @@ portrait_groups = {
     earth = {
 		default = earthf1
 		game_setup = { 
-				add = {
-					trigger = { 
-						ruler = { gender = male }
-					}
-                	portraits = {
-						earthm1
-						earthm2
-						earthm3
-						earthm4
-						earthm5
-						earthm6
-					}
-				}
            		add = {
-					trigger = { 
-						ruler = { gender = female }
-					}
                 	portraits = {
 						earthf1
 						earthf2
@@ -1585,13 +854,6 @@ portrait_groups = {
 					earthf14
 					earthf15
 					
-					earthm1
-					earthm2
-					earthm3
-					earthm4
-					earthm5
-					earthm6
-					
 					earthh1
 					earthh2
 					earthh3
@@ -1622,13 +884,6 @@ portrait_groups = {
 					earthf14
 					earthf15
 					
-					earthm1
-					earthm2
-					earthm3
-					earthm4
-					earthm5
-					earthm6
-					
 					earthh1
 					earthh2
 					earthh3
@@ -1642,95 +897,62 @@ portrait_groups = {
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
 			add = {
-					trigger = { 
-						ruler = { gender = male }
-					}
-                	portraits = {
-						earthm1
-						earthm2
-						earthm3
-						earthm4
-						earthm5
-						earthm6
-					}
+                portraits = {
+					earthf1
+					earthf2
+					earthf3
+					earthf4
+					earthf5
+					earthf6
+					earthf7
+					earthf8
+					earthf9
+					earthf10
+					earthf11
+					earthf12
+					earthf13
+					earthf14
+					earthf15
+				
+					earthh1
+					earthh2
+					earthh3
+					earthh4
+					earthh5
+					earthh6
+					earthh7
 				}
-           		add = {
-					trigger = { 
-						ruler = { gender = female }
-					}
-                	portraits = {
-						earthf1
-						earthf2
-						earthf3
-						earthf4
-						earthf5
-						earthf6
-						earthf7
-						earthf8
-						earthf9
-						earthf10
-						earthf11
-						earthf12
-						earthf13
-						earthf14
-						earthf15
-						
-						earthh1
-						earthh2
-						earthh3
-						earthh4
-						earthh5
-						earthh6
-						earthh7
-					}
-				}
-
+			}
 		}	
 		#leader scope 
 		ruler = {
-			add = {
-					trigger = { 
-						ruler = { gender = male }
-					}
-                	portraits = {
-						earthm1
-						earthm2
-						earthm3
-						earthm4
-						earthm5
-						earthm6
-					}
-				}
-           		add = {
-					trigger = { 
-						ruler = { gender = female }
-					}
-                	portraits = {
-						earthf1
-						earthf2
-						earthf3
-						earthf4
-						earthf5
-						earthf6
-						earthf7
-						earthf8
-						earthf9
-						earthf10
-						earthf11
-						earthf12
-						earthf13
-						earthf14
-						earthf15
+           	add = {
+               	portraits = {
+					earthf1
+					earthf2
+					earthf3
+					earthf4
+					earthf5
+					earthf6
+					earthf7
+					earthf8
+					earthf9
+					earthf10
+					earthf11
+					earthf12
+					earthf13
+					earthf14
+					earthf15
 						
-						earthh1
-						earthh2
-						earthh3
-						earthh4
-						earthh5
-						earthh6
-						earthh7
-					}
+					earthh1
+					earthh2
+					earthh3
+					earthh4
+					earthh5
+					earthh6
+					earthh7
 				}
+			}
         }
 	}
 }

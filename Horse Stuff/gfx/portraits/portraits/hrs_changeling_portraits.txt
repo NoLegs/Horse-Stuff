@@ -1,15 +1,15 @@
 portraits = {
 
-	changelingf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf1.dds"	}
-	changelingf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf2.dds"	}
-	changelingf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf3.dds"	}
-	changelingf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf4.dds"	}
-	changelingf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf5.dds"	}
-	changelingf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf6.dds"	}
-	changelingf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf7.dds"	}
-	changelingf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf8.dds"	}
-	changelingf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf9.dds"	}
-	changelingf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changelingf10.dds"	}
+	changelingf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf1.dds"	}
+	changelingf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf2.dds"	}
+	changelingf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf3.dds"	}
+	changelingf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf4.dds"	}
+	changelingf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf5.dds"	}
+	changelingf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf6.dds"	}
+	changelingf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf7.dds"	}
+	changelingf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf8.dds"	}
+	changelingf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf9.dds"	}
+	changelingf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf10.dds"	}
 	
 }
 
