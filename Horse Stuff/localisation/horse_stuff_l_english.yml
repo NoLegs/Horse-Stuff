@@ -22,16 +22,16 @@ HRS_hand:0 "hoof"
 
 ### Civics ###
 civic_alicorn_leader:0 "Alicorn Ruler"
-civic_alicorn_leader_desc:0 "This society is lead by an immortal Alicorn, a ruler without age who wields great political power. They have ruled for many years, and their everpresent image has united the country under their rulen\n\nYour ruler is given the §BAlicorn Ruler§! trait, making them immortal and giving your leader the following.\n\n§G+1§!£influence  Influence\n§G+5§! Stability\n§G+10%§! £unity  Unity "
+civic_alicorn_leader_desc:0 "This society is lead by an immortal Alicorn, a ruler without age who wields great political power. They have ruled for many years, and their everpresent image has united the country under their rulen\n\nYour ruler is given the §BAlicorn Ruler§! trait, making them immortal and giving your leader the following bonuses.\n\n§G+1§!£influence  Influence\n§G+5§! Stability\n§G+10%§! £unity  Unity "
 
 civic_changeling_hive:0 "Changeling Hive"
-civic_changeling_hive_desc:0 "This society is a Changeling Hive, a collection of Changeling drones, warriors, and specialists all working under the Queen. Each drone is an individual with free will, but they're all unified and share common bonds in the love of their mother and queen.\n\nYour ruler is given the §BChangeling Queen§! trait, making them immortal and giving your leader the following.\n\n§G-20%§! Claim and Starbase £influence  Cost\n§G+5§! Stability\n§G+15%§! Pop Growth Speed "
+civic_changeling_hive_desc:0 "This society is a Changeling Hive, a collection of Changeling drones, warriors, and specialists all working under the Queen. Each drone is an individual with free will, but they're all unified and share common bonds in the love of their mother and queen.\n\nYour ruler is given the §BChangeling Queen§! trait, making them immortal and giving your leader the following bonuses.\n\n§G-20%§! Claim and Starbase £influence  Cost\n§G+5§! Stability\n§G+15%§! Pop Growth Speed "
 
 civic_changeling_swarms:0 "Changeling Swarm"
-civic_changeling_swarms_desc:0 "This society is a Changeling Swarm, a massive gestalt consciousness made out of mindless drones all controlled by the Queen. They work with unparalleled efficiency, each drone working to serve the interests of their mother and queen.\n\nYour ruler is given the §BChangeling Queen§! trait, making them immortal and giving your leader the following.\n\n§G-20%§! Claim and Starbase Cost\n§G+5§! Stability\n§G+15%§! Pop Growth Speed "
+civic_changeling_swarms_desc:0 "This society is a Changeling Swarm, a massive gestalt consciousness made out of mindless drones all controlled by the Queen. They work with unparalleled efficiency, each drone working to serve the interests of their mother and queen.\n\nYour ruler is given the §BChangeling Queen§! trait, making them immortal and giving your leader the following bonuses.\n\n§G-20%§! Claim and Starbase Cost\n§G+5§! Stability\n§G+15%§! Pop Growth Speed "
 
 civic_dark_queen:0 "Dark Queen"
-civic_dark_queen_desc:0 "This society is lead by the Dark Queen, a ruler who wields immense power in the dark arts. They have used this power to extend their lifespan unnaturally long, as well as using their dark powers to subjugate their own people.\n\nYour ruler is given the §BDark Queen§! trait, making them immortal and giving your leader the following.\n\n§G-10%§! Pop Amenities Usage\n§G-10§! Planet Crime "
+civic_dark_queen_desc:0 "This society is lead by the Dark Queen, a ruler who wields immense power in the dark arts. They have used this power to extend their lifespan unnaturally long, as well as using their dark powers to subjugate their own people.\n\nYour ruler is given the §BDark Queen§! trait, making them immortal and giving your leader the following bonuses.\n\n§G-10%§! Pop Amenities Usage\n§G-10§! Planet Crime "
 
 ### Traits ###
 leader_trait_alicorn_ruler:0 "Alicorn Ruler"
