@@ -8,24 +8,24 @@ horse= {
 		"Owliscious"	"Angel"			"Harry"			"Tank"			"Smart Cookie"	"Private Pansy" "Breezie"		"Parasprite"		
 		}
 
-		corvette = {
+		corvette = { "Little Buddy" "The Hopper" 
 		}
 		
-		destroyer = {
+		destroyer = { "Iron Hoof" "Starlight" 
 		}
 		
-		cruiser = {
+		cruiser = { "Horseshoe" "Snowfall Forst" "Discord"  "Windigo" "Ember" "Party Bus"
 		}
-		battleship = { "Commander Hurricane"  "Saddle Rager" "Zapp" "Matter-Horn" "Fili-Second" "Radiance" "Mistress Mare-velous" "Star Swirl" "Snowfall Forst" "Discord"  "Windigo" "Ember" "Mane-iac" "Philomena" "Amore" "Cerberus" "Chimera" "Cockatrice" "Hydra" 
-		"Manticore" "Cragadile Tatzlwurm" 	"Ursas" "Timberwolves"	"Twittermite" "Tantabus"
+		battleship = { "Commander Hurricane"  "Saddle Rager" "Zapp" "Matter-Horn" "Fili-Second" "Radiance" "Mistress Mare-velous" "Star Swirl"  "Mane-iac" "Philomena" "Amore" "Cerberus" "Chimera" "Cockatrice" "Hydra" 
+		"Manticore" "Cragadile Tatzlwurm" 	"Ursas" "Timberwolves"	"Twittermite" "Tantabus" "Party Bringer"
 		}
-		science = {
+		science = { "Rainbow Watcher" "Cloud Gazer" "Star Seer"
 			
 		}
 		colonizer = {
 			"Lucky Seed" "Little Bloom" "Faint Glare" "Fleet Star"
 		}
-		constructor = {
+		constructor = { "Mini Factory" "Leather Hoof" "Concrete Hoof"
 			
 		}
 		mining_station = { }
@@ -45,7 +45,7 @@ horse= {
 
 	fleet_names = {
 		random_names = {
-			"Wonderbolts" "Shadowbolts" "Fightin' Herds" "Guardians of Harmony" "Cutiemark Crusaders"
+			"Wonderbolts" "Shadowbolts" "Fightin' Herds" "Guardians of Harmony" "Cutiemark Crusaders" "Queen's Guard"
 		}
 		sequential_name = "%O% Fleet"
 	}
@@ -97,7 +97,7 @@ horse= {
 			names = {
 			 "Canterlot" "Starsdale" "Everfree" "New Manehattan" "Appleloosa" "Winsome Falls" "Fillydelphia" "New Trottingham" "Las Pegasus" "New Hoofington" 
 			 "Everhoof " "Applewood" "White Tail" "Ghastly Gorge" "Dodge Junction" "Smokey Mountains" "Breezie Village" "Seaward Shoals" "Puerto Caballo"
-			 "Whinnyapolis" "Pinto Creek" "Hoof City" "Maretonia" 
+			 "Whinnyapolis" "Pinto Creek" "Hoof City" "Maretonia" "New Maresland" "Crystal City" "Iron Hoofington" "Our Town" "Party Planet"
 			 
 			 
 			}
@@ -121,7 +121,8 @@ horse= {
 		}
 		
 		pc_continental = {
-			names = {
+			names = { 
+			"Green Jewel"
 			}
 		}
 		
@@ -157,7 +158,7 @@ horse= {
 				Meadow 	Cloud 	Spring 		Crescent 	Fast 		Misty 	Night 		Apple 		Orange  Twilight
 				Pie 	Hooves 	Starlight	Sunset 		Rainbow 	Rain 	Pear 		Rose 		Lyra 	Sweetie 
 				Carrot 	Cherry 	Indigo 		Lemon 		Snowfall 	Snow 	Windy 		Sunny		Star 	Stormy
-				
+				Loving  Pinky   Derpy       Strong      Curie       Flim
 				 
 			}
 			
@@ -171,7 +172,7 @@ horse= {
 				Leaves	Honey 		Fritter Quartz 	Diamond Redheart	Earth 		Blossom 	Shower 	Floss 
 				Kicker 	Chaser 		Dust 	Moon 	Kicker 	Glider 		Zest 		Zap 		Jack 	Maud 
 				Marble	Pinkie 		Shimmer Glimmer Sparkle Dash 		Heart 		Heartstring     Top 	Berry 
-				Safari 	Derpy 		Fizy 	Flare 	Swirl	
+				Safari 	Derpy 		Fizy 	Flare 	Swirl	Flam
 			}
 			
 			regnal_first_names = {

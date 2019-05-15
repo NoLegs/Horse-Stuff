@@ -1,27 +1,27 @@
-"United Equestria" = {
-	key="United Equestria"
-	ship_prefix="REN"
+"Imperium Crystalis" = {
+	key="Imperium Crystalis"
+	ship_prefix="ICS"
 	species={
 		class="HRS"
 		portrait="unitedpony"
-		name="Equestrian"
-		plural="Equestrians"
-		adjective="Equestrian"
+		name="Crystal Pony"
+		plural="Crystal Ponies"
+		adjective="Crystal Pony"
 		name_list="horse"
 		trait="trait_traditional"
 		trait="trait_communal"
 	}
-	name="United Equestria"
-	adjective="Equestrian"
-	authority="auth_imperial"
+	name="Imperium Crystalis"
+	adjective="Crystalis"
+	authority="auth_dictatorial"
 	#flags={
 	#	"horse1"
 	#	"custom_start_screen"
 	#}
-	government="gov_irenic_monarchy"
-	planet_name="Equestria"
+	government="gov_dark_imperium"
+	planet_name="The Crystal Crown"
 	planet_class="pc_continental"
-	system_name="Equis"
+	system_name="Imperia"
 	initializer="equestria_initializer"
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
@@ -43,23 +43,22 @@
 	}
 	ruler={
 		gender=female
-		name="Celestia "
-		portrait="alicornf1"
+		name="Umbra "
+		portrait="crystalf1"
 		texture=0
 		hair=0
 		clothes=0
-		ruler_title_female="Princess"
+		ruler_title_female="Dark Imperator"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
 	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_xenophile"
-	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_xenophobe"
 	civics={
-		"civic_agrarian_idyll"
-		"civic_alicorn_leader"
+		"civic_dark_imperator"
+		"civic_police_state"
 	}
 }
