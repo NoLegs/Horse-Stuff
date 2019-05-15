@@ -1,0 +1,49 @@
+namespace = horse
+
+# Gives ruler the immortal trait.
+country_event = {
+	id = horse.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_civic = civic_alicorn_leader
+	}
+
+	immediate = {
+		ruler = { add_trait = leader_trait_alicorn_ruler }
+	}
+}
+
+# Buggos
+country_event = {
+	id = horse.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			has_civic = civic_changeling_hive
+			has_civic = civic_changeling_swarms
+		}
+	}
+
+	immediate = {
+		ruler = { add_trait = leader_trait_changeling_queen }
+	}
+}
+
+# For Sombrero
+country_event = {
+	id = horse.3
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_civic = civic_dark_queen
+	}
+
+	immediate = {
+		ruler = { add_trait = leader_trait_dark_queen }
+	}
+}
