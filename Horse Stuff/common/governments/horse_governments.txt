@@ -1,0 +1,46 @@
+gov_alicorn_monarchy = {
+	ruler_title = RT_ALICORN_PRINCESS
+	ruler_title_female = RT_ALICORN_PRINCESS
+	heir_title = HT_CROWN_VISIER
+	heir_title_female = HT_CROWN_VISIER
+
+	use_regnal_names = no
+	dynastic_last_names = no
+	
+	should_force_rename = no
+
+	possible = {
+		has_authority = auth_imperial
+		has_valid_civic = civic_alicorn_leader
+	}
+
+	weight = {
+		base = 1000
+	}
+}
+
+# Dark Imperium
+gov_dark_imperium = {
+	ruler_title = RT_DARK_IMPERATOR
+	ruler_title_female = RT_DARK_IMPERATOR
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		has_valid_civic = civic_dark_imperator
+		}
+	}
+
+	weight = {
+		base = 1000
+	}
+}

@@ -18,7 +18,7 @@
 	#	"horse1"
 	#	"custom_start_screen"
 	#}
-	government="gov_irenic_monarchy"
+	government="gov_alicorn_monarchy"
 	planet_name="Equestria"
 	planet_class="pc_continental"
 	system_name="Equis"
@@ -59,7 +59,7 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	civics={
-		"civic_agrarian_idyll"
 		"civic_alicorn_leader"
+		"civic_agrarian_idyll"
 	}
 }
