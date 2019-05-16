@@ -90,16 +90,16 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="blocky"
-			file="flag_blocky_11.dds"
+			category="human"
+			file="flag_human_11.dds"
 		}
 		background={
 			category="backgrounds"
-			file="vertical.dds"
+			file="circle.dds"
 		}
 		colors={
-			"blue"
-			"pink"
+			"dark_purple"
+			"black"
 			"null"
 			"null"
 		}
@@ -124,5 +124,67 @@
 	civics={
 		"civic_dark_imperator"
 		"civic_police_state"
+	}
+}
+"Solar Empire"
+={
+	key="Solar Empire"
+	ship_prefix="REN"
+	species={
+		class="HRS"
+		portrait="unitedpony"
+		name="Equestrian"
+		plural="Equestrians"
+		adjective="Equestrian"
+		name_list="horse"
+		trait="trait_traditional"
+		trait="trait_communal"
+	}
+	name="Solar Empire"
+	adjective="Solar"
+	authority="auth_imperial"
+	government="gov_blood_court"
+	planet_name="Equestria"
+	planet_class="pc_continental"
+	system_name="Equus"
+	initializer="equestria_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_23.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Daybreaker"
+		portrait="alicornf4"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title_female="God-Empress"
+		heir_title_female="Counsul"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_purifier_room"
+	spawn_enabled=no
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_solar_goddess"
 	}
 }

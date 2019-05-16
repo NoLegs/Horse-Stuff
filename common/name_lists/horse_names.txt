@@ -5,21 +5,22 @@ horse= {
 		"Easy Glider" 	"Purple Dart" 	"Fair Weather" 	"Fairy Flight" 	"Flair d'Mare" 	"Thornhoof" 	"Brumby Cloverpatch" 	"Wave Chill" 
 		"Bloomberg" 	"Tiberius" 		"Winona" 		"Boneless" 		 		"Brutus Force" 	"Fernando"				"Madame le Flour"
 		"Sir Lintsalot"	"Rocky"			"Smarty Pants"	"Tom"			"Mr. Turnip"	"Golden Oak"	"Opalescence"			"Gummy"
-		"Owliscious"	"Angel"			"Harry"			"Tank"			"Smart Cookie"	"Private Pansy" "Breezie"		"Parasprite"		
+		"Owliscious"	"Angel"			"Harry"			"Tank"			"Smart Cookie"	"Private Pansy" "Breezie"		"Parasprite"	
+		"Sun Chaser"    "Trail Blazer"  "Burning Hoof"
 		}
 
 		corvette = { "Little Buddy" "The Hopper" 
 		}
 		
-		destroyer = { "Iron Hoof" "Starlight" 
+		destroyer = { "Iron Hoof" "Starlight" "Burning Trail"
 		}
 		
 		cruiser = { "Horseshoe" "Snowfall Forst" "Discord"  "Windigo" "Ember" "Party Bus"
 		}
 		battleship = { "Commander Hurricane"  "Saddle Rager" "Zapp" "Matter-Horn" "Fili-Second" "Radiance" "Mistress Mare-velous" "Star Swirl"  "Mane-iac" "Philomena" "Amore" "Cerberus" "Chimera" "Cockatrice" "Hydra" 
-		"Manticore" "Cragadile Tatzlwurm" 	"Ursas" "Timberwolves"	"Twittermite" "Tantabus" "Party Bringer"
+		"Manticore" "Cragadile Tatzlwurm" 	"Ursas" "Timberwolves"	"Twittermite" "Tantabus" "Party Bringer" "Sun Burst" "Solar Stalwart"
 		}
-		science = { "Rainbow Watcher" "Cloud Gazer" "Star Seer"
+		science = { "Rainbow Watcher" "Cloud Gazer" "Star Seer" "Solar Salute"
 			
 		}
 		colonizer = {
@@ -45,7 +46,7 @@ horse= {
 
 	fleet_names = {
 		random_names = {
-			"Wonderbolts" "Shadowbolts" "Fightin' Herds" "Guardians of Harmony" "Cutiemark Crusaders" "Queen's Guard"
+			"Wonderbolts" "Shadowbolts" "Fightin' Herds" "Guardians of Harmony" "Cutiemark Crusaders" "Queen's Guard" "Starlight's Glimmer"
 		}
 		sequential_name = "%O% Fleet"
 	}
