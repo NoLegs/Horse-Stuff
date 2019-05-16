@@ -1,0 +1,139 @@
+#civic_example = {
+#	playable = {}								# AND trigger, no scope; use this to prevent the civic from being selectable by the player (UI)
+#	potential = {}								# requirements list, see ../readme_requirements.txt
+#	possible = {}								# requirements list, see ../readme_requirements.txt
+#	pickable_at_start = yes / no				# default: yes
+#	modification = yes / no						# default: yes, set to no to prevent adding or removing this after creation of the empire
+#
+#	random_weight = { base = 5 }				# scriptable weight for randomizing a civic; required, else the civic will not get assigned randomly
+#
+#	modifier = {}								# modifier added to the country if the civic is selected and valid
+#	can_build_ruler_ship = yes / no				# default: no
+#	traits = { trait = ... }					# default: empty; trait set to enforce on the primary species. They cannot be removed, but more can be added if points/picks permit
+#	has_secondary_species = {					# default: none; if present, will enable secondary species customization in empire designer and will create secondary species & pops at galaxy generation time (see empire_init_create_capital_secondary_pops)
+#		traits = { trait = ... }					# default: empty; trait set to enforce on the secondary species. They cannot be removed, but more can be added if points/picks permit
+#	}
+#}
+
+# Corporate
+
+civic_alicorn_leader = {
+	modification = no
+	potential = {
+		ethics = { 
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 
+			value = auth_imperial
+			NOT = { value = auth_corporate } 
+		}
+	}
+	
+	possible = {
+		civics = {
+			NOT = { 
+				value = civic_dark_queen 
+				value = civic_changeling_hive 
+			}
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+	pop_government_ethic_attraction = 0.20
+	}
+}
+
+civic_changeling_hive = {
+	modification = no
+	potential = {
+		ethics = { 
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 
+			OR = {
+				value = auth_imperial
+				value = auth_dictatorial
+			}
+			NOT = { value = auth_corporate } 
+		}
+	}
+	possible = {
+		civics = {
+			NOT = { 
+				value = civic_dark_queen 
+				value = civic_alicorn_leader 
+			}
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		country_base_influence_produces_add = 0.5
+		leaders_upkeep_mult = -0.10
+	}
+}
+
+civic_changeling_swarms = {
+	modification = no
+	potential = {
+		ethics = { 
+			value = ethic_gestalt_consciousness
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		planet_jobs_worker_produces_mult = 0.05
+		armies_upkeep_mult = -0.10
+		leaders_upkeep_mult = -0.10
+	}
+}
+
+civic_dark_imperator = {
+	modification = no
+	potential = {
+		ethics = { 
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 
+			value = auth_imperial
+			NOT = { value = auth_corporate } 
+		}
+	}
+	possible = {
+		civics = {
+			NOT = { 
+				value = civic_changeling_hive 
+				value = civic_alicorn_leader 
+				value = civic_slaver_guilds
+			}
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		planet_jobs_slave_produces_mult = 0.20
+		country_pop_enslaved_mult = 0.40
+	}
+}
