@@ -1,0 +1,128 @@
+"United Equestria" = {
+	key="United Equestria"
+	ship_prefix="REN"
+	species={
+		class="HRS"
+		portrait="unitedpony"
+		name="Equestrian"
+		plural="Equestrians"
+		adjective="Equestrian"
+		name_list="horse"
+		trait="trait_traditional"
+		trait="trait_communal"
+	}
+	name="United Equestria"
+	adjective="Equestrian"
+	authority="auth_imperial"
+	#flags={
+	#	"horse1"
+	#	"custom_start_screen"
+	#}
+	government="gov_alicorn_monarchy"
+	planet_name="Equestria"
+	planet_class="pc_continental"
+	system_name="Equis"
+	initializer="equestria_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"blue"
+			"pink"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Celestia "
+		portrait="alicornf1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title_female="Princess"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_alicorn_leader"
+		"civic_agrarian_idyll"
+	}
+}
+
+"Imperium Crystalis"
+={
+	key="Imperium Crystalis"
+	ship_prefix="REN"
+	species={
+		class="HRS"
+		portrait="unitedpony"
+		name="Crystal Pony"
+		plural="Crystal Ponies"
+		adjective="Crystal Pony"
+		name_list="horse"
+		trait="trait_traditional"
+		trait="trait_communal"
+	}
+	name="Imperium Crystalis"
+	adjective="Crystalis"
+	authority="auth_imperial"
+	government="gov_dark_imperium"
+	planet_name="Crystal Throne"
+	planet_class="pc_continental"
+	system_name="Imperia"
+	initializer="equestria_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"blue"
+			"pink"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Umbra"
+		portrait="crystalf1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title_female="Imperator"
+		heir_title_female="Visier"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_xenophobe"
+	civics={
+		"civic_dark_imperator"
+		"civic_police_state"
+	}
+}
