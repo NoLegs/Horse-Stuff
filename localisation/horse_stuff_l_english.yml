@@ -34,7 +34,7 @@ civic_dark_imperator:0 "Dark Imperator"
 civic_dark_imperator_desc:0 "This society is lead by the Dark Imperator, a ruler who wields immense power in the dark arts. They have used this power to extend their lifespan unnaturally long, as well as using their dark powers to subjugate their own people.\n\nYour ruler is given the §BDark Imperator§! trait, making them immortal and giving your leader the powerful bonuses. "
 
 civic_solar_goddess:0 "Solar Goddess"
-civic_solar_goddess_desc:0 "Solar Goddess"
+civic_solar_goddess_desc:0 "Solar Goddess Desc"
 ### Traits ###
 leader_trait_alicorn_ruler:0 "Alicorn Ruler"
 leader_trait_alicorn_ruler_desc:0 "This ruler is an immortal Alicorn."
@@ -48,9 +48,9 @@ leader_trait_dark_queen_desc:0 "This ruler is incredibly skilled in dark magic, 
 leader_trait_solar_goddess:0 "Solar Goddess"
 leader_trait_fiery_fanaticism:0 "Feiry Fanaticism"
 leader_trait_supernova:0 "Supernova"
-leader_trait_solar_goddess_desc:0 "Dark Queen"
-leader_trait_fiery_fanaticism_desc:0 "Dark Queen"
-leader_trait_supernova_desc:0 "Dark Queen"
+leader_trait_solar_goddess_desc:0 "Solar Goddess Desc"
+leader_trait_fiery_fanaticism_desc:0 "Feiry Fanaticism Desc"
+leader_trait_supernova_desc:0 "Supernova Desc"
 
 ### System initilizersiriirs ###
 
