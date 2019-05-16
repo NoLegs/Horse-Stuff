@@ -3,5 +3,6 @@ on_ruler_set = {
 		horse.1
 		horse.2
 		horse.3
+		horse.4
 	}
 }
