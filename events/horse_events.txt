@@ -48,6 +48,7 @@ country_event = {
 
 	}
 }
+
 #	The Solar Goddess Protects
 country_event = {
 	id = horse.4

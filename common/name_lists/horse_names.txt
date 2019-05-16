@@ -3,7 +3,7 @@ horse= {
 	ship_names = {
 		generic = {
 		"Easy Glider" 	"Purple Dart" 	"Fair Weather" 	"Fairy Flight" 	"Flair d'Mare" 	"Thornhoof" 	"Brumby Cloverpatch" 	"Wave Chill" 
-		"Bloomberg" 	"Tiberius" 		"Winona" 		"Boneless" 		 		"Brutus Force" 	"Fernando"				"Madame le Flour"
+		"Bloomberg" 	"Tiberius" 		"Winona" 		"Boneless" 		 "Brutus Force" "Fernando"		"Madame le Flour"
 		"Sir Lintsalot"	"Rocky"			"Smarty Pants"	"Tom"			"Mr. Turnip"	"Golden Oak"	"Opalescence"			"Gummy"
 		"Owliscious"	"Angel"			"Harry"			"Tank"			"Smart Cookie"	"Private Pansy" "Breezie"		"Parasprite"	
 		"Sun Chaser"    "Trail Blazer"  "Burning Hoof"
@@ -26,8 +26,8 @@ horse= {
 		colonizer = {
 			"Lucky Seed" "Little Bloom" "Faint Glare" "Fleet Star"
 		}
-		constructor = { "Mini Factory" "Leather Hoof" "Concrete Hoof"
-			
+		constructor = { 
+			"Mini Factory" "Leather Hoof" "Concrete Hoof"	
 		}
 		mining_station = { }
 		research_station = { }
@@ -48,7 +48,6 @@ horse= {
 		random_names = {
 			"Wonderbolts" "Shadowbolts" "Fightin' Herds" "Guardians of Harmony" "Cutiemark Crusaders" "Queen's Guard" "Starlight's Glimmer"
 		}
-		sequential_name = "%O% Fleet"
 	}
 	
 	army_names = {

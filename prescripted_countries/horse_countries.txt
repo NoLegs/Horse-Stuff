@@ -14,10 +14,10 @@
 	name="United Equestria"
 	adjective="Equestrian"
 	authority="auth_imperial"
-	#flags={
-	#	"horse1"
-	#	"custom_start_screen"
-	#}
+	flags={
+		"horse1"
+		"custom_start_screen"
+	}
 	government="gov_alicorn_monarchy"
 	planet_name="Equestria"
 	planet_class="pc_continental"
@@ -81,6 +81,10 @@
 	name="Imperium Crystalis"
 	adjective="Crystalis"
 	authority="auth_imperial"
+	flags={
+		"horse2"
+		"custom_start_screen"
+	}
 	government="gov_dark_imperium"
 	planet_name="Crystal Throne"
 	planet_class="pc_continental"
@@ -143,6 +147,10 @@
 	name="Solar Empire"
 	adjective="Solar"
 	authority="auth_imperial"
+	flags={
+		"horse3"
+		"custom_start_screen"
+	}
 	government="gov_solar_cult"
 	planet_name="Equestria"
 	planet_class="pc_continental"

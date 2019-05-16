@@ -34,7 +34,7 @@ civic_dark_imperator:0 "Dark Imperator"
 civic_dark_imperator_desc:0 "This society is lead by the Dark Imperator, a ruler who wields immense power in the dark arts. They have used this power to extend their lifespan unnaturally long, as well as using their dark powers to subjugate their own people.\n\nYour ruler is given the §BDark Imperator§! trait, making them immortal and giving your leader the powerful bonuses. "
 
 civic_solar_goddess:0 "Solar Goddess"
-civic_solar_goddess_desc:0 "Solar Goddess Desc"
+civic_solar_goddess_desc:0 "This society is lead by a goddess of the sun, a ruler who wields immense power both magical and political. They are worshipped by all within their nation, and those who don't are considered enemies of the state."
 ### Traits ###
 leader_trait_alicorn_ruler:0 "Alicorn Ruler"
 leader_trait_alicorn_ruler_desc:0 "This ruler is an immortal Alicorn."
@@ -46,19 +46,18 @@ leader_trait_dark_queen:0 "Dark Queen"
 leader_trait_dark_queen_desc:0 "This ruler is incredibly skilled in dark magic, and has extended their lifespan to an unending degree."
 
 leader_trait_solar_goddess:0 "Solar Goddess"
+leader_trait_solar_goddess_desc:0 "This ruler is the physical embodiment of the Sun and is worshipped as a deity. They are considered to have complete control over the stars themselves and are loved by all."
+
 leader_trait_fiery_fanaticism:0 "Feiry Fanaticism"
+leader_trait_fiery_fanaticism_desc:0 "This ruler inspires an incredible fanaticism inside of their followers. Their subjects are willing and ready to do whatever it takes to please their ruler."
+
 leader_trait_supernova:0 "Supernova"
-leader_trait_solar_goddess_desc:0 "Solar Goddess Desc"
-leader_trait_fiery_fanaticism_desc:0 "Feiry Fanaticism Desc"
-leader_trait_supernova_desc:0 "Supernova Desc"
+leader_trait_supernova_desc:0 "This ruler is knowledgable in all things relating to stars, the great big explosions in the sky."
 
 ### System initilizersiriirs ###
 
 equestria_initializer_NAME:0 "Equus System"
 equestria_initializer_DESC:0 "The home system of United Equestria.\n\nDetermines the layout, but not location, of your starting solar system."
-
-### Start Screen Messages ###
-START_SCREEN_equestria:0 "In the first ages of Equestria's history, the ponies of Equestria were split into three tribes, the Unicorns, the Pegasi, and the Earth Ponies. These three tribes grew to hate eachother, constantly arguing and bickering over things. It was only until the wendigoes began freezing the lands did they learn to unite, befriending one another and driving away the spirits. This marked the creation of Eque"
 
 ### Goverment Stuff ###
 RT_ALICORN_PRINCESS:0 "Princess"
