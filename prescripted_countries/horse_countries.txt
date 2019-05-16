@@ -180,7 +180,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_fanatic_purifier_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
