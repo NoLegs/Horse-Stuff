@@ -47,7 +47,7 @@ civic_alicorn_leader = {
 		}
 	}
 	modifier = {
-	pop_government_ethic_attraction = 0.20
+	pop_government_ethic_attraction = 0.50
 	}
 }
 
@@ -103,9 +103,10 @@ civic_changeling_swarms = {
 		}
 	}
 	modifier = {
-		planet_jobs_worker_produces_mult = 0.05
-		armies_upkeep_mult = -0.10
-		leaders_upkeep_mult = -0.10
+		planet_jobs_worker_produces_mult = 0.1
+		leaders_upkeep_mult = -0.20
+		armies_upkeep_mult = -0.33
+		planet_army_build_speed_mult = 0.33
 	}
 }
 
@@ -139,7 +140,7 @@ civic_dark_imperator = {
 		}
 	}
 	modifier = {
-		planet_jobs_slave_produces_mult = 0.20
+		planet_jobs_slave_produces_mult = 0.30
 		country_pop_enslaved_mult = 0.40
 	}
 }
