@@ -45,6 +45,7 @@ country_event = {
 
 	immediate = {
 		ruler = { add_trait = leader_trait_dark_imperator }
+
 	}
 }
 #	The Solar Goddess Protects

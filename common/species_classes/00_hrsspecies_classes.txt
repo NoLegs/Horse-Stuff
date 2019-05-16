@@ -4,13 +4,13 @@ HRS = {
 
 	portraits = {
 		"unitedpony"
-		"unitedponyfh"
 		"pegasus"
 		"unicorn"
 		"earth"
-		"changeling"
 		"crystal"
+		"changeling"
 		"griffon"
+		"zebra"
 	}
 	
 	graphical_culture = humanoid_01

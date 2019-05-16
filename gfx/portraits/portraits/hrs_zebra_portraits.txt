@@ -1,0 +1,117 @@
+portraits = {
+
+	zebraf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf1.dds"	}
+	zebraf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf2.dds"	}
+	zebraf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf3.dds"	}
+	zebraf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf4.dds"	}
+	zebraf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf5.dds"	}
+	zebraf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf6.dds"	}
+	zebraf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf7.dds"	}	
+	zebraf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf8.dds"	}
+	zebraf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf9.dds"	}
+	zebraf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf10.dds"	}
+	zebraf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf11.dds"	}
+	zebraf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf12.dds"	}
+
+}
+
+portrait_groups = {
+    zebra = {
+		default = zebraf1
+		game_setup = { 
+           		add = {
+                	portraits = {
+						zebraf1
+						zebraf2
+						zebraf3
+						zebraf4
+						zebraf5
+						zebraf6
+						zebraf7
+						zebraf8
+						zebraf9
+						zebraf10
+						zebraf11
+						zebraf12
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zebraf1
+					zebraf2
+					zebraf3
+					zebraf4
+					zebraf5
+					zebraf6
+					zebraf7
+					zebraf8
+					zebraf9
+					zebraf10
+					zebraf11
+					zebraf12
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zebraf1
+					zebraf2
+					zebraf3
+					zebraf4
+					zebraf5
+					zebraf6
+					zebraf7
+					zebraf8
+					zebraf9
+					zebraf10
+					zebraf11
+					zebraf12
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					zebraf1
+					zebraf2
+					zebraf3
+					zebraf4
+					zebraf5
+					zebraf6
+					zebraf7
+					zebraf8
+					zebraf9
+					zebraf10
+					zebraf11
+					zebraf12
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					zebraf1
+					zebraf2
+					zebraf3
+					zebraf4
+					zebraf5
+					zebraf6
+					zebraf7
+					zebraf8
+					zebraf9
+					zebraf10
+					zebraf11
+					zebraf12
+                }
+            }
+        }
+	}
+}
