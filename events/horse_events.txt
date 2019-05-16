@@ -45,5 +45,22 @@ country_event = {
 
 	immediate = {
 		ruler = { add_trait = leader_trait_dark_imperator }
+
+	}
+}
+#	The Solar Goddess Protects
+country_event = {
+	id = horse.4
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_civic = civic_solar_goddess
+	}
+
+	immediate = {
+		ruler = { add_trait = leader_trait_solar_goddess }
+		ruler = { add_trait = leader_trait_fiery_fanaticism }
+		ruler = { add_trait = leader_trait_supernova } 
 	}
 }
