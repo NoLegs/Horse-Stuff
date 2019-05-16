@@ -184,7 +184,7 @@
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
-		"civic_fanatic_purifiers"
 		"civic_solar_goddess"
+		"civic_fanatic_purifiers"
 	}
 }

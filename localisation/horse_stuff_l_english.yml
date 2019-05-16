@@ -62,15 +62,17 @@ START_SCREEN_equestria:0 "In the first ages of Equestria's history, the ponies o
 
 ### Goverment Stuff ###
 RT_ALICORN_PRINCESS:0 "Princess"
-gov_alicorn_monarchy:0 "Alicorn Monarcy"
-alicorn_monarchy_desc:0 "§LThis government is an advanced form of autocracy, where the ruler is an extrodonarily powerful Alicorn and a divine symbol. Many Celebrations are held in her honour.§!"
+gov_alicorn_monarchy:0 "Alicorn Monarchy"
+gov_alicorn_monarchy_desc:0 "§LThis government is an advanced form of autocracy, where the ruler is an extrodonarily powerful Alicorn and a divine symbol. Many Celebrations are held in her honour.§!"
 alicorn_monarchy_special:0 "The Ruler has an immensely powerful trait"
 
 RT_DARK_IMPERATOR:0 "Dark Imperator"
 gov_dark_imperium:0 "Dark Imperium"
-dark_imperium_desc:0 "§LThis government is an advanced form of autocracy, where the ruler is an extrodonarily powerful Alicorn and a divine symbol. Many Celebrations are held in her honour.§!"
+gov_dark_imperium_desc:0 "§LThis government is an advanced form of autocracy, where the ruler is an extrodonarily powerful Alicorn and a divine symbol. Many Celebrations are held in her honour.§!"
 dark_imperium_special:0 "The Ruler has an immensely powerful trait"
 
 RT_SUN_EMPRESS:0 "Sun Empress"
+HT_CROWN_VISIER:0 "Crown Visier"
 gov_solar_cult:0 "Solar Cult"
+gov_solar_cult_desc:0 "Solar Cult Description"
 RT_SUN_EMPRESS:0 "Sun Empress"

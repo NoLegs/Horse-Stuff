@@ -38,7 +38,6 @@ gov_dark_imperium = {
 	possible = {
 		has_authority = auth_imperial
 		has_valid_civic = civic_dark_imperator
-		}
 	}
 
 	weight = {
@@ -64,7 +63,6 @@ gov_solar_cult = {
 	possible = {
 		has_authority = auth_imperial
 		has_valid_civic = civic_solar_goddess
-		}
 	}
 
 	weight = {
