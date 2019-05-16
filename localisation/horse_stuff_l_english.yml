@@ -33,6 +33,8 @@ civic_changeling_swarms_desc:0 "This society is a Changeling Swarm, a massive ge
 civic_dark_imperator:0 "Dark Imperator"
 civic_dark_imperator_desc:0 "This society is lead by the Dark Imperator, a ruler who wields immense power in the dark arts. They have used this power to extend their lifespan unnaturally long, as well as using their dark powers to subjugate their own people.\n\nYour ruler is given the §BDark Imperator§! trait, making them immortal and giving your leader the following bonuses.\n\n§G-10%§! Pop Amenities Usage\n§G-10§! Planet Crime "
 
+civic_solar_goddess:0 "Solar Goddess"
+civic_solar_goddess_desc:0 "Solar Goddess"
 ### Traits ###
 leader_trait_alicorn_ruler:0 "Alicorn Ruler"
 leader_trait_alicorn_ruler_desc:0 "This ruler is an immortal Alicorn."
@@ -42,6 +44,13 @@ leader_trait_changeling_queen_desc:0 "This ruler is seen as the mother and ruler
 
 leader_trait_dark_queen:0 "Dark Queen"
 leader_trait_dark_queen_desc:0 "This ruler is incredibly skilled in dark magic, and has extended their lifespan to an unending degree."
+
+leader_trait_solar_goddess:0 "Solar Goddess"
+leader_trait_fiery_fanaticism:0 "Feiry Fanaticism"
+leader_trait_supernova:0 "Supernova"
+leader_trait_solar_goddess_desc:0 "Dark Queen"
+leader_trait_fiery_fanaticism_desc:0 "Dark Queen"
+leader_trait_supernova_desc:0 "Dark Queen"
 
 ### System initilizersiriirs ###
 
@@ -56,8 +65,12 @@ RT_ALICORN_PRINCESS:0 "Princess"
 gov_alicorn_monarchy:0 "Alicorn Monarcy"
 alicorn_monarchy_desc:0 "§LThis government is an advanced form of autocracy, where the ruler is an extrodonarily powerful Alicorn and a divine symbol. Many Celebrations are held in her honour.§!"
 alicorn_monarchy_special:0 "The Ruler has an immensely powerful trait"
-### Placeholder###
+
 RT_DARK_IMPERATOR:0 "Dark Imperator"
 gov_dark_imperium:0 "Dark Imperium"
 dark_imperium_desc:0 "§LThis government is an advanced form of autocracy, where the ruler is an extrodonarily powerful Alicorn and a divine symbol. Many Celebrations are held in her honour.§!"
 dark_imperium_special:0 "The Ruler has an immensely powerful trait"
+
+RT_SUN_EMPRESS:0 "Sun Empress"
+gov_solar_cult:0 "Solar Cult"
+RT_SUN_EMPRESS:0 "Sun Empress"
