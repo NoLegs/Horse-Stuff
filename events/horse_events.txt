@@ -40,10 +40,10 @@ country_event = {
 	hide_window = yes
 
 	trigger = {
-		has_civic = civic_dark_queen
+		has_civic = civic_dark_imperator
 	}
 
 	immediate = {
-		ruler = { add_trait = leader_trait_dark_queen }
+		ruler = { add_trait = leader_trait_dark_imperator }
 	}
 }
