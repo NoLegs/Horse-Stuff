@@ -32,6 +32,7 @@ civic_alicorn_leader = {
 	possible = {
 		civics = {
 			NOT = { 
+				value =	civic_solar_goddess
 				value = civic_dark_queen 
 				value = civic_changeling_hive 
 			}
@@ -66,6 +67,7 @@ civic_changeling_hive = {
 	possible = {
 		civics = {
 			NOT = { 
+				value =	civic_solar_goddess
 				value = civic_dark_queen 
 				value = civic_alicorn_leader 
 			}
@@ -80,7 +82,7 @@ civic_changeling_hive = {
 	}
 	modifier = {
 		country_base_influence_produces_add = 0.5
-		leaders_upkeep_mult = -0.10
+		leaders_upkeep_mult = -0.15
 	}
 }
 
@@ -119,6 +121,7 @@ civic_dark_imperator = {
 	possible = {
 		civics = {
 			NOT = { 
+				value =	civic_solar_goddess
 				value = civic_changeling_hive 
 				value = civic_alicorn_leader 
 				value = civic_slaver_guilds
@@ -135,5 +138,39 @@ civic_dark_imperator = {
 	modifier = {
 		planet_jobs_slave_produces_mult = 0.20
 		country_pop_enslaved_mult = 0.40
+	}
+}
+
+
+civic_solar_goddess = {
+	modification = no
+	potential = {
+		ethics = { 
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 
+			value = auth_imperial
+			NOT = { value = auth_corporate } 
+		}
+	}
+	possible = {
+		civics = {
+			NOT = { 
+				value = civic_changeling_hive 
+				value = civic_alicorn_leader 
+				value = civic_dark_imperator
+			}
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		country_base_influence_produces_add = 1
+		pop_government_ethic_attraction = 0.25
 	}
 }
