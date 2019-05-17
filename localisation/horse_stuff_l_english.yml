@@ -34,7 +34,7 @@ civic_dark_imperator:0 "Dark Imperator"
 civic_dark_imperator_desc:0 "This society is lead by the Dark Imperator, a ruler who wields immense power in the dark arts. They have used this power to extend their lifespan unnaturally long, as well as using their dark powers to subjugate their own people.\n\nYour ruler is given the §BDark Imperator§! trait, making them immortal and giving your leader the powerful bonuses. "
 
 civic_solar_goddess:0 "Solar Goddess"
-civic_solar_goddess_desc:0 "This society is lead by a goddess of the sun, a ruler who wields immense power both magical and political. They are worshipped by all within their nation, and those who don't are considered enemies of the state."
+civic_solar_goddess_desc:0 "This society is lead by a goddess of the sun, a ruler who wields immense power both magical and political. They are worshiped by all within their nation, and those who don't are considered enemies of the state.\n\nYour ruler is given several strong traits, making them immortal and giving your leader powerful bonuses."
 ### Traits ###
 leader_trait_alicorn_ruler:0 "Alicorn Ruler"
 leader_trait_alicorn_ruler_desc:0 "This ruler is an immortal Alicorn."
