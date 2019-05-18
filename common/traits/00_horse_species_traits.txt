@@ -1,7 +1,7 @@
 trait_cloud_builder = {
 	cost = -1
 	potential_crossbreeding_chance = 0.5
-	opposites = { }
+	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		pop_housing_usage_mult = -0.15
@@ -11,7 +11,7 @@ trait_cloud_builder = {
 trait_earth_attuned = {
 	cost = -1
 	potential_crossbreeding_chance = 0.5
-	opposites = { }
+	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		planet_jobs_unity_produces_mult = 0.15
@@ -22,7 +22,7 @@ trait_earth_attuned = {
 trait_magically_gifted = {
 	cost = -1
 	potential_crossbreeding_chance = 0.5
-	opposites = { }
+	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		planet_jobs_unity_produces_mult = 0.25
@@ -32,7 +32,7 @@ trait_magically_gifted = {
 trait_pony_power = {
 	cost = -1
 	potential_crossbreeding_chance = 0.5
-	opposites = { }
+	opposites = { "trait_magically_gifted" "trait_earth_attuned" "trait_cloud_builder" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		pop_housing_usage_mult = -0.15
@@ -48,6 +48,7 @@ trait_party_ponies = {
 	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
+		planet_pops_consumer_goods_upkeep_mult = 0.30
 	}
 }
 
@@ -57,6 +58,7 @@ trait_greedy = {
 	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
+		planet_jobs_energy_produces_mult = -0.30
 	}
 }
 
@@ -65,6 +67,8 @@ trait_emotionovores = {
 	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
+		planet_pops_organics_food_upkeep_mult = 1
+		planet_livestock_food_produces_add = 4
 	}
 }
 
@@ -74,12 +78,13 @@ trait_territorial = {
 	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
+		pop_housing_usage_mult = 0.30
 	}
 }
 
 trait_harmonic = {
 	cost = -1
-	opposites = { }
+	opposites = { "trait_chaotic" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 	}
@@ -87,23 +92,23 @@ trait_harmonic = {
 
 trait_chaotic = {
 	cost = -1
-	opposites = { }
+	opposites = { "trait_harmonic" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 	}
 }
 
-trait_magic_dependancy = {
+trait_magic_dependency = {
 	cost = -1
-	opposites = { }
+	opposites = { "trait_extreme_magic_dependency" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 	}
 }
 
-trait_extreme_magic_dependancy = {
+trait_extreme_magic_dependency = {
 	cost = -1
-	opposites = { }
+	opposites = { "trait_magic_dependency" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 	}
