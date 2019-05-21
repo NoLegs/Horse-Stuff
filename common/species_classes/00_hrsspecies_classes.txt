@@ -11,6 +11,7 @@ HRS = {
 		"changeling"
 		"griffon"
 		"zebra"
+		"diamonddog"
 	}
 	
 	graphical_culture = humanoid_01
