@@ -1,9 +1,30 @@
-# United Equestria
-#part = {
-#	location = 0
-#	localization = "START_SCREEN_equestria"
-#	
-#	trigger = {
-#		has_country_flag = horse1
-#	}
-#}
+#United Equestria
+part = {
+	location = 0
+	localization = "START_SCREEN_united_equestria"
+	
+	trigger = {
+		has_country_flag = horse1
+	}
+}
+
+#Imperium Crystalis
+part = {
+	location = 0
+	localization = "START_SCREEN_imperium_crystalis"
+	
+	trigger = {
+		has_country_flag = horse2
+	}
+}
+
+#Solar Empire
+
+part = {
+	location = 0
+	localization = "START_SCREEN_solar_empire"
+	
+	trigger = {
+		has_country_flag = horse3
+	}
+}
