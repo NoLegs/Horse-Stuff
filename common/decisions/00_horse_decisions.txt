@@ -71,16 +71,17 @@ decision_cloud_cities = {
 				is_planet_class = pc_hive 
 				is_planet_class = pc_city
 				
-				has_modifier = cloud_builders_cloud_cities
+				has_planet_flag = cloud_cities_built
 			}
 		}
 	}
 	
 	effect = {
-		add_modifier = {
-			modifier = cloud_builders_cloud_cities
-			days = -1
+		hidden_effect = {
+			set_planet_flag = cloud_cities_built 
 		}
+		
+		add_deposit = d_cloud_city
 	}
 	
 	ai_weight = {
