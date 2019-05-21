@@ -1,7 +1,7 @@
 ﻿l_english:
 
 trait_cloud_builder:0 "Cloud Builders"
-trait_cloud_builder_desc:0 ""
+trait_cloud_builder_desc:0 "This species has the ability to build on clouds! "
 
 trait_earth_attuned:0 "Earth Attuned"
 trait_earth_attuned_desc:0 ""
@@ -30,8 +30,8 @@ trait_harmonic_desc:0 ""
 trait_chaotic:0 "Chaotic"
 trait_chaotic_desc:0 ""
 
-trait_magic_dependency:0 ""
+trait_magic_dependency:0 "Magic Dependency"
 trait_magic_dependency_desc:0 ""
 
-trait_extreme_magic_dependency:0 ""
+trait_extreme_magic_dependency:0 "Extreme Magic Dependency"
 trait_extreme_magic_dependency_desc:0 ""
