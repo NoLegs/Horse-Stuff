@@ -17,6 +17,25 @@ leader_trait_alicorn_ruler = {
 	}
 }
 
+leader_trait_empress_of_the_night = {
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_empress_of_the_night.dds"
+	
+	immortal_leaders = yes	
+	
+	modifier = {
+		country_claim_influence_cost_mult = -0.20
+		country_starbase_influence_cost_mult = -0.20
+		country_unity_produces_mult = 0.2
+	}
+}
+
 leader_trait_changeling_queen = {
 	leader_trait = { ruler }
 	leader_class = { ruler }

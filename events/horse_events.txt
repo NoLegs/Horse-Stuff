@@ -65,3 +65,18 @@ country_event = {
 		ruler = { add_trait = leader_trait_supernova } 
 	}
 }
+
+# Woona
+country_event = {
+	id = horse.5
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_civic = civic_empress_of_the_night
+	}
+
+	immediate = {
+		ruler = { add_trait = leader_trait_empress_of_the_night }
+	}
+}
