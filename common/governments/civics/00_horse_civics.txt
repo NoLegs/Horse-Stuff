@@ -48,7 +48,7 @@ civic_alicorn_leader = {
 	}
 	modifier = {
 		pop_government_ethic_attraction = 0.50
-		pop_citizen_happiness = 0.1
+		pop_citizen_happiness = 0.15
 	}
 }
 
@@ -85,7 +85,8 @@ civic_changeling_hive = {
 	}
 	modifier = {
 		country_base_influence_produces_add = 0.5
-		leaders_upkeep_mult = -0.15
+		leaders_upkeep_mult = -0.33
+		planet_jobs_worker_produces_mult = 0.05
 	}
 }
 
@@ -104,8 +105,8 @@ civic_changeling_swarms = {
 		}
 	}
 	modifier = {
-		planet_jobs_worker_produces_mult = 0.1
-		leaders_upkeep_mult = -0.20
+		planet_jobs_worker_produces_mult = 0.15
+		leaders_upkeep_mult = -0.33
 		armies_upkeep_mult = -0.33
 		planet_army_build_speed_mult = 0.33
 	}
@@ -211,7 +212,7 @@ civic_empress_of_the_night = {
 		}
 	}
 	modifier = {
-		pop_government_ethic_attraction = 0.25
-		pop_citizen_happiness = 0.25
+		country_base_influence_produces_add = 0.5
+		pop_citizen_happiness = 0.10
 	}
 }

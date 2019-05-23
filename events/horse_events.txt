@@ -15,7 +15,7 @@ country_event = {
 	}
 }
 
-# Buggos
+# Narshty Buggos
 country_event = {
 	id = horse.2
 	is_triggered_only = yes
@@ -78,5 +78,7 @@ country_event = {
 
 	immediate = {
 		ruler = { add_trait = leader_trait_empress_of_the_night }
+		ruler = { add_trait = leader_trait_the_nightmare }
+		ruler = { add_trait = leader_trait_lunar_focus }
 	}
 }

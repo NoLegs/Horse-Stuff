@@ -30,12 +30,42 @@ leader_trait_empress_of_the_night = {
 	immortal_leaders = yes	
 	
 	modifier = {
-		country_claim_influence_cost_mult = -0.20
-		country_starbase_influence_cost_mult = -0.20
+		country_claim_influence_cost_mult = -0.25
+		country_starbase_influence_cost_mult = -0.1
 		country_unity_produces_mult = 0.2
 	}
 }
+leader_trait_lunar_focus = {
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_empress_of_the_night.dds"
 
+	modifier = {
+		weapon_type_energy_weapon_damage_mult = 0.25
+		country_energy_produces_mult = 0.05
+	}
+}
+leader_trait_the_nightmare = {
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_empress_of_the_night.dds"
+
+	modifier = {
+		planet_crime_add = -10
+		pop_government_ethic_attraction = 0.25
+		edict_length_mult = 0.5
+	}
+}
 leader_trait_changeling_queen = {
 	leader_trait = { ruler }
 	leader_class = { ruler }
@@ -49,9 +79,9 @@ leader_trait_changeling_queen = {
 	immortal_leaders = yes	
 	
 	modifier = {
-		country_claim_influence_cost_mult = -0.20
+		country_claim_influence_cost_mult = -0.33
 		country_starbase_influence_cost_mult = -0.20
-		pop_growth_speed = 0.15
+		pop_growth_speed = 0.25
 	}
 }
 
@@ -87,8 +117,8 @@ leader_trait_solar_goddess = {
 	
 	modifier = {
 		pop_government_ethic_attraction = 0.25
-		country_unity_produces_mult = 0.15
-		edict_length_mult = 1
+		country_unity_produces_mult = 0.2
+		edict_length_mult = 2
 	}
 }
 leader_trait_fiery_fanaticism = {
@@ -104,10 +134,10 @@ leader_trait_fiery_fanaticism = {
 	modifier = {
 		ship_weapon_damage = 0.25
 		ship_speed_mult = 0.15
-		ship_disengage_chance_mult = -0.50
+		ship_disengage_chance_mult = -0.75
 		planet_army_build_speed_mult = 0.33
 		army_damage_mult = 0.33
-		army_disengage_chance_mult = -0.50
+		army_disengage_chance_mult = -0.75
 	}
 }
 
