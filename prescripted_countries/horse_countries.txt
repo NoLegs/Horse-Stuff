@@ -196,3 +196,65 @@
 		"civic_fanatic_purifiers"
 	}
 }
+
+"Changeling Swarm" = {
+	key="Changeling Swarm"
+	ship_prefix="ISS"
+	species={
+		class="HRS"
+		portrait="changeling"
+		name="Changeling"
+		plural="Changelings"
+		adjective="Changeling"
+		name_list="horse"
+		trait="trait_hive_mind"
+		trait="trait_fleeting"
+		trait="trait_rapid_breeders"
+		trait="trait_communal"
+	}
+	name="Changeling Swarm"
+	adjective="Changeling"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	planet_name="Vesalipol"
+	planet_class="pc_continental"
+	system_name="Ixtrix"
+	initializer="equestria_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors={
+			"dark_grey"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Chrysalis"
+		portrait="changelingf1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title_female="Queen"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_changeling_swarms"
+		"civic_hive_one_mind"
+	}
+}

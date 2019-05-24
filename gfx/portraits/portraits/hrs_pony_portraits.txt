@@ -11,6 +11,8 @@ portraits = {
 	pegasusf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf10.dds"	}
 	pegasusf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf11.dds"	}
 	pegasusf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf12.dds"	}
+	pegasusf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf13.dds"	}
+	pegasusf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/pegasusf14.dds"	}
 
 	unicornf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf1.dds"	}
 	unicornf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf2.dds"	}
@@ -25,6 +27,8 @@ portraits = {
 	unicornf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf11.dds"	}
 	unicornf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf12.dds"	}
 	unicornf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf13.dds"	}
+	unicornf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf14.dds"	}
+	unicornf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/unicornf15.dds"	}
 	
 	earthf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf1.dds"	}
 	earthf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf2.dds"	}
@@ -41,6 +45,12 @@ portraits = {
 	earthf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf13.dds"	}
 	earthf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf14.dds"	}
 	earthf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf15.dds"	}
+	earthf16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf16.dds"	}
+	earthf17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf17.dds"	}
+	earthf18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf18.dds"	}
+	earthf19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf19.dds"	}
+	earthf20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf20.dds"	}
+	earthf21 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf21.dds"	}
 	
 	alicornf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf1.dds"	}
 	alicornf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf2.dds"	}
@@ -54,6 +64,9 @@ portraits = {
 	crystalf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf4.dds"	}
 	crystalf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf5.dds"	}
 	crystalf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf6.dds"	}
+	crystalf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf7.dds"	}
+	crystalf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf8.dds"	}
+	crystalf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf9.dds"	}
 	
 	alicornh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornh1.dds"	}
 	alicornh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornh2.dds"	}
@@ -112,6 +125,8 @@ portrait_groups = {
 						pegasusf10
 						pegasusf11
 						pegasusf12
+						pegasusf13
+						pegasusf14
 						
 						pegasush1
 						pegasush2
@@ -133,6 +148,8 @@ portrait_groups = {
 						unicornf11
 						unicornf12
 						unicornf13
+						unicornf14
+						unicornf15
 						
 						unicornh1
 						unicornh2
@@ -157,6 +174,12 @@ portrait_groups = {
 						earthf13
 						earthf14
 						earthf15
+						earthf16
+						earthf17
+						earthf18
+						earthf19
+						earthf20
+						earthf21
 						
 						earthh1
 						earthh2
@@ -172,19 +195,22 @@ portrait_groups = {
 						crystalf4
 						crystalf5
 						crystalf6
+						crystalf7
+						crystalf8
+						crystalf9
 						
 						zebraf1
-					zebraf2
-					zebraf3
-					zebraf4
-					zebraf5
-					zebraf6
-					zebraf7
-					zebraf8
-					zebraf9
-					zebraf10
-					zebraf11
-					zebraf12
+						zebraf2
+						zebraf3
+						zebraf4
+						zebraf5
+						zebraf6
+						zebraf7
+						zebraf8
+						zebraf9
+						zebraf10
+						zebraf11
+						zebraf12
 					}
 				}
 		}
@@ -204,6 +230,8 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
+					pegasusf13
+					pegasusf14
 					
 					pegasush1
 					pegasush2
@@ -225,6 +253,8 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
+					unicornf14
+					unicornf15
 					
 					unicornh1
 					unicornh2
@@ -249,6 +279,12 @@ portrait_groups = {
 					earthf13
 					earthf14
 					earthf15
+					earthf16
+					earthf17
+					earthf18
+					earthf19
+					earthf20
+					earthf21
 					
 					earthh1
 					earthh2
@@ -263,6 +299,9 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
+					crystalf7
+					crystalf8
+					crystalf9
 					
 					zebraf1
 					zebraf2
@@ -295,6 +334,8 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
+					pegasusf13
+					pegasusf14
 					
 					pegasush1
 					pegasush2
@@ -316,6 +357,8 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
+					unicornf14
+					unicornf15
 					
 					unicornh1
 					unicornh2
@@ -340,6 +383,12 @@ portrait_groups = {
 					earthf13
 					earthf14
 					earthf15
+					earthf16
+					earthf17
+					earthf18
+					earthf19
+					earthf20
+					earthf21
 					
 					earthh1
 					earthh2
@@ -354,6 +403,9 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
+					crystalf7
+					crystalf8
+					crystalf9
 					
 					zebraf1
 					zebraf2
@@ -396,14 +448,16 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
-						
+					pegasusf13
+					pegasusf14
+					
 					pegasush1
 					pegasush2
 					pegasush3
 					pegasush4
 					pegasush5
 					pegasush6
-						
+					
 					unicornf1
 					unicornf2
 					unicornf3
@@ -417,7 +471,9 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
-						
+					unicornf14
+					unicornf15
+					
 					unicornh1
 					unicornh2
 					unicornh3
@@ -425,7 +481,7 @@ portrait_groups = {
 					unicornh5
 					unicornh6
 					unicornh7
-						
+					
 					earthf1
 					earthf2
 					earthf3
@@ -441,7 +497,13 @@ portrait_groups = {
 					earthf13
 					earthf14
 					earthf15
-						
+					earthf16
+					earthf17
+					earthf18
+					earthf19
+					earthf20
+					earthf21
+					
 					earthh1
 					earthh2
 					earthh3
@@ -449,13 +511,15 @@ portrait_groups = {
 					earthh5
 					earthh6
 					earthh7
-						
-					crystalf1
+					
 					crystalf2
 					crystalf3
 					crystalf4
 					crystalf5
 					crystalf6
+					crystalf7
+					crystalf8
+					crystalf9
 					
 					zebraf1
 					zebraf2
@@ -499,14 +563,16 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
-						
+					pegasusf13
+					pegasusf14
+					
 					pegasush1
 					pegasush2
 					pegasush3
 					pegasush4
 					pegasush5
 					pegasush6
-						
+					
 					unicornf1
 					unicornf2
 					unicornf3
@@ -520,7 +586,9 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
-						
+					unicornf14
+					unicornf15
+					
 					unicornh1
 					unicornh2
 					unicornh3
@@ -528,7 +596,7 @@ portrait_groups = {
 					unicornh5
 					unicornh6
 					unicornh7
-						
+					
 					earthf1
 					earthf2
 					earthf3
@@ -544,7 +612,13 @@ portrait_groups = {
 					earthf13
 					earthf14
 					earthf15
-						
+					earthf16
+					earthf17
+					earthf18
+					earthf19
+					earthf20
+					earthf21
+					
 					earthh1
 					earthh2
 					earthh3
@@ -553,12 +627,14 @@ portrait_groups = {
 					earthh6
 					earthh7
 					
-					crystalf1
 					crystalf2
 					crystalf3
 					crystalf4
 					crystalf5
 					crystalf6
+					crystalf7
+					crystalf8
+					crystalf9
 					
 					zebraf1
 					zebraf2
@@ -596,6 +672,8 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
+					pegasusf13
+					pegasusf14
 						
 					pegasush1
 					pegasush2
@@ -622,6 +700,8 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
+					pegasusf13
+					pegasusf14
 					
 					pegasush1
 					pegasush2
@@ -648,6 +728,8 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
+					pegasusf13
+					pegasusf14
 					
 					pegasush1
 					pegasush2
@@ -674,6 +756,8 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
+					pegasusf13
+					pegasusf14
 						
 					pegasush1
 					pegasush2
@@ -701,6 +785,8 @@ portrait_groups = {
 					pegasusf10
 					pegasusf11
 					pegasusf12
+					pegasusf13
+					pegasusf14
 						
 					pegasush1
 					pegasush2
@@ -733,6 +819,8 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
+					unicornf14
+					unicornf15
 					
 					unicornh1
 					unicornh2
@@ -761,13 +849,8 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
-					
-					unicornm1
-					unicornm2
-					unicornm3
-					unicornm4
-					unicornm5
-					unicornm6
+					unicornf14
+					unicornf15
 					
 					unicornh1
 					unicornh2
@@ -796,6 +879,8 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
+					unicornf14
+					unicornf15
 					
 					unicornh1
 					unicornh2
@@ -824,6 +909,8 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
+					unicornf14
+					unicornf15
 					
 					unicornh1
 					unicornh2
@@ -853,6 +940,8 @@ portrait_groups = {
 					unicornf11
 					unicornf12
 					unicornf13
+					unicornf14
+					unicornf15
 					
 					unicornh1
 					unicornh2
@@ -888,6 +977,12 @@ portrait_groups = {
 						earthf13
 						earthf14
 						earthf15
+						earthf16
+						earthf17
+						earthf18
+						earthf19
+						earthf20
+						earthf21
 						
 						earthh1
 						earthh2
@@ -918,6 +1013,12 @@ portrait_groups = {
 					earthf13
 					earthf14
 					earthf15
+					earthf16
+					earthf17
+					earthf18
+					earthf19
+					earthf20
+					earthf21
 					
 					earthh1
 					earthh2
@@ -948,6 +1049,12 @@ portrait_groups = {
 					earthf13
 					earthf14
 					earthf15
+					earthf16
+					earthf17
+					earthf18
+					earthf19
+					earthf20
+					earthf21
 					
 					earthh1
 					earthh2
@@ -978,6 +1085,12 @@ portrait_groups = {
 					earthf13
 					earthf14
 					earthf15
+					earthf16
+					earthf17
+					earthf18
+					earthf19
+					earthf20
+					earthf21
 				
 					earthh1
 					earthh2
@@ -1008,6 +1121,12 @@ portrait_groups = {
 					earthf13
 					earthf14
 					earthf15
+					earthf16
+					earthf17
+					earthf18
+					earthf19
+					earthf20
+					earthf21
 						
 					earthh1
 					earthh2
@@ -1034,6 +1153,9 @@ portrait_groups = {
 						crystalf4
 						crystalf5
 						crystalf6
+						crystalf7
+						crystalf8
+						crystalf9
 				}
 			}
 		}
@@ -1046,6 +1168,9 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
+					crystalf7
+					crystalf8
+					crystalf9
 				}
 			}
 		}
@@ -1058,6 +1183,9 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
+					crystalf7
+					crystalf8
+					crystalf9
 				}
 			}
 		}
@@ -1071,6 +1199,9 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
+					crystalf7
+					crystalf8
+					crystalf9
 				}
 			}
 
@@ -1085,6 +1216,9 @@ portrait_groups = {
 					crystalf4
 					crystalf5
 					crystalf6
+					crystalf7
+					crystalf8
+					crystalf9
                 }
             }
         }

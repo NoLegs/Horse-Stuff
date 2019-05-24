@@ -35,6 +35,9 @@ civic_dark_imperator_desc:0 "This society is lead by the Dark Imperator, a ruler
 
 civic_solar_goddess:0 "Solar Goddess"
 civic_solar_goddess_desc:0 "This society is lead by a goddess of the sun, a ruler who wields immense power both magical and political. They are worshiped by all within their nation, and those who don't are considered enemies of the state.\n\nYour ruler is given several strong traits, making them immortal and giving your leader powerful bonuses."
+
+civic_empress_of_the_night:0 "Empress of the Night"
+civic_empress_of_the_night_desc:0 "This society is lead by the Empress of the Night, a ruler who wields power over the raising and lowering of the moon. They are a naturally born and immortal alicorn, having ruled the nation for quite some time.\n\nYour ruler is given the §BEmpress of the Night§! trait, making them immortal and giving your leader the powerful bonuses."
 ### Traits ###
 leader_trait_alicorn_ruler:0 "Alicorn Ruler"
 leader_trait_alicorn_ruler_desc:0 "This ruler is an immortal Alicorn."
@@ -42,17 +45,20 @@ leader_trait_alicorn_ruler_desc:0 "This ruler is an immortal Alicorn."
 leader_trait_changeling_queen:0 "Changeling Queen"
 leader_trait_changeling_queen_desc:0 "This ruler is seen as the mother and ruler of all Changelings, and she spreads love to all of her subjects. A Changeling Queen is skilled in all things involving deciet and espionage."
 
-leader_trait_dark_queen:0 "Dark Queen"
-leader_trait_dark_queen_desc:0 "This ruler is incredibly skilled in dark magic, and has extended their lifespan to an unending degree."
+leader_trait_dark_imperator:0 "Dark Imperator"
+leader_trait_dark_imperator_desc:0 "This ruler is incredibly skilled in dark magic, and has extended their lifespan to an unending degree."
 
 leader_trait_solar_goddess:0 "Solar Goddess"
-leader_trait_solar_goddess_desc:0 "This ruler is the physical embodiment of the Sun and is worshipped as a deity. They are considered to have complete control over the stars themselves and are loved by all."
+leader_trait_solar_goddess_desc:0 "This ruler is the physical embodiment of the Sun and is worshipped as a deity. They are considered to have control over the stars themselves."
 
 leader_trait_fiery_fanaticism:0 "Feiry Fanaticism"
 leader_trait_fiery_fanaticism_desc:0 "This ruler inspires an incredible fanaticism inside of their followers. Their subjects are willing and ready to do whatever it takes to please their ruler."
 
 leader_trait_supernova:0 "Supernova"
 leader_trait_supernova_desc:0 "This ruler is knowledgable in all things relating to stars, the great big explosions in the sky."
+
+leader_trait_empress_of_the_night:0 "Empress of the Night"
+leader_trait_empress_of_the_night_desc:0 "This ruler is the physical emobdiment of the Moon and is considered to have control over the stars themselves."
 
 ### System initilizersiriirs ###
 

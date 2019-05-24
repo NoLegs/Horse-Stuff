@@ -10,6 +10,19 @@ portraits = {
 	changelingf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf8.dds"	}
 	changelingf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf9.dds"	}
 	changelingf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf10.dds"	}
+	changelingf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf11.dds"	}
+	changelingf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf12.dds"	}
+	changelingf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf13.dds"	}
+	changelingf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf14.dds"	}
+	changelingf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf15.dds"	}
+	changelingf16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf16.dds"	}
+	changelingf17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf17.dds"	}
+	
+	changelingh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh1.dds"	}
+	changelingh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh2.dds"	}
+	changelingh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh3.dds"	}
+	changelingh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh4.dds"	}
+	changelingh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh5.dds"	}
 	
 }
 
@@ -29,6 +42,19 @@ portrait_groups = {
 						changelingf8
 						changelingf9
 						changelingf10
+						changelingf11
+						changelingf12
+						changelingf13
+						changelingf14
+						changelingf15
+						changelingf16
+						changelingf17
+						
+						changelingh1
+						changelingh2
+						changelingh3
+						changelingh4
+						changelingh5
 				}
 			}
 		}
@@ -45,6 +71,19 @@ portrait_groups = {
 					changelingf8
 					changelingf9
 					changelingf10
+					changelingf11
+					changelingf12
+					changelingf13
+					changelingf14
+					changelingf15
+					changelingf16
+					changelingf17
+					
+					changelingh1
+					changelingh2
+					changelingh3
+					changelingh4
+					changelingh5
 				}
 			}
 		}
@@ -61,6 +100,19 @@ portrait_groups = {
 					changelingf8
 					changelingf9
 					changelingf10
+					changelingf11
+					changelingf12
+					changelingf13
+					changelingf14
+					changelingf15
+					changelingf16
+					changelingf17
+					
+					changelingh1
+					changelingh2
+					changelingh3
+					changelingh4
+					changelingh5
 				}
 			}
 		}
@@ -78,6 +130,19 @@ portrait_groups = {
 					changelingf8
 					changelingf9
 					changelingf10
+					changelingf11
+					changelingf12
+					changelingf13
+					changelingf14
+					changelingf15
+					changelingf16
+					changelingf17
+					
+					changelingh1
+					changelingh2
+					changelingh3
+					changelingh4
+					changelingh5
 				}
 			}
 
@@ -96,6 +161,19 @@ portrait_groups = {
 					changelingf8
 					changelingf9
 					changelingf10
+					changelingf11
+					changelingf12
+					changelingf13
+					changelingf14
+					changelingf15
+					changelingf16
+					changelingf17
+					
+					changelingh1
+					changelingh2
+					changelingh3
+					changelingh4
+					changelingh5
                 }
             }
         }
