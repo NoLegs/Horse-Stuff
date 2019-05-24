@@ -177,7 +177,7 @@ civic_solar_goddess = {
 		}
 	}
 	modifier = {
-		country_base_influence_produces_add = 0.5
+		country_base_influence_produces_add = 1
 		pop_government_ethic_attraction = 0.25
 	}
 }
