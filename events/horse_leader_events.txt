@@ -1,0 +1,20 @@
+country_event = {
+	id = hrs_horse_leader.101
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		from = {
+			OR = {
+				species = { is_species_class = HRS }
+			}
+			gender = male
+		}
+	}
+
+	immediate = {
+		from = {
+			set_is_female = yes
+		}
+	}
+}
