@@ -4,5 +4,11 @@ on_ruler_set = {
 		horse.2
 		horse.3
 		horse.4
+		horse.5
+	}
+}
+on_leader_spawned = {
+	events = {
+		hrs_horse_leader.101
 	}
 }
