@@ -1,0 +1,42 @@
+portraits = {
+	cadeF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/cadeF1.dds"	}
+	cadeF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/cadeF2.dds"	}
+	cadeF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/cadeF3.dds"	}
+	cadeF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/cadeF4.dds"	}
+	cadeH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/cadeH1.dds"	}
+	cadeH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/cadeH2.dds"	}
+	
+	celeF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/celeF1.dds"	}
+	celeF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/celeF2.dds"	}
+	celeF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/celeF3.dds"	}
+	celeF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/celeF4.dds"	}
+	celeF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/celeF5.dds"	}
+	celeH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/celeH1.dds"	}
+	celeH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/celeH2.dds"	}
+	
+	dbreakF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/dbreakF1.dds"	}
+	dbreakF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/dbreakF2.dds"	}
+	dbreakF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/dbreakF3.dds"	}
+	dbreakF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/dbreakF4.dds"	}
+	
+	lunaF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/lunaF1.dds"	}
+	lunaF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/lunaF2.dds"	}
+	lunaF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/lunaF3.dds"	}
+	lunaF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/lunaF4.dds"	}
+	lunaF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/lunaF5.dds"	}
+	lunaH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/lunaH1.dds"	}
+	lunaH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/lunaH2.dds"	}
+	
+	nightF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/nightF1.dds"	}
+	nightF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/nightF2.dds"	}
+	nightF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/nightF3.dds"	}
+	nightF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/nightF4.dds"	}
+	nightH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/nightH1.dds"	}
+	nightH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/nightH2.dds"	}
+	
+	somF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/somF1.dds"	}
+	somF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/somF2.dds"	}
+	somF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/somF3.dds"	}
+	somF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/somF4.dds"	}
+	somF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/somF5.dds"	}
+}

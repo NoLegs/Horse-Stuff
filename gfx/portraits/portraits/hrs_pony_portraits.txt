@@ -51,13 +51,7 @@ portraits = {
 	earthf19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf19.dds"	}
 	earthf20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf20.dds"	}
 	earthf21 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthf21.dds"	}
-	
-	alicornf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf1.dds"	}
-	alicornf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf2.dds"	}
-	alicornf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf3.dds"	}
-	alicornf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf4.dds"	}
-	alicornf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornf5.dds"	}
-	
+
 	crystalf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf1.dds"	}
 	crystalf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf2.dds"	}
 	crystalf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf3.dds"	}
@@ -67,10 +61,6 @@ portraits = {
 	crystalf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf7.dds"	}
 	crystalf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf8.dds"	}
 	crystalf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/crystalf9.dds"	}
-	
-	alicornh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornh1.dds"	}
-	alicornh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornh2.dds"	}
-	alicornh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/alicornh3.dds"	}
 	
 	earthh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthh1.dds"	}
 	earthh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/pony/earthh2.dds"	}
@@ -99,19 +89,29 @@ portraits = {
 
 portrait_groups = {
     unitedpony = {
-		default = alicornf1
+		default = celeF1
 		game_setup = { 
            		add = {
                 	portraits = {
-						alicornf1
-						alicornf2
-						alicornf3
-						alicornf4
-						alicornf5
+						cadeF1 cadeF2 cadeF3 cadeF4 
 						
-						alicornh1
-						alicornh2
-						alicornh3
+						cadeH1 cadeH2
+						
+						celeF1 celeF2 celeF3 celeF4 celeF5
+						
+						celeH1 celeH2
+						
+						dbreakF1 dbreakF2 dbreakF3 dbreakF4
+						
+						lunaF1 lunaF2 lunaF3 lunaF4 lunaF5
+						
+						lunaH1 lunaH2
+						
+						nightF1 nightF2 nightF3 nightF4
+						
+						nightH1 nightH2
+						
+						somF1 somF2 somF3 somF4 somF5
 						
 						pegasusf1
 						pegasusf2
@@ -424,18 +424,8 @@ portrait_groups = {
 		}
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-           		add = {
-                	portraits = {
-					alicornf1
-					alicornf2
-					alicornf3
-					alicornf4
-					alicornf5
-						
-					alicornh1
-					alicornh2
-					alicornh3
-						
+           	add = {
+                portraits = {
 					pegasusf1
 					pegasusf2
 					pegasusf3
@@ -535,22 +525,32 @@ portrait_groups = {
 					zebraf12
 				}
 			}
-
 		}	
 		#leader scope 
 		ruler = {
            	add = {
                 portraits = {
-					alicornf1
-					alicornf2
-					alicornf3
-					alicornf4
-					alicornf5
-						
-					alicornh1
-					alicornh2
-					alicornh3
-						
+				
+					cadeF1 cadeF2 cadeF3 cadeF4 
+					
+					cadeH1 cadeH2
+					
+					celeF1 celeF2 celeF3 celeF4 celeF5
+					
+					celeH1 celeH2
+					
+					dbreakF1 dbreakF2 dbreakF3 dbreakF4
+					
+					lunaF1 lunaF2 lunaF3 lunaF4 lunaF5
+					
+					lunaH1 lunaH2
+					
+					nightF1 nightF2 nightF3 nightF4
+					
+					nightH1 nightH2
+					
+					somF1 somF2 somF3 somF4 somF5
+					
 					pegasusf1
 					pegasusf2
 					pegasusf3
@@ -1143,11 +1143,10 @@ portrait_groups = {
 
 portrait_groups = {
     crystal = {
-		default = crystalf1
+		default = somF1
 		game_setup = { 
            		add = {
                 	portraits = {
-						crystalf1
 						crystalf2
 						crystalf3
 						crystalf4
@@ -1193,7 +1192,6 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					crystalf1
 					crystalf2
 					crystalf3
 					crystalf4
@@ -1210,7 +1208,9 @@ portrait_groups = {
 		ruler = {
 			add = {
 				portraits = {
-					crystalf1
+				
+					somF1 somF2 somF3 somF4 somF5
+					
 					crystalf2
 					crystalf3
 					crystalf4
