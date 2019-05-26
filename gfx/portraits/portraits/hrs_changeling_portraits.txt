@@ -1,6 +1,5 @@
 portraits = {
 
-	changelingf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf1.dds"	}
 	changelingf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf2.dds"	}
 	changelingf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf3.dds"	}
 	changelingf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf4.dds"	}
@@ -18,7 +17,6 @@ portraits = {
 	changelingf16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf16.dds"	}
 	changelingf17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf17.dds"	}
 	
-	changelingh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh1.dds"	}
 	changelingh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh2.dds"	}
 	changelingh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh3.dds"	}
 	changelingh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh4.dds"	}
@@ -28,11 +26,14 @@ portraits = {
 
 portrait_groups = {
     changeling = {
-		default = changelingf1
+		default = chrysF1
 		game_setup = { 
            		add = {
                 	portraits = {
-						changelingf1
+						chrysF1 chrysF2 chrysF3 chrysF4 chrysF5
+						
+						chrysH1 chrysH2
+					
 						changelingf2
 						changelingf3
 						changelingf4
@@ -50,7 +51,6 @@ portrait_groups = {
 						changelingf16
 						changelingf17
 						
-						changelingh1
 						changelingh2
 						changelingh3
 						changelingh4
@@ -79,7 +79,6 @@ portrait_groups = {
 					changelingf16
 					changelingf17
 					
-					changelingh1
 					changelingh2
 					changelingh3
 					changelingh4
@@ -108,7 +107,6 @@ portrait_groups = {
 					changelingf16
 					changelingf17
 					
-					changelingh1
 					changelingh2
 					changelingh3
 					changelingh4
@@ -120,7 +118,6 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					changelingf1
 					changelingf2
 					changelingf3
 					changelingf4
@@ -138,7 +135,6 @@ portrait_groups = {
 					changelingf16
 					changelingf17
 					
-					changelingh1
 					changelingh2
 					changelingh3
 					changelingh4
@@ -151,7 +147,10 @@ portrait_groups = {
 		ruler = {
 			add = {
 				portraits = {
-					changelingf1
+					chrysF1 chrysF2 chrysF3 chrysF4 chrysF5
+					
+					chrysH1 chrysH2
+					
 					changelingf2
 					changelingf3
 					changelingf4
@@ -169,7 +168,6 @@ portrait_groups = {
 					changelingf16
 					changelingf17
 					
-					changelingh1
 					changelingh2
 					changelingh3
 					changelingh4

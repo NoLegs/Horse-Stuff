@@ -39,4 +39,12 @@ portraits = {
 	somF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/somF3.dds"	}
 	somF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/somF4.dds"	}
 	somF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/somF5.dds"	}
+	
+	chrysF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/chrysF1.dds"	}
+	chrysF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/chrysF2.dds"	}
+	chrysF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/chrysF3.dds"	}
+	chrysF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/chrysF4.dds"	}
+	chrysF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/chrysF5.dds"	}
+	chrysH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/chrysH1.dds"	}
+	chrysH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/chrysH2.dds"	}
 }

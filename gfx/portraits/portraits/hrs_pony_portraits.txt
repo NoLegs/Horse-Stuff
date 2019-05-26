@@ -1147,6 +1147,8 @@ portrait_groups = {
 		game_setup = { 
            		add = {
                 	portraits = {
+						somF1 somF2 somF3 somF4 somF5
+						
 						crystalf2
 						crystalf3
 						crystalf4
