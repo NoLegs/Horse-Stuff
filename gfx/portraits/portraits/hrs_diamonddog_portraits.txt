@@ -1,17 +1,17 @@
 portraits = {
 
-	diamonddogf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf1.dds"	}
-	diamonddogf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf2.dds"	}
-	diamonddogf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf3.dds"	}
-	diamonddogf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf4.dds"	}
-	diamonddogf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf5.dds"	}
-	diamonddogf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf6.dds"	}
-	diamonddogf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf7.dds"	}	
-	diamonddogf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf8.dds"	}
-	diamonddogf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf9.dds"	}
-	diamonddogf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf10.dds"	}
-	diamonddogf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf11.dds"	}
-	diamonddogf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/diamonddog/diamonddogf12.dds"	}
+	diamonddogf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf1.dds"	}
+	diamonddogf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf2.dds"	}
+	diamonddogf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf3.dds"	}
+	diamonddogf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf4.dds"	}
+	diamonddogf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf5.dds"	}
+	diamonddogf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf6.dds"	}
+	diamonddogf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf7.dds"	}	
+	diamonddogf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf8.dds"	}
+	diamonddogf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf9.dds"	}
+	diamonddogf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf10.dds"	}
+	diamonddogf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf11.dds"	}
+	diamonddogf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf12.dds"	}
 
 }
 

@@ -1,26 +1,26 @@
 portraits = {
 
-	changelingf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf2.dds"	}
-	changelingf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf3.dds"	}
-	changelingf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf4.dds"	}
-	changelingf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf5.dds"	}
-	changelingf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf6.dds"	}
-	changelingf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf7.dds"	}
-	changelingf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf8.dds"	}
-	changelingf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf9.dds"	}
-	changelingf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf10.dds"	}
-	changelingf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf11.dds"	}
-	changelingf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf12.dds"	}
-	changelingf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf13.dds"	}
-	changelingf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf14.dds"	}
-	changelingf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf15.dds"	}
-	changelingf16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf16.dds"	}
-	changelingf17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingf17.dds"	}
+	changelingf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf2.dds"	}
+	changelingf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf3.dds"	}
+	changelingf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf4.dds"	}
+	changelingf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf5.dds"	}
+	changelingf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf6.dds"	}
+	changelingf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf7.dds"	}
+	changelingf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf8.dds"	}
+	changelingf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf9.dds"	}
+	changelingf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf10.dds"	}
+	changelingf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf11.dds"	}
+	changelingf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf12.dds"	}
+	changelingf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf13.dds"	}
+	changelingf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf14.dds"	}
+	changelingf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf15.dds"	}
+	changelingf16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf16.dds"	}
+	changelingf17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf17.dds"	}
 	
-	changelingh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh2.dds"	}
-	changelingh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh3.dds"	}
-	changelingh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh4.dds"	}
-	changelingh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/changeling/changelingh5.dds"	}
+	changelingh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh2.dds"	}
+	changelingh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh3.dds"	}
+	changelingh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh4.dds"	}
+	changelingh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh5.dds"	}
 	
 }
 

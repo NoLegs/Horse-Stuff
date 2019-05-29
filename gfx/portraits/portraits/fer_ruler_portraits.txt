@@ -1,0 +1,21 @@
+portraits = {
+	FERcadeF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERcadeF1.dds"	}
+	FERcadeF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERcadeF2.dds"	}
+	FERcadeF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERcadeF3.dds"	}
+	
+	FERceleF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERceleF1.dds"	}
+	FERceleF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERceleF2.dds"	}
+	
+	FERlunaF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERlunaF1.dds"	}
+	FERlunaF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERlunaF2.dds"	}
+	FERlunaF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERlunaF3.dds"	}
+	FERlunaF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERlunaF4.dds"	}
+	FERlunaF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERlunaF5.dds"	}
+	
+	FERnightF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERnightF1.dds"	}
+	FERnightF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERnightF2.dds"	}
+	
+	FERtwiF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERtwiF1.dds"	}
+	FERtwiF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/FERtwiF2.dds"	}
+	
+}
