@@ -7,6 +7,30 @@ HRS = {
 		name_list = "horse"
 	}
 	
+	pegasus = {
+		name = Pegasus
+		plural = Pegasi
+		home_planet = Aurora
+		home_system = "Vaporia"
+		name_list = "horse"
+	}
+	
+	unicorn = {
+		name = Unicorn
+		plural = Unicorns
+		home_planet = Starside
+		home_system = "Unicornia"
+		name_list = "horse"
+	}
+	
+	earth_pony = {
+		name = Earth Pony
+		plural = Earth Ponies
+		home_planet = Terra
+		home_system = "Sol Terra"
+		name_list = "horse"
+	}
+	
 	changeling = {
 		name = Changeling
 		plural = Changelings
@@ -20,6 +44,88 @@ HRS = {
 		plural = Griffons
 		home_planet = Griffonia
 		home_system = "Grifux"
+		name_list = "horse"
+	}
+	
+	zebra = {
+		name = Zebra
+		plural = Zebras
+		home_planet = Zebrica
+		home_system = "Illanga"
+		name_list = "horse"
+	}
+	
+	diamond_dog = {
+		name = Diamond Dog
+		plural = Diamond Dogs
+		home_planet = Gemmix
+		home_system = "Diamondia"
+		name_list = "horse"
+	}
+}
+
+FER = {
+	equestrian = {
+		name = Equestrian
+		plural = Equestrians
+		home_planet = Equestria
+		home_system = "Equus"
+		name_list = "horse"
+	}
+	
+	pegasus = {
+		name = Pegasus
+		plural = Pegasi
+		home_planet = Aurora
+		home_system = "Vaporia"
+		name_list = "horse"
+	}
+	
+	unicorn = {
+		name = Unicorn
+		plural = Unicorns
+		home_planet = Starside
+		home_system = "Unicornia"
+		name_list = "horse"
+	}
+	
+	earth_pony = {
+		name = Earth Pony
+		plural = Earth Ponies
+		home_planet = Terra
+		home_system = "Sol Terra"
+		name_list = "horse"
+	}
+	
+	changeling = {
+		name = Changeling
+		plural = Changelings
+		home_planet = Vesalipol
+		home_system = "Ixtrix"
+		name_list = "horse"
+	}
+	
+	griffon = {
+		name = Griffon
+		plural = Griffons
+		home_planet = Griffonia
+		home_system = "Grifux"
+		name_list = "horse"
+	}
+	
+	zebra = {
+		name = Zebra
+		plural = Zebras
+		home_planet = Zebrica
+		home_system = "Illanga"
+		name_list = "horse"
+	}
+	
+	diamond_dog = {
+		name = Diamond Dog
+		plural = Diamond Dogs
+		home_planet = Gemmix
+		home_system = "Diamondia"
 		name_list = "horse"
 	}
 }

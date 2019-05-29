@@ -1,0 +1,132 @@
+portraits = {
+	feraluniF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF01.dds"	}
+	feraluniF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF02.dds"	}
+	feraluniF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF03.dds"	}
+	feraluniF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF04.dds"	}
+	feraluniF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF05.dds"	}
+	feraluniF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF06.dds"	}
+	feraluniF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF07.dds"	}
+	feraluniF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF08.dds"	}
+	feraluniF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF09.dds"	}
+	feraluniF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralpony/feraluniF10.dds"	}
+}
+
+portrait_groups = {
+    feralunited = {
+		default = feralceleF01
+		game_setup = { 
+           	add = {
+                portraits = {
+					feralcadeF01 feralcadeF02 feralcadeF03
+					
+					feralceleF01 feralceleF02
+					
+					ferallunaF01 ferallunaF02 ferallunaF03 ferallunaF04 ferallunaF05
+					
+					feralnightF01 feralnightF02
+					
+					feraltwiF01 feraltwiF02
+					
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+           	add = {
+                portraits = {
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+           	add = {
+                portraits = {
+					feralcadeF01 feralcadeF02 feralcadeF03
+					
+					feralceleF01 feralceleF02
+					
+					ferallunaF01 ferallunaF02 ferallunaF03 ferallunaF04 ferallunaF05
+					
+					feralnightF01 feralnightF02
+					
+					feraltwiF01 feraltwiF02
+					
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+        }
+	}
+}
+
+portrait_groups = {
+    feralunicorn = {
+		default = feraluniF01
+		game_setup = { 
+           	add = {
+                portraits = {
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+           	add = {
+                portraits = {
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+           	add = {
+                portraits = {
+					feraluniF01 feraluniF02 feraluniF03 feraluniF04 feraluniF05
+					feraluniF06 feraluniF07 feraluniF08 feraluniF09 feraluniF10
+				}
+			}
+        }
+	}
+}

@@ -101,7 +101,7 @@ portrait_groups = {
 						
 						celeH1 celeH2
 						
-						dbreakF1 dbreakF2 dbreakF3 dbreakF4
+						dbreakF1 dbreakF2
 						
 						lunaF1 lunaF2 lunaF3 lunaF4 lunaF5
 						
@@ -539,7 +539,7 @@ portrait_groups = {
 					
 					celeH1 celeH2
 					
-					dbreakF1 dbreakF2 dbreakF3 dbreakF4
+					dbreakF1 dbreakF2
 					
 					lunaF1 lunaF2 lunaF3 lunaF4 lunaF5
 					

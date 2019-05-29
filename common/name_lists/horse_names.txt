@@ -2,56 +2,59 @@
 horse= {
 	ship_names = {
 		generic = {
-		"Easy Glider" 	"Purple Dart" 	"Fair Weather" 	"Fairy Flight" 	"Flair d'Mare" 	"Thornhoof" 	"Brumby Cloverpatch" 	"Wave Chill" 
-		"Bloomberg" 	"Tiberius" 		"Winona" 		"Boneless" 		 "Brutus Force" "Fernando"		"Madame le Flour"
-		"Sir Lintsalot"	"Rocky"			"Smarty Pants"	"Tom"			"Mr. Turnip"	"Golden Oak"	"Opalescence"			"Gummy"
-		"Owliscious"	"Angel"			"Harry"			"Tank"			"Smart Cookie"	"Private Pansy" "Breezie"		"Parasprite"	
-		"Sun Chaser"    "Trail Blazer"  "Burning Hoof"
+			"Easy Glider" "Purple Dart" "Fair Weather" "Fairy Flight" "Flair d'Mare" "Thornhoof" "Brumby Cloverpatch" "Wave Chill" "Bloomberg" "Tiberius" "Winona" "Boneless" "Brutus Force" "Fernando" "Madame le Flour" "Sir Lintsalot"	"Rocky" "Smarty Pants" "Tom" "Mr. Turnip" "Golden Oak" "Opalescence" "Gummy" "Owliscious" "Angel" "Harry" "Tank" "Smart Cookie" "Private Pansy" "Breezie" "Parasprite" "Sun Chaser"    "Trail Blazer"  "Burning Hoof" "Little Buddy" "The Hopper" "Iron Hoof" "Starlight" "Burning Trail" "Horseshoe" "Snowfall Forst" "Discord"  "Windigo" "Ember" "Party Bus" "Commander Hurricane"  "Saddle Rager" "Zapp" "Matter-Horn" "Fili-Second" "Radiance" "Mistress Mare-velous" "Star Swirl"  "Mane-iac" "Philomena" "Amore" "Cerberus" "Chimera" "Cockatrice" "Hydra" "Manticore" "Cragadile" "Tatzlwurm" "Ursas" "Timberwolves" "Twittermite" "Tantabus" "Party Bringer" "Sun Burst" "Solar Stalwart" "Rainbow Watcher" "Cloud Gazer" "Star Seer" "Solar Salute" "Lucky Seed" "Little Bloom" "Faint Glare" "Fleet Star" "Mini Factory" "Leather Hoof" "Concrete Hoof"	
 		}
 
-		corvette = { "Little Buddy" "The Hopper" 
+		corvette = {
 		}
 		
-		destroyer = { "Iron Hoof" "Starlight" "Burning Trail"
+		destroyer = {
 		}
 		
-		cruiser = { "Horseshoe" "Snowfall Forst" "Discord"  "Windigo" "Ember" "Party Bus"
+		cruiser = {
 		}
-		battleship = { "Commander Hurricane"  "Saddle Rager" "Zapp" "Matter-Horn" "Fili-Second" "Radiance" "Mistress Mare-velous" "Star Swirl"  "Mane-iac" "Philomena" "Amore" "Cerberus" "Chimera" "Cockatrice" "Hydra" 
-		"Manticore" "Cragadile Tatzlwurm" 	"Ursas" "Timberwolves"	"Twittermite" "Tantabus" "Party Bringer" "Sun Burst" "Solar Stalwart"
+		
+		battleship = {
 		}
-		science = { "Rainbow Watcher" "Cloud Gazer" "Star Seer" "Solar Salute"
-			
+
+		titan = {
 		}
+
+		colossus = {
+		}
+		
+		science = {
+		}
+		
 		colonizer = {
-			"Lucky Seed" "Little Bloom" "Faint Glare" "Fleet Star"
 		}
-		constructor = { 
-			"Mini Factory" "Leather Hoof" "Concrete Hoof"	
-		}
-		mining_station = { }
-		research_station = { }
-		observation_station = { }
-		military_station_small = {
-			sequential_name = "%O% Boulder"
-		}
-		military_station_medium = {
-			sequential_name = "%O% Tom"
-		}
-		military_station_large = {
-			sequential_name = "%O% Holder's Boulder"
 		
+		constructor = {
+		}
+
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
 		}	
+	}
+	
+	ship_class_names = {
+		generic = {
+			Harmony Generosity Friendship Laughter Kindness Magic Loyalty Honesty Love Elements
+		}		
 	}
 
 	fleet_names = {
 		random_names = {
-			"Wonderbolts" "Shadowbolts" "Fightin' Herds" "Guardians of Harmony" "Cutiemark Crusaders" "Queen's Guard" "Starlight's Glimmer"
+			"Wonderbolts" "Shadowbolts" "Fightin' Herds" "Guardians of Harmony" "Cutiemark Crusaders" "Queen's Guard" "Solar Guard" "Royal Navy"
 		}
 	}
 	
 	army_names = {
-	
 		defense_army = {
 			sequential_name = "%O% Royal Guard"
 		}
@@ -61,31 +64,49 @@ horse= {
 		}
 		
 		slave_army = {
-			sequential_name = "%O% Friendship Corps"
+			sequential_name = "%O% Penal Guard"
 		}
 		
 		clone_army = { 
-			sequential_name = "%O% Mirror Creature"
+			sequential_name = "%O% Guard Clones"
 		}
 		
 		robotic_army = {
-			sequential_name = "%O% Crystaled Umbrum"
+			sequential_name = "%O% Golem Army"
 		}
-		
-		android_army = {
-			sequential_name = "%O% Crytaling"
+
+		robotic_defense_army = {
+			sequential_name = "%O% Golem Guard"
 		}
 		
 		psionic_army = { 
-			sequential_name = "%O% Alicorn Ranger"
+			sequential_name = "%O% Unicorn Company"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%O% Dragon troops"
+			sequential_name = "%O% Dragon Troops"
 		}
 		
 		gene_warrior_army = {
 			sequential_name = "%O% SMILE Division"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Royal Occupation Guard"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Golem Occupiers"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
 		}
 	}
 
@@ -95,34 +116,27 @@ horse= {
 
 		generic = {
 			names = {
-			 "Canterlot" "Starsdale" "Everfree" "New Manehattan" "Appleloosa" "Winsome Falls" "Fillydelphia" "New Trottingham" "Las Pegasus" "New Hoofington" 
-			 "Everhoof " "Applewood" "White Tail" "Ghastly Gorge" "Dodge Junction" "Smokey Mountains" "Breezie Village" "Seaward Shoals" "Puerto Caballo"
-			 "Whinnyapolis" "Pinto Creek" "Hoof City" "Maretonia" "New Maresland" "Crystal City" "Iron Hoofington" "Our Town" "Party Planet"
-			 
-			 
+				"New Canterlot" "Starsdale" "Everfree" "New Manehattan" "Appleloosa" "Winsome Falls" "Fillydelphia" "New Trottingham" "Las Pegasus" "New Hoofington" "Everhoof " "Applewood" "White Tail" "Ghastly Gorge" "Dodge Junction" "Smokey Mountains" "Breezie Village" "Seaward Shoals" "Puerto Caballo" "Whinnyapolis" "Pinto Creek" "Hoof City" "Maretonia" "New Maresland" "Crystallia" "Iron Hoofington" "Our Town" "Party Planet" "New Stalliongrad" "Dapplehoof" "Canterbury" "Saddle Arabia" "Marelin" "Detrot" "Windsoar" "Tramplevania" "Manebourne" "Pearis" "Guadeloope" "Escargoat" "Hoofswell" "Stableside" "Grazeld" "Alexmanedria" "Steebs" "Coltro" "Gazelle" "Amarezon" "Concordia" "Equadoe" "Fawntine" "Elksburg" "Seaddle" "Istanbull" "Alfalfa" "Buckswana" "Whoazambique" "Himallama"
 			}
 		}
 		
 		pc_desert = {
 			names = {
-			"San Palomino" "Saddle Arabia"
-							}
+			}
 		}
 		
 		pc_tropical = {
 			names = {
-					}
+			}
 		}
 		
 		pc_arid = {
 			names = {
-				
-				}
+			}
 		}
 		
 		pc_continental = {
-			names = { 
-			"Green Jewel"
+			names = {
 			}
 		}
 		
@@ -137,6 +151,16 @@ horse= {
 		}
 		
 		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
 			names = {
 			}
 		}
@@ -159,7 +183,6 @@ horse= {
 				Pie 	Hooves 	Starlight	Sunset 		Rainbow 	Rain 	Pear 		Rose 		Lyra 	Sweetie 
 				Carrot 	Cherry 	Indigo 		Lemon 		Snowfall 	Snow 	Windy 		Sunny		Star 	Stormy
 				Loving  Pinky   Derpy       Strong      Curie       Flim
-				 
 			}
 			
 			

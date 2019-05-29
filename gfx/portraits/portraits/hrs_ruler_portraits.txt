@@ -16,8 +16,6 @@ portraits = {
 	
 	dbreakF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/dbreakF1.dds"	}
 	dbreakF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/dbreakF2.dds"	}
-	dbreakF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/dbreakF3.dds"	}
-	dbreakF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/dbreakF4.dds"	}
 	
 	lunaF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/lunaF1.dds"	}
 	lunaF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/ruler/lunaF2.dds"	}
