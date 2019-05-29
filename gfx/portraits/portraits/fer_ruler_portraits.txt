@@ -1,20 +1,21 @@
 portraits = {
-	feralcadeF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/feralcadeF01.dds"	}
-	feralcadeF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/feralcadeF02.dds"	}
-	feralcadeF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/feralcadeF03.dds"	}
+	cadeF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/cadeF1.dds"	}
+	cadeF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/cadeF2.dds"	}
+	cadeF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/cadeF3.dds"	}
 	
-	feralceleF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/feralceleF01.dds"	}
-	feralceleF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/feralceleF02.dds"	}
+	celeF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/celeF1.dds"	}
+	celeF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/celeF2.dds"	}
 	
-	ferallunaF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/ferallunaF01.dds"	}
-	ferallunaF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/ferallunaF02.dds"	}
-	ferallunaF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/ferallunaF03.dds"	}
-	ferallunaF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/ferallunaF04.dds"	}
-	ferallunaF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/ferallunaF05.dds"	}
+	lunaF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/lunaF1.dds"	}
+	lunaF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/lunaF2.dds"	}
+	lunaF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/lunaF3.dds"	}
+	lunaF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/lunaF4.dds"	}
+	lunaF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/lunaF5.dds"	}
 	
-	feralnightF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/feralnightF01.dds"	}
-	feralnightF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/feralnightF02.dds"	}
+	nightF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/nightF1.dds"	}
+	nightF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/nightF2.dds"	}
 	
-	feraltwiF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/feraltwiF01.dds"	}
-	feraltwiF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feralruler/feraltwiF02.dds"	}
+	twiF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/twiF1.dds"	}
+	twiF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ruler/twiF2.dds"	}
+	
 }

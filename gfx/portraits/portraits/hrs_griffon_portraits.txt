@@ -1,16 +1,16 @@
 portraits = {
 
-	griffonf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf1.dds"	}
-	griffonf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf2.dds"	}
-	griffonf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf3.dds"	}
-	griffonf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf4.dds"	}
-	griffonf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf5.dds"	}
-	griffonf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf6.dds"	}
-	griffonf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf7.dds"	}	
-	griffonf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf8.dds"	}
-	griffonf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf9.dds"	}
-	griffonf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf10.dds"	}
-	griffonf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/griffon/griffonf11.dds"	}
+	griffonf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf1.dds"	}
+	griffonf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf2.dds"	}
+	griffonf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf3.dds"	}
+	griffonf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf4.dds"	}
+	griffonf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf5.dds"	}
+	griffonf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf6.dds"	}
+	griffonf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf7.dds"	}	
+	griffonf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf8.dds"	}
+	griffonf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf9.dds"	}
+	griffonf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf10.dds"	}
+	griffonf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/griffon/griffonf11.dds"	}
 
 }
 
