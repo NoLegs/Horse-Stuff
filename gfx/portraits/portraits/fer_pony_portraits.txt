@@ -1,42 +1,42 @@
 portraits = {
-	earthF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF1.dds"	}
-	earthF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF2.dds"	}
-	earthF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF3.dds"	}
-	earthF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF4.dds"	}
-	earthF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF5.dds"	}
-	earthF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF6.dds"	}
-	earthF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF7.dds"	}
-	earthF8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF8.dds"	}
-	earthF9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF9.dds"	}
-	earthF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF10.dds"	}
+	FERearthF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF1.dds"	}
+	FERearthF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF2.dds"	}
+	FERearthF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF3.dds"	}
+	FERearthF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF4.dds"	}
+	FERearthF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF5.dds"	}
+	FERearthF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF6.dds"	}
+	FERearthF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF7.dds"	}
+	FERearthF8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF8.dds"	}
+	FERearthF9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF9.dds"	}
+	FERearthF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/earthF10.dds"	}
 	
-	pegaF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF1.dds"	}
-	pegaF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF2.dds"	}
-	pegaF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF3.dds"	}
-	pegaF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF4.dds"	}
-	pegaF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF5.dds"	}
-	pegaF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF6.dds"	}
-	pegaF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF7.dds"	}
-	pegaF8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF8.dds"	}
-	pegaF9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF9.dds"	}
-	pegaF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF10.dds"	}
-	pegaF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF11.dds"	}
-	pegaF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF12.dds"	}
-	pegaF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF13.dds"	}
-	pegaF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF14.dds"	}
-	pegaF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF15.dds"	}
-	pegaF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF16.dds"	}
+	FERpegaF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF1.dds"	}
+	FERpegaF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF2.dds"	}
+	FERpegaF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF3.dds"	}
+	FERpegaF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF4.dds"	}
+	FERpegaF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF5.dds"	}
+	FERpegaF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF6.dds"	}
+	FERpegaF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF7.dds"	}
+	FERpegaF8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF8.dds"	}
+	FERpegaF9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF9.dds"	}
+	FERpegaF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF10.dds"	}
+	FERpegaF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF11.dds"	}
+	FERpegaF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF12.dds"	}
+	FERpegaF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF13.dds"	}
+	FERpegaF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF14.dds"	}
+	FERpegaF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF15.dds"	}
+	FERpegaF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/pegaF16.dds"	}
 	
-	uniF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF1.dds"	}
-	uniF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF2.dds"	}
-	uniF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF3.dds"	}
-	uniF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF4.dds"	}
-	uniF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF5.dds"	}
-	uniF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF6.dds"	}
-	uniF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF7.dds"	}
-	uniF8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF8.dds"	}
-	uniF9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF9.dds"	}
-	uniF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF10.dds"	}
+	FERuniF1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF1.dds"	}
+	FERuniF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF2.dds"	}
+	FERuniF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF3.dds"	}
+	FERuniF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF4.dds"	}
+	FERuniF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF5.dds"	}
+	FERuniF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF6.dds"	}
+	FERuniF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF7.dds"	}
+	FERuniF8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF8.dds"	}
+	FERuniF9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF9.dds"	}
+	FERuniF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/pony/uniF10.dds"	}
 }
 
 portrait_groups = {
@@ -45,26 +45,26 @@ portrait_groups = {
 		game_setup = { 
            	add = {
                 portraits = {
-					cadeF1 cadeF2 cadeF3
+					FERcadeF1 FERcadeF2 FERcadeF3
 					
-					celeF1 celeF2
+					FERceleF1 FERceleF2
 					
-					lunaF1 lunaF2 lunaF3 lunaF4 lunaF5
+					FERlunaF1 FERlunaF2 FERlunaF3 FERlunaF4 FERlunaF5
 					
-					nightF1 nightF2
+					FERnightF1 FERnightF2
 					
-					twiF1 twiF2
+					FERtwiF1 FERtwiF2
 					
-					earthF1 earthF2 earthF3 earthF4 earthF5
-					earthF6 earthF7 earthF8 earthF9 earthF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
 					
-					pegaF1 pegaF2 pegaF3 pegaF4 pegaF5
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF10
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
 					
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
 		}
@@ -73,16 +73,16 @@ portrait_groups = {
 			add = {
 				portraits = {
 					
-					earthF1 earthF2 earthF3 earthF4 earthF5
-					earthF6 earthF7 earthF8 earthF9 earthF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
 					
-					pegaF1 pegaF2 pegaF3 pegaF4 pegaF5
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF10
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
 					
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
 		}
@@ -91,16 +91,16 @@ portrait_groups = {
 			add = {
 				portraits = {
 					
-					earthF1 earthF2 earthF3 earthF4 earthF5
-					earthF6 earthF7 earthF8 earthF9 earthF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
 					
-					pegaF1 pegaF2 pegaF3 pegaF4 pegaF5
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF10
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
 					
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
 		}
@@ -109,16 +109,16 @@ portrait_groups = {
            	add = {
                 portraits = {
 					
-					earthF1 earthF2 earthF3 earthF4 earthF5
-					earthF6 earthF7 earthF8 earthF9 earthF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
 					
-					pegaF1 pegaF2 pegaF3 pegaF4 pegaF5
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF10
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
 					
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
 		}	
@@ -126,18 +126,26 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-					cadeF1 cadeF2 cadeF3
+					FERcadeF1 FERcadeF2 FERcadeF3
 					
-					celeF1 celeF2
+					FERceleF1 FERceleF2
 					
-					lunaF1 lunaF2 lunaF3 lunaF4 lunaF5
+					FERlunaF1 FERlunaF2 FERlunaF3 FERlunaF4 FERlunaF5
 					
-					nightF1 nightF2
+					FERnightF1 FERnightF2
 					
-					twiF1 twiF2
+					FERtwiF1 FERtwiF2
 					
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
+					
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
+					
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
         }
@@ -146,12 +154,12 @@ portrait_groups = {
 
 portrait_groups = {
     feralearth = {
-		default = earthF1
+		default = FERearthF1
 		game_setup = { 
            	add = {
                 portraits = {
-					earthF1 earthF2 earthF3 earthF4 earthF5
-					earthF6 earthF7 earthF8 earthF9 earthF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
 				}
 			}
 		}
@@ -159,8 +167,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					earthF1 earthF2 earthF3 earthF4 earthF5
-					earthF6 earthF7 earthF8 earthF9 earthF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
 				}
 			}
 		}
@@ -168,8 +176,8 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					earthF1 earthF2 earthF3 earthF4 earthF5
-					earthF6 earthF7 earthF8 earthF9 earthF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
 				}
 			}
 		}
@@ -177,8 +185,8 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
            	add = {
                 portraits = {
-					earthF1 earthF2 earthF3 earthF4 earthF5
-					earthF6 earthF7 earthF8 earthF9 earthF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
 				}
 			}
 		}	
@@ -186,8 +194,8 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-					earthF1 earthF2 earthF3 earthF4 earthF5
-					earthF6 earthF7 earthF8 earthF9 earthF10
+					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
+					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
 				}
 			}
         }
@@ -196,14 +204,14 @@ portrait_groups = {
 
 portrait_groups = {
     feralpega = {
-		default = pegaF1
+		default = FERpegaF1
 		game_setup = { 
            	add = {
                 portraits = {
-					pegaF1 pegaF2 pegaF3 pegaF4 pegaF5
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF10
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
 				}
 			}
 		}
@@ -211,10 +219,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					pegaF1 pegaF2 pegaF3 pegaF4 pegaF5
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF10
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
 				}
 			}
 		}
@@ -222,10 +230,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					pegaF1 pegaF2 pegaF3 pegaF4 pegaF5
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF10
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
 				}
 			}
 		}
@@ -233,10 +241,10 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
            	add = {
                 portraits = {
-					pegaF1 pegaF2 pegaF3 pegaF4 pegaF5
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF10
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
 				}
 			}
 		}	
@@ -244,10 +252,10 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-					pegaF1 pegaF2 pegaF3 pegaF4 pegaF5
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF6 pegaF7 pegaF8 pegaF9 pegaF10
-					pegaF10
+					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
+					FERpegaF10
 				}
 			}
         }
@@ -256,12 +264,12 @@ portrait_groups = {
 
 portrait_groups = {
     feralunicorn = {
-		default = uniF1
+		default = FERuniF1
 		game_setup = { 
            	add = {
                 portraits = {
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
 		}
@@ -269,8 +277,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
 		}
@@ -278,8 +286,8 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
 		}
@@ -287,8 +295,8 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
            	add = {
                 portraits = {
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
 		}	
@@ -296,8 +304,8 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-					uniF1 uniF2 uniF3 uniF4 uniF5
-					uniF6 uniF7 uniF8 uniF9 uniF10
+					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
+					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
 				}
 			}
         }

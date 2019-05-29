@@ -24,8 +24,8 @@ HRS = {
 	}
 	
 	earth_pony = {
-		name = Earth Pony
-		plural = Earth Ponies
+		name = "Earth Pony"
+		plural = "Earth Ponies"
 		home_planet = Terra
 		home_system = "Sol Terra"
 		name_list = "horse"
@@ -56,8 +56,8 @@ HRS = {
 	}
 	
 	diamond_dog = {
-		name = Diamond Dog
-		plural = Diamond Dogs
+		name = "Diamond Dog"
+		plural = "Diamond Dogs"
 		home_planet = Gemmix
 		home_system = "Diamondia"
 		name_list = "horse"
@@ -90,8 +90,8 @@ FER = {
 	}
 	
 	earth_pony = {
-		name = Earth Pony
-		plural = Earth Ponies
+		name = "Earth Pony"
+		plural = "Earth Ponies"
 		home_planet = Terra
 		home_system = "Sol Terra"
 		name_list = "horse"
@@ -122,8 +122,8 @@ FER = {
 	}
 	
 	diamond_dog = {
-		name = Diamond Dog
-		plural = Diamond Dogs
+		name = "Diamond Dog"
+		plural = "Diamond Dogs"
 		home_planet = Gemmix
 		home_system = "Diamondia"
 		name_list = "horse"

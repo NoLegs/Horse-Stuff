@@ -24,6 +24,8 @@ FER = {
 
 	portraits = {
 		"feralunited"
+		"feralearth"
+		"feralpega"
 		"feralunicorn"
 	}
 	
