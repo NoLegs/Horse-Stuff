@@ -3,4 +3,8 @@ HRS = {
         inherit_trait_points_from = BIOLOGICAL
 }
 
+FER = { 
+	inherit_traits_from = { BIOLOGICAL } 
+        inherit_trait_points_from = BIOLOGICAL
+}
 

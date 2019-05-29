@@ -1,17 +1,17 @@
 portraits = {
 
-	zebraf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf1.dds"	}
-	zebraf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf2.dds"	}
-	zebraf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf3.dds"	}
-	zebraf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf4.dds"	}
-	zebraf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf5.dds"	}
-	zebraf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf6.dds"	}
-	zebraf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf7.dds"	}	
-	zebraf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf8.dds"	}
-	zebraf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf9.dds"	}
-	zebraf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf10.dds"	}
-	zebraf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf11.dds"	}
-	zebraf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/zebra/zebraf12.dds"	}
+	zebraf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf1.dds"	}
+	zebraf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf2.dds"	}
+	zebraf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf3.dds"	}
+	zebraf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf4.dds"	}
+	zebraf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf5.dds"	}
+	zebraf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf6.dds"	}
+	zebraf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf7.dds"	}	
+	zebraf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf8.dds"	}
+	zebraf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf9.dds"	}
+	zebraf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf10.dds"	}
+	zebraf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf11.dds"	}
+	zebraf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf12.dds"	}
 
 }
 
