@@ -3,7 +3,7 @@ tech_basic_magic_theory = {
 	area = society
 	start_tech = yes
 	category = { pony }
-	prerequisites = { "tech_planetary_government" }
+	prerequisites = { "trait_pony_power" }
 	weight = @tier1weight1
 	potential = {
 		has_trait = trait_pony_power
@@ -14,8 +14,10 @@ tech_basic_magic_theory = {
 	
 	modifier = {
 		country_base_unity_produces_add = 20
+		species_leader_exp_gain = 0.5
 	}
 }
+##Temporary, needs to add a new army type
 tech_combat_spells = {
 	cost = @tier1cost1
 	area = society
@@ -31,6 +33,7 @@ tech_combat_spells = {
 	
 	
 	modifier = {
-		country_base_unity_produces_add = 25
+		army_attack_damage_mult = 0.3
+		army_attack_morale_mult = 0.3
 	}
 }
