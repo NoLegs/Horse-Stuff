@@ -1,0 +1,90 @@
+## Earth Pony Digging
+decision_search_for_deposits = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+			energy = 500
+		}
+	}
+	
+	potential = {
+		owner = { 
+			is_regular_empire = yes 
+			has_trait = trait_pony_power
+		}
+		habitable_structure = no
+		NOT = { 
+			OR = {
+				is_planet_class = pc_machine 
+				is_planet_class = pc_hive 
+				is_planet_class = pc_city
+				
+				has_planet_flag = earth_attuned_search
+			}
+		}
+	}
+	
+	effect = {
+		hidden_effect = {
+			set_planet_flag = earth_attuned_search
+		}
+		
+		add_deposit = d_ore_rich_caverns
+		add_deposit = d_fertile_lands
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+
+decision_cloud_cities = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+			energy = 500
+		}
+	}
+	
+	potential = {
+		owner = { 
+			is_regular_empire = yes 
+			has_trait = trait_pony_power
+		}
+		habitable_structure = no
+		NOT = { 
+			OR = {
+				is_planet_class = pc_machine 
+				is_planet_class = pc_hive 
+				is_planet_class = pc_city
+				
+				has_planet_flag = cloud_cities_built
+			}
+		}
+	}
+	
+	effect = {
+		hidden_effect = {
+			set_planet_flag = cloud_cities_built 
+		}
+		
+		add_deposit = d_cloud_city
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}

@@ -8,8 +8,8 @@
 		plural="Equestrians"
 		adjective="Equestrian"
 		name_list="horse"
-		trait="trait_traditional"
-		trait="trait_communal"
+		trait="trait_pony_power"
+		trait="trait_party_ponies"
 	}
 	name="United Equestria"
 	adjective="Equestrian"
@@ -44,7 +44,7 @@
 	ruler={
 		gender=female
 		name="Celestia "
-		portrait="alicornf1"
+		portrait="celeF2"
 		texture=0
 		hair=0
 		clothes=0
@@ -75,8 +75,8 @@
 		plural="Crystal Ponies"
 		adjective="Crystal Pony"
 		name_list="horse"
-		trait="trait_traditional"
-		trait="trait_communal"
+		trait="trait_pony_power"
+		trait="trait_party_ponies"
 	}
 	name="Imperium Crystalis"
 	adjective="Crystalis"
@@ -111,7 +111,7 @@
 	ruler={
 		gender=female
 		name="Umbra"
-		portrait="crystalf1"
+		portrait="somF5"
 		texture=0
 		hair=0
 		clothes=0
@@ -141,8 +141,8 @@
 		plural="Equestrians"
 		adjective="Equestrian"
 		name_list="horse"
-		trait="trait_traditional"
-		trait="trait_communal"
+		trait="trait_pony_power"
+		trait="trait_party_ponies"
 	}
 	name="Solar Empire"
 	adjective="Solar"
@@ -177,11 +177,11 @@
 	ruler={
 		gender=female
 		name="Daybreaker"
-		portrait="alicornf4"
+		portrait="dbreakF1"
 		texture=0
 		hair=0
 		clothes=0
-		ruler_title_female="Sun Empress"
+		ruler_title_female="Solar Empress"
 		heir_title_female="Counsul"
 		leader_class="ruler"
 	}
@@ -241,7 +241,7 @@
 	ruler={
 		gender=female
 		name="Chrysalis"
-		portrait="changelingf1"
+		portrait="chrysF1"
 		texture=0
 		hair=0
 		clothes=0

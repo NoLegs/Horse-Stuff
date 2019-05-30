@@ -1,0 +1,30 @@
+d_cloud_city = {
+	is_for_colonizeable = yes
+	use_for_min_max_adjustments = yes
+	
+	category = deposit_cat_energy
+	
+	planet_modifier = { 
+		district_generator_max = 1
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_cloud_clerk_add = 3
+		}
+	}
+	
+	#triggered_planet_modifier = {
+	#	potential = {
+	#		exists = owner
+	#		owner = { is_hive_empire = yes }
+	#	}
+	#	modifier = {
+	#		job_brain_drone_add = 2
+	#	}
+	#}
+}
