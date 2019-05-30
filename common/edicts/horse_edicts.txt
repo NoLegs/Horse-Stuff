@@ -1,0 +1,71 @@
+##Unicorn 'Cost Magic Resource Later'
+unicorn_powered_enchancements = {
+	length = 7200
+	resources = {
+		category = edicts
+		cost = {
+			influence = @Edict1Cost
+		}
+	}
+
+	modifier = {
+		all_technology_research_speed = 0.05
+		ship_anomaly_generation_chance_mult = 0.35
+		ship_anomaly_research_speed_mult = 1
+	}
+	
+	potential = {
+		has_trait = trait_pony_power
+	}
+	ai_weight = {
+		weight = 1
+	}
+}
+##Earth Ponies 'Cost Magic Resource Later'
+down_and_dirty = {
+	length = 7200
+	resources = {
+		category = edicts
+		cost = {
+			influence = @Edict1Cost
+		}
+	}
+
+	modifier = {
+		pop_ethics_shift_speed_mult = 0.5
+		pop_growth_speed = 0.33
+		country_food_produces_mult = 0.20
+	}
+	
+	potential = {
+		has_trait = trait_pony_power
+	}
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+##Pegasi 'Cost Magic Resource Later' 'Less so amazing fighters, as they were national treasures'
+legacy_of_the_wonderbolts = {
+	length = 7200
+	resources = {
+		category = edicts
+		cost = {
+			influence = @Edict1Cost
+		}
+	}
+
+	modifier = {
+		ship_speed_mult = 0.15
+		pop_happiness = 0.10
+		pop_government_ethic_attraction = 0.5
+	}
+	
+	potential = {
+		has_trait = trait_pony_power
+	}
+	
+	ai_weight = {
+		weight = 1
+	}
+}
