@@ -16,7 +16,7 @@ decision_search_for_deposits = {
 	potential = {
 		owner = { 
 			is_regular_empire = yes 
-			has_trait = trait_earth_attuned
+			has_trait = trait_pony_power
 		}
 		habitable_structure = no
 		NOT = { 
@@ -62,7 +62,7 @@ decision_cloud_cities = {
 	potential = {
 		owner = { 
 			is_regular_empire = yes 
-			has_trait = trait_cloud_builder
+			has_trait = trait_pony_power
 		}
 		habitable_structure = no
 		NOT = { 

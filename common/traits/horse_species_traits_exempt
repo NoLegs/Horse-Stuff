@@ -1,0 +1,63 @@
+trait_greedy = {
+	cost = -1
+	potential_crossbreeding_chance = 0.5
+	opposites = { }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_jobs_energy_produces_mult = -0.20
+	}
+}
+
+trait_emotionovores = {
+	cost = -1
+	opposites = { "trait_pony_power" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_pops_organics_food_upkeep_mult = 1
+		planet_livestock_food_produces_add = 4
+	}
+}
+
+trait_territorial = {
+	cost = -1
+	potential_crossbreeding_chance = 0.5
+	opposites = { }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_housing_usage_mult = 0.30
+	}
+}
+
+
+
+trait_harmonic = {
+	cost = -1
+	opposites = { "trait_chaotic" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+	}
+}
+
+trait_chaotic = {
+	cost = -1
+	opposites = { "trait_harmonic" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+	}
+}
+
+trait_magic_dependency = {
+	cost = -1
+	opposites = { "trait_extreme_magic_dependency" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+	}
+}
+
+trait_extreme_magic_dependency = {
+	cost = -1
+	opposites = { "trait_magic_dependency" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+	}
+}
