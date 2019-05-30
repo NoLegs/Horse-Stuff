@@ -1,54 +1,56 @@
-trait_cloud_builder = {
-	cost = -1
-	potential_crossbreeding_chance = 0.5
-	opposites = { "trait_pony_power" }
-	allowed_archetypes = { BIOLOGICAL }
-	modifier = {
-		pop_housing_usage_mult = -0.15
-	}
-}
-
-trait_earth_attuned = {
-	cost = -1
-	potential_crossbreeding_chance = 0.5
-	opposites = { "trait_pony_power" }
-	allowed_archetypes = { BIOLOGICAL }
-	modifier = {
-		planet_jobs_unity_produces_mult = 0.15
-		planet_jobs_food_produces_mult = 0.15
-	}
-}
-
-trait_magically_gifted = {
-	cost = -1
-	potential_crossbreeding_chance = 0.5
-	opposites = { "trait_pony_power" }
-	allowed_archetypes = { BIOLOGICAL }
-	modifier = {
-		planet_jobs_unity_produces_mult = 0.15
-	}
-}
+##trait_cloud_builder = {
+##	cost = -1
+##	potential_crossbreeding_chance = 0.5
+##	opposites = { "trait_pony_power" }
+##	allowed_archetypes = { BIOLOGICAL }
+##	modifier = {
+##		pop_housing_usage_mult = -0.15
+##	}
+##}
+##
+##trait_earth_attuned = {
+##	cost = -1
+##	potential_crossbreeding_chance = 0.5
+##	opposites = { "trait_pony_power" }
+##	allowed_archetypes = { BIOLOGICAL }
+##	modifier = {
+##		planet_jobs_unity_produces_mult = 0.15
+##		planet_jobs_food_produces_mult = 0.15
+##	}
+##}
+##
+##trait_magically_gifted = {
+##	cost = -1
+##	potential_crossbreeding_chance = 0.5
+##	opposites = { "trait_pony_power" }
+##	allowed_archetypes = { BIOLOGICAL }
+##	modifier = {
+##		planet_jobs_unity_produces_mult = 0.15
+##	}
+##}
 
 trait_pony_power = {
-	cost = -1
+	cost = 9
 	potential_crossbreeding_chance = 0.5
-	opposites = { "trait_magically_gifted" "trait_earth_attuned" "trait_cloud_builder" }
+	opposites = { "trait_emotionovores" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
-		pop_housing_usage_mult = -0.30
-		planet_jobs_unity_produces_mult = 0.30
+		pop_environment_tolerance = 0.30
+		planet_jobs_unity_produces_mult = 0.33
 		planet_jobs_food_produces_mult = 0.30
-		planet_jobs_unity_produces_mult = 0.30
+		planet_researchers_produces_mult = 0.2
 	}
 }
 
 trait_party_ponies = {
-	cost = -1
+	cost = -7
 	potential_crossbreeding_chance = 0.5
 	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
-		planet_pops_consumer_goods_upkeep_mult = 0.30
+		planet_pops_consumer_goods_upkeep_mult = 0.20
+		pop_amenities_usage_mult = 0.20
+		pop_happiness = 0.05
 	}
 }
 
@@ -58,13 +60,13 @@ trait_greedy = {
 	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
-		planet_jobs_energy_produces_mult = -0.30
+		planet_jobs_energy_produces_mult = -0.20
 	}
 }
 
 trait_emotionovores = {
 	cost = -1
-	opposites = { }
+	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		planet_pops_organics_food_upkeep_mult = 1
@@ -79,7 +81,6 @@ trait_territorial = {
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		pop_housing_usage_mult = 0.30
-		pop_happiness = -0.10
 	}
 }
 
