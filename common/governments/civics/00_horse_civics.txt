@@ -203,14 +203,13 @@ civic_empress_of_the_night = {
 			}
 		}
 	}
-		civics = {
-			NOT = { 
-				value =	civic_solar_goddess
-				value = civic_changeling_hive 
-				value = civic_alicorn_leader 
-				value = civic_dark_imperator
-				value = civic_fanatic_purifiers
-			}
+	civics = {
+		NOT = { 
+			value =	civic_solar_goddess
+			value = civic_changeling_hive 
+			value = civic_alicorn_leader 
+			value = civic_dark_imperator
+			value = civic_fanatic_purifiers
 		}
 	}
 	random_weight = { 
