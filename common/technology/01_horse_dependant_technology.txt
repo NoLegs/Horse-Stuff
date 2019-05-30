@@ -1,0 +1,36 @@
+tech_basic_magic_theory = {
+	cost = @tier1cost1
+	area = society
+	start_tech = yes
+	category = { pony }
+	prerequisites = { "tech_planetary_government" }
+	weight = @tier1weight1
+	potential = {
+		has_trait = trait_pony_power
+	}
+	
+	feature_flags = { }
+	
+	
+	modifier = {
+		country_base_unity_produces_add = 20
+	}
+}
+tech_combat_spells = {
+	cost = @tier1cost1
+	area = society
+	category = { pony }
+	prerequisites = { "tech_basic_magic_theory" }
+	weight = @tier1weight1
+	##Temporary Restrict
+	potential = {
+		is_gestalt = no
+	}
+	
+	feature_flags = { }
+	
+	
+	modifier = {
+		country_base_unity_produces_add = 25
+	}
+}
