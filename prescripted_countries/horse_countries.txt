@@ -44,7 +44,7 @@
 	ruler={
 		gender=female
 		name="Celestia "
-		portrait="alicornf1"
+		portrait="celeF2"
 		texture=0
 		hair=0
 		clothes=0
@@ -111,7 +111,7 @@
 	ruler={
 		gender=female
 		name="Umbra"
-		portrait="crystalf1"
+		portrait="somF5"
 		texture=0
 		hair=0
 		clothes=0
@@ -177,11 +177,11 @@
 	ruler={
 		gender=female
 		name="Daybreaker"
-		portrait="alicornf4"
+		portrait="dbreakF2"
 		texture=0
 		hair=0
 		clothes=0
-		ruler_title_female="Sun Empress"
+		ruler_title_female="Solar Empress"
 		heir_title_female="Counsul"
 		leader_class="ruler"
 	}
@@ -241,7 +241,7 @@
 	ruler={
 		gender=female
 		name="Chrysalis"
-		portrait="changelingf1"
+		portrait="chyrsf1"
 		texture=0
 		hair=0
 		clothes=0

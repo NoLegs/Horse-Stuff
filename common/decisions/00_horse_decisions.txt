@@ -9,7 +9,7 @@ decision_search_for_deposits = {
 		category = decisions
 		cost = {
 			influence = 25
-			energy = 400
+			energy = 500
 		}
 	}
 	
@@ -55,7 +55,7 @@ decision_cloud_cities = {
 		category = decisions
 		cost = {
 			influence = 25
-			energy = 400
+			energy = 500
 		}
 	}
 	

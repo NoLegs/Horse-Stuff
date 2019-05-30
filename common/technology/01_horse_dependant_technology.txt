@@ -1,3 +1,4 @@
+##Prequisite for everything
 tech_basic_magic_theory = {
 	cost = @tier1cost1
 	area = society
@@ -13,7 +14,7 @@ tech_basic_magic_theory = {
 	
 	
 	modifier = {
-		country_base_unity_produces_add = 20
+		country_base_unity_produces_add = 5
 		species_leader_exp_gain = 0.5
 	}
 }
@@ -33,7 +34,7 @@ tech_combat_spells = {
 	
 	
 	modifier = {
-		army_attack_damage_mult = 0.3
-		army_attack_morale_mult = 0.3
+		army_attack_damage_mult = 0.25
+		army_attack_morale_mult = 0.25
 	}
 }
