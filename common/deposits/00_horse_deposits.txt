@@ -17,7 +17,9 @@ d_cloud_city = {
 			job_cloud_clerk_add = 3
 		}
 	}
-	
+	drop_weight = {
+		weight = 0
+	}
 	#triggered_planet_modifier = {
 	#	potential = {
 	#		exists = owner
