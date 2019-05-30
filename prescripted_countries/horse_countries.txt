@@ -55,8 +55,7 @@
 	ignore_portrait_duplication=no
 	room="default_room"
 	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_pacifist"
 	civics={
 		"civic_alicorn_leader"
