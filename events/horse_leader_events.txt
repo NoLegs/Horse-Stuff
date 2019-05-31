@@ -6,7 +6,8 @@ country_event = {
 	trigger = {
 		from = {
 			OR = {
-				species = { is_species_class = HRS }
+				species = { is_species_class = HRS } 
+				species = { has_trait = trait_pony_power }
 			}
 			gender = male
 		}
