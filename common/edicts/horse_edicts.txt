@@ -69,3 +69,24 @@ legacy_of_the_wonderbolts = {
 		weight = 1
 	}
 }
+the_new_stars = {
+	length = 7200
+	resources = {
+		category = edicts
+		cost = {
+			energy = 500
+		}
+	}
+
+	modifier = {
+		pop_growth_speed = 0.15
+	}
+	
+	potential = {
+		has_civic = civic_solar_goddess
+	}
+	
+	ai_weight = {
+		weight = 1
+	}
+}

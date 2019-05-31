@@ -41,6 +41,9 @@ trait_pony_power = {
 		planet_jobs_food_produces_mult = 0.30
 		planet_researchers_produces_mult = 0.2
 	}
+	ai_weight = {
+		weight = 0
+	}
 }
 
 trait_party_ponies = {
@@ -54,5 +57,8 @@ trait_party_ponies = {
 		planet_pops_consumer_goods_upkeep_mult = 0.2
 		pop_growth_speed = 0.2
 		pop_happiness = 0.05
+	}
+	ai_weight = {
+		weight = 0
 	}
 }
