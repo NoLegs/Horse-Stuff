@@ -1,5 +1,5 @@
 ﻿
-horse= {
+horse = {
 	ship_names = {
 		generic = {
 			"Easy Glider" "Purple Dart" "Fair Weather" "Fairy Flight" "Flair d'Mare" "Thornhoof" "Brumby Cloverpatch" "Wave Chill" "Bloomberg" "Tiberius" "Winona" "Boneless" "Brutus Force" "Fernando" "Madame le Flour" "Sir Lintsalot"	"Rocky" "Smarty Pants" "Tom" "Mr. Turnip" "Golden Oak" "Opalescence" "Gummy" "Owliscious" "Angel" "Harry" "Tank" "Smart Cookie" "Private Pansy" "Breezie" "Parasprite" "Sun Chaser"    "Trail Blazer"  "Burning Hoof" "Little Buddy" "The Hopper" "Iron Hoof" "Starlight" "Burning Trail" "Horseshoe" "Snowfall Forst" "Discord"  "Windigo" "Ember" "Party Bus" "Commander Hurricane"  "Saddle Rager" "Zapp" "Matter-Horn" "Fili-Second" "Radiance" "Mistress Mare-velous" "Star Swirl"  "Mane-iac" "Philomena" "Amore" "Cerberus" "Chimera" "Cockatrice" "Hydra" "Manticore" "Cragadile" "Tatzlwurm" "Ursas" "Timberwolves" "Twittermite" "Tantabus" "Party Bringer" "Sun Burst" "Solar Stalwart" "Rainbow Watcher" "Cloud Gazer" "Star Seer" "Solar Salute" "Lucky Seed" "Little Bloom" "Faint Glare" "Fleet Star" "Mini Factory" "Leather Hoof" "Concrete Hoof"	
@@ -39,12 +39,13 @@ horse= {
 		}
 
 		ion_cannon = {
+			"Super Glider" "Super Beast"
 		}	
 	}
 	
 	ship_class_names = {
 		generic = {
-			Harmony Generosity Friendship Laughter Kindness Magic Loyalty Honesty Love Elements
+			"Harmony" "Generosity" "Friendship" "Laughter" "Kindness" "Magic" "Loyalty" "Honesty" "Love" "Elements"
 		}		
 	}
 
