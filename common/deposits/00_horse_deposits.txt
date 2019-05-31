@@ -30,3 +30,23 @@ d_cloud_city = {
 	#	}
 	#}
 }
+
+d_alchemical_refinery = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	potential = {
+		can_have_habitable_deposits = yes
+	}
+	
+	planet_modifier = { 
+		building_betharian_power_plant_max = 1
+		building_mote_harvesters_max = 1
+		building_crystal_mines_max = 1
+		building_gas_extractors_max = 1
+	}
+	
+	drop_weight = {
+		weight = 0	
+	}
+}

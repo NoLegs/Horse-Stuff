@@ -54,6 +54,13 @@ cloud_clerk = {
 	weight = {
 		weight = @clerk_job_weight
 		modifier = {
+			factor = 4
+			OR = {
+				has_trait = trait_pony_power
+				has_trait = trait_party_ponies
+			}	
+		}
+		modifier = {
 			factor = 0.25
 			is_enslaved = yes
 			can_take_servant_job = no

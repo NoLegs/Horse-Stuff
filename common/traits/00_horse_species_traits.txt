@@ -50,8 +50,8 @@ trait_party_ponies = {
 	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_party_ponies.dds"
 	modifier = {
-		pop_amenities_usage_mult = 0.33
-		planet_pops_consumer_goods_upkeep_mult = 0.25
+		pop_amenities_usage_mult = 0.25
+		planet_pops_consumer_goods_upkeep_mult = 0.2
 		pop_growth_speed = 0.2
 		pop_happiness = 0.05
 	}

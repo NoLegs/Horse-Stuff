@@ -23,7 +23,6 @@ decision_search_for_deposits = {
 			OR = {
 				is_planet_class = pc_machine 
 				is_planet_class = pc_hive 
-				is_planet_class = pc_city
 				
 				has_planet_flag = earth_attuned_search
 			}
@@ -69,7 +68,6 @@ decision_cloud_cities = {
 			OR = {
 				is_planet_class = pc_machine 
 				is_planet_class = pc_hive 
-				is_planet_class = pc_city
 				
 				has_planet_flag = cloud_cities_built
 			}
@@ -82,6 +80,79 @@ decision_cloud_cities = {
 		}
 		
 		add_deposit = d_cloud_city
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+##Unicorn World Buff (This one will use magic)
+decision_advanced_alchemical_refinement = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			minerals = 2500
+			energy = 7500
+		}
+	}
+	
+	potential = {
+		owner = { 
+			is_regular_empire = yes 
+			has_trait = trait_pony_power
+		}
+		habitable_structure = no
+		NOT = { 
+			OR = {
+				is_planet_class = pc_machine 
+				is_planet_class = pc_hive
+				
+				has_planet_flag = advanced_alchemy_completed
+			}
+		}
+	}
+	
+	effect = {
+		hidden_effect = {
+			set_planet_flag = advanced_alchemy_completed
+		}
+		
+		add_deposit = d_alchemical_refinery
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+decision_pony_parties = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			energy = 5000
+		}
+	}
+	
+	potential = {
+		owner = { 
+			is_regular_empire = yes 
+			has_trait = trait_party_ponies
+		}
+	}
+	allow = {
+		NOT = { has_modifier = planet_food_boost }
+	}	
+	effect = {
+		add_modifier = { modifier = "planet_pony_parties" days = 7200 }
 	}
 	
 	ai_weight = {
