@@ -1,5 +1,5 @@
-"United Equestria" = {
-	key="United Equestria"
+unitedequestria = {
+	key=unitedequestria
 	ship_prefix="REN"
 	species={
 		class="HRS"
@@ -63,9 +63,9 @@
 	}
 }
 
-"Imperium Crystalis"
+imperiumcrystalis
 ={
-	key="Imperium Crystalis"
+	key=imperiumcrystalis
 	ship_prefix="REN"
 	species={
 		class="HRS"
@@ -129,9 +129,9 @@
 		"civic_police_state"
 	}
 }
-"Solar Empire"
+solarempire
 ={
-	key="Solar Empire"
+	key=solarempire
 	ship_prefix="REN"
 	species={
 		class="HRS"
@@ -196,8 +196,8 @@
 	}
 }
 
-"Changeling Swarm" = {
-	key="Changeling Swarm"
+changelingswarm = {
+	key=changelingswarm
 	ship_prefix="ISS"
 	species={
 		class="HRS"
