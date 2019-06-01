@@ -45,7 +45,7 @@ horse = {
 	
 	ship_class_names = {
 		generic = {
-			"Harmony" "Generosity" "Friendship" "Laughter" "Kindness" "Magic" "Loyalty" "Honesty" "Love" "Elements"
+			Harmony Generosity Friendship Laughter Kindness Magic Loyalty Honesty Love Elements Power Community Sisterhood Equality Maredom Queenship Royalty Unicorn Pegasus Earth Zebra Love
 		}		
 	}
 
