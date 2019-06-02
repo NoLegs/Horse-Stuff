@@ -2,25 +2,31 @@
 horse = {
 	ship_names = {
 		generic = {
-			"Easy Glider" "Purple Dart" "Fair Weather" "Fairy Flight" "Flair d'Mare" "Thornhoof" "Brumby Cloverpatch" "Wave Chill" "Bloomberg" "Tiberius" "Winona" "Boneless" "Brutus Force" "Fernando" "Madame le Flour" "Sir Lintsalot"	"Rocky" "Smarty Pants" "Tom" "Mr. Turnip" "Golden Oak" "Opalescence" "Gummy" "Owliscious" "Angel" "Harry" "Tank" "Smart Cookie" "Private Pansy" "Breezie" "Parasprite" "Sun Chaser"    "Trail Blazer"  "Burning Hoof" "Little Buddy" "The Hopper" "Iron Hoof" "Starlight" "Burning Trail" "Horseshoe" "Snowfall Forst" "Discord"  "Windigo" "Ember" "Party Bus" "Commander Hurricane"  "Saddle Rager" "Zapp" "Matter-Horn" "Fili-Second" "Radiance" "Mistress Mare-velous" "Star Swirl"  "Mane-iac" "Philomena" "Amore" "Cerberus" "Chimera" "Cockatrice" "Hydra" "Manticore" "Cragadile" "Tatzlwurm" "Ursas" "Timberwolves" "Twittermite" "Tantabus" "Party Bringer" "Sun Burst" "Solar Stalwart" "Rainbow Watcher" "Cloud Gazer" "Star Seer" "Solar Salute" "Lucky Seed" "Little Bloom" "Faint Glare" "Fleet Star" "Mini Factory" "Leather Hoof" "Concrete Hoof"	
+			"Easy Glider" "Purple Dart" "Fair Weather" "Fairy Flight" "Flair d'Mare" "Thornhoof" "Brumby Cloverpatch" "Wave Chill" "Bloomberg" "Tiberius" "Winona" "Boneless" "Brutus Force" "Fernando" "Madame le Flour" "Sir Lintsalot"	"Rocky" "Smarty Pants" "Tom" "Mr. Turnip" "Golden Oak" "Opalescence" "Gummy" "Owliscious" "Angel" "Harry" "Tank" "Smart Cookie" "Private Pansy" "Breezie" "Parasprite" "Sun Chaser"    "Trail Blazer"  "Burning Hoof" "Little Buddy" "The Hopper" "Iron Hoof" "Starlight" "Burning Trail" "Horseshoe" "Snowfall Forst" "Discord"  "Windigo" "Ember" "Party Bus" "Commander Hurricane"  "Saddle Rager" "Zapp" "Matter-Horn" "Fili-Second" "Radiance" "Mistress Mare-velous" "Star Swirl"  "Mane-iac" "Philomena" "Amore" "Cerberus" "Chimera" "Cockatrice" "Hydra" "Manticore" "Cragadile" "Tatzlwurm" "Ursas" "Timberwolves" "Twittermite" "Tantabus" "Party Bringer" "Sun Burst" "Solar Stalwart" "Rainbow Watcher" "Cloud Gazer" "Star Seer" "Solar Salute" "Lucky Seed" "Little Bloom" "Faint Glare" "Fleet Star" "Mini Factory" "Leather Hoof" "Concrete Hoof" "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Moose" "Mouse" "Pebbles" "Sunshine" 	
 		}
 
-		corvette = {
+		corvette = { 
+			"Cutie" "Zippy" "Pegasus %O%" "Ghost" "Hawk"
 		}
 		
 		destroyer = {
+			"Fashion Sense" "Zebra"
 		}
 		
 		cruiser = {
+			"Helping Horn" "Helping Hoof" "Firescorch" "Wiplash" "Bone Crusher" "Smasher" "Flameo"
 		}
 		
 		battleship = {
+			"Tornado" "The Great Flare" "White Death" "Snowflake" "Thunder" "West Wind" "Easy Rider" "Bambi"
 		}
 
 		titan = {
+			"The Alicorn" "The Great Horn"
 		}
 
 		colossus = {
+			"The Royal Solution" 
 		}
 		
 		science = {
@@ -39,13 +45,13 @@ horse = {
 		}
 
 		ion_cannon = {
-			"Super Glider" "Super Beast"
+			"Super Glider" "Super Beast" "Hyper Beast"
 		}	
 	}
 	
 	ship_class_names = {
 		generic = {
-			Harmony Generosity Friendship Laughter Kindness Magic Loyalty Honesty Love Elements Power Community Sisterhood Equality Maredom Queenship Royalty Unicorn Pegasus Earth Zebra Love
+			Cherry Amber Scarlet Twilight Starry Ebony Honeydew Emerald Mythic Lucky Cinnamon Harmony Generosity Friendship Laughter Kindness Magic Loyalty Honesty Love Elements Power Community Sisterhood Equality Maredom Queenship Royalty Unicorn Pegasus Earth Zebra Love Mouse 
 		}		
 	}
 
@@ -183,7 +189,7 @@ horse = {
 				Meadow 	Cloud 	Spring 		Crescent 	Fast 		Misty 	Night 		Apple 		Orange  Twilight
 				Pie 	Hooves 	Starlight	Sunset 		Rainbow 	Rain 	Pear 		Rose 		Lyra 	Sweetie 
 				Carrot 	Cherry 	Indigo 		Lemon 		Snowfall 	Snow 	Windy 		Sunny		Star 	Stormy
-				Loving  Pinky   Derpy       Strong      Curie       Flim
+				Loving  Pinky   Derpy       Strong      Curie       Flim 	Snowy		Fizzy
 			}
 			
 			
