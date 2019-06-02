@@ -8,6 +8,6 @@ cloud_builders_cloud_cities = {
 planet_pony_parties = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
 	icon_frame = 1
-	pop_growth_speed = 0.25
-	planet_amenities_mult = 0.25
+	pop_growth_speed = 0.33
+	planet_amenities_mult = 0.15
 }

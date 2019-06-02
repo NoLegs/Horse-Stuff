@@ -1,5 +1,5 @@
 ##Unicorn 'Cost Magic Resource Later'
-unicorn_powered_enchancements = {
+unicorn_powered_focuses = {
 	length = 7200
 	resources = {
 		category = edicts
@@ -69,7 +69,7 @@ legacy_of_the_wonderbolts = {
 		weight = 1
 	}
 }
-the_new_stars = {
+new_flaming_stars = {
 	length = 7200
 	resources = {
 		category = edicts

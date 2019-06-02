@@ -1,5 +1,5 @@
 ## Earth Pony Digging
-decision_search_for_deposits = {
+decision_search_for_deposits_horse = {
 	owned_planets_only = yes
 	sound = event_administrative_work
 	icon = decision_resources
