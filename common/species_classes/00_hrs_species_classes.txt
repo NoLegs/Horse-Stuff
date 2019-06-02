@@ -1,7 +1,8 @@
 HRS = {
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
     archetype = BIOLOGICAL
-
+	gender = no
+	
 	portraits = {
 		"unitedpony"
 		"crystal"
@@ -16,8 +17,8 @@ HRS = {
 		"crystal"
 		"changeling"
 	}
-	gender: no
-	species_max_traits: 8 
+	
+	species_max_traits = 8 
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }
@@ -25,13 +26,13 @@ HRS = {
 FER = {
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
     archetype = BIOLOGICAL
-
+	gender = no
+	
 	portraits = {
 		"feralunited"
 	}
 	
-	gender: no
-	species_max_traits: 8 
+	species_max_traits = 8 
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }

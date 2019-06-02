@@ -6,7 +6,7 @@ horse = {
 		}
 
 		corvette = { 
-			"Cutie" "Zippy" "Pegasus %O%" "Ghost" "Hawk"
+			"Cutie" "Zippy" "Pegasus" "Ghost" "Hawk"
 		}
 		
 		destroyer = {
