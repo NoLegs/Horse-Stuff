@@ -11,6 +11,13 @@ HRS = {
 		"diamonddog"
 	}
 	
+	non_randomized_portraits = {
+		"unitedpony"
+		"crystal"
+		"changeling"
+	}
+	gender: no
+	species_max_traits: 8 
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }
@@ -23,6 +30,8 @@ FER = {
 		"feralunited"
 	}
 	
+	gender: no
+	species_max_traits: 8 
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }

@@ -149,10 +149,10 @@ decision_pony_parties = {
 		}
 	}
 	allow = {
-		NOT = { has_modifier = planet_food_boost }
+		NOT = { has_modifier = planet_pony_parties }
 	}	
 	effect = {
-		add_modifier = { modifier = "planet_pony_parties" days = 7200 }
+		add_modifier = { modifier = "planet_pony_parties" }
 	}
 	
 	ai_weight = {

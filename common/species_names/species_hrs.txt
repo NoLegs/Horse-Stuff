@@ -7,30 +7,6 @@ HRS = {
 		name_list = "horse"
 	}
 	
-	pegasus = {
-		name = Pegasus
-		plural = Pegasi
-		home_planet = Aurora
-		home_system = "Vaporia"
-		name_list = "horse"
-	}
-	
-	unicorn = {
-		name = Unicorn
-		plural = Unicorns
-		home_planet = Starside
-		home_system = "Unicornia"
-		name_list = "horse"
-	}
-	
-	earth_pony = {
-		name = "Earth Pony"
-		plural = "Earth Ponies"
-		home_planet = Terra
-		home_system = "Sol Terra"
-		name_list = "horse"
-	}
-	
 	changeling = {
 		name = Changeling
 		plural = Changelings
@@ -70,30 +46,6 @@ FER = {
 		plural = Equestrians
 		home_planet = Equestria
 		home_system = "Equus"
-		name_list = "horse"
-	}
-	
-	pegasus = {
-		name = Pegasus
-		plural = Pegasi
-		home_planet = Aurora
-		home_system = "Vaporia"
-		name_list = "horse"
-	}
-	
-	unicorn = {
-		name = Unicorn
-		plural = Unicorns
-		home_planet = Starside
-		home_system = "Unicornia"
-		name_list = "horse"
-	}
-	
-	earth_pony = {
-		name = "Earth Pony"
-		plural = "Earth Ponies"
-		home_planet = Terra
-		home_system = "Sol Terra"
 		name_list = "horse"
 	}
 	
