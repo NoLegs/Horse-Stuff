@@ -18,6 +18,25 @@ tech_basic_magic_theory = {
 		species_leader_exp_gain = 0.5
 	}
 }
+tech_magical_capability_booster = {
+	cost = @tier2cost1
+	area = society
+	start_tech = yes
+	category = { pony }
+	prerequisites = { "trait_pony_power" }
+	weight = @tier2weight1
+	potential = {
+		has_trait = trait_pony_power
+	}
+	
+	feature_flags = { }
+	
+	
+	modifier = {
+		country_admin_cap_add = 20
+		leader_skill_levels = 3
+	}
+}
 ##Temporary, needs to add a new army type
 tech_combat_spells = {
 	cost = @tier1cost1
@@ -25,7 +44,7 @@ tech_combat_spells = {
 	category = { pony }
 	prerequisites = { "tech_basic_magic_theory" }
 	weight = @tier1weight1
-	##Temporary Restrict
+	##Temporary Restrict Useful for restricting things away from the swarm
 	potential = {
 		is_gestalt = no
 	}
