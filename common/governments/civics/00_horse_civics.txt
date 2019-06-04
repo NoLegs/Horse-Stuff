@@ -197,9 +197,11 @@ civic_empress_of_the_night = {
 	}
 	possible = {	
 		ethics = {
-			value = ethic_fanatic_xenophobe
-			value = ethic_xenophobe
-		}		
+			OR = {
+				value = ethic_fanatic_xenophobe
+				value = ethic_xenophobe
+			}
+		}
 		civics = {
 			NOT = { 
 				value =	civic_solar_goddess

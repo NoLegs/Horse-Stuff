@@ -1,5 +1,5 @@
-"United Equestria" = {
-	key="United Equestria"
+unitedequestria = {
+	key=unitedequestria
 	ship_prefix="REN"
 	species={
 		class="HRS"
@@ -8,8 +8,8 @@
 		plural="Equestrians"
 		adjective="Equestrian"
 		name_list="horse"
-		trait="trait_traditional"
-		trait="trait_communal"
+		trait="trait_pony_power"
+		trait="trait_party_ponies"
 	}
 	name="United Equestria"
 	adjective="Equestrian"
@@ -44,7 +44,7 @@
 	ruler={
 		gender=female
 		name="Celestia "
-		portrait="alicornf1"
+		portrait="celeF2"
 		texture=0
 		hair=0
 		clothes=0
@@ -55,8 +55,7 @@
 	ignore_portrait_duplication=no
 	room="default_room"
 	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_pacifist"
 	civics={
 		"civic_alicorn_leader"
@@ -64,9 +63,9 @@
 	}
 }
 
-"Imperium Crystalis"
+imperiumcrystalis
 ={
-	key="Imperium Crystalis"
+	key=imperiumcrystalis
 	ship_prefix="REN"
 	species={
 		class="HRS"
@@ -75,8 +74,8 @@
 		plural="Crystal Ponies"
 		adjective="Crystal Pony"
 		name_list="horse"
-		trait="trait_traditional"
-		trait="trait_communal"
+		trait="trait_pony_power"
+		trait="trait_party_ponies"
 	}
 	name="Imperium Crystalis"
 	adjective="Crystalis"
@@ -111,7 +110,7 @@
 	ruler={
 		gender=female
 		name="Umbra"
-		portrait="crystalf1"
+		portrait="somF5"
 		texture=0
 		hair=0
 		clothes=0
@@ -124,15 +123,15 @@
 	room="personality_democratic_crusaders_room"
 	spawn_enabled=yes
 	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
 	civics={
 		"civic_dark_imperator"
 		"civic_police_state"
 	}
 }
-"Solar Empire"
+solarempire
 ={
-	key="Solar Empire"
+	key=solarempire
 	ship_prefix="REN"
 	species={
 		class="HRS"
@@ -141,8 +140,8 @@
 		plural="Equestrians"
 		adjective="Equestrian"
 		name_list="horse"
-		trait="trait_traditional"
-		trait="trait_communal"
+		trait="trait_pony_power"
+		trait="trait_party_ponies"
 	}
 	name="Solar Empire"
 	adjective="Solar"
@@ -177,11 +176,11 @@
 	ruler={
 		gender=female
 		name="Daybreaker"
-		portrait="alicornf4"
+		portrait="dbreakF1"
 		texture=0
 		hair=0
 		clothes=0
-		ruler_title_female="Sun Empress"
+		ruler_title_female="Solar Empress"
 		heir_title_female="Counsul"
 		leader_class="ruler"
 	}
@@ -197,8 +196,8 @@
 	}
 }
 
-"Changeling Swarm" = {
-	key="Changeling Swarm"
+changelingswarm = {
+	key=changelingswarm
 	ship_prefix="ISS"
 	species={
 		class="HRS"
@@ -241,7 +240,7 @@
 	ruler={
 		gender=female
 		name="Chrysalis"
-		portrait="changelingf1"
+		portrait="chrysF1"
 		texture=0
 		hair=0
 		clothes=0

@@ -1,0 +1,20 @@
+##Temporary used on all
+pony = {
+	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+}
+##General Magic with pony in front of it to pre-empt any conflicts
+pony_magic = {
+	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+}
+
+harmonic = {
+	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+}
+
+chaotic = {
+	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+}
+
+changling = {
+	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+}
