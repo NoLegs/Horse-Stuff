@@ -31,16 +31,16 @@
 
 trait_emotionovores = {
 	cost = 0
-	potential_crossbreeding_chance = 0.5
-	opposites = { "trait_pony_power" }
+	potential_crossbreeding_chance = 0
+	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_harmonic.dds"
+	initial = no
 	randomized = no
+	modification = no
 	modifier = {
 		pop_environment_tolerance = 0.30
-		planet_jobs_unity_produces_mult = 0.33
-		planet_jobs_food_produces_mult = 0.30
-		planet_researchers_produces_mult = 0.2
+		planet_jobs_food_produces_mult = -0.2
 	}
 	ai_weight = {
 		weight = 0
@@ -48,8 +48,8 @@ trait_emotionovores = {
 }
 trait_pony_power = {
 	cost = 9
-	potential_crossbreeding_chance = 0.5
-	opposites = { "trait_emotionovores" }
+	potential_crossbreeding_chance = 0
+	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_harmonic.dds"
 	randomized = no
@@ -66,7 +66,7 @@ trait_pony_power = {
 
 trait_party_ponies = {
 	cost = -7
-	potential_crossbreeding_chance = 0.5
+	potential_crossbreeding_chance = 0
 	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_party_ponies.dds"
