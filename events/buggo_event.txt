@@ -1,0 +1,45 @@
+##Temporary Test Space (Seperated for my own gain)
+namespace = buggo
+
+planet_event = { 
+	id = buggo.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	title = OK
+	desc = OK
+
+	trigger = {
+		FROM = {
+			has_trait = trait_emotionovores
+		}
+		FROMFROM = {
+			is_robot_pop = no
+			NOT = {
+				is_same_species = owner_species
+			}
+		}
+		is_controlled_by = FROM
+	}
+	
+	immediate = {
+		create_message = {
+			type = MESSAGE_TYPE_BUGGO_COMPLETE
+			localization = MESSAGE_BUGGO_COMPLETE
+			days = 30
+			target = this
+				variable = {
+					type = name
+					localization = PLANET
+					scope = this
+				}	
+		}	
+
+			while = {
+		count = 1
+		create_pop = {
+			species = owner_main_species
+			}
+		}
+	}
+}

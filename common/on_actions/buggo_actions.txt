@@ -1,0 +1,6 @@
+on_pop_purged = {
+	events = {
+		buggo.1
+	
+	}
+}

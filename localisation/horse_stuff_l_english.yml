@@ -99,3 +99,9 @@
  HT_CROWN_VISIER:0 "Crown Visier"
  gov_solar_cult:0 "Solar Cult"
  gov_solar_cult_desc:0 "Solar Cult Description"
+ 
+ 
+##Buggo
+
+ MESSAGE_BUGGO_COMPLETE_TITLE:0 "Pop Drained"
+ MESSAGE_BUGGO_COMPLETE:0 "A £pop£ Pop has been bred after Emotion Consuming began in planet $PLANET|Y$"

@@ -22,10 +22,7 @@ country_event = {
 	hide_window = yes
 
 	trigger = {
-		OR = {
-			has_civic = civic_changeling_hive
-			has_civic = civic_changeling_swarms
-		}
+		has_civic = civic_changeling_swarms
 	}
 
 	immediate = {

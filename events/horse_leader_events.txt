@@ -1,0 +1,22 @@
+namespace = horse_leader
+country_event = {
+	id = horse_leader.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		from = {
+			OR = {
+				species = { is_species_class = HRS }
+				species = { is_species_class = FER }
+			}
+			gender = male
+		}
+	}
+
+	immediate = {
+		from = {
+			set_is_female = yes
+		}
+	}
+}

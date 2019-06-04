@@ -1,0 +1,51 @@
+##Change later to allow for use in HRS/FER non Changeling empires
+civic_emotionovores = {
+	modification = no
+	potential = {
+		ethics = { 
+			value = ethic_gestalt_consciousness
+		}
+	}
+	possible = {
+		civics = {
+			value = civic_changeling_swarms
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		planet_farmers_food_produces_add = -1
+		planet_livestock_food_produces_add = 2
+		planet_livestock_unity_produces_add = 0.5
+	}
+	traits = {
+		trait = trait_emotionovores
+	}
+}
+
+civic_changeling_swarms = {
+	modification = no
+	potential = {
+		ethics = { 
+			value = ethic_gestalt_consciousness
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		planet_jobs_worker_produces_mult = 0.15
+		leaders_upkeep_mult = -0.33
+		armies_upkeep_mult = -0.33
+		planet_army_build_speed_mult = 0.33
+	}
+}
