@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_message_parasite_complete"
+		texturefile = "gfx/interface/icons/message/message_buggo_complete.dds"
+	}
+	
+		}

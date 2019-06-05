@@ -11,7 +11,8 @@ planet_event = {
 
 	trigger = {
 		FROM = {
-			has_trait = trait_emotionovores
+##	Depricated		has_trait = trait_emotionovores 
+			has_valid_civic = civic_changeling_swarms
 		}
 		FROMFROM = {
 			is_robot_pop = no
