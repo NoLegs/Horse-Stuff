@@ -1,0 +1,106 @@
+#############
+# Resource buildings
+#############
+building_magic_crystal_plant = {
+	base_buildtime = 480
+	category = manufacturing
+	prerequisites = { "tech_magic_crystals" }
+	potential = {
+		NOT = { has_modifier = resort_colony }	
+		NOT = { has_modifier = slave_colony }
+	}
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }					
+		}
+		modifier = {
+			job_magic_crystal_miner_add = 1
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }					
+		}
+		modifier = {
+			job_magic_crystal_miner_drone_add = 1
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}	
+		upkeep = {
+			energy = 3
+		}
+	}	
+	
+	prerequisites = {
+		"tech_magic_crystals"
+	}
+	
+	triggered_desc = {
+		trigger = { 
+			exists = owner
+			owner = { is_gestalt = no } 
+		}
+		text = job_magic_crystal_miner_effect_desc
+	}	
+	
+	triggered_desc = {
+		trigger = { 
+			exists = owner
+			owner = { is_gestalt = yes } 
+		}
+		text = job_magic_crystal_miner_drone_effect_desc
+	}
+
+	#upgrades = {
+	#	"building_crystal_plant_2"
+	#}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 30
+			owner = { 
+				#has_monthly_income = { #5 is too high since that means 2 extra buildings. Better to just go with 1 extra building
+				#	resource = rare_crystals
+				#	value < 3
+				#}
+				NOT = { # Prevents building spam by AI
+					has_country_flag = buildings_new_magic_crystal_mine
+				}
+			}
+			buildings_build_building = yes
+		}
+	}
+
+	#ai_resource_production = {
+	#	rare_crystals = 1
+	#	trigger = {
+	#		always = yes
+	#	}
+	#}
+	
+	on_built = {
+		owner = { 
+			set_timed_country_flag = { 
+				flag = buildings_new_magic_crystal_mine 
+				days = 360 
+			} 
+		}
+	}
+}

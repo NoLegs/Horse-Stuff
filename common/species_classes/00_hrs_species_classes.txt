@@ -17,7 +17,6 @@ HRS = {
 		"changeling"
 	}
 	
-	species_max_traits = 8 
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }
@@ -30,7 +29,6 @@ FER = {
 		"feralunited"
 	}
 	
-	species_max_traits = 8 
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }

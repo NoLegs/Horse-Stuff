@@ -11,3 +11,7 @@ planet_pony_parties = {
 	pop_growth_speed = 0.33
 	planet_amenities_mult = 0.15
 }
+
+magic_crystals_deficit = {
+	planet_jobs_produces_mult = -0.25
+}
