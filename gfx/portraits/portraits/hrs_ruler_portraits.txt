@@ -49,6 +49,7 @@ portraits = {
 	chrysF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysF4.dds"	}
 	chrysF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysF5.dds"	}
 	chrysF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysF6.dds"	}
+	chrysF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysF7.dds"	}
 	chrysH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysH1.dds"	}
 	chrysH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysH2.dds"	}
 }
