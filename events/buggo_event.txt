@@ -24,18 +24,6 @@ planet_event = {
 	}
 	
 	immediate = {
-		create_message = {
-			type = MESSAGE_TYPE_BUGGO_COMPLETE
-			localization = MESSAGE_BUGGO_COMPLETE
-			days = 30
-			target = this
-				variable = {
-					type = name
-					localization = PLANET
-					scope = this
-				}	
-		}	
-
 		while = {
 		count = 1
 		create_pop = {
