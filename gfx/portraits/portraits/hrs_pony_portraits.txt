@@ -93,11 +93,11 @@ portrait_groups = {
 		game_setup = { 
            		add = {
                 	portraits = {
-						cadeF1 cadeF2 cadeF3 cadeF4 
+						cadeF1 cadeF2 cadeF3 cadeF4 cadeF5 cadeF6 cadeF7
 						
 						cadeH1 cadeH2
 						
-						celeF1 celeF2 celeF3 celeF4 celeF5
+						celeF1 celeF2 celeF3 celeF4 celeF5 celeF6 celeF7
 						
 						celeH1 celeH2
 						
@@ -531,24 +531,24 @@ portrait_groups = {
            	add = {
                 portraits = {
 				
-					cadeF1 cadeF2 cadeF3 cadeF4 
-					
+					cadeF1 cadeF2 cadeF3 cadeF4 cadeF5 cadeF6 cadeF7
+						
 					cadeH1 cadeH2
-					
-					celeF1 celeF2 celeF3 celeF4 celeF5
-					
+						
+					celeF1 celeF2 celeF3 celeF4 celeF5 celeF6 celeF7
+						
 					celeH1 celeH2
-					
+						
 					dbreakF1 dbreakF2
-					
+						
 					lunaF1 lunaF2 lunaF3 lunaF4 lunaF5
-					
+						
 					lunaH1 lunaH2
-					
+						
 					nightF1 nightF2 nightF3 nightF4
-					
+						
 					nightH1 nightH2
-					
+						
 					somF1 somF2 somF3 somF4 somF5
 					
 					pegasusf1

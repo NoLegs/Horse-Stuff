@@ -30,7 +30,7 @@ portrait_groups = {
 		game_setup = { 
            		add = {
                 	portraits = {
-						chrysF1 chrysF2 chrysF3 chrysF4 chrysF5
+						chrysF1 chrysF2 chrysF3 chrysF4 chrysF5 chrysF6
 						
 						chrysH1 chrysH2
 					
