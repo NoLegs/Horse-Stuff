@@ -1,5 +1,5 @@
 message_type = {
-	key = MESSAGE_BUGGO_COMPLETE
+	key = MESSAGE_TYPE_BUGGO_COMPLETE
 	icon = "GFX_message_buggo_complete"
 	icon_frame = 1
 
