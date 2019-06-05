@@ -15,7 +15,6 @@ decision_search_for_deposits_horse = {
 	
 	potential = {
 		owner = { 
-			is_regular_empire = yes 
 			has_trait = trait_pony_power
 		}
 		habitable_structure = no
@@ -60,7 +59,6 @@ decision_cloud_cities = {
 	
 	potential = {
 		owner = { 
-			is_regular_empire = yes 
 			has_trait = trait_pony_power
 		}
 		habitable_structure = no
@@ -103,7 +101,6 @@ decision_advanced_alchemical_refinement = {
 	
 	potential = {
 		owner = { 
-			is_regular_empire = yes 
 			has_trait = trait_pony_power
 		}
 		habitable_structure = no
@@ -144,7 +141,6 @@ decision_pony_parties = {
 	
 	potential = {
 		owner = { 
-			is_regular_empire = yes 
 			has_trait = trait_party_ponies
 		}
 	}

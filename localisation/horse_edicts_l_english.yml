@@ -1,13 +1,13 @@
 ﻿l_english:
 
-unicorn_powered_focuses_desc:0 "Unicorn Powered Focuses"
-unicorn_powered_focuses_desc:0 ""
+edict_unicorn_powered_focuses:0 "Unicorn Powered Focuses"
+edict_unicorn_powered_focuses_desc:0 ""
 
-down_and_dirty_desc:0 "Down and Dirty"
-down_and_dirty_desc:0 ""
+edict_down_and_dirty:0 "Down and Dirty"
+edict_down_and_dirty_desc:0 ""
 
-legacy_of_the_wonderbolts_desc:0 "Legacy of the Wonderbolts"
-legacy_of_the_wonderbolts_desc:0 ""
+edict_legacy_of_the_wonderbolts:0 "Legacy of the Wonderbolts"
+edict_legacy_of_the_wonderbolts_desc:0 ""
 
-new_flaming_stars_desc:0 "New Flaming Stars"
-new_flaming_stars_desc:0 ""
+edict_new_flaming_stars:0 "New Flaming Stars"
+edict_new_flaming_stars_desc:0 ""

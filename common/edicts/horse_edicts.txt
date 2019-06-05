@@ -4,7 +4,7 @@ unicorn_powered_focuses = {
 	resources = {
 		category = edicts
 		cost = {
-			influence = @Edict1Cost
+##			influence = 100
 		}
 	}
 
@@ -27,7 +27,7 @@ down_and_dirty = {
 	resources = {
 		category = edicts
 		cost = {
-			influence = @Edict1Cost
+##			influence = 100
 		}
 	}
 
@@ -51,7 +51,7 @@ legacy_of_the_wonderbolts = {
 	resources = {
 		category = edicts
 		cost = {
-			influence = @Edict1Cost
+##			influence = 100
 		}
 	}
 
@@ -74,7 +74,7 @@ new_flaming_stars = {
 	resources = {
 		category = edicts
 		cost = {
-			energy = 500
+##			energy = 1500
 		}
 	}
 

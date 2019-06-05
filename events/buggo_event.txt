@@ -1,0 +1,34 @@
+##Temporary Test Space (Seperated for my own gain)
+namespace = buggo
+
+planet_event = { 
+	id = buggo.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	title = OK
+	desc = OK
+
+	trigger = {
+		FROM = {
+##	Depricated		has_trait = trait_emotionovores 
+			has_valid_civic = civic_changeling_swarms
+		}
+		FROMFROM = {
+			is_robot_pop = no
+			NOT = {
+				is_same_species = owner_species
+			}
+		}
+		is_controlled_by = FROM
+	}
+	
+	immediate = {
+		while = {
+		count = 1
+		create_pop = {
+			species = owner_main_species
+			}
+		}
+	}
+}
