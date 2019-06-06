@@ -5,5 +5,6 @@ tags={
 	"Traits"
 	"Empires"
 	"Sexy Horses"
+	"Snuggle Buggos"
 }
 supported_version="2.3.*"
