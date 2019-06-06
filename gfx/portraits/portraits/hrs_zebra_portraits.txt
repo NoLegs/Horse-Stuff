@@ -1,38 +1,36 @@
 portraits = {
 
-	zebraf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf1.dds"	}
-	zebraf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf2.dds"	}
-	zebraf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf3.dds"	}
-	zebraf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf4.dds"	}
-	zebraf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf5.dds"	}
-	zebraf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf6.dds"	}
-	zebraf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf7.dds"	}	
-	zebraf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf8.dds"	}
-	zebraf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf9.dds"	}
-	zebraf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf10.dds"	}
-	zebraf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf11.dds"	}
-	zebraf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf12.dds"	}
+	zebF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf1.dds"	}
+	zebF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf2.dds"	}
+	zebF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf3.dds"	}
+	zebF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf4.dds"	}
+	zebF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf5.dds"	}
+	zebF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf6.dds"	}
+	zebF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf7.dds"	}	
+	zebF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf8.dds"	}
+	zebF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf9.dds"	}
+	zebF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf10.dds"	}
+	zebF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf11.dds"	}
+	zebF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf12.dds"	}
+	zebF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf13.dds"	}	
+	zebF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf14.dds"	}
+	zebF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf15.dds"	}
+	zebF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf16.dds"	}
+	zebF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf17.dds"	}
+	zebF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf18.dds"	}
 
 }
 
 portrait_groups = {
     zebra = {
-		default = zebraf1
+		default = zebF01
 		game_setup = { 
-           		add = {
-                	portraits = {
-						zebraf1
-						zebraf2
-						zebraf3
-						zebraf4
-						zebraf5
-						zebraf6
-						zebraf7
-						zebraf8
-						zebraf9
-						zebraf10
-						zebraf11
-						zebraf12
+           	add = {
+                portraits = {
+					zebF01 zebF02 zebF03 zebF04 zebF05
+					zebF06 zebF07 zebF08 zebF09 zebF10
+					zebF11 zebF12 zebF13 zebF14 zebF15 
+					zebF16 zebF17 zebF18
 				}
 			}
 		}
@@ -40,18 +38,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					zebraf1
-					zebraf2
-					zebraf3
-					zebraf4
-					zebraf5
-					zebraf6
-					zebraf7
-					zebraf8
-					zebraf9
-					zebraf10
-					zebraf11
-					zebraf12
+					zebF01 zebF02 zebF03 zebF04 zebF05
+					zebF06 zebF07 zebF08 zebF09 zebF10
+					zebF11 zebF12 zebF13 zebF14 zebF15 
+					zebF16 zebF17 zebF18
 				}
 			}
 		}
@@ -59,18 +49,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					zebraf1
-					zebraf2
-					zebraf3
-					zebraf4
-					zebraf5
-					zebraf6
-					zebraf7
-					zebraf8
-					zebraf9
-					zebraf10
-					zebraf11
-					zebraf12
+					zebF01 zebF02 zebF03 zebF04 zebF05
+					zebF06 zebF07 zebF08 zebF09 zebF10
+					zebF11 zebF12 zebF13 zebF14 zebF15 
+					zebF16 zebF17 zebF18
 				}
 			}
 		}
@@ -78,38 +60,21 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					zebraf1
-					zebraf2
-					zebraf3
-					zebraf4
-					zebraf5
-					zebraf6
-					zebraf7
-					zebraf8
-					zebraf9
-					zebraf10
-					zebraf11
-					zebraf12
+					zebF01 zebF02 zebF03 zebF04 zebF05
+					zebF06 zebF07 zebF08 zebF09 zebF10
+					zebF11 zebF12 zebF13 zebF14 zebF15 
+					zebF16 zebF17 zebF18
 				}
 			}
-
 		}	
 		#leader scope 
 		ruler = {
 			add = {
 				portraits = {
-					zebraf1
-					zebraf2
-					zebraf3
-					zebraf4
-					zebraf5
-					zebraf6
-					zebraf7
-					zebraf8
-					zebraf9
-					zebraf10
-					zebraf11
-					zebraf12
+					zebF01 zebF02 zebF03 zebF04 zebF05
+					zebF06 zebF07 zebF08 zebF09 zebF10
+					zebF11 zebF12 zebF13 zebF14 zebF15 
+					zebF16 zebF17 zebF18
                 }
             }
         }

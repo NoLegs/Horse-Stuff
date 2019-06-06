@@ -3,6 +3,9 @@ portraits = {
 	cadeF2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/cadeF2.dds"	}
 	cadeF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/cadeF3.dds"	}
 	cadeF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/cadeF4.dds"	}
+	cadeF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/cadeF5.dds"	}
+	cadeF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/cadeF6.dds"	}
+	cadeF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/cadeF7.dds"	}
 	cadeH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/cadeH1.dds"	}
 	cadeH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/cadeH2.dds"	}
 	
@@ -11,6 +14,9 @@ portraits = {
 	celeF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF3.dds"	}
 	celeF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF4.dds"	}
 	celeF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF5.dds"	}
+	celeF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF6.dds"	}
+	celeF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF7.dds"	}
+	celeF8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF8.dds"	}
 	celeH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeH1.dds"	}
 	celeH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeH2.dds"	}
 	
@@ -43,6 +49,8 @@ portraits = {
 	chrysF3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysF3.dds"	}
 	chrysF4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysF4.dds"	}
 	chrysF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysF5.dds"	}
+	chrysF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysF6.dds"	}
+	chrysF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysF7.dds"	}
 	chrysH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysH1.dds"	}
 	chrysH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/chrysH2.dds"	}
 }
