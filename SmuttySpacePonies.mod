@@ -1,5 +1,5 @@
 name="-!Smutty Space Ponies!-"
-path="mod/Smutty Space Ponies"
+path="mod/SmuttySpacePonies"
 tags={
 	"Species"
 	"Traits"
