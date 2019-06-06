@@ -2,7 +2,7 @@
 ##	cost = -1
 ##	potential_crossbreeding_chance = 0.5
 ##	opposites = { "trait_pony_power" }
-##	allowed_archetypes = { HRS }
+##	allowed_archetypes = { BIOLOGICAL }
 ##	modifier = {
 ##		pop_housing_usage_mult = -0.15
 ##	}
@@ -12,7 +12,7 @@
 ##	cost = -1
 ##	potential_crossbreeding_chance = 0.5
 ##	opposites = { "trait_pony_power" }
-##	allowed_archetypes = { HRS }
+##	allowed_archetypes = { BIOLOGICAL }
 ##	modifier = {
 ##		planet_jobs_unity_produces_mult = 0.15
 ##		planet_jobs_food_produces_mult = 0.15
@@ -23,7 +23,7 @@
 ##	cost = -1
 ##	potential_crossbreeding_chance = 0.5
 ##	opposites = { "trait_pony_power" }
-##	allowed_archetypes = { HRS }
+##	allowed_archetypes = { BIOLOGICAL }
 ##	modifier = {
 ##		planet_jobs_unity_produces_mult = 0.15
 ##	}
@@ -33,7 +33,7 @@ trait_emotionovores = {
 	cost = 0
 	potential_crossbreeding_chance = 0
 	opposites = { }
-	allowed_archetypes = { HRS }
+	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_emotionovores.dds"
 	initial = no
 	randomized = no
@@ -50,7 +50,7 @@ trait_pony_power = {
 	cost = 6
 	potential_crossbreeding_chance = 0
 	opposites = { }
-	allowed_archetypes = { HRS }
+	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_harmonic.dds"
 	randomized = no
 	modifier = {
@@ -68,7 +68,7 @@ trait_party_ponies = {
 	cost = -4
 	potential_crossbreeding_chance = 0
 	opposites = { }
-	allowed_archetypes = { HRS }
+	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_party_ponies.dds"
 	randomized = no
 	modifier = {

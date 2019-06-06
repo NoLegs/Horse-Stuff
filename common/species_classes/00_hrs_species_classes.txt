@@ -1,6 +1,6 @@
 HRS = {
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
-    archetype = HRS
+    archetype = BIOLOGICAL
 	
 	portraits = {
 		"unitedpony"
@@ -23,7 +23,7 @@ HRS = {
 
 FER = {
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
-    archetype = FER
+    archetype = BIOLOGICAL
 	
 	portraits = {
 		"feralunited"
