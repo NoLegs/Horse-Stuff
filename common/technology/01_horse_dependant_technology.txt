@@ -8,6 +8,7 @@ tech_basic_magic_theory = {
 	weight = @tier1weight1
 	potential = {
 		has_trait = trait_pony_power
+		has_trait = trait_emotionovores
 	}
 	
 	feature_flags = { }
