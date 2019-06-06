@@ -1,6 +1,9 @@
-name="Horse Stuff"
-path="mod/Horse Stuff"
+name="-!Smutty Space Ponies!-"
+path="mod/Smutty Space Ponies"
 tags={
 	"Species"
+	"Traits"
+	"Empires"
+	"Sexy Horses"
 }
 supported_version="2.3.*"
