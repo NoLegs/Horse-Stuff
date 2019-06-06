@@ -16,6 +16,7 @@ portraits = {
 	celeF5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF5.dds"	}
 	celeF6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF6.dds"	}
 	celeF7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF7.dds"	}
+	celeF8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeF8.dds"	}
 	celeH1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeH1.dds"	}
 	celeH2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/ruler/celeH2.dds"	}
 	

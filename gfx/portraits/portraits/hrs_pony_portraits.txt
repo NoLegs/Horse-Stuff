@@ -1,89 +1,100 @@
 portraits = {
-	pegasusf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf1.dds"	}
-	pegasusf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf2.dds"	}
-	pegasusf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf3.dds"	}
-	pegasusf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf4.dds"	}
-	pegasusf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf5.dds"	}
-	pegasusf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf6.dds"	}
-	pegasusf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf7.dds"	}
-	pegasusf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf8.dds"	}
-	pegasusf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf9.dds"	}
-	pegasusf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf10.dds"	}
-	pegasusf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf11.dds"	}
-	pegasusf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf12.dds"	}
-	pegasusf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf13.dds"	}
-	pegasusf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf14.dds"	}
+	pegF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf1.dds"	}
+	pegF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf2.dds"	}
+	pegF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf3.dds"	}
+	pegF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf4.dds"	}
+	pegF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf5.dds"	}
+	pegF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf6.dds"	}
+	pegF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf7.dds"	}
+	pegF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf8.dds"	}
+	pegF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf9.dds"	}
+	pegF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf10.dds"	}
+	pegF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf11.dds"	}
+	pegF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf12.dds"	}
+	pegF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf13.dds"	}
+	pegF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf14.dds"	}
+	pegF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasusf15.dds"	}
 
-	unicornf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf1.dds"	}
-	unicornf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf2.dds"	}
-	unicornf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf3.dds"	}
-	unicornf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf4.dds"	}
-	unicornf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf5.dds"	}
-	unicornf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf6.dds"	}
-	unicornf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf7.dds"	}
-	unicornf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf8.dds"	}
-	unicornf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf9.dds"	}
-	unicornf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf10.dds"	}
-	unicornf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf11.dds"	}
-	unicornf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf12.dds"	}
-	unicornf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf13.dds"	}
-	unicornf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf14.dds"	}
-	unicornf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf15.dds"	}
+	uniF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf1.dds"	}
+	uniF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf2.dds"	}
+	uniF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf3.dds"	}
+	uniF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf4.dds"	}
+	uniF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf5.dds"	}
+	uniF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf6.dds"	}
+	uniF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf7.dds"	}
+	uniF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf8.dds"	}
+	uniF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf9.dds"	}
+	uniF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf10.dds"	}
+	uniF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf11.dds"	}
+	uniF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf12.dds"	}
+	uniF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf13.dds"	}
+	uniF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf14.dds"	}
+	uniF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf15.dds"	}
+	uniF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornf16.dds"	}
 	
-	earthf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf1.dds"	}
-	earthf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf2.dds"	}
-	earthf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf3.dds"	}
-	earthf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf4.dds"	}
-	earthf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf5.dds"	}
-	earthf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf6.dds"	}
-	earthf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf7.dds"	}
-	earthf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf8.dds"	}
-	earthf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf9.dds"	}
-	earthf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf10.dds"	}
-	earthf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf11.dds"	}
-	earthf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf12.dds"	}
-	earthf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf13.dds"	}
-	earthf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf14.dds"	}
-	earthf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf15.dds"	}
-	earthf16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf16.dds"	}
-	earthf17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf17.dds"	}
-	earthf18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf18.dds"	}
-	earthf19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf19.dds"	}
-	earthf20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf20.dds"	}
-	earthf21 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf21.dds"	}
+	earF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf1.dds"	}
+	earF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf2.dds"	}
+	earF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf3.dds"	}
+	earF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf4.dds"	}
+	earF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf5.dds"	}
+	earF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf6.dds"	}
+	earF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf7.dds"	}
+	earF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf8.dds"	}
+	earF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf9.dds"	}
+	earF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf10.dds"	}
+	earF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf11.dds"	}
+	earF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf12.dds"	}
+	earF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf13.dds"	}
+	earF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf14.dds"	}
+	earF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf15.dds"	}
+	earF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf16.dds"	}
+	earF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf17.dds"	}
+	earF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf18.dds"	}
+	earF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf19.dds"	}
+	earF20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf20.dds"	}
+	earF21 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf21.dds"	}
+	earF22 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf22.dds"	}
+	earF23 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf23.dds"	}
+	earF24 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf24.dds"	}
+	earF25 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf25.dds"	}
+	earF26 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf26.dds"	}
+	earF27 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf27.dds"	}
+	earF28 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf28.dds"	}
+	earF29 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf29.dds"	}
+	earF30 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthf30.dds"	}
 
-	crystalf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf1.dds"	}
-	crystalf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf2.dds"	}
-	crystalf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf3.dds"	}
-	crystalf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf4.dds"	}
-	crystalf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf5.dds"	}
-	crystalf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf6.dds"	}
-	crystalf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf7.dds"	}
-	crystalf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf8.dds"	}
-	crystalf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf9.dds"	}
+	cryF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf1.dds"	}
+	cryF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf2.dds"	}
+	cryF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf3.dds"	}
+	cryF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf4.dds"	}
+	cryF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf5.dds"	}
+	cryF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf6.dds"	}
+	cryF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf7.dds"	}
+	cryF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf8.dds"	}
+	cryF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf9.dds"	}
 	
-	earthh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh1.dds"	}
-	earthh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh2.dds"	}
-	earthh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh3.dds"	}
-	earthh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh4.dds"	}
-	earthh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh5.dds"	}
-	earthh6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh6.dds"	}
-	earthh7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh7.dds"	}
+	earH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh1.dds"	}
+	earH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh2.dds"	}
+	earH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh3.dds"	}
+	earH04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh4.dds"	}
+	earH05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh5.dds"	}
+	earH06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh6.dds"	}
+	earH07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh7.dds"	}
 	
-	pegasush1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush1.dds"	}
-	pegasush2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush2.dds"	}
-	pegasush3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush3.dds"	}
-	pegasush4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush4.dds"	}
-	pegasush5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush5.dds"	}
-	pegasush6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush6.dds"	}
+	pegH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush1.dds"	}
+	pegH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush2.dds"	}
+	pegH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush3.dds"	}
+	pegH04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush4.dds"	}
+	pegH05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush5.dds"	}
+	pegH06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/pegasush6.dds"	}
 	
-	unicornh1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh1.dds"	}
-	unicornh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh2.dds"	}
-	unicornh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh3.dds"	}
-	unicornh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh4.dds"	}
-	unicornh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh5.dds"	}
-	unicornh6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh6.dds"	}
-	unicornh7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh7.dds"	}
+	uniH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh1.dds"	}
+	uniH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh2.dds"	}
+	uniH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh3.dds"	}
+	uniH04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh4.dds"	}
+	uniH05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh5.dds"	}
+	uniH06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh6.dds"	}
+	uniH07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/unicornh7.dds"	}
 	
 }
 
@@ -93,124 +104,56 @@ portrait_groups = {
 		game_setup = { 
            		add = {
                 	portraits = {
-						cadeF1 cadeF2 cadeF3 cadeF4 cadeF5 cadeF6 cadeF7
-						
+						cadeF1 cadeF2 cadeF3 cadeF4 cadeF5 
+						cadeF6 cadeF7
 						cadeH1 cadeH2
 						
-						celeF1 celeF2 celeF3 celeF4 celeF5 celeF6 celeF7
-						
+						celeF1 celeF2 celeF3 celeF4 celeF5 
+						celeF6 celeF7 celeF8
 						celeH1 celeH2
 						
 						dbreakF1 dbreakF2
 						
 						lunaF1 lunaF2 lunaF3 lunaF4 lunaF5
-						
 						lunaH1 lunaH2
 						
 						nightF1 nightF2 nightF3 nightF4
-						
 						nightH1 nightH2
 						
 						somF1 somF2 somF3 somF4 somF5
 						
-						pegasusf1
-						pegasusf2
-						pegasusf3
-						pegasusf4
-						pegasusf5
-						pegasusf6
-						pegasusf7
-						pegasusf8
-						pegasusf9
-						pegasusf10
-						pegasusf11
-						pegasusf12
-						pegasusf13
-						pegasusf14
+						pegF01 pegF02 pegF03 pegF04 pegF05
+						pegF06 pegF07 pegF08 pegF09 pegF10
+						pegF11 pegF12 pegF13 pegF14 pegF15
 						
-						pegasush1
-						pegasush2
-						pegasush3
-						pegasush4
-						pegasush5
-						pegasush6
+						pegH01 pegH02 pegH03 pegH04 pegH05
+						pegH06
 						
-						unicornf1
-						unicornf2
-						unicornf3
-						unicornf4
-						unicornf5
-						unicornf6
-						unicornf7
-						unicornf8
-						unicornf9
-						unicornf10
-						unicornf11
-						unicornf12
-						unicornf13
-						unicornf14
-						unicornf15
+						uniF01 uniF02 uniF03 uniF04 uniF05
+						uniF06 uniF07 uniF08 uniF09 uniF10
+						uniF11 uniF12 uniF13 uniF14 uniF15
+						uniF16
 						
-						unicornh1
-						unicornh2
-						unicornh3
-						unicornh4
-						unicornh5
-						unicornh6
-						unicornh7
+						uniH01 uniH02 uniH03 uniH04 uniH05
+						uniH06 uniH07
 						
-						earthf1
-						earthf2
-						earthf3
-						earthf4
-						earthf5
-						earthf6
-						earthf7
-						earthf8
-						earthf9
-						earthf10
-						earthf11
-						earthf12
-						earthf13
-						earthf14
-						earthf15
-						earthf16
-						earthf17
-						earthf18
-						earthf19
-						earthf20
-						earthf21
+						earF01 earF02 earF03 earF04 earF05
+						earF06 earF07 earF08 earF09 earF10
+						earF11 earF12 earF13 earF14 earF15
+						earF16 earF17 earF18 earF19 earF20
+						earF21 earF22 earF23 earF24 earF25
+						earF26 earF27 earF28 earF29 earF30
 						
-						earthh1
-						earthh2
-						earthh3
-						earthh4
-						earthh5
-						earthh6
-						earthh7
+						earH01 earH02 earH03 earH04 earH05
+						earH06 earH07
 						
-						crystalf1
-						crystalf2
-						crystalf3
-						crystalf4
-						crystalf5
-						crystalf6
-						crystalf7
-						crystalf8
-						crystalf9
+						cryF01 cryF02 cryF03 cryF04 cryF05 
+						cryF06 cryF07 cryF08 cryF09
 						
-						zebraf1
-						zebraf2
-						zebraf3
-						zebraf4
-						zebraf5
-						zebraf6
-						zebraf7
-						zebraf8
-						zebraf9
-						zebraf10
-						zebraf11
-						zebraf12
+						zebF01 zebF02 zebF03 zebF04 zebF05
+						zebF06 zebF07 zebF08 zebF09 zebF10
+						zebF11 zebF12 zebF13 zebF14 zebF15 
+						zebF16 zebF17 zebF18
 					}
 				}
 		}
@@ -218,103 +161,38 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					pegasusf13
-					pegasusf14
+					pegF01 pegF02 pegF03 pegF04 pegF05
+					pegF06 pegF07 pegF08 pegF09 pegF10
+					pegF11 pegF12 pegF13 pegF14 pegF15
 					
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
+					pegH01 pegH02 pegH03 pegH04 pegH05
+					pegH06
 					
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					unicornf14
-					unicornf15
+					uniF01 uniF02 uniF03 uniF04 uniF05
+					uniF06 uniF07 uniF08 uniF09 uniF10
+					uniF11 uniF12 uniF13 uniF14 uniF15
+					uniF16
 					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
+					uniH01 uniH02 uniH03 uniH04 uniH05
+					uniH06 uniH07
 					
-					earthf1
-					earthf2
-					earthf3
-					earthf4
-					earthf5
-					earthf6
-					earthf7
-					earthf8
-					earthf9
-					earthf10
-					earthf11
-					earthf12
-					earthf13
-					earthf14
-					earthf15
-					earthf16
-					earthf17
-					earthf18
-					earthf19
-					earthf20
-					earthf21
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
 					
-					earthh1
-					earthh2
-					earthh3
-					earthh4
-					earthh5
-					earthh6
-					earthh7
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
 					
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-					crystalf7
-					crystalf8
-					crystalf9
+					cryF01 cryF02 cryF03 cryF04 cryF05 
+					cryF06 cryF07 cryF08 cryF09
 					
-					zebraf1
-					zebraf2
-					zebraf3
-					zebraf4
-					zebraf5
-					zebraf6
-					zebraf7
-					zebraf8
-					zebraf9
-					zebraf10
-					zebraf11
-					zebraf12
+					zebF01 zebF02 zebF03 zebF04 zebF05
+					zebF06 zebF07 zebF08 zebF09 zebF10
+					zebF11 zebF12 zebF13 zebF14 zebF15 
+					zebF16 zebF17 zebF18
 				}
 			}
 		}
@@ -322,103 +200,38 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					pegasusf13
-					pegasusf14
+					pegF01 pegF02 pegF03 pegF04 pegF05
+					pegF06 pegF07 pegF08 pegF09 pegF10
+					pegF11 pegF12 pegF13 pegF14 pegF15
 					
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
+					pegH01 pegH02 pegH03 pegH04 pegH05
+					pegH06
 					
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					unicornf14
-					unicornf15
+					uniF01 uniF02 uniF03 uniF04 uniF05
+					uniF06 uniF07 uniF08 uniF09 uniF10
+					uniF11 uniF12 uniF13 uniF14 uniF15
+					uniF16
 					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
+					uniH01 uniH02 uniH03 uniH04 uniH05
+					uniH06 uniH07
 					
-					earthf1
-					earthf2
-					earthf3
-					earthf4
-					earthf5
-					earthf6
-					earthf7
-					earthf8
-					earthf9
-					earthf10
-					earthf11
-					earthf12
-					earthf13
-					earthf14
-					earthf15
-					earthf16
-					earthf17
-					earthf18
-					earthf19
-					earthf20
-					earthf21
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
 					
-					earthh1
-					earthh2
-					earthh3
-					earthh4
-					earthh5
-					earthh6
-					earthh7
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
 					
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-					crystalf7
-					crystalf8
-					crystalf9
+					cryF01 cryF02 cryF03 cryF04 cryF05 
+					cryF06 cryF07 cryF08 cryF09
 					
-					zebraf1
-					zebraf2
-					zebraf3
-					zebraf4
-					zebraf5
-					zebraf6
-					zebraf7
-					zebraf8
-					zebraf9
-					zebraf10
-					zebraf11
-					zebraf12
+					zebF01 zebF02 zebF03 zebF04 zebF05
+					zebF06 zebF07 zebF08 zebF09 zebF10
+					zebF11 zebF12 zebF13 zebF14 zebF15 
+					zebF16 zebF17 zebF18
 				}
 			}
 		}
@@ -426,103 +239,38 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
            	add = {
                 portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					pegasusf13
-					pegasusf14
+					pegF01 pegF02 pegF03 pegF04 pegF05
+					pegF06 pegF07 pegF08 pegF09 pegF10
+					pegF11 pegF12 pegF13 pegF14 pegF15
 					
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
+					pegH01 pegH02 pegH03 pegH04 pegH05
+					pegH06
 					
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					unicornf14
-					unicornf15
+					uniF01 uniF02 uniF03 uniF04 uniF05
+					uniF06 uniF07 uniF08 uniF09 uniF10
+					uniF11 uniF12 uniF13 uniF14 uniF15
+					uniF16
 					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
+					uniH01 uniH02 uniH03 uniH04 uniH05
+					uniH06 uniH07
 					
-					earthf1
-					earthf2
-					earthf3
-					earthf4
-					earthf5
-					earthf6
-					earthf7
-					earthf8
-					earthf9
-					earthf10
-					earthf11
-					earthf12
-					earthf13
-					earthf14
-					earthf15
-					earthf16
-					earthf17
-					earthf18
-					earthf19
-					earthf20
-					earthf21
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
 					
-					earthh1
-					earthh2
-					earthh3
-					earthh4
-					earthh5
-					earthh6
-					earthh7
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
 					
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-					crystalf7
-					crystalf8
-					crystalf9
+					cryF01 cryF02 cryF03 cryF04 cryF05 
+					cryF06 cryF07 cryF08 cryF09
 					
-					zebraf1
-					zebraf2
-					zebraf3
-					zebraf4
-					zebraf5
-					zebraf6
-					zebraf7
-					zebraf8
-					zebraf9
-					zebraf10
-					zebraf11
-					zebraf12
+					zebF01 zebF02 zebF03 zebF04 zebF05
+					zebF06 zebF07 zebF08 zebF09 zebF10
+					zebF11 zebF12 zebF13 zebF14 zebF15 
+					zebF16 zebF17 zebF18
 				}
 			}
 		}	
@@ -530,124 +278,56 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-				
-					cadeF1 cadeF2 cadeF3 cadeF4 cadeF5 cadeF6 cadeF7
-						
+					cadeF1 cadeF2 cadeF3 cadeF4 cadeF5 
+					cadeF6 cadeF7
 					cadeH1 cadeH2
-						
-					celeF1 celeF2 celeF3 celeF4 celeF5 celeF6 celeF7
-						
+					
+					celeF1 celeF2 celeF3 celeF4 celeF5 
+					celeF6 celeF7 celeF8
 					celeH1 celeH2
-						
+					
 					dbreakF1 dbreakF2
-						
+					
 					lunaF1 lunaF2 lunaF3 lunaF4 lunaF5
-						
 					lunaH1 lunaH2
-						
+					
 					nightF1 nightF2 nightF3 nightF4
-						
 					nightH1 nightH2
-						
+					
 					somF1 somF2 somF3 somF4 somF5
 					
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					pegasusf13
-					pegasusf14
+					pegF01 pegF02 pegF03 pegF04 pegF05
+					pegF06 pegF07 pegF08 pegF09 pegF10
+					pegF11 pegF12 pegF13 pegF14 pegF15
 					
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
+					pegH01 pegH02 pegH03 pegH04 pegH05
+					pegH06
 					
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					unicornf14
-					unicornf15
+					uniF01 uniF02 uniF03 uniF04 uniF05
+					uniF06 uniF07 uniF08 uniF09 uniF10
+					uniF11 uniF12 uniF13 uniF14 uniF15
+					uniF16
 					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
+					uniH01 uniH02 uniH03 uniH04 uniH05
+					uniH06 uniH07
 					
-					earthf1
-					earthf2
-					earthf3
-					earthf4
-					earthf5
-					earthf6
-					earthf7
-					earthf8
-					earthf9
-					earthf10
-					earthf11
-					earthf12
-					earthf13
-					earthf14
-					earthf15
-					earthf16
-					earthf17
-					earthf18
-					earthf19
-					earthf20
-					earthf21
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
 					
-					earthh1
-					earthh2
-					earthh3
-					earthh4
-					earthh5
-					earthh6
-					earthh7
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
 					
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-					crystalf7
-					crystalf8
-					crystalf9
+					cryF01 cryF02 cryF03 cryF04 cryF05 
+					cryF06 cryF07 cryF08 cryF09
 					
-					zebraf1
-					zebraf2
-					zebraf3
-					zebraf4
-					zebraf5
-					zebraf6
-					zebraf7
-					zebraf8
-					zebraf9
-					zebraf10
-					zebraf11
-					zebraf12
+					zebF01 zebF02 zebF03 zebF04 zebF05
+					zebF06 zebF07 zebF08 zebF09 zebF10
+					zebF11 zebF12 zebF13 zebF14 zebF15 
+					zebF16 zebF17 zebF18
 				}
 			}
         }
@@ -656,31 +336,16 @@ portrait_groups = {
 
 portrait_groups = {
     pegasus = {
-		default = pegasusf2
+		default = pegF02
 		game_setup = {
            	add = {
                 portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					pegasusf13
-					pegasusf14
-						
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
+					pegF01 pegF02 pegF03 pegF04 pegF05
+					pegF06 pegF07 pegF08 pegF09 pegF10
+					pegF11 pegF12 pegF13 pegF14 pegF15
+					
+					pegH01 pegH02 pegH03 pegH04 pegH05
+					pegH06
 				}
 			}
 		}
@@ -688,27 +353,12 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					pegasusf13
-					pegasusf14
+					pegF01 pegF02 pegF03 pegF04 pegF05
+					pegF06 pegF07 pegF08 pegF09 pegF10
+					pegF11 pegF12 pegF13 pegF14 pegF15
 					
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
+					pegH01 pegH02 pegH03 pegH04 pegH05
+					pegH06
 				}
 			}
 		}
@@ -716,27 +366,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					pegasusf13
-					pegasusf14
+					pegF01 pegF02 pegF03 pegF04 pegF05
+					pegF06 pegF07 pegF08 pegF09 pegF10
+					pegF11 pegF12 pegF13 pegF14 pegF15
 					
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
+					pegH01 pegH02 pegH03 pegH04 pegH05
+					pegH06
 				}
 			}
 		}
@@ -744,27 +379,12 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
            	add = {
                 portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					pegasusf13
-					pegasusf14
-						
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
+					pegF01 pegF02 pegF03 pegF04 pegF05
+					pegF06 pegF07 pegF08 pegF09 pegF10
+					pegF11 pegF12 pegF13 pegF14 pegF15
+					
+					pegH01 pegH02 pegH03 pegH04 pegH05
+					pegH06
 				}
 			}
 
@@ -773,27 +393,12 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-					pegasusf1
-					pegasusf2
-					pegasusf3
-					pegasusf4
-					pegasusf5
-					pegasusf6
-					pegasusf7
-					pegasusf8
-					pegasusf9
-					pegasusf10
-					pegasusf11
-					pegasusf12
-					pegasusf13
-					pegasusf14
-						
-					pegasush1
-					pegasush2
-					pegasush3
-					pegasush4
-					pegasush5
-					pegasush6
+					pegF01 pegF02 pegF03 pegF04 pegF05
+					pegF06 pegF07 pegF08 pegF09 pegF10
+					pegF11 pegF12 pegF13 pegF14 pegF15
+					
+					pegH01 pegH02 pegH03 pegH04 pegH05
+					pegH06
 				}
 			}
         }
@@ -802,33 +407,17 @@ portrait_groups = {
 
 portrait_groups = {
     unicorn = {
-		default = unicornf1
+		default = uniF01
 		game_setup = { 
            	add = {
                 portraits = {
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					unicornf14
-					unicornf15
+					uniF01 uniF02 uniF03 uniF04 uniF05
+					uniF06 uniF07 uniF08 uniF09 uniF10
+					uniF11 uniF12 uniF13 uniF14 uniF15
+					uniF16
 					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
+					uniH01 uniH02 uniH03 uniH04 uniH05
+					uniH06 uniH07
 				}
 			}
 		}
@@ -836,29 +425,13 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					unicornf14
-					unicornf15
+					uniF01 uniF02 uniF03 uniF04 uniF05
+					uniF06 uniF07 uniF08 uniF09 uniF10
+					uniF11 uniF12 uniF13 uniF14 uniF15
+					uniF16
 					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
+					uniH01 uniH02 uniH03 uniH04 uniH05
+					uniH06 uniH07
 				}
 			}
 		}
@@ -866,29 +439,13 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					unicornf14
-					unicornf15
+					uniF01 uniF02 uniF03 uniF04 uniF05
+					uniF06 uniF07 uniF08 uniF09 uniF10
+					uniF11 uniF12 uniF13 uniF14 uniF15
+					uniF16
 					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
+					uniH01 uniH02 uniH03 uniH04 uniH05
+					uniH06 uniH07
 				}
 			}
 		}
@@ -896,29 +453,13 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
            	add = {
                 portraits = {
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					unicornf14
-					unicornf15
+					uniF01 uniF02 uniF03 uniF04 uniF05
+					uniF06 uniF07 uniF08 uniF09 uniF10
+					uniF11 uniF12 uniF13 uniF14 uniF15
+					uniF16
 					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
+					uniH01 uniH02 uniH03 uniH04 uniH05
+					uniH06 uniH07
 				}
 			}
 
@@ -927,29 +468,13 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-					unicornf1
-					unicornf2
-					unicornf3
-					unicornf4
-					unicornf5
-					unicornf6
-					unicornf7
-					unicornf8
-					unicornf9
-					unicornf10
-					unicornf11
-					unicornf12
-					unicornf13
-					unicornf14
-					unicornf15
+					uniF01 uniF02 uniF03 uniF04 uniF05
+					uniF06 uniF07 uniF08 uniF09 uniF10
+					uniF11 uniF12 uniF13 uniF14 uniF15
+					uniF16
 					
-					unicornh1
-					unicornh2
-					unicornh3
-					unicornh4
-					unicornh5
-					unicornh6
-					unicornh7
+					uniH01 uniH02 uniH03 uniH04 uniH05
+					uniH06 uniH07
 				}
 			}
         }
@@ -960,18 +485,12 @@ portrait_groups = {
     crystal = {
 		default = somF1
 		game_setup = { 
-           		add = {
-                	portraits = {
-						somF1 somF2 somF3 somF4 somF5
-						
-						crystalf2
-						crystalf3
-						crystalf4
-						crystalf5
-						crystalf6
-						crystalf7
-						crystalf8
-						crystalf9
+           	add = {
+               	portraits = {
+					somF1 somF2 somF3 somF4 somF5
+					
+					cryF01 cryF02 cryF03 cryF04 cryF05 
+					cryF06 cryF07 cryF08 cryF09
 				}
 			}
 		}
@@ -979,14 +498,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-					crystalf7
-					crystalf8
-					crystalf9
+					cryF01 cryF02 cryF03 cryF04 cryF05 
+					cryF06 cryF07 cryF08 cryF09
 				}
 			}
 		}
@@ -994,14 +507,8 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-					crystalf7
-					crystalf8
-					crystalf9
+					cryF01 cryF02 cryF03 cryF04 cryF05 
+					cryF06 cryF07 cryF08 cryF09
 				}
 			}
 		}
@@ -1009,14 +516,8 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-					crystalf7
-					crystalf8
-					crystalf9
+					cryF01 cryF02 cryF03 cryF04 cryF05 
+					cryF06 cryF07 cryF08 cryF09
 				}
 			}
 
@@ -1028,14 +529,8 @@ portrait_groups = {
 				
 					somF1 somF2 somF3 somF4 somF5
 					
-					crystalf2
-					crystalf3
-					crystalf4
-					crystalf5
-					crystalf6
-					crystalf7
-					crystalf8
-					crystalf9
+					cryF01 cryF02 cryF03 cryF04 cryF05 
+					cryF06 cryF07 cryF08 cryF09
                 }
             }
         }
