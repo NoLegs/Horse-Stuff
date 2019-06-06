@@ -23,6 +23,7 @@ tech_magical_capability_booster = {
 	cost = @tier2cost1
 	area = society
 	start_tech = yes
+	tier = 0
 	category = { pony }
 	prerequisites = { "tech_basic_magic_theory" }
 	weight = @tier2weight1
