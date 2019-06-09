@@ -91,6 +91,10 @@ portrait_groups = {
 					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
 					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
 					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
+					
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
 				}
 			}
 		}
@@ -113,6 +117,10 @@ portrait_groups = {
 					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
 					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
 					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
+					
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
 				}
 			}
 		}
@@ -135,6 +143,10 @@ portrait_groups = {
 					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
 					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
 					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
+					
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
 				}
 			}
 		}
@@ -157,6 +169,10 @@ portrait_groups = {
 					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
 					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
 					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
+					
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
 				}
 			}
 		}	
@@ -188,6 +204,10 @@ portrait_groups = {
 					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
 					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
 					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
+					
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
 				}
 			}
         }

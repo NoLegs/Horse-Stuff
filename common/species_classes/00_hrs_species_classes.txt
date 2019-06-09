@@ -27,6 +27,7 @@ FER = {
 	
 	portraits = {
 		"feralunited"
+		"feralzebra"
 	}
 	
 	graphical_culture = humanoid_01
