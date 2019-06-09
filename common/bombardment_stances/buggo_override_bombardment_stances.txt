@@ -28,7 +28,7 @@ raiding = {
 		OR = {
 			owner = { has_ascension_perk = ap_nihilistic_acquisition }
 			owner = { has_valid_civic = civic_barbaric_despoilers }	
-                        owner = { has_valid_civic = civic_hive_parasitic }	
+                        owner = { has_valid_civic = civic_emotionovores }	
 	
 		}
 	}

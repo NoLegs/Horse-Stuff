@@ -43,8 +43,8 @@
  civic_alicorn_leader:0 "Alicorn Ruler"
  civic_alicorn_leader_desc:0 "This society is lead by an immortal Alicorn, a ruler without age who wields great political power. They have ruled for many years, and their everpresent image has united the country under their rulen\n\nYour ruler is given the §BAlicorn Ruler§! trait, making them immortal and giving your leader powerful bonuses."
 
- civic_changeling_hive:0 "Changeling Hive"
- civic_changeling_hive_desc:0 "This society is a Changeling Hive, a collection of Changeling drones, warriors, and specialists all working under the Queen. Each drone is an individual with free will, but they're all unified and share common bonds in the love of their mother and queen.\n\nYour ruler is given the §BChangeling Queen§! trait, making them immortal and giving your leader powerful bonuses. "
+ civic_emotionovores:0 "Emotionovores"
+ civic_emotionovores_desc:0 "This Hivemind has a distinct need for the emotions of other species to the point of using emotions to both sustain and expand its populace.\n\nYour species is given the §BEmotionovores§! trait, granting them increased resources on livestock and allows processing to make new pops of the main species. "
 
  civic_changeling_swarms:0 "Changeling Swarm"
  civic_changeling_swarms_desc:0 "This society is a Changeling Swarm, a massive gestalt consciousness made out of mindless drones all controlled by the Queen. They work with unparalleled efficiency, each drone working to serve the interests of their mother and queen.\n\nYour ruler is given the §BChangeling Queen§! trait, making them immortal and giving your leader powerful bonuses. "
@@ -99,9 +99,3 @@
  HT_CROWN_VISIER:0 "Crown Visier"
  gov_solar_cult:0 "Solar Cult"
  gov_solar_cult_desc:0 "Solar Cult Description"
- 
- 
-##Buggo
-
- MESSAGE_BUGGO_COMPLETE_TITLE:0 "Pop Drained"
- MESSAGE_BUGGO_COMPLETE:0 "A £pop£ Pop has been bred after Emotion Consuming began in planet $PLANET|Y$"

@@ -1,0 +1,40 @@
+Rough Changelog for 2.0
+>>TODO change repository and mod name to Smutty Space Ponies (SSP)
+Debauchery In Celestia's Kingdom Edition
+
+Updated to 2.3 
+Major overhaul to all traits, civics, prescripted empires. 
+(Overhaul notes)
+>>
+[Ponies]
+-Civics
+United Equestria, Solar Empire, Imperium Crystalis all recieved buffs and changes to what abilities they grant to the empires.
+-Traits
+The Equestrians now Have 2 new traits locked to their portrait group
+ Pony Power 
+>A Large bonuses to Habitability, Unity, Food Production with a massive cost<
+ Party Ponies
+>Increases Pop Growth speed and happiness however has a large cost in Consumer goods and amenities usage by your pops
+-General Changes
+Added Special Desisions and edicts to empires with these traits which give powerful bonuses.
+[Changlings]
+New prescripted empire "The Changeling Swarm" with new civics and a special ability
+
+Emotionovores, whenever you devour a population, you grow a new pop!
+
+<<
+(Additions)
+Baseline of new Magic System Techs, event system, decisions and edicts.
+A Massive amount of new portraits on all fronts have been added
+
+
+
+(Subtractions)
+Removed Male portraits (They failed to meld properly with existing addons)
+Depreciated some civics and other misc orphaned items
+
+[General Changes]
+Merged All Ponies into one group
+(Nixed Pegasi, Unicorns, Earth)
+Fixed many many Misc Bugs that were likely not noticed
+Spacing errors.
