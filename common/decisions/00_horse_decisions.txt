@@ -84,6 +84,7 @@ decision_cloud_cities = {
 		weight = 0
 	}
 }
+
 ##Unicorn World Buff (This one will use magic)
 decision_advanced_alchemical_refinement = {
 	owned_planets_only = yes
@@ -126,6 +127,7 @@ decision_advanced_alchemical_refinement = {
 		weight = 0
 	}
 }
+
 decision_pony_parties = {
 	owned_planets_only = yes
 	sound = event_administrative_work
@@ -149,6 +151,43 @@ decision_pony_parties = {
 	}	
 	effect = {
 		add_modifier = { modifier = "planet_pony_parties" }
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_productivity_ritual = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 80
+	resources = {
+		category = decisions
+		cost = {
+			magic_crystal = 50
+		}
+	}
+	
+	potential = {
+		owner = { 
+			has_tech = tech_magic_amplificiation
+		}
+	}
+	allow = {
+		NOT = { has_modifier = planet_pony_parties }
+	}	
+	effect = {
+		add_modifier = {
+			modifier = "planet_weak_magic_field"
+			days = 720
+		}
+		add_modifier = { 	
+			modifier = "planet_productivity_ritual" 
+			days = 360
+		}
 	}
 	
 	ai_weight = {

@@ -5,6 +5,9 @@
 
  tech_combat_spells:0 "Combat Spells" 
  tech_combat_spells_desc:0 "Magical application in wartime presents many varied advantages, from powerful explosions, to percise ranged attacks; learning to apply capability alongside more conventional methods is a fundemental for any apsiring magical empires."
-
- tech_magical_capability_booster:0 "Magical Capability Booster" 
- tech_magical_capability_booster_desc:0 "Using magic to enchance the maximum capability of our leadership is a fairly mundane, if practical use."
+ 
+ tech_magic_crystals:0 "Magic Crystal Extraction"
+ tech_magic_crystals_desc:0 ""
+ 
+ tech_magic_amplificiation:0 "Magical Amplification Rituals"
+ tech_magic_amplificiation_desc:0 ""

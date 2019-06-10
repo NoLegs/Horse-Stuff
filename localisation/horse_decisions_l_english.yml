@@ -11,3 +11,7 @@ decision_advanced_alchemical_refinement_desc:0 ""
 
 decision_pony_parties:0 "Constant Pony Festivals" 
 decision_pony_parties_desc:0 ""
+
+
+decision_productivity_ritual:0 "Productivity Ritual" 
+decision_productivity_ritual_desc:0 "The Ritual of Productivity has been performed on this world, making it's inhabitants more willing to work harder and longer."

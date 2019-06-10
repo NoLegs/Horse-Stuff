@@ -23,7 +23,7 @@ d_magic_crystal_caverns = {
 	}
 	
 	drop_weight = {
-		weight = @high_rare
+		weight = 0.5
 		modifier = {
 			factor = 1
 			is_wet = yes
