@@ -4,6 +4,9 @@ HRS = {
 	
 	portraits = {
 		"unitedpony"
+		"earth"
+		"pegasus"
+		"unicorn"
 		"crystal"
 		"changeling"
 		"griffon"
@@ -27,6 +30,9 @@ FER = {
 	
 	portraits = {
 		"feralunited"
+		"feralearth"
+		"feralpega"
+		"feralunicorn"
 		"feralzebra"
 	}
 	

@@ -216,12 +216,13 @@ portrait_groups = {
 
 portrait_groups = {
     feralearth = {
-		default = FERearthF1
+		default = FERearthF01
 		game_setup = { 
            	add = {
                 portraits = {
-					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
-					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
+					FERearthF01 FERearthF02 FERearthF03 FERearthF04 FERearthF05
+					FERearthF06 FERearthF07 FERearthF08 FERearthF09 FERearthF10
+					FERearthF11 FERearthF12 FERearthF13
 				}
 			}
 		}
@@ -229,8 +230,9 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
-					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
+					FERearthF01 FERearthF02 FERearthF03 FERearthF04 FERearthF05
+					FERearthF06 FERearthF07 FERearthF08 FERearthF09 FERearthF10
+					FERearthF11 FERearthF12 FERearthF13
 				}
 			}
 		}
@@ -238,8 +240,9 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
-					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
+					FERearthF01 FERearthF02 FERearthF03 FERearthF04 FERearthF05
+					FERearthF06 FERearthF07 FERearthF08 FERearthF09 FERearthF10
+					FERearthF11 FERearthF12 FERearthF13
 				}
 			}
 		}
@@ -247,8 +250,9 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
            	add = {
                 portraits = {
-					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
-					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
+					FERearthF01 FERearthF02 FERearthF03 FERearthF04 FERearthF05
+					FERearthF06 FERearthF07 FERearthF08 FERearthF09 FERearthF10
+					FERearthF11 FERearthF12 FERearthF13
 				}
 			}
 		}	
@@ -256,8 +260,9 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-					FERearthF1 FERearthF2 FERearthF3 FERearthF4 FERearthF5
-					FERearthF6 FERearthF7 FERearthF8 FERearthF9 FERearthF10
+					FERearthF01 FERearthF02 FERearthF03 FERearthF04 FERearthF05
+					FERearthF06 FERearthF07 FERearthF08 FERearthF09 FERearthF10
+					FERearthF11 FERearthF12 FERearthF13
 				}
 			}
         }
@@ -266,14 +271,15 @@ portrait_groups = {
 
 portrait_groups = {
     feralpega = {
-		default = FERpegaF1
+		default = FERpegaF01
 		game_setup = { 
            	add = {
                 portraits = {
-					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF10
+					FERpegaF01 FERpegaF02 FERpegaF03 FERpegaF04 FERpegaF05
+					FERpegaF06 FERpegaF07 FERpegaF08 FERpegaF09 FERpegaF10
+					FERpegaF11 FERpegaF12 FERpegaF13 FERpegaF14 FERpegaF15
+					FERpegaF16 FERpegaF17 FERpegaF18 FERpegaF19 FERpegaF20
+					FERpegaF21 FERpegaF22 FERpegaF23 FERpegaF24 FERpegaF25
 				}
 			}
 		}
@@ -281,10 +287,11 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF10
+					FERpegaF01 FERpegaF02 FERpegaF03 FERpegaF04 FERpegaF05
+					FERpegaF06 FERpegaF07 FERpegaF08 FERpegaF09 FERpegaF10
+					FERpegaF11 FERpegaF12 FERpegaF13 FERpegaF14 FERpegaF15
+					FERpegaF16 FERpegaF17 FERpegaF18 FERpegaF19 FERpegaF20
+					FERpegaF21 FERpegaF22 FERpegaF23 FERpegaF24 FERpegaF25
 				}
 			}
 		}
@@ -292,10 +299,11 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF10
+					FERpegaF01 FERpegaF02 FERpegaF03 FERpegaF04 FERpegaF05
+					FERpegaF06 FERpegaF07 FERpegaF08 FERpegaF09 FERpegaF10
+					FERpegaF11 FERpegaF12 FERpegaF13 FERpegaF14 FERpegaF15
+					FERpegaF16 FERpegaF17 FERpegaF18 FERpegaF19 FERpegaF20
+					FERpegaF21 FERpegaF22 FERpegaF23 FERpegaF24 FERpegaF25
 				}
 			}
 		}
@@ -303,10 +311,11 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
            	add = {
                 portraits = {
-					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF10
+					FERpegaF01 FERpegaF02 FERpegaF03 FERpegaF04 FERpegaF05
+					FERpegaF06 FERpegaF07 FERpegaF08 FERpegaF09 FERpegaF10
+					FERpegaF11 FERpegaF12 FERpegaF13 FERpegaF14 FERpegaF15
+					FERpegaF16 FERpegaF17 FERpegaF18 FERpegaF19 FERpegaF20
+					FERpegaF21 FERpegaF22 FERpegaF23 FERpegaF24 FERpegaF25
 				}
 			}
 		}	
@@ -314,10 +323,11 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-					FERpegaF1 FERpegaF2 FERpegaF3 FERpegaF4 FERpegaF5
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF6 FERpegaF7 FERpegaF8 FERpegaF9 FERpegaF10
-					FERpegaF10
+					FERpegaF01 FERpegaF02 FERpegaF03 FERpegaF04 FERpegaF05
+					FERpegaF06 FERpegaF07 FERpegaF08 FERpegaF09 FERpegaF10
+					FERpegaF11 FERpegaF12 FERpegaF13 FERpegaF14 FERpegaF15
+					FERpegaF16 FERpegaF17 FERpegaF18 FERpegaF19 FERpegaF20
+					FERpegaF21 FERpegaF22 FERpegaF23 FERpegaF24 FERpegaF25
 				}
 			}
         }
@@ -326,12 +336,14 @@ portrait_groups = {
 
 portrait_groups = {
     feralunicorn = {
-		default = FERuniF1
+		default = FERuniF01
 		game_setup = { 
            	add = {
                 portraits = {
-					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
-					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
+					FERuniF01 FERuniF02 FERuniF03 FERuniF04 FERuniF05
+					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
+					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
+					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
 				}
 			}
 		}
@@ -339,8 +351,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
-					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
+					FERuniF01 FERuniF02 FERuniF03 FERuniF04 FERuniF05
+					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
+					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
+					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
 				}
 			}
 		}
@@ -348,8 +362,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
-					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
+					FERuniF01 FERuniF02 FERuniF03 FERuniF04 FERuniF05
+					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
+					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
+					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
 				}
 			}
 		}
@@ -357,8 +373,10 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
            	add = {
                 portraits = {
-					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
-					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
+					FERuniF01 FERuniF02 FERuniF03 FERuniF04 FERuniF05
+					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
+					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
+					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
 				}
 			}
 		}	
@@ -366,8 +384,10 @@ portrait_groups = {
 		ruler = {
            	add = {
                 portraits = {
-					FERuniF1 FERuniF2 FERuniF3 FERuniF4 FERuniF5
-					FERuniF6 FERuniF7 FERuniF8 FERuniF9 FERuniF10
+					FERuniF01 FERuniF02 FERuniF03 FERuniF04 FERuniF05
+					FERuniF06 FERuniF07 FERuniF08 FERuniF09 FERuniF10
+					FERuniF11 FERuniF12 FERuniF13 FERuniF14 FERuniF15
+					FERuniF16 FERuniF17 FERuniF18 FERuniF19 FERuniF20
 				}
 			}
         }
