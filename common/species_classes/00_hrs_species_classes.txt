@@ -4,6 +4,9 @@ HRS = {
 	
 	portraits = {
 		"unitedpony"
+		"earth"
+		"pegasus"
+		"unicorn"
 		"crystal"
 		"changeling"
 		"griffon"
@@ -27,6 +30,10 @@ FER = {
 	
 	portraits = {
 		"feralunited"
+		"feralearth"
+		"feralpega"
+		"feralunicorn"
+		"feralzebra"
 	}
 	
 	graphical_culture = humanoid_01

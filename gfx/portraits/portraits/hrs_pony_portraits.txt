@@ -71,7 +71,6 @@ portraits = {
 	cryF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf6.dds"	}
 	cryF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf7.dds"	}
 	cryF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf8.dds"	}
-	cryF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf9.dds"	}
 	
 	earH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh1.dds"	}
 	earH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh2.dds"	}
@@ -148,7 +147,7 @@ portrait_groups = {
 						earH06 earH07
 						
 						cryF01 cryF02 cryF03 cryF04 cryF05 
-						cryF06 cryF07 cryF08 cryF09
+						cryF06 cryF07 cryF08
 						
 						zebF01 zebF02 zebF03 zebF04 zebF05
 						zebF06 zebF07 zebF08 zebF09 zebF10
@@ -187,7 +186,7 @@ portrait_groups = {
 					earH06 earH07
 					
 					cryF01 cryF02 cryF03 cryF04 cryF05 
-					cryF06 cryF07 cryF08 cryF09
+					cryF06 cryF07 cryF08
 					
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
@@ -226,7 +225,7 @@ portrait_groups = {
 					earH06 earH07
 					
 					cryF01 cryF02 cryF03 cryF04 cryF05 
-					cryF06 cryF07 cryF08 cryF09
+					cryF06 cryF07 cryF08
 					
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
@@ -265,7 +264,7 @@ portrait_groups = {
 					earH06 earH07
 					
 					cryF01 cryF02 cryF03 cryF04 cryF05 
-					cryF06 cryF07 cryF08 cryF09
+					cryF06 cryF07 cryF08
 					
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
@@ -322,12 +321,98 @@ portrait_groups = {
 					earH06 earH07
 					
 					cryF01 cryF02 cryF03 cryF04 cryF05 
-					cryF06 cryF07 cryF08 cryF09
+					cryF06 cryF07 cryF08
 					
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
 					zebF16 zebF17 zebF18
+				}
+			}
+        }
+	}
+}
+
+portrait_groups = {
+    earth = {
+		default = earF01
+		game_setup = {
+           	add = {
+                portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+           	add = {
+                portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+           	add = {
+                portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
 				}
 			}
         }
