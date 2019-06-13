@@ -71,14 +71,13 @@ tech_basic_magic_theory = {
 	}
 }
 
-tech_magic_crystals = {
-	cost = @tier1cost1
-	tier = 0
-	area = engineering
-	start_tech = yes
+tech_combat_spells = {
+	cost = @tier1cost2
+	tier = 1
+	area = society
 	category = { pony }
 	prerequisites = { "tech_basic_magic_theory" }
-	weight = @tier1weight3
+	weight = @tier1weight2
 	
 	potential = {
 		has_trait = trait_pony_power
@@ -88,18 +87,69 @@ tech_magic_crystals = {
 	}
 }
 
-tech_magic_amplificiation = {
-	cost = @tier1cost2
-	tier = 1
-	area = engineering
+tech_advanced_combat_spells = {
+	cost = @tier2cost1
+	tier = 2
+	area = society
 	category = { pony }
-	prerequisites = { "tech_basic_magic_theory" }
-	weight = @tier2weight2
+	prerequisites = { "tech_magic_crystal_alloy" }
+	weight = @tier2weight1
 	
 	potential = {
 		has_trait = trait_pony_power
 	}
 
 	modifier = {
+	}
+}
+
+tech_planet_weather_control = {
+	cost = @tier1cost3
+	tier = 1
+	area = society
+	category = { pony }
+	prerequisites = { "tech_basic_magic_theory" }
+	weight = @tier1weight3
+	
+	potential = {
+		has_trait = trait_pony_power
+	}
+
+	modifier = {
+		pop_environment_tolerance = 0.05
+	}
+}
+
+tech_climate_magic = {
+	cost = @tier2cost3
+	tier = 2
+	area = society
+	category = { pony }
+	prerequisites = { "tech_planet_weather_control" }
+	weight = @tier3weight1
+	
+	potential = {
+		has_trait = trait_pony_power
+	}
+
+	modifier = {
+		pop_environment_tolerance = 0.10
+	}
+}
+
+tech_magical_terraforming = {
+	cost = @tier3cost3
+	tier = 2
+	area = society
+	category = { pony }
+	prerequisites = { "tech_climate_magic" }
+	weight = @tier3weight1
+	
+	potential = {
+		has_trait = trait_pony_power
+	}
+
+	modifier = {
+		terraform_speed_mult = -0.35
 	}
 }

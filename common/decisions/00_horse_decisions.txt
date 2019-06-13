@@ -167,13 +167,13 @@ decision_productivity_ritual = {
 	resources = {
 		category = decisions
 		cost = {
-			magic_crystal = 50
+			magic_crystals = 100
 		}
 	}
 	
 	potential = {
 		owner = { 
-			has_tech = tech_magic_amplificiation
+			has_tech = "tech_magic_amplificiation"
 		}
 	}
 	allow = {
