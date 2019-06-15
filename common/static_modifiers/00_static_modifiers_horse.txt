@@ -12,12 +12,6 @@ planet_pony_parties = {
 	planet_amenities_mult = 0.15
 }
 
-planet_productivity_ritual = {
-	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
-	icon_frame = 1
-	planet_jobs_produces_mult = 0.10
-}
-
 planet_weak_magic_field = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
 	icon_frame = 1
@@ -25,4 +19,31 @@ planet_weak_magic_field = {
 
 magic_crystals_deficit = {
 	planet_jobs_produces_mult = -0.25
+}
+
+
+### Magic Ritual Effects ###
+planet_productivity_ritual = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	planet_jobs_produces_mult = 0.25
+}
+
+planet_fertility_ritual = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	pop_growth_speed = 0.25
+}
+
+planet_planetary_shield_ritual = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	planet_orbital_bombardment_damage = -0.50
+}
+
+
+
+planet_weak_magic_field = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
 }

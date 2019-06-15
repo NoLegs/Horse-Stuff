@@ -33,14 +33,6 @@ cloud_clerk = {
 	}
 	triggered_planet_modifier = {
 		potential = {
-			has_trait = trait_repugnant
-		}
-		modifier = {
-			planet_amenities_add = -0.8
-		}
-	}		
-	triggered_planet_modifier = {
-		potential = {
 			OR = {
 				has_trait = trait_thrifty
 				has_trait = trait_nuumismatic_administration
@@ -50,6 +42,14 @@ cloud_clerk = {
 			trade_value_add = 0.8
 		}
 	}	
+	triggered_planet_modifier = {
+		potential = {
+			has_trait = trait_repugnant
+		}
+		modifier = {
+			planet_amenities_add = 0.6
+		}
+	}		
 	
 	weight = {
 		weight = @clerk_job_weight
@@ -60,30 +60,6 @@ cloud_clerk = {
 				has_trait = trait_party_ponies
 			}	
 		}
-		modifier = {
-			factor = 0.25
-			is_enslaved = yes
-			can_take_servant_job = no
-		}
-		modifier = {
-			factor = 2
-			OR = {	
-				is_non_sapient_robot = yes
-				is_shackled_robot = yes
-			}
-			can_take_servant_job = no
-		}	
-		modifier = {
-			factor = 1.5
-			OR = {
-				has_trait = trait_thrifty
-				has_trait = trait_nuumismatic_administration
-			}	
-		}
-		modifier = {
-			factor = 0.1
-			can_take_servant_job = yes
-		}	
 	}
 }
 
@@ -120,66 +96,32 @@ magic_crystal_miner = {
 	}
 	
 	weight = {
+		weight = @specialist_job_weight	
+	}
+}
+
+foundry = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_foundry_1
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		specialist_job_check_trigger = yes
+	}
+	
+	planet_modifier = {
+		pop_resource_output = 0.05
+	}
+	
+	weight = {
 		weight = @specialist_job_weight
-		modifier = {
-			factor = 10
-			is_enslaved = yes
-			can_take_servant_job = no
-		}
-		modifier = {
-			factor = 2
-			OR = {	
-				is_non_sapient_robot = yes
-				is_shackled_robot = yes
-			}
-			can_take_servant_job = no
-			owner = { has_technology = tech_droid_workers }
-		}	
-		modifier = {
-			factor = 200
-			OR = {	
-				is_non_sapient_robot = yes
-				is_shackled_robot = yes
-			}
-			can_take_servant_job = no
-			owner = { NOT = { has_technology = tech_droid_workers } }
-		}
-		modifier = {
-			factor = 0.1
-			can_take_servant_job = yes
-		}	
-		modifier = {
-			factor = 5
-			has_trait = trait_syncretic_proles
-		}
-		modifier = {
-			factor = 2
-			species = {
-				has_species_flag = racket_species_flag
-			}
-		}
-		modifier = {
-			factor = 3
-			has_trait = trait_very_strong
-		}
-		modifier = {
-			factor = 1.5
-			has_trait = trait_strong
-		}	
-		modifier = {
-			factor = 0.1
-			has_trait = trait_weak
-		}			
-		modifier = {
-			factor = 3
-			OR = {
-				has_trait = trait_robust
-				has_trait = trait_robot_efficient_processors
-			}
-		}
-		modifier = {
-			factor = 3
-			has_trait = trait_nerve_stapled
-		}		
 	}
 }

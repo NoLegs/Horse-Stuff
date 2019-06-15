@@ -91,7 +91,7 @@ tech_enchanted_crystal_alloy = {
 	}
 }
 
-tech_magic_amplificiation = {
+tech_magic_amplification = {
 	cost = @tier1cost2
 	tier = 1
 	area = engineering

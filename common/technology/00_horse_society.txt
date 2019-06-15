@@ -150,6 +150,6 @@ tech_magical_terraforming = {
 	}
 
 	modifier = {
-		terraform_speed_mult = -0.35
+		terraform_speed_mult = 0.35
 	}
 }

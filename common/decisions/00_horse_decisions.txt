@@ -85,49 +85,6 @@ decision_cloud_cities = {
 	}
 }
 
-##Unicorn World Buff (This one will use magic)
-decision_advanced_alchemical_refinement = {
-	owned_planets_only = yes
-	sound = event_administrative_work
-	icon = decision_resources
-
-	enactment_time = 180
-	resources = {
-		category = decisions
-		cost = {
-			minerals = 2500
-			energy = 7500
-		}
-	}
-	
-	potential = {
-		owner = { 
-			has_trait = trait_pony_power
-		}
-		habitable_structure = no
-		NOT = { 
-			OR = {
-				is_planet_class = pc_machine 
-				is_planet_class = pc_hive
-				
-				has_planet_flag = advanced_alchemy_completed
-			}
-		}
-	}
-	
-	effect = {
-		hidden_effect = {
-			set_planet_flag = advanced_alchemy_completed
-		}
-		
-		add_deposit = d_alchemical_refinery
-	}
-	
-	ai_weight = {
-		weight = 0
-	}
-}
-
 decision_pony_parties = {
 	owned_planets_only = yes
 	sound = event_administrative_work
@@ -173,11 +130,11 @@ decision_productivity_ritual = {
 	
 	potential = {
 		owner = { 
-			has_tech = "tech_magic_amplificiation"
+			has_technology = "tech_magic_amplification"
 		}
 	}
 	allow = {
-		NOT = { has_modifier = planet_pony_parties }
+		NOT = { has_modifier = planet_weak_magic_field }
 	}	
 	effect = {
 		add_modifier = {
@@ -186,6 +143,82 @@ decision_productivity_ritual = {
 		}
 		add_modifier = { 	
 			modifier = "planet_productivity_ritual" 
+			days = 360
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_fertility_ritual = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 80
+	resources = {
+		category = decisions
+		cost = {
+			magic_crystals = 100
+			food = 800
+		}
+	}
+	
+	potential = {
+		owner = { 
+			has_technology = "tech_magic_amplification"
+		}
+	}
+	allow = {
+		NOT = { has_modifier = planet_weak_magic_field }
+	}	
+	effect = {
+		add_modifier = {
+			modifier = "planet_weak_magic_field"
+			days = 720
+		}
+		add_modifier = { 	
+			modifier = "planet_fertility_ritual" 
+			days = 360
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_planetary_shield_ritual = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 80
+	resources = {
+		category = decisions
+		cost = {
+			magic_crystals = 400
+			energy = 600
+		}
+	}
+	
+	potential = {
+		owner = { 
+			has_technology = "tech_magic_amplification"
+		}
+	}
+	allow = {
+		NOT = { has_modifier = planet_weak_magic_field }
+	}	
+	effect = {
+		add_modifier = {
+			modifier = "planet_weak_magic_field"
+			days = 720
+		}
+		add_modifier = { 	
+			modifier = "planet_planetary_shield_ritual" 
 			days = 360
 		}
 	}
