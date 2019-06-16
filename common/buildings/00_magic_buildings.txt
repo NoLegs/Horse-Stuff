@@ -27,15 +27,6 @@ building_magic_crystal_plant = {
 			job_magic_crystal_miner_add = 1
 		}
 	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_gestalt = yes }					
-		}
-		modifier = {
-			job_magic_crystal_miner_drone_add = 1
-		}
-	}
 	
 	resources = {
 		category = planet_buildings
@@ -58,14 +49,6 @@ building_magic_crystal_plant = {
 		}
 		text = job_magic_crystal_miner_effect_desc
 	}	
-	
-	triggered_desc = {
-		trigger = { 
-			exists = owner
-			owner = { is_gestalt = yes } 
-		}
-		text = job_magic_crystal_miner_drone_effect_desc
-	}
 	
 	ai_weight = {
 		weight = 0
@@ -130,15 +113,6 @@ building_enchanters_workshop = {
 			job_enchanter_add = 2
 		}
 	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_gestalt = yes }					
-		}
-		modifier = {
-			job_enchanter_drone_add = 1
-		}
-	}
 	
 	resources = {
 		category = planet_buildings
@@ -163,14 +137,6 @@ building_enchanters_workshop = {
 		}
 		text = job_enchanter_effect_desc
 	}	
-	
-	triggered_desc = {
-		trigger = { 
-			exists = owner
-			owner = { is_gestalt = yes } 
-		}
-		text = job_enchanter_drone_effect_desc
-	}
 
 	ai_weight = {
 		weight = 0
@@ -196,6 +162,335 @@ building_enchanters_workshop = {
 		owner = { 
 			set_timed_country_flag = { 
 				flag = buildings_new_enchanters_workshop 
+				days = 720
+			} 
+		}
+	}
+}
+
+building_thaumaturgic_research_center = {
+	base_buildtime = 360
+	category = manufacturing
+	prerequisites = { "tech_magic_crystals" }
+	potential = {
+		NOT = { has_modifier = resort_colony }	
+		NOT = { has_modifier = slave_colony }
+	}
+	allow = {
+		has_upgraded_capital = yes
+		NOT = { has_building = building_thaumaturgic_research_center }
+	}
+	
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }					
+		}
+		modifier = {
+			job_thaumaturgic_researcher_add = 1
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+			magic_crystals = 10
+		}	
+		upkeep = {
+			magic_crystals = 10
+			consumer_goods = 4
+		}
+	}	
+	
+	prerequisites = {
+		"tech_magic_crystals"
+	}
+	
+	triggered_desc = {
+		trigger = { 
+			exists = owner
+			owner = { is_gestalt = no } 
+		}
+		text = job_thaumaturgic_researcher_effect_desc
+	}	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 30
+			owner = { 
+				NOT = { # Prevents building spam by AI
+					has_country_flag = buildings_new_thaumaturgic_research_center
+				}
+			}
+			buildings_build_building = yes
+		}
+	}
+
+	#ai_resource_production = {
+	#	rare_crystals = 1
+	#	trigger = {
+	#		always = yes
+	#	}
+	#}
+	
+	on_built = {
+		owner = { 
+			set_timed_country_flag = { 
+				flag = buildings_new_thaumaturgic_research_center 
+				days = 720
+			} 
+		}
+	}
+}
+
+building_thaumaturgic_refinery = {
+	base_buildtime = 360
+	category = manufacturing
+	prerequisites = { "tech_magic_crystals" }
+	potential = {
+		NOT = { has_modifier = resort_colony }	
+		NOT = { has_modifier = slave_colony }
+	}
+	allow = {
+		has_upgraded_capital = yes
+		NOT = { has_building = building_thaumaturgic_refinery }
+	}
+	
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }					
+		}
+		modifier = {
+			job_thaumaturgic_refiners_add = 1
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+			magic_crystals = 10
+		}	
+		upkeep = {
+			magic_crystals = 8
+			energy = 2
+		}
+	}	
+	
+	prerequisites = {
+		"tech_magic_crystals"
+	}
+	
+	triggered_desc = {
+		trigger = { 
+			exists = owner
+			owner = { is_gestalt = no } 
+		}
+		text = job_thaumaturgic_refiners_effect_desc
+	}	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 30
+			owner = { 
+				NOT = { # Prevents building spam by AI
+					has_country_flag = buildings_new_thaumaturgic_refinery
+				}
+			}
+			buildings_build_building = yes
+		}
+	}
+
+	#ai_resource_production = {
+	#	rare_crystals = 1
+	#	trigger = {
+	#		always = yes
+	#	}
+	#}
+	
+	on_built = {
+		owner = { 
+			set_timed_country_flag = { 
+				flag = buildings_new_thaumaturgic_refinery 
+				days = 720
+			} 
+		}
+	}
+}
+
+building_thaumaturgic_grid = {
+	base_buildtime = 360
+	category = manufacturing
+	prerequisites = { "tech_magic_crystals" }
+	potential = {
+		NOT = { has_modifier = resort_colony }	
+		NOT = { has_modifier = slave_colony }
+	}
+	allow = {
+		has_upgraded_capital = yes
+		NOT = { has_building = building_thaumaturgic_grid }
+	}
+	
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }					
+		}
+		modifier = {
+			job_thaumaturgic_electricians_add = 1
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+			magic_crystals = 8
+		}	
+		upkeep = {
+			magic_crystals = 6
+			minerals = 4
+		}
+	}	
+	
+	prerequisites = {
+		"tech_magic_crystals"
+	}
+	
+	triggered_desc = {
+		trigger = { 
+			exists = owner
+			owner = { is_gestalt = no } 
+		}
+		text = job_thaumaturgic_electricians_effect_desc
+	}	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 30
+			owner = { 
+				NOT = { # Prevents building spam by AI
+					has_country_flag = buildings_new_thaumaturgic_grid
+				}
+			}
+			buildings_build_building = yes
+		}
+	}
+
+	#ai_resource_production = {
+	#	rare_crystals = 1
+	#	trigger = {
+	#		always = yes
+	#	}
+	#}
+	
+	on_built = {
+		owner = { 
+			set_timed_country_flag = { 
+				flag = buildings_new_thaumaturgic_grid 
+				days = 720
+			} 
+		}
+	}
+}
+
+building_alchemical_foundry = {
+	base_buildtime = 360
+	category = manufacturing
+	prerequisites = { "tech_magic_crystals" }
+	potential = {
+		NOT = { has_modifier = resort_colony }	
+		NOT = { has_modifier = slave_colony }
+	}
+	allow = {
+		has_upgraded_capital = yes
+		NOT = { has_building = building_alchemical_foundry }
+	}
+	
+	destroy_trigger = {
+		free_building_slots = 0
+		exists = owner
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }					
+		}
+		modifier = {
+			job_alchemical_foundry_workers_add = 1
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+			magic_crystals = 10
+		}	
+		upkeep = {
+			magic_crystals = 8
+			energy = 2
+			minerals = 2
+		}
+	}	
+	
+	prerequisites = {
+		"tech_magic_crystals"
+	}
+	
+	triggered_desc = {
+		trigger = { 
+			exists = owner
+			owner = { is_gestalt = no } 
+		}
+		text = job_alchemical_foundry_workers_effect_desc
+	}	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 30
+			owner = { 
+				NOT = { # Prevents building spam by AI
+					has_country_flag = buildings_new_alchemical_foundry
+				}
+			}
+			buildings_build_building = yes
+		}
+	}
+
+	#ai_resource_production = {
+	#	rare_crystals = 1
+	#	trigger = {
+	#		always = yes
+	#	}
+	#}
+	
+	on_built = {
+		owner = { 
+			set_timed_country_flag = { 
+				flag = buildings_new_alchemical_foundry 
 				days = 720
 			} 
 		}
