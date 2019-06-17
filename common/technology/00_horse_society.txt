@@ -1,0 +1,179 @@
+@tier1cost1 = 500
+@tier1cost2 = 750
+@tier1cost3 = 1000
+
+@tier2cost1 = 1500
+@tier2cost2 = 2000
+@tier2cost3 = 2500
+
+@tier3cost1 = 4000
+@tier3cost2 = 5000
+@tier3cost3 = 6000
+
+@tier4cost1 = 8000
+@tier4cost2 = 10000
+@tier4cost3 = 12000
+
+@tier5cost1 = 15000
+@tier5cost2 = 17500
+@tier5cost3 = 20000
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+
+@tier2weight1 = 85
+@tier2weight2 = 75
+@tier2weight3 = 70
+
+@tier3weight1 = 65
+@tier3weight2 = 60
+@tier3weight3 = 50
+
+@tier4weight1 = 45
+@tier4weight2 = 40
+@tier4weight3 = 35
+
+@tier5weight1 = 30
+@tier5weight2 = 25
+@tier5weight3 = 20
+
+
+##Prequisite for everything
+tech_basic_magic_theory = {
+	cost = @tier1cost1
+	tier = 0
+	area = society
+	category = { pony }
+	weight = 0.5
+	weight_modifier = {
+		modifier = { 
+			factor = 2.0
+			has_trait = "trait_pony_power"
+		}
+		#modifier = { # Change to non-pony specific magic trait
+		#	factor = 1.5
+		#	has_ethic = ethic_fanatic_militarist
+		#}
+	}
+	
+	potential = {
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
+	}
+
+	modifier = {
+		country_base_unity_produces_add = 5
+		species_leader_exp_gain = 0.5
+	}
+}
+
+tech_combat_spells = {
+	cost = @tier1cost2
+	tier = 1
+	area = society
+	category = { pony }
+	prerequisites = { "tech_basic_magic_theory" }
+	weight = @tier1weight2
+	
+	potential = {
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
+	}
+
+	modifier = {
+	}
+}
+
+tech_advanced_combat_spells = {
+	cost = @tier2cost1
+	tier = 2
+	area = society
+	category = { pony }
+	prerequisites = { "tech_magic_crystal_alloy" }
+	weight = @tier2weight1
+	
+	potential = {
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
+	}
+
+	modifier = {
+	}
+}
+
+tech_planet_weather_control = {
+	cost = @tier1cost3
+	tier = 1
+	area = society
+	category = { pony }
+	prerequisites = { "tech_basic_magic_theory" }
+	weight = @tier1weight3
+	
+	potential = {
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
+	}
+
+	modifier = {
+		pop_environment_tolerance = 0.05
+	}
+}
+
+tech_climate_magic = {
+	cost = @tier2cost3
+	tier = 2
+	area = society
+	category = { pony }
+	prerequisites = { "tech_planet_weather_control" }
+	weight = @tier3weight1
+	
+	potential = {
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
+	}
+
+	modifier = {
+		pop_environment_tolerance = 0.10
+	}
+}
+
+tech_magical_terraforming = {
+	cost = @tier3cost3
+	tier = 2
+	area = society
+	category = { pony }
+	prerequisites = { "tech_climate_magic" }
+	weight = @tier3weight1
+	
+	potential = {
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
+	}
+
+	modifier = {
+		terraform_speed_mult = 0.35
+	}
+}

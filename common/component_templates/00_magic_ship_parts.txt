@@ -1,0 +1,160 @@
+# Icons set here are the ones show in the actual slot. The reason is so that we can support different icons for different sizes. 
+
+#############
+# UTILITIES #
+#############
+
+# Crystal Alloy
+utility_component_template = {
+	key = "SMALL_CRYSTAL_ALLOY_1"
+	size = small
+	icon = "GFX_ship_part_armor_3"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = 115
+	}
+	
+	prerequisites = { "tech_magic_crystal_alloy" }
+	component_set = "CRYSTAL_ARMOR_1"
+	upgrades_to = "SMALL_CRYSTAL_ALLOY_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t3_cost
+			magic_crystals = 10
+		}		
+		upkeep = {
+			energy = @s_t3_upkeep_energy
+			alloys = @s_t3_upkeep_alloys
+		}
+	}
+}
+
+utility_component_template = {
+	key = "MEDIUM_CRYSTAL_ALLOY_1"
+	size = medium
+	icon = "GFX_ship_part_armor_3"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = 245
+	}
+	
+	prerequisites = { "tech_magic_crystal_alloy" }
+	component_set = "CRYSTAL_ARMOR_1"
+	upgrades_to = "MEDIUM_CRYSTAL_ALLOY_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t3_cost
+			magic_crystals = 15
+		}		
+		upkeep = {
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
+		}
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_CRYSTAL_ALLOY_1"
+	size = large
+	icon = "GFX_ship_part_armor_3"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = 540
+	}
+	
+	prerequisites = { "tech_magic_crystal_alloy" }
+	component_set = "CRYSTAL_ARMOR_1"
+	upgrades_to = "LARGE_CRYSTAL_ALLOY_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+			magic_crystals = 20
+		}		
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+}
+
+# Enchanted Crystal Alloy
+utility_component_template = {
+	key = "SMALL_CRYSTAL_ALLOY_2"
+	size = small
+	icon = "GFX_ship_part_armor_3"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = 115
+	}
+	
+	prerequisites = { "tech_enchanted_crystal_alloy" }
+	component_set = "MAGIC_CRYSTAL_ARMOR_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t4_cost
+			magic_crystals = 15
+		}		
+		upkeep = {
+			energy = @s_t3_upkeep_energy
+			alloys = @s_t3_upkeep_alloys
+		}
+	}
+}
+
+utility_component_template = {
+	key = "MEDIUM_CRYSTAL_ALLOY_2"
+	size = medium
+	icon = "GFX_ship_part_armor_3"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = 245
+	}
+	
+	prerequisites = { "tech_enchanted_crystal_alloy" }
+	component_set = "MAGIC_CRYSTAL_ARMOR_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t4_cost
+			magic_crystals = 20
+		}		
+		upkeep = {
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
+		}
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_CRYSTAL_ALLOY_2"
+	size = large
+	icon = "GFX_ship_part_armor_3"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = 540
+	}
+	
+	prerequisites = { "tech_enchanted_crystal_alloy" }
+	component_set = "MAGIC_CRYSTAL_ARMOR_2"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			magic_crystals = 25
+		}		
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+}

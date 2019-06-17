@@ -6,8 +6,80 @@ job_cloud_clerk_plural:0 "Cloud Clerk"
 job_cloud_clerk_desc:0 ""
 
 
+job_magic_crystal_miner:0 "Magic Crystal Miner"
+job_magic_crystal_miner_plural:0 "Magic Crystal Miners"
+job_magic_crystal_miner_desc:2 "Miners specialized in extracting Magic Crystals"
+job_magic_crystal_miner_effect_desc:1 "Magic Crystal Miners extract two units of §YMagic Crystals§! at the cost of £energy"
+mod_job_magic_crystal_miner_add:0 "$job_magic_crystal_miner$ Jobs"
+mod_job_magic_crystal_miner_per_pop:0 "§G+1§! $job_magic_crystal_miner$ Job per $VALUE$ Pops"
+mod_job_magic_crystal_miner_per_pop_short:0 "\n§G+1§! £job_magic_crystal_miner£ per $VALUE$ £pop£"
+
+job_enchanter:0 "Enchanter"
+job_enchanter_plural:0 "Enchanters"
+job_enchanter_desc:2 "Enchanters apply enchantments to tools and items used by workers and specilaist"
+job_enchanter_effect_desc:1 "Enchanters improve the resource output of a planet by §Y5%§!"
+mod_job_enchanter_add:0 "$job_enchanter$ Jobs"
+mod_job_enchanter_per_pop:0 "§G+1§! $job_enchanter$ Job per $VALUE$ Pops"
+mod_job_enchanter_per_pop_short:0 "\n§G+1§! job_enchanter per $VALUE$ £pop£"
+
+job_thaumaturgic_researcher:0 "Thaumaturgic Researcher"
+job_thaumaturgic_researcher_plural:0 "Thaumaturgic Researchers"
+job_thaumaturgic_researcher_desc:2 "Thaumaturgic Researchers help with research and development of new technologies by providing magical assistance and testing."
+job_thaumaturgic_researcher_effect_desc:1 "Thaumaturgic Researchers increases the planets research output by§Y5%§!"
+mod_job_thaumaturgic_researcher_add:0 "$job_thaumaturgic_researcher$ Jobs"
+mod_job_thaumaturgic_researcher_per_pop:0 "§G+1§! $job_thaumaturgic_researcher$ Job per $VALUE$ Pops"
+mod_job_thaumaturgic_researcher_per_pop_short:0 "\n§G+1§! job_thaumaturgic_researcher per $VALUE$ £pop£"
+
+job_thaumaturgic_refiners:0 "Thaumaturgic Refiner"
+job_thaumaturgic_refiners_plural:0 "Thaumaturgic Refiners"
+job_thaumaturgic_refiners_desc:2 "Thaumaturgic Refiners assist with the refining process of minerals, allowing for much more larger quantaties of minerals to be extracted from the planet."
+job_thaumaturgic_refiners_effect_desc:1 "Thaumaturgic Refiners improve the planet's mineral output by §Y5%§!"
+mod_job_thaumaturgic_refiners_add:0 "$job_thaumaturgic_refiners$ Jobs"
+mod_job_thaumaturgic_refiners_per_pop:0 "§G+1§! $job_thaumaturgic_refiners$ Job per $VALUE$ Pops"
+mod_job_thaumaturgic_refiners_per_pop_short:0 "\n§G+1§! job_thaumaturgic_refiners per $VALUE$ £pop£"
+
+job_thaumaturgic_electricians:0 "Thaumaturgic Electrician"
+job_thaumaturgic_electricians_plural:0 "Thaumaturgic Electricians"
+job_thaumaturgic_electricians_desc:2 "Thaumaturgic Electricians help with improving and maintaining the energy grid of a planet."
+job_thaumaturgic_electricians_effect_desc:1 "Thaumaturgic Electricians improve the energy output of a planet by §Y5%§!"
+mod_job_thaumaturgic_electricians_add:0 "$job_thaumaturgic_refiners$ Jobs"
+mod_job_thaumaturgic_electricians_per_pop:0 "§G+1§! $job_thaumaturgic_refiners$ Job per $VALUE$ Pops"
+mod_job_thaumaturgic_electricians_per_pop_short:0 "\n§G+1§! job_thaumaturgic_refiners per $VALUE$ £pop£"
+
+job_alchemical_foundry_workers:0 "Alchemical Foundry Worker"
+job_alchemical_foundry_workers_plural:0 "Alchemical Foundry Workers"
+job_alchemical_foundry_workers_desc:2 "Alchemical Foundry Workers work in specialized foundries that produce Alloys using magical techniques"
+job_alchemical_foundry_workers_effect_desc:1 "Alchemical Foundry Workers improve the alloy output of a planet by §Y5%§!"
+mod_job_alchemical_foundry_workers_add:0 "$job_thaumaturgic_refiners$ Jobs"
+mod_job_alchemical_foundry_workers_per_pop:0 "§G+1§! $job_thaumaturgic_refiners$ Job per $VALUE$ Pops"
+mod_job_alchemical_foundry_workers_per_pop_short:0 "\n§G+1§! job_thaumaturgic_refiners per $VALUE$ £pop£"
+
 ### Deposits ###
 d_cloud_city:0 "Cloud City"
 d_cloud_city_desc:0 ""
 
+d_cloud_solar_farms:0 "Cloud Solar Farms"
+d_cloud_solar_farms_desc:0 ""
+
+d_cloud_agri_center:0 "Cloud Agricultural Centers"
+d_cloud_agri_center_desc:0 ""
+
 ### Buildings ###
+
+building_magic_crystal_plant:0 "Magic Crystal Mine"
+building_magic_crystal_plant_desc:0 "A mine dedicated soley to extracting Magic Crystals from the ground."
+
+building_enchanters_workshop:0 "Enchanter's Workshop"
+building_enchanters_workshop_desc:0 "A workshop dedicated to enchanting tools and items for the planet's workforce"
+
+building_thaumaturgic_research_center:0 "Thaumaturgic Research Center"
+building_thaumaturgic_research_center_desc:0 ""
+
+building_thaumaturgic_refinery:0 "Thaumaturgic Refinery"
+building_thaumaturgic_refinery_desc:0 ""
+
+building_thaumaturgic_grid:0 "Thaumaturgic Energy Grid"
+building_thaumaturgic_grid_desc:0 ""
+
+building_alchemical_foundry:0 "Alchemical Foundry"
+building_alchemical_foundry_desc:0 ""

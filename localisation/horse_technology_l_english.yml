@@ -1,10 +1,34 @@
 ﻿l_english:
  
+ ### Society ###
  tech_basic_magic_theory:0 "Basic Magic Theory"
  tech_basic_magic_theory_desc:0 "The undertsanding of Magic in its most basic form makes way for new and exciting possibilities!."
 
  tech_combat_spells:0 "Combat Spells" 
  tech_combat_spells_desc:0 "Magical application in wartime presents many varied advantages, from powerful explosions, to percise ranged attacks; learning to apply capability alongside more conventional methods is a fundemental for any apsiring magical empires."
-
- tech_magical_capability_booster:0 "Magical Capability Booster" 
- tech_magical_capability_booster_desc:0 "Using magic to enchance the maximum capability of our leadership is a fairly mundane, if practical use."
+ 
+ tech_advanced_combat_spells:0 "Advanced Combat Spells"
+ tech_advanced_combat_spells_desc:0 ""
+ 
+ tech_planet_weather_control:0 "Planetwide Weather Control"
+ tech_planet_weather_control_desc:0 ""
+ 
+ tech_climate_magic:0 "Climate Control Magic"
+ tech_climate_magic_desc:0 ""
+ 
+ tech_magical_terraforming:0 "Magical Terraforming"
+ tech_magical_terraforming_desc:0 ""
+ 
+ 
+ ### Engineering ###
+ tech_magic_crystals:0 "Magic Crystal Extraction"
+ tech_magic_crystals_desc:0 ""
+ 
+ tech_magic_crystal_alloy:0 "Magic Crystal Alloy"
+ tech_magic_crystal_alloy_desc:0 ""
+ 
+ tech_enchanted_crystal_alloy:0 "Enchanted Crystal Alloy"
+ tech_enchanted_crystal_alloy_desc:0 ""
+ 
+ tech_magic_amplification:0 "Magic Amplification Rituals"
+ tech_magic_amplification_desc:0 ""

@@ -1,0 +1,95 @@
+#Defensive armies can't transport of the planet
+#maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# Assault Armies
+magic_army = {
+	damage = 2.15
+	health = 1.00
+	morale = 1.00
+	morale_damage = 2.15
+	collateral_damage = 1.00
+	war_exhaustion = 1.00
+	time = 90
+	icon_frame = 2
+	prerequisites = { "tech_combat_spells" }
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+			magic_crystals = 15
+		}
+
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	show_tech_unlock_if = { 
+		OR = {
+			NOT = { has_authority = auth_machine_intelligence }
+			has_valid_civic = civic_machine_assimilator
+		}
+	}
+	potential = {
+		from = {
+			NOR = {
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
+				is_sapient = no
+			}
+		}
+		owner = {
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}
+
+magic_army_2 = {
+	damage = 3.00
+	health = 1.00
+	morale = 1.00
+	morale_damage = 3.00
+	collateral_damage = 1.50
+	war_exhaustion = 1.00
+	time = 90
+	icon_frame = 2
+	prerequisites = { "tech_advanced_combat_spells" }
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+			magic_crystals = 15
+		}
+
+		upkeep = {
+			energy = 4
+			magic_crystals = 2
+		}
+	}
+
+	show_tech_unlock_if = { 
+		OR = {
+			NOT = { has_authority = auth_machine_intelligence }
+			has_valid_civic = civic_machine_assimilator
+		}
+	}
+	potential = {
+		from = {
+			NOR = {
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
+				is_sapient = no
+			}
+		}
+		owner = {
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_valid_civic = civic_machine_assimilator
+			}
+		}
+	}
+}

@@ -1,0 +1,120 @@
+#@high = 16
+#@med = 8
+#@low = 4
+
+#@high_rare = 0.5
+#@mid_rare = 0.25
+#@low_rare = 0.1
+
+# For reference only
+
+d_magic_crystal_caverns = {
+	is_for_colonizeable = yes
+	use_for_min_max_adjustments = yes
+	
+	category = deposit_cat_rare
+	
+	potential = {
+		can_have_habitable_deposits = yes
+	}
+
+	planet_modifier = { 
+		building_crystal_mines_max = 2
+	}
+	
+	drop_weight = {
+		weight = 1.0
+		modifier = {
+			factor = 1.25
+			is_wet = yes
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				is_dry = yes
+				is_cold = yes
+			}
+		}
+	}
+}
+
+d_magic_crystal_orbital = {
+	station = shipclass_mining_station
+	is_for_colonizeable = no
+	
+	resources = { 
+		category = orbital_mining_deposits
+		produces = {
+			magic_crystals = 2
+		}
+	}
+	
+	drop_weight = {
+		weight = 0
+		modifier = {
+			weight = 1.25
+			OR = {
+				is_planet_class = pc_frozen
+				is_planet_class = pc_ice_asteroid
+			}
+		}
+		modifier = {
+			factor = 1.50
+			is_inside_nebula = yes
+		}
+	}
+}
+
+d_magic_crystal_orbital_rare = {
+	station = shipclass_mining_station
+	is_for_colonizeable = no
+	
+	resources = { 
+		category = orbital_mining_deposits
+		produces = {
+			magic_crystals = 4
+		}
+	}
+	
+	drop_weight = {
+		weight = 0
+		modifier = {
+			weight = 1.0
+			OR = {
+				is_planet_class = pc_frozen
+				is_planet_class = pc_ice_asteroid
+			}
+		}
+		modifier = {
+			factor = 1.25
+			is_inside_nebula = yes
+		}
+	}
+}
+
+d_magic_crystal_orbital_very_rare = {
+	station = shipclass_mining_station
+	is_for_colonizeable = no
+	
+	resources = { 
+		category = orbital_mining_deposits
+		produces = {
+			magic_crystals = 6
+		}
+	}
+	
+	drop_weight = {
+		weight = 0
+		modifier = {
+			weight = 0.75
+			OR = {
+				is_planet_class = pc_frozen
+				is_planet_class = pc_ice_asteroid
+			}
+		}
+		modifier = {
+			factor = 1.0
+			is_inside_nebula = yes
+		}
+	}
+}

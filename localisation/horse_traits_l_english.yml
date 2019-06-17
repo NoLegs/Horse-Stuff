@@ -4,13 +4,13 @@
  trait_cloud_builder_desc:0 "This species has the ability to build on clouds! "
 
  trait_earth_attuned:0 "Earth Attuned"
- trait_earth_attuned_desc:0 ""
+ trait_earth_attuned_desc:0 "This species is magically attuned to the earth, giving it a close connection to nature and the planets they live on."
 
  trait_magically_gifted:0 "Magically Gifted"
- trait_magically_gifted_desc:0 ""
+ trait_magically_gifted_desc:0 "§MMagical!§!\n\nThis species has the gift of magical, granting it access to powerful spells, research, and rituals."
 
  trait_pony_power:0 "Pony Power"
- trait_pony_power_desc:0 "This species has all three essential pony traits, the ability of flight and cloud manipulation, attunement and understanding of the earth, and incredible magical prowess."
+ trait_pony_power_desc:0 "§MMagical!§!\n\nThis species has all three essential pony traits, the ability of flight and cloud manipulation, attunement and understanding of the earth, and incredible magical prowess."
 
  trait_party_ponies:0 "Party Ponies"
  trait_party_ponies_desc:0 "This species is well known for their frequent and spontaneous parties. It's hard to go a week without a party being thrown for some event or occasion!"
@@ -19,7 +19,7 @@
  trait_greedy_desc:0 ""
 
  trait_emotionovores:0 "Emotionovores"
- trait_emotionovores_desc:0 "This species feeds on the emotions of others and has the ability to drain pops of their life, as well as converting them to their species."
+ trait_emotionovores_desc:0 "§MMagical!§!\n\nThis species feeds on the emotions of others and has the ability to drain pops of their life, as well as converting them to their species."
 
  trait_territorial:0 "Territorial"
  trait_territorial_desc:0 ""
