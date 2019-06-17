@@ -16,7 +16,7 @@ utility_component_template = {
 	}
 	
 	prerequisites = { "tech_magic_crystal_alloy" }
-	component_set = "CRYSTAL_ARMOR_1"
+	component_set = "MAGIC_CRYSTAL_ARMOR_1"
 	upgrades_to = "SMALL_CRYSTAL_ALLOY_2"
 	resources = {
 		category = ship_components
@@ -42,7 +42,7 @@ utility_component_template = {
 	}
 	
 	prerequisites = { "tech_magic_crystal_alloy" }
-	component_set = "CRYSTAL_ARMOR_1"
+	component_set = "MAGIC_CRYSTAL_ARMOR_1"
 	upgrades_to = "MEDIUM_CRYSTAL_ALLOY_2"
 	resources = {
 		category = ship_components
@@ -68,7 +68,7 @@ utility_component_template = {
 	}
 	
 	prerequisites = { "tech_magic_crystal_alloy" }
-	component_set = "CRYSTAL_ARMOR_1"
+	component_set = "MAGIC_CRYSTAL_ARMOR_1"
 	upgrades_to = "LARGE_CRYSTAL_ALLOY_2"
 	resources = {
 		category = ship_components

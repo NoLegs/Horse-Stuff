@@ -32,3 +32,25 @@
  
  tech_magic_amplification:0 "Magic Amplification Rituals"
  tech_magic_amplification_desc:0 ""
+ 
+ ### Categories ###
+ pony:0 "Magical"
+ pony_desc:0 "All things involving the art of magic, spellmaking, enchanting, etc etc."
+ 
+ 
+ 
+ ### Ship Components ###
+ MAGIC_CRYSTAL_ARMOR:0 "Crystal Alloy Armor"
+ MAGIC_CRYSTAL_ARMOR_2:0 "Enchanted Crystal Alloy Armor"
+ 
+ SMALL_CRYSTAL_ALLOY_1:0 "Small Crystal Alloy"
+ MEDIUM_CRYSTAL_ALLOY_1:0 "Medium Crystal Alloy"
+ LARGE_CRYSTAL_ALLOY_1:0 "Large Crystal Alloy"
+ 
+ SMALL_CRYSTAL_ALLOY_2:0 "Small Enchanted Crystal Alloy"
+ MEDIUM_CRYSTAL_ALLOY_2:0 "Medium Enchanted Crystal Alloy"
+ LARGE_CRYSTAL_ALLOY_2:0 "Large Enchanted Crystal Alloy"
+ 
+ ### Armies ###
+ magic_army:0 "Magic Army"
+ magic_army_2:0 "Advanced Magic Army"

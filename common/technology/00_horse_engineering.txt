@@ -43,13 +43,20 @@
 @tier5weight3 = 20
 
 tech_magic_crystals = {
-	cost = @tier1cost1
-	tier = 0
+	cost = @tier1cost2
+	tier = 1
 	area = engineering
-	start_tech = yes
 	category = { pony }
 	prerequisites = { "tech_basic_magic_theory" }
 	weight = @tier1weight3
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			any_planet_within_border = {
+				has_deposit = d_magic_crystal_caverns
+			}
+		}	
+	}
 	
 	potential = {
 		OR = {
@@ -64,8 +71,8 @@ tech_magic_crystals = {
 }
 
 tech_magic_crystal_alloy = {
-	cost = @tier1cost3
-	tier = 1
+	cost = @tier2cost2
+	tier = 2
 	area = engineering
 	category = { pony }
 	prerequisites = { "tech_magic_crystals" }
@@ -84,8 +91,8 @@ tech_magic_crystal_alloy = {
 }
 
 tech_enchanted_crystal_alloy = {
-	cost = @tier2cost2
-	tier = 2
+	cost = @tier2cost3
+	tier = 3
 	area = engineering
 	category = { pony }
 	prerequisites = { "tech_magic_crystal_alloy" }
@@ -104,8 +111,8 @@ tech_enchanted_crystal_alloy = {
 }
 
 tech_magic_amplification = {
-	cost = @tier1cost2
-	tier = 1
+	cost = @tier2cost2
+	tier = 2
 	area = engineering
 	category = { pony }
 	prerequisites = { "tech_magic_crystals" }

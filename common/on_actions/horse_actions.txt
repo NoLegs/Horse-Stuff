@@ -13,3 +13,9 @@ on_leader_spawned = {
 		horse_leader.1
 	}
 }
+
+on_game_start_country = {
+	events = {
+		horse.6
+	}
+}
