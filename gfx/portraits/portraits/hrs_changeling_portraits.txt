@@ -26,11 +26,13 @@ portraits = {
 
 portrait_groups = {
     changeling = {
-		default = chrysF1
+		default = chrysF10
 		game_setup = { 
            		add = {
                 	portraits = {
-						chrysF1 chrysF2 chrysF3 chrysF4 chrysF5 chrysF6 chrysF7
+						chrysF1 chrysF2 chrysF3 chrysF4 chrysF5 
+						chrysF6 chrysF7 chrysF8 chrysF9 chrysF10
+						chrysF11
 						
 						chrysH1 chrysH2
 					
@@ -147,8 +149,10 @@ portrait_groups = {
 		ruler = {
 			add = {
 				portraits = {
-					chrysF1 chrysF2 chrysF3 chrysF4 chrysF5 chrysF6 chrysF7
-					
+					chrysF1 chrysF2 chrysF3 chrysF4 chrysF5 
+					chrysF6 chrysF7 chrysF8 chrysF9 chrysF10
+					chrysF11
+				
 					chrysH1 chrysH2
 					
 					changelingf2
