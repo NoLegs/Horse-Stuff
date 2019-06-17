@@ -58,6 +58,12 @@ mod_job_alchemical_foundry_workers_per_pop_short:0 "\n§G+1§! job_thaumaturgic_
 d_cloud_city:0 "Cloud City"
 d_cloud_city_desc:0 ""
 
+d_cloud_solar_farms:0 "Cloud Solar Farms"
+d_cloud_solar_farms_desc:0 ""
+
+d_cloud_agri_center:0 "Cloud Agricultural Centers"
+d_cloud_agri_center_desc:0 ""
+
 ### Buildings ###
 
 building_magic_crystal_plant:0 "Magic Crystal Mine"

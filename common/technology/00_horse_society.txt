@@ -62,7 +62,11 @@ tech_basic_magic_theory = {
 	}
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {
@@ -80,7 +84,11 @@ tech_combat_spells = {
 	weight = @tier1weight2
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {
@@ -96,7 +104,11 @@ tech_advanced_combat_spells = {
 	weight = @tier2weight1
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {
@@ -112,7 +124,11 @@ tech_planet_weather_control = {
 	weight = @tier1weight3
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {
@@ -129,7 +145,11 @@ tech_climate_magic = {
 	weight = @tier3weight1
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {
@@ -146,7 +166,11 @@ tech_magical_terraforming = {
 	weight = @tier3weight1
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {

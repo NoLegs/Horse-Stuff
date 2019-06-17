@@ -42,49 +42,6 @@ decision_search_for_deposits_horse = {
 	}
 }
 
-
-decision_cloud_cities = {
-	owned_planets_only = yes
-	sound = event_administrative_work
-	icon = decision_resources
-
-	enactment_time = 180
-	resources = {
-		category = decisions
-		cost = {
-			influence = 25
-			energy = 500
-		}
-	}
-	
-	potential = {
-		owner = { 
-			has_trait = trait_pony_power
-		}
-		habitable_structure = no
-		NOT = { 
-			OR = {
-				is_planet_class = pc_machine 
-				is_planet_class = pc_hive 
-				
-				has_planet_flag = cloud_cities_built
-			}
-		}
-	}
-	
-	effect = {
-		hidden_effect = {
-			set_planet_flag = cloud_cities_built 
-		}
-		
-		add_deposit = d_cloud_city
-	}
-	
-	ai_weight = {
-		weight = 0
-	}
-}
-
 decision_pony_parties = {
 	owned_planets_only = yes
 	sound = event_administrative_work

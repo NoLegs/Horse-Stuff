@@ -52,7 +52,11 @@ tech_magic_crystals = {
 	weight = @tier1weight3
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {
@@ -68,7 +72,11 @@ tech_magic_crystal_alloy = {
 	weight = @tier2weight3
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {
@@ -84,7 +92,11 @@ tech_enchanted_crystal_alloy = {
 	weight = @tier2weight1
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {
@@ -100,7 +112,11 @@ tech_magic_amplification = {
 	weight = @tier2weight2
 	
 	potential = {
-		has_trait = trait_pony_power
+		OR = {
+			has_trait = trait_pony_power
+			has_trait = trait_magically_gifted
+			has_trait = trait_emotionovores
+		}
 	}
 
 	modifier = {

@@ -1,0 +1,152 @@
+decision_cloud_cities = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+			energy = 500
+		}
+	}
+	
+	potential = {
+		owner = { 
+			OR = {
+				has_trait = trait_pony_power
+				has_trait = trait_cloud_builder
+			}
+		}
+		habitable_structure = no
+		NOT = { 
+			OR = {
+				is_planet_class = pc_machine 
+				is_planet_class = pc_hive 
+				
+				check_variable = {
+					which = numcloudcities
+					value >= 4
+				}
+			}
+		}
+	}
+	
+	effect = {
+		hidden_effect = {
+			set_variable = {
+				which = numcloudcities
+				value = 1
+			}
+		}
+		
+		add_deposit = d_cloud_city
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_cloud_solar_farms = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+			minerals = 400
+		}
+	}
+	
+	potential = {
+		owner = { 
+			OR = {
+				has_trait = trait_pony_power
+				has_trait = trait_cloud_builder
+			}
+		}
+		habitable_structure = no
+		NOT = { 
+			OR = {
+				is_planet_class = pc_machine 
+				is_planet_class = pc_hive 
+				
+				check_variable = {
+					which = numcloudsolar
+					value >= 2
+				}
+			}
+		}
+	}
+	
+	effect = {
+		hidden_effect = {
+			set_variable = {
+				which = numcloudsolar
+				value = 1
+			}
+		}
+		
+		add_deposit = d_cloud_solar_farms
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_cloud_farms = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_resources
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 15
+			minerals = 400
+		}
+	}
+	
+	potential = {
+		owner = { 
+			OR = {
+				has_trait = trait_pony_power
+				has_trait = trait_cloud_builder
+			}
+		}
+		habitable_structure = no
+		NOT = { 
+			OR = {
+				is_planet_class = pc_machine 
+				is_planet_class = pc_hive 
+				
+				check_variable = {
+					which = numcloudfarms
+					value >= 2
+				}
+			}
+		}
+	}
+	
+	effect = {
+		hidden_effect = {
+			set_variable = {
+				which = numcloudfarms
+				value = 1
+			}
+		}
+		
+		add_deposit = d_cloud_agri_center
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
