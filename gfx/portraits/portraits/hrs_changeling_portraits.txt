@@ -1,26 +1,40 @@
 portraits = {
 
-	changelingf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf2.dds"	}
-	changelingf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf3.dds"	}
-	changelingf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf4.dds"	}
-	changelingf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf5.dds"	}
-	changelingf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf6.dds"	}
-	changelingf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf7.dds"	}
-	changelingf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf8.dds"	}
-	changelingf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf9.dds"	}
-	changelingf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf10.dds"	}
-	changelingf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf11.dds"	}
-	changelingf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf12.dds"	}
-	changelingf13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf13.dds"	}
-	changelingf14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf14.dds"	}
-	changelingf15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf15.dds"	}
-	changelingf16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf16.dds"	}
-	changelingf17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf17.dds"	}
+	changelingF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf31.dds"	}
+	changelingF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf2.dds"	}
+	changelingF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf3.dds"	}
+	changelingF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf4.dds"	}
+	changelingF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf5.dds"	}
+	changelingF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf6.dds"	}
+	changelingF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf7.dds"	}
+	changelingF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf8.dds"	}
+	changelingF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf9.dds"	}
+	changelingF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf10.dds"	}
+	changelingF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf11.dds"	}
+	changelingF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf12.dds"	}
+	changelingF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf13.dds"	}
+	changelingF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf14.dds"	}
+	changelingF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf15.dds"	}
+	changelingF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf16.dds"	}
+	changelingF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf17.dds"	}
+	changelingF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf18.dds"	}
+	changelingF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf19.dds"	}
+	changelingF20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf20.dds"	}
+	changelingF21 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf21.dds"	}
+	changelingF22 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf22.dds"	}
+	changelingF23 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf23.dds"	}
+	changelingF24 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf24.dds"	}
+	changelingF25 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf25.dds"	}
+	changelingF26 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf26.dds"	}
+	changelingF27 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf27.dds"	}
+	changelingF28 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf28.dds"	}
+	changelingF29 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf29.dds"	}
+	changelingF30 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingf30.dds"	}
 	
-	changelingh2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh2.dds"	}
-	changelingh3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh3.dds"	}
-	changelingh4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh4.dds"	}
-	changelingh5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh5.dds"	}
+	changelingH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh5.dds"	}
+	changelingH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh2.dds"	}
+	changelingH03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh3.dds"	}
+	changelingH04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/changeling/changelingh4.dds"	}
 	
 }
 
@@ -36,27 +50,14 @@ portrait_groups = {
 						
 						chrysH1 chrysH2
 					
-						changelingf2
-						changelingf3
-						changelingf4
-						changelingf5
-						changelingf6
-						changelingf7
-						changelingf8
-						changelingf9
-						changelingf10
-						changelingf11
-						changelingf12
-						changelingf13
-						changelingf14
-						changelingf15
-						changelingf16
-						changelingf17
+						changelingF01 changelingF02 changelingF03 changelingF04 changelingF05
+						changelingF06 changelingF07 changelingF08 changelingF09 changelingF10
+						changelingF11 changelingF12 changelingF13 changelingF14 changelingF15
+						changelingF16 changelingF17 changelingF18 changelingF19 changelingF20
+						changelingF21 changelingF22 changelingF23 changelingF24 changelingF25
+						changelingF26 changelingF27 changelingF28 changelingF29 changelingF30
 						
-						changelingh2
-						changelingh3
-						changelingh4
-						changelingh5
+						changelingH01 changelingH02 changelingH03 changelingH04
 				}
 			}
 		}
@@ -64,27 +65,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					changelingf2
-					changelingf3
-					changelingf4
-					changelingf5
-					changelingf6
-					changelingf7
-					changelingf8
-					changelingf9
-					changelingf10
-					changelingf11
-					changelingf12
-					changelingf13
-					changelingf14
-					changelingf15
-					changelingf16
-					changelingf17
-					
-					changelingh2
-					changelingh3
-					changelingh4
-					changelingh5
+					changelingF01 changelingF02 changelingF03 changelingF04 changelingF05
+					changelingF06 changelingF07 changelingF08 changelingF09 changelingF10
+					changelingF11 changelingF12 changelingF13 changelingF14 changelingF15
+					changelingF16 changelingF17 changelingF18 changelingF19 changelingF20
+					changelingF21 changelingF22 changelingF23 changelingF24 changelingF25
+					changelingF26 changelingF27 changelingF28 changelingF29 changelingF30
+				
+					changelingH01 changelingH02 changelingH03 changelingH04
 				}
 			}
 		}
@@ -92,27 +80,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					changelingf2
-					changelingf3
-					changelingf4
-					changelingf5
-					changelingf6
-					changelingf7
-					changelingf8
-					changelingf9
-					changelingf10
-					changelingf11
-					changelingf12
-					changelingf13
-					changelingf14
-					changelingf15
-					changelingf16
-					changelingf17
-					
-					changelingh2
-					changelingh3
-					changelingh4
-					changelingh5
+					changelingF01 changelingF02 changelingF03 changelingF04 changelingF05
+					changelingF06 changelingF07 changelingF08 changelingF09 changelingF10
+					changelingF11 changelingF12 changelingF13 changelingF14 changelingF15
+					changelingF16 changelingF17 changelingF18 changelingF19 changelingF20
+					changelingF21 changelingF22 changelingF23 changelingF24 changelingF25
+					changelingF26 changelingF27 changelingF28 changelingF29 changelingF30
+				
+					changelingH01 changelingH02 changelingH03 changelingH04
 				}
 			}
 		}
@@ -120,27 +95,14 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					changelingf2
-					changelingf3
-					changelingf4
-					changelingf5
-					changelingf6
-					changelingf7
-					changelingf8
-					changelingf9
-					changelingf10
-					changelingf11
-					changelingf12
-					changelingf13
-					changelingf14
-					changelingf15
-					changelingf16
-					changelingf17
-					
-					changelingh2
-					changelingh3
-					changelingh4
-					changelingh5
+					changelingF01 changelingF02 changelingF03 changelingF04 changelingF05
+					changelingF06 changelingF07 changelingF08 changelingF09 changelingF10
+					changelingF11 changelingF12 changelingF13 changelingF14 changelingF15
+					changelingF16 changelingF17 changelingF18 changelingF19 changelingF20
+					changelingF21 changelingF22 changelingF23 changelingF24 changelingF25
+					changelingF26 changelingF27 changelingF28 changelingF29 changelingF30
+				
+					changelingH01 changelingH02 changelingH03 changelingH04
 				}
 			}
 
@@ -155,27 +117,14 @@ portrait_groups = {
 				
 					chrysH1 chrysH2
 					
-					changelingf2
-					changelingf3
-					changelingf4
-					changelingf5
-					changelingf6
-					changelingf7
-					changelingf8
-					changelingf9
-					changelingf10
-					changelingf11
-					changelingf12
-					changelingf13
-					changelingf14
-					changelingf15
-					changelingf16
-					changelingf17
-					
-					changelingh2
-					changelingh3
-					changelingh4
-					changelingh5
+					changelingF01 changelingF02 changelingF03 changelingF04 changelingF05
+					changelingF06 changelingF07 changelingF08 changelingF09 changelingF10
+					changelingF11 changelingF12 changelingF13 changelingF14 changelingF15
+					changelingF16 changelingF17 changelingF18 changelingF19 changelingF20
+					changelingF21 changelingF22 changelingF23 changelingF24 changelingF25
+					changelingF26 changelingF27 changelingF28 changelingF29 changelingF30
+				
+					changelingH01 changelingH02 changelingH03 changelingH04
                 }
             }
         }
