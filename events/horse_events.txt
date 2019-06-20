@@ -98,6 +98,12 @@ country_event = {
 			tech = tech_basic_magic_theory 
 			message = no
 		}
+		
+		every_planet_within_border = {
+			limit = { is_capital = yes }
+			
+			add_deposit = d_magic_crystal_caverns
+		}
 	}
 }
 

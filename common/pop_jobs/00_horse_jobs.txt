@@ -82,17 +82,6 @@ magic_crystal_miner = {
 		produces = {
 			magic_crystals = 2
 		}
-		produces = {
-			trigger = { 
-				owner = {
-					has_trait = "trait_pony_power"
-				}
-			}
-			magic_crystals = 2
-		}
-		upkeep = {
-			energy = 1
-		}
 	}
 	
 	weight = {
@@ -118,7 +107,7 @@ enchanter = {
 	}
 	
 	planet_modifier = {
-		planet_jobs_worker_produces_mult = 0.05
+		planet_jobs_worker_produces_mult = 0.10
 	}
 	
 	weight = {

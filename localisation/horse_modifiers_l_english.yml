@@ -5,3 +5,23 @@ cloud_builders_cloud_cities:0 "Cloud Cities"
 planet_pony_parties:0 "Constant Pony Festivals"
 
 d_alchemical_refinery:0 "Alchemical Refinery"
+
+
+### Magic Modifiers ###
+## Planet Modifiers ##
+
+## Empire Modifiers ##
+ritual_power:0 "Ritual of Power"
+ritual_power_desc:0 ""
+
+ritual_might:0 "Ritual of Might"
+ritual_might_desc:0 ""
+
+ritual_health:0 "Ritual of Health"
+ritual_health_desc:0 ""
+
+ritual_knowledge:0 "Ritual of Knowledge"
+ritual_knowledge_desc:0 ""
+
+ritual_cooldown:0 "Weakened Magical Fields"
+ritual_cooldown_desc:0 ""

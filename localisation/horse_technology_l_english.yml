@@ -24,6 +24,12 @@
  tech_magic_crystals:0 "Magic Crystal Extraction"
  tech_magic_crystals_desc:0 ""
  
+ tech_mass_enchantments:0 "Mass Enchantments"
+ tech_mass_enchantments_desc:0 ""
+ 
+ tech_thaumaturgy:0 "Thaumaturgy"
+ tech_thaumaturgy_desc:0 ""
+ 
  tech_magic_crystal_alloy:0 "Magic Crystal Alloy"
  tech_magic_crystal_alloy_desc:0 ""
  
@@ -37,7 +43,9 @@
  pony:0 "Magical"
  pony_desc:0 "All things involving the art of magic, spellmaking, enchanting, etc etc."
  
- 
+ ### Resources ###
+ magic_crystals:0 "Magic Crystals"
+ magic_crystals_desc:0 "These magical crystals contain large amounts of magical power within them, making them vital components of sorcery and spellcraft."
  
  ### Ship Components ###
  MAGIC_CRYSTAL_ARMOR:0 "Crystal Alloy Armor"

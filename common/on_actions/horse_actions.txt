@@ -19,3 +19,15 @@ on_game_start_country = {
 		horse.6
 	}
 }
+
+on_custom_diplomacy = {
+	events = {
+		horse_ritual_menu.0
+	}
+}
+
+on_tech_increased = {
+	events = {
+		horse_ritual_spawn.1
+	}
+}

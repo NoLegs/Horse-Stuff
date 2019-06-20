@@ -8,40 +8,28 @@ building_magic_crystal_plant = {
 	potential = {
 		NOT = { has_modifier = resort_colony }	
 		NOT = { has_modifier = slave_colony }
+		has_deposit = d_magic_crystal_caverns
 	}
-	allow = {
-		has_upgraded_capital = yes
-	}
-	
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
-	}
-	
+
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { is_gestalt = no }					
 		}
 		modifier = {
-			job_magic_crystal_miner_add = 1
+			job_magic_crystal_miner_add = 2
 		}
 	}
 	
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = 340
+			minerals = 400
 		}	
 		upkeep = {
-			energy = 3
+			energy = 2
 		}
 	}	
-	
-	prerequisites = {
-		"tech_magic_crystals"
-	}
-	
 	triggered_desc = {
 		trigger = { 
 			exists = owner
@@ -90,18 +78,13 @@ building_magic_crystal_plant = {
 building_enchanters_workshop = {
 	base_buildtime = 360
 	category = manufacturing
-	prerequisites = { "tech_magic_crystals" }
+	prerequisites = { "tech_mass_enchantments" }
 	potential = {
 		NOT = { has_modifier = resort_colony }	
 		NOT = { has_modifier = slave_colony }
 	}
 	allow = {
-		has_upgraded_capital = yes
-	}
-	
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
+		NOT = { has_building = building_enchanters_workshop }
 	}
 	
 	triggered_planet_modifier = {
@@ -118,18 +101,12 @@ building_enchanters_workshop = {
 		category = planet_buildings
 		cost = {
 			minerals = 400
-			magic_crystals = 20
+			magic_crystals = 30
 		}	
 		upkeep = {
 			magic_crystals = 4
-			energy = 4
 		}
 	}	
-	
-	prerequisites = {
-		"tech_magic_crystals"
-	}
-	
 	triggered_desc = {
 		trigger = { 
 			exists = owner
@@ -171,19 +148,13 @@ building_enchanters_workshop = {
 building_thaumaturgic_research_center = {
 	base_buildtime = 360
 	category = manufacturing
-	prerequisites = { "tech_magic_crystals" }
+	prerequisites = { "tech_thaumaturgy" }
 	potential = {
 		NOT = { has_modifier = resort_colony }	
 		NOT = { has_modifier = slave_colony }
 	}
 	allow = {
-		has_upgraded_capital = yes
 		NOT = { has_building = building_thaumaturgic_research_center }
-	}
-	
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
 	}
 	
 	triggered_planet_modifier = {
@@ -192,7 +163,7 @@ building_thaumaturgic_research_center = {
 			owner = { is_gestalt = no }					
 		}
 		modifier = {
-			job_thaumaturgic_researcher_add = 1
+			job_thaumaturgic_researcher_add = 2
 		}
 	}
 	
@@ -200,18 +171,12 @@ building_thaumaturgic_research_center = {
 		category = planet_buildings
 		cost = {
 			minerals = 300
-			magic_crystals = 10
+			magic_crystals = 35
 		}	
 		upkeep = {
-			magic_crystals = 10
-			consumer_goods = 4
+			magic_crystals = 3
 		}
 	}	
-	
-	prerequisites = {
-		"tech_magic_crystals"
-	}
-	
 	triggered_desc = {
 		trigger = { 
 			exists = owner
@@ -253,19 +218,13 @@ building_thaumaturgic_research_center = {
 building_thaumaturgic_refinery = {
 	base_buildtime = 360
 	category = manufacturing
-	prerequisites = { "tech_magic_crystals" }
+	prerequisites = { "tech_thaumaturgy" }
 	potential = {
 		NOT = { has_modifier = resort_colony }	
 		NOT = { has_modifier = slave_colony }
 	}
 	allow = {
-		has_upgraded_capital = yes
 		NOT = { has_building = building_thaumaturgic_refinery }
-	}
-	
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
 	}
 	
 	triggered_planet_modifier = {
@@ -274,7 +233,7 @@ building_thaumaturgic_refinery = {
 			owner = { is_gestalt = no }					
 		}
 		modifier = {
-			job_thaumaturgic_refiners_add = 1
+			job_thaumaturgic_refiners_add = 2
 		}
 	}
 	
@@ -282,17 +241,13 @@ building_thaumaturgic_refinery = {
 		category = planet_buildings
 		cost = {
 			minerals = 300
-			magic_crystals = 10
+			magic_crystals = 20
 		}	
 		upkeep = {
-			magic_crystals = 8
-			energy = 2
+			magic_crystals = 4
 		}
 	}	
 	
-	prerequisites = {
-		"tech_magic_crystals"
-	}
 	
 	triggered_desc = {
 		trigger = { 
@@ -335,19 +290,13 @@ building_thaumaturgic_refinery = {
 building_thaumaturgic_grid = {
 	base_buildtime = 360
 	category = manufacturing
-	prerequisites = { "tech_magic_crystals" }
+	prerequisites = { "tech_thaumaturgy" }
 	potential = {
 		NOT = { has_modifier = resort_colony }	
 		NOT = { has_modifier = slave_colony }
 	}
 	allow = {
-		has_upgraded_capital = yes
 		NOT = { has_building = building_thaumaturgic_grid }
-	}
-	
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
 	}
 	
 	triggered_planet_modifier = {
@@ -356,7 +305,7 @@ building_thaumaturgic_grid = {
 			owner = { is_gestalt = no }					
 		}
 		modifier = {
-			job_thaumaturgic_electricians_add = 1
+			job_thaumaturgic_electricians_add = 2
 		}
 	}
 	
@@ -364,17 +313,12 @@ building_thaumaturgic_grid = {
 		category = planet_buildings
 		cost = {
 			minerals = 300
-			magic_crystals = 8
+			magic_crystals = 30
 		}	
 		upkeep = {
-			magic_crystals = 6
-			minerals = 4
+			magic_crystals = 4
 		}
 	}	
-	
-	prerequisites = {
-		"tech_magic_crystals"
-	}
 	
 	triggered_desc = {
 		trigger = { 
@@ -417,19 +361,13 @@ building_thaumaturgic_grid = {
 building_alchemical_foundry = {
 	base_buildtime = 360
 	category = manufacturing
-	prerequisites = { "tech_magic_crystals" }
+	prerequisites = { "tech_thaumaturgy" }
 	potential = {
 		NOT = { has_modifier = resort_colony }	
 		NOT = { has_modifier = slave_colony }
 	}
 	allow = {
-		has_upgraded_capital = yes
 		NOT = { has_building = building_alchemical_foundry }
-	}
-	
-	destroy_trigger = {
-		free_building_slots = 0
-		exists = owner
 	}
 	
 	triggered_planet_modifier = {
@@ -438,26 +376,20 @@ building_alchemical_foundry = {
 			owner = { is_gestalt = no }					
 		}
 		modifier = {
-			job_alchemical_foundry_workers_add = 1
+			job_alchemical_foundry_workers_add = 2
 		}
 	}
 	
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = 300
-			magic_crystals = 10
+			minerals = 400
+			magic_crystals = 40
 		}	
 		upkeep = {
-			magic_crystals = 8
-			energy = 2
-			minerals = 2
+			magic_crystals = 3
 		}
 	}	
-	
-	prerequisites = {
-		"tech_magic_crystals"
-	}
 	
 	triggered_desc = {
 		trigger = { 
