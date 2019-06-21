@@ -152,7 +152,10 @@ portrait_groups = {
 						zebF01 zebF02 zebF03 zebF04 zebF05
 						zebF06 zebF07 zebF08 zebF09 zebF10
 						zebF11 zebF12 zebF13 zebF14 zebF15 
-						zebF16 zebF17 zebF18
+						zebF16 zebF17 zebF18 zebF19 zebF20
+						zebF21 zebF22 zebF23 zebF24 zebF25
+						zebF26 zebF27 zebF28 zebF29 zebF30 
+						zebF31 zebF32 zebF33 zebF34 zebF35
 					}
 				}
 		}
@@ -191,7 +194,10 @@ portrait_groups = {
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
 				}
 			}
 		}
@@ -230,7 +236,10 @@ portrait_groups = {
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
 				}
 			}
 		}
@@ -269,7 +278,10 @@ portrait_groups = {
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
 				}
 			}
 		}	
@@ -326,7 +338,10 @@ portrait_groups = {
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
 				}
 			}
         }
