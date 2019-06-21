@@ -9,6 +9,17 @@ d_alchemical_refinery:0 "Alchemical Refinery"
 
 ### Magic Modifiers ###
 ## Planet Modifiers ##
+planet_productivity_ritual:0 "Productivity Ritual"
+planet_productivity_ritual_desc:0 ""
+
+planet_fertility_ritual:0 "Fertility Ritual"
+planet_fertility_ritual_desc:0 ""
+
+planet_planetary_shield_ritual:0 "Magical Planetary Shielding"
+planet_planetary_shield_ritual_desc:0 ""
+
+planet_weak_magic_field:0 "Weak Magic Field"
+planet_weak_magic_field_desc:0 "This planet is still recovering from a powerful ritual cast on it."
 
 ## Empire Modifiers ##
 ritual_power:0 "Ritual of Power"
@@ -24,4 +35,7 @@ ritual_knowledge:0 "Ritual of Knowledge"
 ritual_knowledge_desc:0 ""
 
 ritual_cooldown:0 "Weakened Magical Fields"
-ritual_cooldown_desc:0 ""
+ritual_cooldown_desc:0 "The nations magical fields are still recovering from a powerful ritual what was just recently casted."
+
+## Misc ##
+mod_building_magic_crystal_plant_max:0 "Max Magic Crystal Mines"

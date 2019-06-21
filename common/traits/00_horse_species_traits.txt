@@ -1,5 +1,5 @@
 trait_cloud_builder = {
-	cost = -1
+	cost = 1
 	potential_crossbreeding_chance = 0.5
 	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
@@ -9,7 +9,7 @@ trait_cloud_builder = {
 }
 
 trait_earth_attuned = {
-	cost = -1
+	cost = 1
 	potential_crossbreeding_chance = 0.5
 	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
@@ -20,7 +20,7 @@ trait_earth_attuned = {
 }
 
 trait_magically_gifted = {
-	cost = -1
+	cost = 1
 	potential_crossbreeding_chance = 0.5
 	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }

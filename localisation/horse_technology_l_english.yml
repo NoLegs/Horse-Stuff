@@ -48,8 +48,10 @@
  magic_crystals_desc:0 "These magical crystals contain large amounts of magical power within them, making them vital components of sorcery and spellcraft."
  
  ### Ship Components ###
- MAGIC_CRYSTAL_ARMOR:0 "Crystal Alloy Armor"
+ MAGIC_CRYSTAL_ARMOR_1:0 "Crystal Alloy Armor"
+ MAGIC_CRYSTAL_ARMOR_1_desc:0 "Special armor crafted and made with a high amount of Magic Crystals."
  MAGIC_CRYSTAL_ARMOR_2:0 "Enchanted Crystal Alloy Armor"
+ MAGIC_CRYSTAL_ARMOR_2_desc:0 "Crystal Alloy Armor that has been specially enchanted for better strength."
  
  SMALL_CRYSTAL_ALLOY_1:0 "Small Crystal Alloy"
  MEDIUM_CRYSTAL_ALLOY_1:0 "Medium Crystal Alloy"

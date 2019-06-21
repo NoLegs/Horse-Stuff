@@ -2,7 +2,7 @@
 
 ### Ritual Room Events ###
 horse_ritual_spawn.1.title:0 "Empire Wide Magic Rituals"
-horse_ritual_spawn.1.desc:0 "Due to recent advancements in the field of magic, the ability to perform empire wide Magic Rituals is now available."
+horse_ritual_spawn.1.desc:0 "Due to recent advancements in the field of magic, the ability to perform empire wide Magic Rituals is now available. You can now contact the §M'Ritual Room'§! in your contacts tab."
 horse_ritual_spawn.1.a:0 "Magical."
 
 horse_ritual_menu.1.title:0 "The Ritual Room"
@@ -32,3 +32,9 @@ horse_ritual_menu.23.a:0 "Okay"
 horse_ritual_menu.24.title:0 "Ritual of Knowledge"
 horse_ritual_menu.24.desc:0 "The mages gather around the runic circle, their eyes alight with magical power. A low hum begins filling the room as massive amounts of pure magic flow out from the Magic Crystals that have been gathered, all of it pouring into the runic circle at the center. The hum intensifies over the next minute, growing to a slight buzz in ones ear to a loud and oppresive hum, like that of electricity or static. And then it stops, and everyone gathered is overcome with a sudden and strange sensation that only lasts for but a moment.\n\nThe ritual is successful."
 horse_ritual_menu.24.a:0 "Okay"
+
+### Tooltips ###
+TT_ritual_of_power:0 "Gives the §YRitual of Power§! modifier, granting §G+25%§! monthly energy credits for §Y365 days§!, but the magical fields of your empire will be weakend for §R730 Days§!\n\nIf you have already casted a ritual, you will not be able to do so again until the §YWeakened Magical Fields§! modifier has been removed.\n\n"
+TT_ritual_of_might:0 "Gives the §YRitual of Might§! modifier, granting §G+25%§! Ship Weapons Damage, §G+25%§! Sublight Speed, and §G+25%§! Army Damage for §Y365 days§!, but the magical fields of your empire will be weakend for §R730 Days§!\n\nIf you have already casted a ritual, you will not be able to do so again until the §YWeakened Magical Fields§! modifier has been removed.\n\n"
+TT_ritual_of_health:0 "Gives the §YRitual of Health§! modifier, granting §G+15%§! Pop Growth Speed and §G+10%§! Biological Pop Happiness for §Y365 days§!, but the magical fields of your empire will be weakend for §R730 Days§!\n\nIf you have already casted a ritual, you will not be able to do so again until the §YWeakened Magical Fields§! modifier has been removed.\n\n"
+TT_ritual_of_knowledge:0 "Gives the §YRitual of Power§! modifier, granting §G+10%§! Research Speed for §Y365 days§!, but the magical fields of your empire will be weakend for §R730 Days§!\n\nIf you have already casted a ritual, you will not be able to do so again until the §YWeakened Magical Fields§! modifier has been removed.\n\n"

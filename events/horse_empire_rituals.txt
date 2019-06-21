@@ -80,9 +80,14 @@ country_event = {
 	picture_event_data = {
 		room = horse_ritual_room
 	}
+	
+	after = { 
+		remove_country_flag = "ritual_diplo_active"
+	}
 
 	option = { ### Ritual of Power
 		name = horse_ritual_menu.1.a
+		custom_tooltip = TT_ritual_of_power
 		allow = {
 			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
 		}
@@ -100,6 +105,7 @@ country_event = {
 	
 	option = { ### Ritual of Might
 		name = horse_ritual_menu.1.b
+		custom_tooltip = TT_ritual_of_might
 		allow = {
 			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
 		}
@@ -117,6 +123,7 @@ country_event = {
 	
 	option = { ### Ritual of Health
 		name = horse_ritual_menu.1.c
+		custom_tooltip = TT_ritual_of_health
 		allow = {
 			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
 		}
@@ -134,6 +141,7 @@ country_event = {
 	
 	option = { ### Ritual of Knowledge
 		name = horse_ritual_menu.1.d
+		custom_tooltip = TT_ritual_of_knowledge
 		allow = {
 			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
 		}

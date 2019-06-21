@@ -18,14 +18,18 @@ d_magic_crystal_caverns = {
 		can_have_habitable_deposits = yes
 	}
 	
+	planet_modifier = { 
+		building_magic_crystal_plant_max = 1
+	}
+	
 	drop_weight = {
 		weight = 3.0
 		modifier = {
-			factor = 2.25
+			factor = 3.25
 			is_wet = yes
 		}
 		modifier = {
-			factor = 2.5
+			factor = 3.5
 			OR = {
 				is_dry = yes
 				is_cold = yes

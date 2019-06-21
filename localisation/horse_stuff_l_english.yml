@@ -2,6 +2,8 @@
 
 ### Species Stuff ###
  name_list_horse:1 "Equestrian"
+ name_list_zebra:1 "Zebra"
+ 
  HRS:0 "Equestrian"
  HRS_desc:1 "Species Class has no effect on your Empire, but Equestrian-class Species may consider other Equestrians to be less alien than other Species Classes."
  HRS_plural:0 "Equestrians"
@@ -20,7 +22,6 @@
  HRS_mouth:0 "mouth"
  HRS_hand:0 "hoof"
 
- name_list_horse:1 "Equestrian"
  FER:0 "Feral Equestrians"
  FER_desc:1 "Species Class has no effect on your Empire, but Feral Equestrian-class Species may consider other Feral Equestrians to be less alien than other Species Classes."
  FER_plural:0 "Feral Equestrians"
@@ -57,6 +58,18 @@
 
  civic_empress_of_the_night:0 "Empress of the Night"
  civic_empress_of_the_night_desc:0 "This society is lead by the Empress of the Night, a ruler who wields power over the raising and lowering of the moon. They are a naturally born and immortal alicorn, having ruled the nation for quite some time.\n\nYour ruler is given the §BEmpress of the Night§! trait, making them immortal and giving your leader the powerful bonuses."
+ 
+ civic_zebra_tribal_unity:0 "Tribal Unity"
+ civic_zebra_tribal_unity_desc:0 "This society is united by a sense of Tribal Unity, following the ways of ancient tribal religion and tradition."
+ 
+ civic_zebra_tribal_hierarchy:0 "Tribal Hierarchy"
+ civic_zebra_tribal_hierarchy_desc:0 "This society has a strict tribal-like hierarchy, forcing members of society into certain castes or roles. Social mobility is difficult, and those at the bottom of the hierarchy are either slaves or undesirables. Freedom is incredibly limited."
+ 
+ civic_griffon_greed:0 "Griffon Greed"
+ civic_griffon_greed_desc:0 "This society is run by griffons, well known for their greed. They can squeeze money out of almost everything, even this description. That'll be 5 shekels please."
+
+ civic_griffon_greed_corp:0 "Griffon Greed"
+ civic_griffon_greed_corp_desc:0 "This society is run by griffons, well known for their greed. They can squeeze money out of almost everything, even this description. That'll be 5 shekels please."
 ### Traits ###
  leader_trait_alicorn_ruler:0 "Alicorn Ruler"
  leader_trait_alicorn_ruler_desc:0 "This ruler is an immortal Alicorn."

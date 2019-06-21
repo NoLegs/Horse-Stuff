@@ -107,6 +107,22 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = horse.7
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_global_flag = galactic_market_founded
+		NOT = { is_on_market = magic_crystals }
+
+	}
+
+	immediate = {
+		enable_on_market = magic_crystals
+	}
+}
+
 namespace = horse_leader
 country_event = {
 	id = horse_leader.1

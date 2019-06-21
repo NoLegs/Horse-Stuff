@@ -4,6 +4,7 @@
 building_magic_crystal_plant = {
 	base_buildtime = 480
 	category = manufacturing
+	is_capped_by_modifier = yes
 	prerequisites = { "tech_magic_crystals" }
 	potential = {
 		NOT = { has_modifier = resort_colony }	

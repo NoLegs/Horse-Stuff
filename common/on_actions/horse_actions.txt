@@ -31,3 +31,9 @@ on_tech_increased = {
 		horse_ritual_spawn.1
 	}
 }
+
+on_monthly_pulse = {
+	events = {
+		
+	}
+}

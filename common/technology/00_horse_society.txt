@@ -90,7 +90,7 @@ tech_advanced_combat_spells = {
 	tier = 2
 	area = society
 	category = { pony }
-	prerequisites = { "tech_magic_crystal_alloy" }
+	prerequisites = { "tech_combat_spells" }
 	weight = @tier2weight1
 	
 	potential = {

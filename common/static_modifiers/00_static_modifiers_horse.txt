@@ -43,7 +43,7 @@ planet_planetary_shield_ritual = {
 
 
 planet_weak_magic_field = {
-	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon = "gfx/interface/icons/planet_modifiers/pm_weak_magnetic_field.dds"
 	icon_frame = 1
 }
 
