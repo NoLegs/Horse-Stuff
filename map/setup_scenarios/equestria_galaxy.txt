@@ -1,0 +1,1846 @@
+#Made with Retalyx Static Galaxy Generator v0.9
+static_galaxy_scenario = {
+    name = "Random Generated Galaxy"
+	default = yes
+	priority = 0					#priority decides in which order the scenarios are listed
+	core_radius = 0
+	num_empires = { min = 0 max = 5 }	#limits player customization
+	num_empire_default = 5
+	fallen_empire_default = 0
+	fallen_empire_max = 0
+	marauder_empire_default = 0
+	marauder_empire_max = 0
+	advanced_empire_default = 0
+	colonizable_planet_odds = 1
+	primitive_odds = 0
+	crisis_strength = 0
+	random_hyperlanes = no
+	
+     system = {
+        id = "17"
+        position = {
+            x = 124.5957
+            y = -157.6976
+        }
+        spawn_weight = { base = 1 }
+    }
+
+    system = {
+        id = "18"
+        position = {
+            x = 173.2747
+            y = -159.6712
+        }
+    }
+
+    system = {
+        id = "19"
+        position = {
+            x = 150.2509
+            y = -135.9894
+        }
+    }
+
+    system = {
+        id = "20"
+        position = {
+            x = 142.0281
+            y = -118.2277
+        }
+    }
+
+    system = {
+        id = "21"
+        position = {
+            x = 94.00684
+            y = -187.2994
+        }
+    }
+
+    system = {
+        id = "22"
+        position = {
+            x = 79.53468
+            y = -131.3847
+        }
+    }
+
+    system = {
+        id = "23"
+        position = {
+            x = 82.16602
+            y = -94.21757
+        }
+    }
+
+    system = {
+        id = "25"
+        position = {
+            x = 114.7283
+            y = -89.94157
+        }
+    }
+
+    system = {
+        id = "29"
+        position = {
+            x = 153.8689
+            y = -122.175
+        }
+    }
+
+    system = {
+        id = "30"
+        position = {
+            x = 149.2641
+            y = -192.8911
+        }
+    }
+
+    system = {
+        id = "31"
+        position = {
+            x = 160.4472
+            y = -171.183
+        }
+    }
+
+    system = {
+        id = "32"
+        position = {
+            x = 109.1368
+            y = -206.0475
+        }
+    }
+
+    system = {
+        id = "33"
+        position = {
+            x = 177.8795
+            y = -193.2201
+        }
+    }
+
+    system = {
+        id = "34"
+        position = {
+            x = 195.3119
+            y = -170.854
+        }
+    }
+
+    system = {
+        id = "35"
+        position = {
+            x = 179.1952
+            y = -134.6738
+        }
+    }
+
+    system = {
+        id = "37"
+        position = {
+            x = 99.90604
+            y = -73.92571
+        }
+    }
+
+    system = {
+        id = "38"
+        position = {
+            x = 70.36493
+            y = -54.07054
+        }
+    }
+
+    system = {
+        id = "39"
+        position = {
+            x = 24.38437
+            y = -75.33465
+        }
+    }
+
+    system = {
+        id = "40"
+        position = {
+            x = 40.43395
+            y = -75.8882
+        }
+    }
+
+    system = {
+        id = "41"
+        position = {
+            x = -2.845299
+            y = -99.54897
+        }
+    }
+
+    system = {
+        id = "42"
+        position = {
+            x = 2.200117
+            y = 0.4351273
+        }
+    }
+
+    system = {
+        id = "43"
+        position = {
+            x = 2.110013
+            y = -84.73946
+        }
+    }
+
+    system = {
+        id = "44"
+        position = {
+            x = 18.73396
+            y = -90.19334
+        }
+    }
+
+    system = {
+        id = "45"
+        position = {
+            x = -23.22282
+            y = -88.26177
+        }
+    }
+
+    system = {
+        id = "46"
+        position = {
+            x = -14.93658
+            y = -126.6104
+        }
+    }
+
+    system = {
+        id = "47"
+        position = {
+            x = -65.96592
+            y = -125.1688
+        }
+    }
+
+    system = {
+        id = "48"
+        position = {
+            x = -67.23011
+            y = -136.5465
+        }
+    }
+
+    system = {
+        id = "49"
+        position = {
+            x = -96.30622
+            y = -140.7604
+        }
+    }
+
+    system = {
+        id = "50"
+        position = {
+            x = -79.45058
+            y = -128.9611
+        }
+    }
+
+    system = {
+        id = "51"
+        position = {
+            x = -79.02912
+            y = -111.6843
+        }
+    }
+
+    system = {
+        id = "52"
+        position = {
+            x = -49.11028
+            y = -115.4766
+        }
+    }
+
+    system = {
+        id = "53"
+        position = {
+            x = -49.95302
+            y = -142.0246
+        }
+    }
+
+    system = {
+        id = "54"
+        position = {
+            x = -55.00978
+            y = -109.9985
+        }
+    }
+
+    system = {
+        id = "55"
+        position = {
+            x = -74.39381
+            y = -152.1378
+        }
+    }
+
+    system = {
+        id = "56"
+        position = {
+            x = -107.2625
+            y = -117.5834
+        }
+    }
+
+    system = {
+        id = "57"
+        position = {
+            x = -143.5022
+            y = -150.8736
+        }
+    }
+
+    system = {
+        id = "58"
+        position = {
+            x = 143.659
+            y = -102.8746
+        }
+    }
+
+    system = {
+        id = "59"
+        position = {
+            x = 137.1056
+            y = -81.50494
+        }
+    }
+
+    system = {
+        id = "60"
+        position = {
+            x = 166.1683
+            y = -92.33208
+        }
+        spawn_weight = { base = 1 }
+    }
+
+    system = {
+        id = "61"
+        position = {
+            x = 164.1739
+            y = -68.11304
+        }
+    }
+
+    system = {
+        id = "62"
+        position = {
+            x = 144.7987
+            y = -50.44749
+        }
+    }
+
+    system = {
+        id = "63"
+        position = {
+            x = 195.801
+            y = -70.96272
+        }
+    }
+
+    system = {
+        id = "64"
+        position = {
+            x = 191.2421
+            y = -47.88331
+        }
+    }
+
+    system = {
+        id = "65"
+        position = {
+            x = 145.6535
+            y = -20.53027
+        }
+    }
+
+    system = {
+        id = "66"
+        position = {
+            x = 195.801
+            y = -104.8693
+        }
+    }
+
+    system = {
+        id = "67"
+        position = {
+            x = 165.8834
+            y = -82.64458
+        }
+    }
+
+    system = {
+        id = "68"
+        position = {
+            x = 186.5922
+            y = -83.85374
+        }
+    }
+
+    system = {
+        id = "69"
+        position = {
+            x = 210.3323
+            y = -62.69947
+        }
+    }
+
+    system = {
+        id = "70"
+        position = {
+            x = 50.70175
+            y = 64.54702
+        }
+    }
+
+    system = {
+        id = "71"
+        position = {
+            x = 58.76271
+            y = 92.75998
+        }
+    }
+
+    system = {
+        id = "72"
+        position = {
+            x = 21.33726
+            y = 93.33586
+        }
+    }
+
+    system = {
+        id = "73"
+        position = {
+            x = 19.03404
+            y = 123.2762
+        }
+    }
+
+    system = {
+        id = "74"
+        position = {
+            x = 57.6111
+            y = 111.7605
+        }
+    }
+
+    system = {
+        id = "75"
+        position = {
+            x = 68.55077
+            y = 149.7618
+        }
+    }
+
+    system = {
+        id = "76"
+        position = {
+            x = 12.1247
+            y = 151.489
+        }
+    }
+
+    system = {
+        id = "77"
+        position = {
+            x = -42.57367
+            y = 118.6699
+        }
+    }
+
+    system = {
+        id = "78"
+        position = {
+            x = -66.75652
+            y = 150.9134
+        }
+    }
+
+    system = {
+        id = "79"
+        position = {
+            x = -118.5762
+            y = 88.15385
+        }
+        spawn_weight = { base = 1 }
+    }
+
+    system = {
+        id = "80"
+        position = {
+            x = -144.4858
+            y = 150.3376
+        }
+    }
+
+    system = {
+        id = "81"
+        position = {
+            x = -49.48301
+            y = 195.8238
+        }
+    }
+
+    system = {
+        id = "82"
+        position = {
+            x = -27.02786
+            y = 137.0947
+        }
+    }
+
+    system = {
+        id = "83"
+        position = {
+            x = -76.54459
+            y = 111.7605
+        }
+    }
+
+    system = {
+        id = "84"
+        position = {
+            x = -32.7856
+            y = 149.1861
+        }
+    }
+
+    system = {
+        id = "85"
+        position = {
+            x = 1.760826
+            y = 175.6718
+        }
+        spawn_weight = { base = 1 }
+    }
+
+    system = {
+        id = "86"
+        position = {
+            x = -60.42298
+            y = 176.8232
+        }
+    }
+
+    system = {
+        id = "87"
+        position = {
+            x = -93.8178
+            y = 193.5208
+        }
+    }
+
+    system = {
+        id = "88"
+        position = {
+            x = -95.54521
+            y = 141.7008
+        }
+    }
+
+    system = {
+        id = "89"
+        position = {
+            x = -26.45206
+            y = 187.763
+        }
+    }
+
+    system = {
+        id = "90"
+        position = {
+            x = -13.20947
+            y = 213.0972
+        }
+    }
+
+    system = {
+        id = "91"
+        position = {
+            x = 38.61047
+            y = 199.2785
+        }
+    }
+
+    system = {
+        id = "92"
+        position = {
+            x = 39.76208
+            y = 171.6413
+        }
+    }
+
+    system = {
+        id = "93"
+        position = {
+            x = 80.64204
+            y = 194.6722
+        }
+    }
+
+    system = {
+        id = "94"
+        position = {
+            x = 78.91464
+            y = 220.0064
+        }
+    }
+
+    system = {
+        id = "95"
+        position = {
+            x = 104.8246
+            y = 170.4897
+        }
+    }
+
+    system = {
+        id = "96"
+        position = {
+            x = 50.12595
+            y = 139.3979
+        }
+    }
+
+    system = {
+        id = "97"
+        position = {
+            x = -9.031216
+            y = 97.94984
+        }
+    }
+
+    system = {
+        id = "98"
+        position = {
+            x = 79.3604
+            y = 96.49686
+        }
+    }
+
+    system = {
+        id = "99"
+        position = {
+            x = 25.36758
+            y = -203.1886
+        }
+    }
+
+    system = {
+        id = "100"
+        position = {
+            x = 38.61047
+            y = -177.2787
+        }
+    }
+
+    system = {
+        id = "101"
+        position = {
+            x = 58.76271
+            y = -184.7638
+        }
+    }
+
+    system = {
+        id = "102"
+        position = {
+            x = 61.06563
+            y = -148.49
+        }
+    }
+
+    system = {
+        id = "103"
+        position = {
+            x = 2.912437
+            y = -183.6123
+        }
+    }
+
+    system = {
+        id = "104"
+        position = {
+            x = 31.16732
+            y = -127.0055
+        }
+    }
+
+    system = {
+        id = "105"
+        position = {
+            x = -24.14885
+            y = -179.5818
+        }
+    }
+
+    system = {
+        id = "106"
+        position = {
+            x = -20.11881
+            y = -154.8235
+        }
+    }
+
+    system = {
+        id = "107"
+        position = {
+            x = -73.66586
+            y = -193.4003
+        }
+    }
+
+    system = {
+        id = "108"
+        position = {
+            x = -34.51301
+            y = -210.6737
+        }
+    }
+
+    system = {
+        id = "109"
+        position = {
+            x = -1.118187
+            y = -164.0358
+        }
+        spawn_weight = { base = 1 }
+    }
+
+    system = {
+        id = "110"
+        position = {
+            x = -55.81655
+            y = -180.7333
+        }
+    }
+
+    system = {
+        id = "111"
+        position = {
+            x = -188.2451
+            y = -62.69932
+        }
+    }
+
+    system = {
+        id = "112"
+        position = {
+            x = -165.2139
+            y = -52.9111
+        }
+    }
+
+    system = {
+        id = "113"
+        position = {
+            x = -198.0332
+            y = -40.8199
+        }
+    }
+
+    system = {
+        id = "114"
+        position = {
+            x = -175.578
+            y = -30.45596
+        }
+    }
+
+    system = {
+        id = "115"
+        position = {
+            x = -185.9419
+            y = -2.818722
+        }
+    }
+
+    system = {
+        id = "116"
+        position = {
+            x = -150.2439
+            y = -10.30372
+        }
+    }
+
+    system = {
+        id = "117"
+        position = {
+            x = -213.0525
+            y = -58.02302
+        }
+    }
+
+    system = {
+        id = "118"
+        position = {
+            x = -169.2445
+            y = -70.18447
+        }
+    }
+
+    system = {
+        id = "119"
+        position = {
+            x = 200.979
+            y = 84.69918
+        }
+    }
+
+    system = {
+        id = "120"
+        position = {
+            x = 203.2823
+            y = 116.3668
+        }
+        spawn_weight = { base = 1 }
+    }
+
+    system = {
+        id = "121"
+        position = {
+            x = 176.221
+            y = 93.91151
+        }
+    }
+
+    system = {
+        id = "122"
+        position = {
+            x = 168.7358
+            y = 126.155
+        }
+    }
+
+    system = {
+        id = "123"
+        position = {
+            x = 232.071
+            y = 145.7314
+        }
+    }
+
+    system = {
+        id = "124"
+        position = {
+            x = 234.95
+            y = 104.8513
+        }
+    }
+
+    system = {
+        id = "125"
+        position = {
+            x = 211.3432
+            y = 149.7618
+        }
+    }
+
+    system = {
+        id = "126"
+        position = {
+            x = 213.0656
+            y = 179.3844
+        }
+    }
+
+    system = {
+        id = "127"
+        position = {
+            x = 192.9184
+            y = 107.7302
+        }
+    }
+
+    system = {
+        id = "128"
+        position = {
+            x = -117.4848
+            y = 56.26516
+        }
+    }
+
+    system = {
+        id = "129"
+        position = {
+            x = -134.7033
+            y = 75.04896
+        }
+    }
+
+    system = {
+        id = "130"
+        position = {
+            x = -160.7919
+            y = 57.83048
+        }
+    }
+
+    system = {
+        id = "131"
+        position = {
+            x = -155.0523
+            y = 86.52793
+        }
+    }
+
+    system = {
+        id = "132"
+        position = {
+            x = -149.3129
+            y = 110.5294
+        }
+    }
+
+    system = {
+        id = "133"
+        position = {
+            x = -116.963
+            y = 111.0512
+        }
+    }
+
+    system = {
+        id = "134"
+        position = {
+            x = -113.5391
+            y = 136.553
+        }
+    }
+
+    system = {
+        id = "135"
+        position = {
+            x = -97.1357
+            y = 122.0084
+        }
+    }
+
+    system = {
+        id = "136"
+        position = {
+            x = 212.855
+            y = -28.42819
+        }
+    }
+
+    system = {
+        id = "137"
+        position = {
+            x = 186.7271
+            y = -38.96368
+        }
+    }
+
+    system = {
+        id = "138"
+        position = {
+            x = 194.3275
+            y = -4.454706
+        }
+    }
+
+    system = {
+        id = "139"
+        position = {
+            x = 213.327
+            y = -12.51505
+        }
+    }
+
+    system = {
+        id = "140"
+        position = {
+            x = 212.0121
+            y = 12.02799
+        }
+    }
+
+    system = {
+        id = "141"
+        position = {
+            x = 170.1463
+            y = -11.93936
+        }
+    }
+
+    system = {
+        id = "142"
+        position = {
+            x = 187.9912
+            y = 20.45633
+        }
+    }
+
+    system = {
+        id = "143"
+        position = {
+            x = 223.3904
+            y = 54.59124
+        }
+    }
+
+    system = {
+        id = "144"
+        position = {
+            x = 193.0483
+            y = 67.23386
+        }
+    }
+
+    system = {
+        id = "145"
+        position = {
+            x = 173.663
+            y = 72.71227
+        }
+    }
+
+    system = {
+        id = "146"
+        position = {
+            x = 160.599
+            y = 93.36182
+        }
+    }
+
+    system = {
+        id = "147"
+        position = {
+            x = 183.777
+            y = 145.1963
+        }
+    }
+
+    system = {
+        id = "148"
+        position = {
+            x = 138.2639
+            y = 124.1254
+        }
+    }
+
+    system = {
+        id = "149"
+        position = {
+            x = 138.6853
+            y = 160.7888
+        }
+    }
+
+    system = {
+        id = "150"
+        position = {
+            x = -37.88908
+            y = 92.94043
+        }
+    }
+
+    system = {
+        id = "151"
+        position = {
+            x = -41.48185
+            y = 136.4547
+        }
+    }
+
+    system = {
+        id = "152"
+        position = {
+            x = -182.8571
+            y = 123.704
+        }
+    }
+
+    system = {
+        id = "153"
+        position = {
+            x = -203.0853
+            y = 60.06972
+        }
+    }
+
+    system = {
+        id = "154"
+        position = {
+            x = -219.5205
+            y = 92.51896
+        }
+    }
+
+    system = {
+        id = "155"
+        position = {
+            x = -206.0352
+            y = 116.1185
+        }
+    }
+
+    system = {
+        id = "156"
+        position = {
+            x = -178.2215
+            y = 95.46889
+        }
+    }
+
+    system = {
+        id = "157"
+        position = {
+            x = -197.1854
+            y = 89.14762
+        }
+    }
+
+    system = {
+        id = "158"
+        position = {
+            x = -219.0992
+            y = 43.63443
+        }
+    }
+
+    system = {
+        id = "159"
+        position = {
+            x = -177.8001
+            y = 32.67756
+        }
+    }
+
+    system = {
+        id = "160"
+        position = {
+            x = -204.771
+            y = -2.300226
+        }
+    }
+
+    system = {
+        id = "162"
+        position = {
+            x = -228.7919
+            y = -34.74947
+        }
+    }
+
+    system = {
+        id = "163"
+        position = {
+            x = -146.1938
+            y = -32.22093
+        }
+    }
+
+    system = {
+        id = "164"
+        position = {
+            x = -90.14502
+            y = 14.55653
+        }
+    }
+
+    system = {
+        id = "165"
+        position = {
+            x = -139.8726
+            y = 31.41328
+        }
+    }
+
+    system = {
+        id = "166"
+        position = {
+            x = -121.7515
+            y = 6.970985
+        }
+    }
+
+    system = {
+        id = "167"
+        position = {
+            x = -122.5943
+            y = 33.52035
+        }
+    }
+
+    system = {
+        id = "168"
+        position = {
+            x = -144.7851
+            y = 49.66523
+        }
+    }
+
+    system = {
+        id = "169"
+        position = {
+            x = -90.56649
+            y = 60.06972
+        }
+    }
+
+    system = {
+        id = "170"
+        position = {
+            x = -88.03795
+            y = 88.30482
+        }
+    }
+
+    system = {
+        id = "171"
+        position = {
+            x = -196.764
+            y = -97.54082
+        }
+    }
+
+    system = {
+        id = "172"
+        position = {
+            x = -245.2271
+            y = -81.52693
+        }
+    }
+
+    system = {
+        id = "173"
+        position = {
+            x = -221.2064
+            y = -82.7912
+        }
+    }
+
+    system = {
+        id = "175"
+        position = {
+            x = -238.9059
+            y = -122.4046
+        }
+    }
+
+    system = {
+        id = "176"
+        position = {
+            x = -239.7487
+            y = -156.118
+        }
+    }
+
+    system = {
+        id = "177"
+        position = {
+            x = -212.3565
+            y = -152.7467
+        }
+    }
+
+    system = {
+        id = "178"
+        position = {
+            x = -202.2425
+            y = -121.9831
+        }
+    }
+
+    system = {
+        id = "179"
+        position = {
+            x = -176.9573
+            y = -143.0541
+        }
+    }
+
+    system = {
+        id = "180"
+        position = {
+            x = -168.9503
+            y = -117.3475
+        }
+    }
+
+    system = {
+        id = "181"
+        position = {
+            x = -138.6082
+            y = -115.2404
+        }
+    }
+
+    system = {
+        id = "182"
+        position = {
+            x = -155.8865
+            y = -139.6827
+        }
+    }
+
+    system = {
+        id = "183"
+        position = {
+            x = -115.998
+            y = -90.24034
+        }
+    }
+
+    system = {
+        id = "184"
+        position = {
+            x = -144.508
+            y = -74.36278
+        }
+    }
+
+    system = {
+        id = "185"
+        position = {
+            x = -121.3301
+            y = -166.2321
+        }
+    }
+
+    system = {
+        id = "186"
+        position = {
+            x = -64.85992
+            y = -168.3392
+        }
+    }
+
+    system = {
+        id = "187"
+        position = {
+            x = -123.0157
+            y = -191.9387
+        }
+    }
+
+    system = {
+        id = "188"
+        position = {
+            x = -107.8447
+            y = -155.2752
+        }
+    }
+
+    system = {
+        id = "189"
+        position = {
+            x = -139.2771
+            y = -168.4568
+        }
+    }
+
+    system = {
+        id = "190"
+        position = {
+            x = -166.1188
+            y = -187.801
+        }
+    }
+
+    system = {
+        id = "191"
+        position = {
+            x = -18.08254
+            y = -199.1028
+        }
+    }
+
+    system = {
+        id = "192"
+        position = {
+            x = -1.225704
+            y = -213.431
+        }
+    }
+
+    system = {
+        id = "193"
+        position = {
+            x = 1.724159
+            y = -201.2099
+        }
+    }
+
+    system = {
+        id = "194"
+        position = {
+            x = 68.30824
+            y = -223.9664
+        }
+    }
+
+    system = {
+        id = "195"
+        position = {
+            x = 67.04411
+            y = -206.2669
+        }
+    }
+
+    system = {
+        id = "196"
+        position = {
+            x = 115.0858
+            y = -222.7023
+        }
+    }
+
+    system = {
+        id = "197"
+        position = {
+            x = 147.1137
+            y = -213.0096
+        }
+    }
+
+    system = {
+        id = "198"
+        position = {
+            x = 109.1174
+            y = -33.81754
+        }
+    }
+
+    system = {
+        id = "199"
+        position = {
+            x = 132.1472
+            y = -24.02995
+        }
+    }
+
+    system = {
+        id = "200"
+        position = {
+            x = 120.6324
+            y = 0.7270088
+        }
+    }
+
+    system = {
+        id = "201"
+        position = {
+            x = 101.6328
+            y = -17.69677
+        }
+    }
+
+    system = {
+        id = "202"
+        position = {
+            x = 88.96645
+            y = 14.54484
+        }
+    }
+
+    system = {
+        id = "203"
+        position = {
+            x = 110.8447
+            y = 32.39285
+        }
+    }
+
+    system = {
+        id = "204"
+        position = {
+            x = 84.9362
+            y = -10.78782
+        }
+    }
+
+    system = {
+        id = "205"
+        position = {
+            x = 73.99716
+            y = -33.24184
+        }
+    }
+
+    system = {
+        id = "206"
+        position = {
+            x = 135.0259
+            y = 23.75673
+        }
+    }
+
+    system = {
+        id = "207"
+        position = {
+            x = 122.3595
+            y = 48.51369
+        }
+    }
+
+    system = {
+        id = "208"
+        position = {
+            x = 159.2071
+            y = 26.63544
+        }
+    }
+
+    system = {
+        id = "209"
+        position = {
+            x = 150.571
+            y = 3.605715
+        }
+    }
+
+    system = {
+        id = "210"
+        position = {
+            x = 158.0555
+            y = 51.3924
+        }
+    }
+
+    system = {
+        id = "211"
+        position = {
+            x = 125.814
+            y = 79.02799
+        }
+    }
+
+    system = {
+        id = "212"
+        position = {
+            x = 87.81505
+            y = 62.9073
+        }
+    }
+
+    system = {
+        id = "213"
+        position = {
+            x = -219.7906
+            y = -114.174
+        }
+    }
+
+    system = {
+        id = "214"
+        position = {
+            x = -235.1385
+            y = -70.37635
+        }
+    }
+
+    system = {
+        id = "215"
+        position = {
+            x = -203.694
+            y = -70.75063
+        }
+    }
+
+    add_hyperlane = { from = "17" to = "19" }
+    add_hyperlane = { from = "17" to = "31" }
+    add_hyperlane = { from = "17" to = "21" }
+    add_hyperlane = { from = "18" to = "31" }
+    add_hyperlane = { from = "18" to = "34" }
+    add_hyperlane = { from = "18" to = "35" }
+    add_hyperlane = { from = "19" to = "29" }
+    add_hyperlane = { from = "19" to = "20" }
+    add_hyperlane = { from = "20" to = "29" }
+    add_hyperlane = { from = "20" to = "58" }
+    add_hyperlane = { from = "21" to = "32" }
+    add_hyperlane = { from = "21" to = "195" }
+    add_hyperlane = { from = "22" to = "102" }
+    add_hyperlane = { from = "22" to = "23" }
+    add_hyperlane = { from = "22" to = "104" }
+    add_hyperlane = { from = "23" to = "37" }
+    add_hyperlane = { from = "23" to = "25" }
+    add_hyperlane = { from = "25" to = "37" }
+    add_hyperlane = { from = "25" to = "59" }
+    add_hyperlane = { from = "29" to = "58" }
+    add_hyperlane = { from = "30" to = "197" }
+    add_hyperlane = { from = "30" to = "31" }
+    add_hyperlane = { from = "30" to = "33" }
+    add_hyperlane = { from = "32" to = "196" }
+    add_hyperlane = { from = "32" to = "197" }
+    add_hyperlane = { from = "33" to = "34" }
+    add_hyperlane = { from = "34" to = "35" }
+    add_hyperlane = { from = "35" to = "66" }
+    add_hyperlane = { from = "37" to = "38" }
+    add_hyperlane = { from = "38" to = "205" }
+    add_hyperlane = { from = "38" to = "40" }
+    add_hyperlane = { from = "39" to = "44" }
+    add_hyperlane = { from = "39" to = "40" }
+    add_hyperlane = { from = "39" to = "43" }
+    add_hyperlane = { from = "40" to = "44" }
+    add_hyperlane = { from = "41" to = "43" }
+    add_hyperlane = { from = "41" to = "45" }
+    add_hyperlane = { from = "41" to = "44" }
+    add_hyperlane = { from = "43" to = "45" }
+    add_hyperlane = { from = "45" to = "52" }
+    add_hyperlane = { from = "46" to = "106" }
+    add_hyperlane = { from = "46" to = "52" }
+    add_hyperlane = { from = "46" to = "53" }
+    add_hyperlane = { from = "47" to = "48" }
+    add_hyperlane = { from = "47" to = "50" }
+    add_hyperlane = { from = "47" to = "54" }
+    add_hyperlane = { from = "48" to = "50" }
+    add_hyperlane = { from = "48" to = "55" }
+    add_hyperlane = { from = "49" to = "188" }
+    add_hyperlane = { from = "49" to = "50" }
+    add_hyperlane = { from = "49" to = "55" }
+    add_hyperlane = { from = "51" to = "54" }
+    add_hyperlane = { from = "52" to = "54" }
+    add_hyperlane = { from = "53" to = "55" }
+    add_hyperlane = { from = "56" to = "183" }
+    add_hyperlane = { from = "56" to = "51" }
+    add_hyperlane = { from = "57" to = "182" }
+    add_hyperlane = { from = "57" to = "189" }
+    add_hyperlane = { from = "57" to = "185" }
+    add_hyperlane = { from = "58" to = "59" }
+    add_hyperlane = { from = "59" to = "67" }
+    add_hyperlane = { from = "60" to = "67" }
+    add_hyperlane = { from = "60" to = "68" }
+    add_hyperlane = { from = "60" to = "61" }
+    add_hyperlane = { from = "61" to = "67" }
+    add_hyperlane = { from = "61" to = "62" }
+    add_hyperlane = { from = "62" to = "199" }
+    add_hyperlane = { from = "62" to = "65" }
+    add_hyperlane = { from = "63" to = "68" }
+    add_hyperlane = { from = "63" to = "69" }
+    add_hyperlane = { from = "63" to = "64" }
+    add_hyperlane = { from = "64" to = "137" }
+    add_hyperlane = { from = "64" to = "69" }
+    add_hyperlane = { from = "65" to = "199" }
+    add_hyperlane = { from = "65" to = "209" }
+    add_hyperlane = { from = "66" to = "68" }
+    add_hyperlane = { from = "69" to = "137" }
+    add_hyperlane = { from = "70" to = "71" }
+    add_hyperlane = { from = "70" to = "212" }
+    add_hyperlane = { from = "70" to = "72" }
+    add_hyperlane = { from = "71" to = "74" }
+    add_hyperlane = { from = "71" to = "98" }
+    add_hyperlane = { from = "72" to = "73" }
+    add_hyperlane = { from = "72" to = "97" }
+    add_hyperlane = { from = "73" to = "76" }
+    add_hyperlane = { from = "73" to = "96" }
+    add_hyperlane = { from = "74" to = "98" }
+    add_hyperlane = { from = "74" to = "96" }
+    add_hyperlane = { from = "75" to = "96" }
+    add_hyperlane = { from = "75" to = "92" }
+    add_hyperlane = { from = "75" to = "95" }
+    add_hyperlane = { from = "76" to = "85" }
+    add_hyperlane = { from = "76" to = "92" }
+    add_hyperlane = { from = "77" to = "151" }
+    add_hyperlane = { from = "77" to = "82" }
+    add_hyperlane = { from = "77" to = "150" }
+    add_hyperlane = { from = "78" to = "86" }
+    add_hyperlane = { from = "78" to = "151" }
+    add_hyperlane = { from = "78" to = "88" }
+    add_hyperlane = { from = "79" to = "129" }
+    add_hyperlane = { from = "79" to = "133" }
+    add_hyperlane = { from = "79" to = "170" }
+    add_hyperlane = { from = "80" to = "134" }
+    add_hyperlane = { from = "80" to = "132" }
+    add_hyperlane = { from = "80" to = "152" }
+    add_hyperlane = { from = "81" to = "86" }
+    add_hyperlane = { from = "81" to = "89" }
+    add_hyperlane = { from = "81" to = "90" }
+    add_hyperlane = { from = "82" to = "84" }
+    add_hyperlane = { from = "82" to = "151" }
+    add_hyperlane = { from = "83" to = "135" }
+    add_hyperlane = { from = "83" to = "170" }
+    add_hyperlane = { from = "83" to = "88" }
+    add_hyperlane = { from = "85" to = "89" }
+    add_hyperlane = { from = "85" to = "92" }
+    add_hyperlane = { from = "86" to = "89" }
+    add_hyperlane = { from = "87" to = "88" }
+    add_hyperlane = { from = "90" to = "91" }
+    add_hyperlane = { from = "91" to = "93" }
+    add_hyperlane = { from = "91" to = "94" }
+    add_hyperlane = { from = "93" to = "94" }
+    add_hyperlane = { from = "93" to = "95" }
+    add_hyperlane = { from = "94" to = "95" }
+    add_hyperlane = { from = "97" to = "150" }
+    add_hyperlane = { from = "98" to = "212" }
+    add_hyperlane = { from = "99" to = "193" }
+    add_hyperlane = { from = "99" to = "192" }
+    add_hyperlane = { from = "99" to = "100" }
+    add_hyperlane = { from = "100" to = "101" }
+    add_hyperlane = { from = "100" to = "103" }
+    add_hyperlane = { from = "101" to = "195" }
+    add_hyperlane = { from = "101" to = "102" }
+    add_hyperlane = { from = "102" to = "104" }
+    add_hyperlane = { from = "103" to = "193" }
+    add_hyperlane = { from = "103" to = "109" }
+    add_hyperlane = { from = "105" to = "191" }
+    add_hyperlane = { from = "105" to = "106" }
+    add_hyperlane = { from = "105" to = "109" }
+    add_hyperlane = { from = "106" to = "109" }
+    add_hyperlane = { from = "107" to = "110" }
+    add_hyperlane = { from = "107" to = "186" }
+    add_hyperlane = { from = "107" to = "108" }
+    add_hyperlane = { from = "108" to = "191" }
+    add_hyperlane = { from = "108" to = "192" }
+    add_hyperlane = { from = "110" to = "186" }
+    add_hyperlane = { from = "111" to = "118" }
+    add_hyperlane = { from = "111" to = "113" }
+    add_hyperlane = { from = "111" to = "112" }
+    add_hyperlane = { from = "112" to = "118" }
+    add_hyperlane = { from = "112" to = "114" }
+    add_hyperlane = { from = "113" to = "114" }
+    add_hyperlane = { from = "113" to = "117" }
+    add_hyperlane = { from = "114" to = "163" }
+    add_hyperlane = { from = "115" to = "160" }
+    add_hyperlane = { from = "115" to = "159" }
+    add_hyperlane = { from = "115" to = "116" }
+    add_hyperlane = { from = "116" to = "163" }
+    add_hyperlane = { from = "116" to = "166" }
+    add_hyperlane = { from = "117" to = "173" }
+    add_hyperlane = { from = "117" to = "162" }
+    add_hyperlane = { from = "118" to = "184" }
+    add_hyperlane = { from = "119" to = "144" }
+    add_hyperlane = { from = "119" to = "127" }
+    add_hyperlane = { from = "119" to = "121" }
+    add_hyperlane = { from = "120" to = "127" }
+    add_hyperlane = { from = "120" to = "124" }
+    add_hyperlane = { from = "120" to = "125" }
+    add_hyperlane = { from = "121" to = "146" }
+    add_hyperlane = { from = "121" to = "145" }
+    add_hyperlane = { from = "122" to = "147" }
+    add_hyperlane = { from = "122" to = "127" }
+    add_hyperlane = { from = "122" to = "148" }
+    add_hyperlane = { from = "123" to = "125" }
+    add_hyperlane = { from = "123" to = "126" }
+    add_hyperlane = { from = "123" to = "124" }
+    add_hyperlane = { from = "125" to = "126" }
+    add_hyperlane = { from = "126" to = "147" }
+    add_hyperlane = { from = "128" to = "167" }
+    add_hyperlane = { from = "128" to = "129" }
+    add_hyperlane = { from = "128" to = "169" }
+    add_hyperlane = { from = "129" to = "131" }
+    add_hyperlane = { from = "130" to = "168" }
+    add_hyperlane = { from = "130" to = "131" }
+    add_hyperlane = { from = "130" to = "159" }
+    add_hyperlane = { from = "131" to = "132" }
+    add_hyperlane = { from = "132" to = "133" }
+    add_hyperlane = { from = "133" to = "135" }
+    add_hyperlane = { from = "134" to = "135" }
+    add_hyperlane = { from = "136" to = "139" }
+    add_hyperlane = { from = "136" to = "137" }
+    add_hyperlane = { from = "136" to = "138" }
+    add_hyperlane = { from = "138" to = "139" }
+    add_hyperlane = { from = "138" to = "140" }
+    add_hyperlane = { from = "139" to = "140" }
+    add_hyperlane = { from = "140" to = "142" }
+    add_hyperlane = { from = "141" to = "209" }
+    add_hyperlane = { from = "142" to = "208" }
+    add_hyperlane = { from = "142" to = "141" }
+    add_hyperlane = { from = "143" to = "144" }
+    add_hyperlane = { from = "144" to = "145" }
+    add_hyperlane = { from = "145" to = "146" }
+    add_hyperlane = { from = "148" to = "149" }
+    add_hyperlane = { from = "148" to = "146" }
+    add_hyperlane = { from = "149" to = "147" }
+    add_hyperlane = { from = "152" to = "155" }
+    add_hyperlane = { from = "152" to = "156" }
+    add_hyperlane = { from = "153" to = "158" }
+    add_hyperlane = { from = "153" to = "157" }
+    add_hyperlane = { from = "153" to = "154" }
+    add_hyperlane = { from = "154" to = "157" }
+    add_hyperlane = { from = "154" to = "155" }
+    add_hyperlane = { from = "155" to = "157" }
+    add_hyperlane = { from = "158" to = "159" }
+    add_hyperlane = { from = "158" to = "160" }
+    add_hyperlane = { from = "160" to = "162" }
+    add_hyperlane = { from = "162" to = "173" }
+    add_hyperlane = { from = "163" to = "184" }
+    add_hyperlane = { from = "164" to = "166" }
+    add_hyperlane = { from = "164" to = "167" }
+    add_hyperlane = { from = "164" to = "169" }
+    add_hyperlane = { from = "165" to = "167" }
+    add_hyperlane = { from = "165" to = "168" }
+    add_hyperlane = { from = "165" to = "166" }
+    add_hyperlane = { from = "169" to = "170" }
+    add_hyperlane = { from = "171" to = "178" }
+    add_hyperlane = { from = "171" to = "173" }
+    add_hyperlane = { from = "171" to = "180" }
+    add_hyperlane = { from = "172" to = "175" }
+    add_hyperlane = { from = "175" to = "176" }
+    add_hyperlane = { from = "176" to = "177" }
+    add_hyperlane = { from = "176" to = "178" }
+    add_hyperlane = { from = "177" to = "179" }
+    add_hyperlane = { from = "179" to = "182" }
+    add_hyperlane = { from = "179" to = "180" }
+    add_hyperlane = { from = "180" to = "182" }
+    add_hyperlane = { from = "181" to = "56" }
+    add_hyperlane = { from = "181" to = "183" }
+    add_hyperlane = { from = "183" to = "184" }
+    add_hyperlane = { from = "185" to = "188" }
+    add_hyperlane = { from = "185" to = "189" }
+    add_hyperlane = { from = "186" to = "53" }
+    add_hyperlane = { from = "187" to = "189" }
+    add_hyperlane = { from = "187" to = "188" }
+    add_hyperlane = { from = "187" to = "190" }
+    add_hyperlane = { from = "191" to = "193" }
+    add_hyperlane = { from = "194" to = "195" }
+    add_hyperlane = { from = "196" to = "197" }
+    add_hyperlane = { from = "198" to = "201" }
+    add_hyperlane = { from = "198" to = "199" }
+    add_hyperlane = { from = "198" to = "204" }
+    add_hyperlane = { from = "200" to = "201" }
+    add_hyperlane = { from = "200" to = "206" }
+    add_hyperlane = { from = "200" to = "209" }
+    add_hyperlane = { from = "201" to = "204" }
+    add_hyperlane = { from = "202" to = "204" }
+    add_hyperlane = { from = "202" to = "203" }
+    add_hyperlane = { from = "203" to = "207" }
+    add_hyperlane = { from = "203" to = "206" }
+    add_hyperlane = { from = "206" to = "208" }
+    add_hyperlane = { from = "207" to = "211" }
+    add_hyperlane = { from = "207" to = "210" }
+    add_hyperlane = { from = "208" to = "210" }
+    add_hyperlane = { from = "211" to = "212" }
+    add_hyperlane = { from = "211" to = "210" }
+    add_hyperlane = { from = "145" to = "210" }
+    add_hyperlane = { from = "148" to = "211" }
+    add_hyperlane = { from = "146" to = "211" }
+    add_hyperlane = { from = "149" to = "95" }
+    add_hyperlane = { from = "126" to = "149" }
+    add_hyperlane = { from = "84" to = "76" }
+    add_hyperlane = { from = "82" to = "73" }
+    add_hyperlane = { from = "87" to = "81" }
+    add_hyperlane = { from = "87" to = "80" }
+    add_hyperlane = { from = "134" to = "88" }
+    add_hyperlane = { from = "205" to = "204" }
+    add_hyperlane = { from = "198" to = "37" }
+    add_hyperlane = { from = "194" to = "196" }
+    add_hyperlane = { from = "177" to = "178" }
+    add_hyperlane = { from = "178" to = "213" }
+    add_hyperlane = { from = "213" to = "173" }
+    add_hyperlane = { from = "214" to = "172" }
+    add_hyperlane = { from = "214" to = "173" }
+    add_hyperlane = { from = "215" to = "111" }
+    add_hyperlane = { from = "215" to = "117" }
+    add_hyperlane = { from = "190" to = "177" }
+}
