@@ -71,7 +71,6 @@ portraits = {
 	cryF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf6.dds"	}
 	cryF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf7.dds"	}
 	cryF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf8.dds"	}
-	cryF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/crystalf9.dds"	}
 	
 	earH01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh1.dds"	}
 	earH02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/pony/earthh2.dds"	}
@@ -148,12 +147,28 @@ portrait_groups = {
 						earH06 earH07
 						
 						cryF01 cryF02 cryF03 cryF04 cryF05 
-						cryF06 cryF07 cryF08 cryF09
+						cryF06 cryF07 cryF08
 						
 						zebF01 zebF02 zebF03 zebF04 zebF05
 						zebF06 zebF07 zebF08 zebF09 zebF10
 						zebF11 zebF12 zebF13 zebF14 zebF15 
-						zebF16 zebF17 zebF18
+						zebF16 zebF17 zebF18 zebF19 zebF20
+						zebF21 zebF22 zebF23 zebF24 zebF25
+						zebF26 zebF27 zebF28 zebF29 zebF30 
+						zebF31 zebF32 zebF33 zebF34 zebF35
+						
+						batF01 batF02 batF03 batF04 batF05
+						batF06 batF07 batF08 batF09 batF10
+						batF11 batF12 batF13 batF14 batF15 
+						batF16 batF17 batF18 batF19 batF20
+						batF21 batF22 batF23 batF24 batF25
+						batF26 batF27 batF28 batF29 batF30 
+						batF31 batF32 batF33 batF34 batF35
+						batF32 batF33 batF34 batF35 batF36
+						batF37 batF38 batF39 batF40
+						batF42 batF43 batF44 batF45 batF46
+						batF47 batF48 batF49 batF50 batF51
+						batF52 batF53 batF54 batF55 
 					}
 				}
 		}
@@ -187,12 +202,28 @@ portrait_groups = {
 					earH06 earH07
 					
 					cryF01 cryF02 cryF03 cryF04 cryF05 
-					cryF06 cryF07 cryF08 cryF09
+					cryF06 cryF07 cryF08
 					
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
+					
+					batF01 batF02 batF03 batF04 batF05
+					batF06 batF07 batF08 batF09 batF10
+					batF11 batF12 batF13 batF14 batF15 
+					batF16 batF17 batF18 batF19 batF20
+					batF21 batF22 batF23 batF24 batF25
+					batF26 batF27 batF28 batF29 batF30 
+					batF31 batF32 batF33 batF34 batF35
+					batF32 batF33 batF34 batF35 batF36
+					batF37 batF38 batF39 batF40
+					batF42 batF43 batF44 batF45 batF46
+					batF47 batF48 batF49 batF50 batF51
+					batF52 batF53 batF54 batF55 
 				}
 			}
 		}
@@ -226,12 +257,28 @@ portrait_groups = {
 					earH06 earH07
 					
 					cryF01 cryF02 cryF03 cryF04 cryF05 
-					cryF06 cryF07 cryF08 cryF09
+					cryF06 cryF07 cryF08
 					
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
+					
+					batF01 batF02 batF03 batF04 batF05
+					batF06 batF07 batF08 batF09 batF10
+					batF11 batF12 batF13 batF14 batF15 
+					batF16 batF17 batF18 batF19 batF20
+					batF21 batF22 batF23 batF24 batF25
+					batF26 batF27 batF28 batF29 batF30 
+					batF31 batF32 batF33 batF34 batF35
+					batF32 batF33 batF34 batF35 batF36
+					batF37 batF38 batF39 batF40
+					batF42 batF43 batF44 batF45 batF46
+					batF47 batF48 batF49 batF50 batF51
+					batF52 batF53 batF54 batF55 
 				}
 			}
 		}
@@ -265,12 +312,28 @@ portrait_groups = {
 					earH06 earH07
 					
 					cryF01 cryF02 cryF03 cryF04 cryF05 
-					cryF06 cryF07 cryF08 cryF09
+					cryF06 cryF07 cryF08
 					
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
+					
+					batF01 batF02 batF03 batF04 batF05
+					batF06 batF07 batF08 batF09 batF10
+					batF11 batF12 batF13 batF14 batF15 
+					batF16 batF17 batF18 batF19 batF20
+					batF21 batF22 batF23 batF24 batF25
+					batF26 batF27 batF28 batF29 batF30 
+					batF31 batF32 batF33 batF34 batF35
+					batF32 batF33 batF34 batF35 batF36
+					batF37 batF38 batF39 batF40
+					batF42 batF43 batF44 batF45 batF46
+					batF47 batF48 batF49 batF50 batF51
+					batF52 batF53 batF54 batF55 
 				}
 			}
 		}	
@@ -322,12 +385,114 @@ portrait_groups = {
 					earH06 earH07
 					
 					cryF01 cryF02 cryF03 cryF04 cryF05 
-					cryF06 cryF07 cryF08 cryF09
+					cryF06 cryF07 cryF08
 					
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
+					
+					batF01 batF02 batF03 batF04 batF05
+					batF06 batF07 batF08 batF09 batF10
+					batF11 batF12 batF13 batF14 batF15 
+					batF16 batF17 batF18 batF19 batF20
+					batF21 batF22 batF23 batF24 batF25
+					batF26 batF27 batF28 batF29 batF30 
+					batF31 batF32 batF33 batF34 batF35
+					batF32 batF33 batF34 batF35 batF36
+					batF37 batF38 batF39 batF40
+					batF42 batF43 batF44 batF45 batF46
+					batF47 batF48 batF49 batF50 batF51
+					batF52 batF53 batF54 batF55 
+				}
+			}
+        }
+	}
+}
+
+portrait_groups = {
+    earth = {
+		default = earF01
+		game_setup = {
+           	add = {
+                portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+           	add = {
+                portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+           	add = {
+                portraits = {
+					earF01 earF02 earF03 earF04 earF05
+					earF06 earF07 earF08 earF09 earF10
+					earF11 earF12 earF13 earF14 earF15
+					earF16 earF17 earF18 earF19 earF20
+					earF21 earF22 earF23 earF24 earF25
+					earF26 earF27 earF28 earF29 earF30
+					
+					earH01 earH02 earH03 earH04 earH05
+					earH06 earH07
 				}
 			}
         }

@@ -1,38 +1,34 @@
 portraits = {
 
-	diamonddogf1 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf1.dds"	}
-	diamonddogf2 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf2.dds"	}
-	diamonddogf3 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf3.dds"	}
-	diamonddogf4 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf4.dds"	}
-	diamonddogf5 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf5.dds"	}
-	diamonddogf6 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf6.dds"	}
-	diamonddogf7 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf7.dds"	}	
-	diamonddogf8 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf8.dds"	}
-	diamonddogf9 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf9.dds"	}
-	diamonddogf10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf10.dds"	}
-	diamonddogf11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf11.dds"	}
-	diamonddogf12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf12.dds"	}
+	diamonddogF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf1.dds"	}
+	diamonddogF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf2.dds"	}
+	diamonddogF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf3.dds"	}
+	diamonddogF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf4.dds"	}
+	diamonddogF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf5.dds"	}
+	diamonddogF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf6.dds"	}
+	diamonddogF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf7.dds"	}	
+	diamonddogF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf8.dds"	}
+	diamonddogF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf9.dds"	}
+	diamonddogF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf10.dds"	}
+	diamonddogF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf11.dds"	}
+	diamonddogF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf12.dds"	}
+	diamonddogF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf13.dds"	}
+	diamonddogF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf14.dds"	}
+	diamonddogF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf15.dds"	}
+	diamonddogF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/diamonddog/diamonddogf16.dds"	}
 
 }
 
 portrait_groups = {
     diamonddog = {
-		default = diamonddogf1
+		default = diamonddogF01
 		game_setup = { 
-           		add = {
-                	portraits = {
-						diamonddogf1
-						diamonddogf2
-						diamonddogf3
-						diamonddogf4
-						diamonddogf5
-						diamonddogf6
-						diamonddogf7
-						diamonddogf8
-						diamonddogf9
-						diamonddogf10
-						diamonddogf11
-						diamonddogf12
+           	add = {
+                portraits = {
+					diamonddogF01 diamonddogF02 diamonddogF03 diamonddogF04 diamonddogF05
+					diamonddogF06 diamonddogF07 diamonddogF08 diamonddogF09 diamonddogF10
+					diamonddogF11 diamonddogF12 diamonddogF13 diamonddogF14 diamonddogF15
+					diamonddogF16
 				}
 			}
 		}
@@ -40,18 +36,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					diamonddogf1
-					diamonddogf2
-					diamonddogf3
-					diamonddogf4
-					diamonddogf5
-					diamonddogf6
-					diamonddogf7
-					diamonddogf8
-					diamonddogf9
-					diamonddogf10
-					diamonddogf11
-					diamonddogf12
+					diamonddogF01 diamonddogF02 diamonddogF03 diamonddogF04 diamonddogF05
+					diamonddogF06 diamonddogF07 diamonddogF08 diamonddogF09 diamonddogF10
+					diamonddogF11 diamonddogF12 diamonddogF13 diamonddogF14 diamonddogF15
+					diamonddogF16
 				}
 			}
 		}
@@ -59,18 +47,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					diamonddogf1
-					diamonddogf2
-					diamonddogf3
-					diamonddogf4
-					diamonddogf5
-					diamonddogf6
-					diamonddogf7
-					diamonddogf8
-					diamonddogf9
-					diamonddogf10
-					diamonddogf11
-					diamonddogf12
+					diamonddogF01 diamonddogF02 diamonddogF03 diamonddogF04 diamonddogF05
+					diamonddogF06 diamonddogF07 diamonddogF08 diamonddogF09 diamonddogF10
+					diamonddogF11 diamonddogF12 diamonddogF13 diamonddogF14 diamonddogF15
+					diamonddogF16
 				}
 			}
 		}
@@ -78,18 +58,10 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					diamonddogf1
-					diamonddogf2
-					diamonddogf3
-					diamonddogf4
-					diamonddogf5
-					diamonddogf6
-					diamonddogf7
-					diamonddogf8
-					diamonddogf9
-					diamonddogf10
-					diamonddogf11
-					diamonddogf12
+					diamonddogF01 diamonddogF02 diamonddogF03 diamonddogF04 diamonddogF05
+					diamonddogF06 diamonddogF07 diamonddogF08 diamonddogF09 diamonddogF10
+					diamonddogF11 diamonddogF12 diamonddogF13 diamonddogF14 diamonddogF15
+					diamonddogF16
 				}
 			}
 
@@ -98,18 +70,10 @@ portrait_groups = {
 		ruler = {
 			add = {
 				portraits = {
-					diamonddogf1
-					diamonddogf2
-					diamonddogf3
-					diamonddogf4
-					diamonddogf5
-					diamonddogf6
-					diamonddogf7
-					diamonddogf8
-					diamonddogf9
-					diamonddogf10
-					diamonddogf11
-					diamonddogf12
+					diamonddogF01 diamonddogF02 diamonddogF03 diamonddogF04 diamonddogF05
+					diamonddogF06 diamonddogF07 diamonddogF08 diamonddogF09 diamonddogF10
+					diamonddogF11 diamonddogF12 diamonddogF13 diamonddogF14 diamonddogF15
+					diamonddogF16
                 }
             }
         }

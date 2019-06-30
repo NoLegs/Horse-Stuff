@@ -13,3 +13,27 @@ on_leader_spawned = {
 		horse_leader.1
 	}
 }
+
+on_game_start_country = {
+	events = {
+		horse.6
+	}
+}
+
+on_custom_diplomacy = {
+	events = {
+		horse_ritual_menu.0
+	}
+}
+
+on_tech_increased = {
+	events = {
+		horse_ritual_spawn.1
+	}
+}
+
+on_monthly_pulse = {
+	events = {
+		
+	}
+}

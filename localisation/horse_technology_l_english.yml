@@ -24,6 +24,12 @@
  tech_magic_crystals:0 "Magic Crystal Extraction"
  tech_magic_crystals_desc:0 ""
  
+ tech_mass_enchantments:0 "Mass Enchantments"
+ tech_mass_enchantments_desc:0 ""
+ 
+ tech_thaumaturgy:0 "Thaumaturgy"
+ tech_thaumaturgy_desc:0 ""
+ 
  tech_magic_crystal_alloy:0 "Magic Crystal Alloy"
  tech_magic_crystal_alloy_desc:0 ""
  
@@ -32,3 +38,29 @@
  
  tech_magic_amplification:0 "Magic Amplification Rituals"
  tech_magic_amplification_desc:0 ""
+ 
+ ### Categories ###
+ pony:0 "Magical"
+ pony_desc:0 "All things involving the art of magic, spellmaking, enchanting, etc etc."
+ 
+ ### Resources ###
+ magic_crystals:0 "Magic Crystals"
+ magic_crystals_desc:0 "These magical crystals contain large amounts of magical power within them, making them vital components of sorcery and spellcraft."
+ 
+ ### Ship Components ###
+ MAGIC_CRYSTAL_ARMOR_1:0 "Crystal Alloy Armor"
+ MAGIC_CRYSTAL_ARMOR_1_desc:0 "Special armor crafted and made with a high amount of Magic Crystals."
+ MAGIC_CRYSTAL_ARMOR_2:0 "Enchanted Crystal Alloy Armor"
+ MAGIC_CRYSTAL_ARMOR_2_desc:0 "Crystal Alloy Armor that has been specially enchanted for better strength."
+ 
+ SMALL_CRYSTAL_ALLOY_1:0 "Small Crystal Alloy"
+ MEDIUM_CRYSTAL_ALLOY_1:0 "Medium Crystal Alloy"
+ LARGE_CRYSTAL_ALLOY_1:0 "Large Crystal Alloy"
+ 
+ SMALL_CRYSTAL_ALLOY_2:0 "Small Enchanted Crystal Alloy"
+ MEDIUM_CRYSTAL_ALLOY_2:0 "Medium Enchanted Crystal Alloy"
+ LARGE_CRYSTAL_ALLOY_2:0 "Large Enchanted Crystal Alloy"
+ 
+ ### Armies ###
+ magic_army:0 "Magic Army"
+ magic_army_2:0 "Advanced Magic Army"

@@ -1,6 +1,14 @@
-Rough Changelog for 2.0
->>TODO change repository and mod name to Smutty Space Ponies (SSP)
-Debauchery In Celestia's Kingdom Edition
+
+[Smutty Space Ponies Version 2.1 "Magic"]
+## New Additions ##
+- Magical Technologies! I've added in several new technologies relating to magic, they're rather basic, but in the future I'll be adding in more and expanding upon existing ones.
+- Magical Buildings! Four new magical buildings have been added, unlocked by techs and using the new Magic Crystals strategic resource.
+- Magic Rituals! Several new rituals, both planet based and empire based. Once you unlock the Magic Amplification tech you get access to the planet based rituals and the empire wide rituals through the use of the Ritual Room, a special event menu that lets you cast stuff.
+- Magic Crystals! New strategic resource used for magic buildings and magic rituals.
+- New Civics! Now you can roleplay as a zebra nation with the Tribal Unity and Tribal Hierarchy civics, or you can be a griffon nation with the Griffon Greed civic. 
+- New Portraits! Most specifically added in a fair amount of new zebras and changelings, along with some other ponies I think.
+
+[Smutty Space Ponies Version 2.0 "Debauchery in Celestia's Kingdom"]
 
 Updated to 2.3 
 Major overhaul to all traits, civics, prescripted empires. 

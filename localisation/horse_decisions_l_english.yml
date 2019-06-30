@@ -21,4 +21,10 @@ decision_cloud_farms_desc:0 ""
 
 ### Rituals
 decision_productivity_ritual:0 "Productivity Ritual" 
-decision_productivity_ritual_desc:0 "The Ritual of Productivity has been performed on this world, making it's inhabitants more willing to work harder and longer."
+decision_productivity_ritual_desc:0 "A powerful magic ritual that improves the output of the worlds inhabitants."
+
+decision_fertility_ritual:0 "Fertility Ritual"
+decision_fertility_ritual_desc:0 "A powerful magic ritual that increases the growth speed of new pops."
+
+decision_planetary_shield_ritual:0 "Magical Shielding"
+decision_planetary_shield_ritual_desc:0 "A powerful magical shield can be cast over the planet, protecting it from orbital bombardment for a time."

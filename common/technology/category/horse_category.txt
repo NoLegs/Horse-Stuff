@@ -1,20 +1,20 @@
 ##Temporary used on all
 pony = {
-	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_pony_expertise.dds"
 }
 ##General Magic with pony in front of it to pre-empt any conflicts
 pony_magic = {
-	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_pony_expertise.dds"
 }
 
 harmonic = {
-	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_pony_expertise.dds"
 }
 
 chaotic = {
-	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_pony_expertise.dds"
 }
 
 changling = {
-	icon = "gfx/interface/icons/traits/leader_traits/trait_harmonic.dds"
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_pony_expertise.dds"
 }

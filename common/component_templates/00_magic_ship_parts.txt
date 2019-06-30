@@ -12,11 +12,11 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 	modifier = {
-		ship_armor_add = 115
+		ship_armor_add = 150
 	}
 	
 	prerequisites = { "tech_magic_crystal_alloy" }
-	component_set = "CRYSTAL_ARMOR_1"
+	component_set = "MAGIC_CRYSTAL_ARMOR_1"
 	upgrades_to = "SMALL_CRYSTAL_ALLOY_2"
 	resources = {
 		category = ship_components
@@ -38,11 +38,11 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 	modifier = {
-		ship_armor_add = 245
+		ship_armor_add = 250
 	}
 	
 	prerequisites = { "tech_magic_crystal_alloy" }
-	component_set = "CRYSTAL_ARMOR_1"
+	component_set = "MAGIC_CRYSTAL_ARMOR_1"
 	upgrades_to = "MEDIUM_CRYSTAL_ALLOY_2"
 	resources = {
 		category = ship_components
@@ -64,11 +64,11 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 	modifier = {
-		ship_armor_add = 540
+		ship_armor_add = 550
 	}
 	
 	prerequisites = { "tech_magic_crystal_alloy" }
-	component_set = "CRYSTAL_ARMOR_1"
+	component_set = "MAGIC_CRYSTAL_ARMOR_1"
 	upgrades_to = "LARGE_CRYSTAL_ALLOY_2"
 	resources = {
 		category = ship_components
@@ -91,7 +91,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 	modifier = {
-		ship_armor_add = 115
+		ship_armor_add = 300
 	}
 	
 	prerequisites = { "tech_enchanted_crystal_alloy" }
@@ -116,7 +116,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 	modifier = {
-		ship_armor_add = 245
+		ship_armor_add = 400
 	}
 	
 	prerequisites = { "tech_enchanted_crystal_alloy" }
@@ -141,7 +141,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 	modifier = {
-		ship_armor_add = 540
+		ship_armor_add = 700
 	}
 	
 	prerequisites = { "tech_enchanted_crystal_alloy" }

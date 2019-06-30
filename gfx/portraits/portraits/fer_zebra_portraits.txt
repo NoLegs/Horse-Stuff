@@ -1,0 +1,68 @@
+portraits = {
+	FERzebraF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF1.dds"	}
+	FERzebraF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF2.dds"	}
+	FERzebraF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF3.dds"	}
+	FERzebraF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF4.dds"	}
+	FERzebraF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF5.dds"	}
+	FERzebraF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF6.dds"	}
+	FERzebraF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF7.dds"	}
+	FERzebraF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF8.dds"	}
+	FERzebraF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF9.dds"	}
+	FERzebraF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF10.dds"	}
+	FERzebraF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/zebra/zebraF11.dds"	}
+}
+
+portrait_groups = {
+    feralzebra = {
+		default = FERzebraF01
+		game_setup = { 
+           	add = {
+                portraits = {
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+           	add = {
+                portraits = {
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+           	add = {
+                portraits = {
+					FERzebraF01 FERzebraF02 FERzebraF03 FERzebraF04 FERzebraF05
+					FERzebraF06 FERzebraF07 FERzebraF08 FERzebraF09 FERzebraF10
+					FERzebraF11 
+				}
+			}
+        }
+	}
+}

@@ -1,0 +1,158 @@
+portraits = {
+
+	batF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat01.dds"	}
+	batF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat02.dds"	}
+	batF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat03.dds"	}
+	batF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat04.dds"	}
+	batF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat05.dds"	}
+	batF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat06.dds"	}
+	batF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat07.dds"	}	
+	batF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat08.dds"	}
+	batF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat09.dds"	}
+	batF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat10.dds"	}
+	batF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat11.dds"	}
+	batF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat12.dds"	}
+	batF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat13.dds"	}	
+	batF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat14.dds"	}
+	batF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat15.dds"	}
+	batF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat16.dds"	}
+	batF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat17.dds"	}
+	batF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat18.dds"	}
+	batF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat19.dds"	}
+	batF20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat20.dds"	}
+	batF21 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat21.dds"	}
+	batF22 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat22.dds"	}
+	batF23 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat23.dds"	}
+	batF24 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat24.dds"	}	
+	batF25 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat25.dds"	}
+	batF26 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat26.dds"	}
+	batF27 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat27.dds"	}
+	batF28 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat28.dds"	}
+	batF29 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat29.dds"	}
+	batF30 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat30.dds"	}	
+	batF31 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat31.dds"	}
+	batF32 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat32.dds"	}
+	batF33 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat33.dds"	}
+	batF34 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat34.dds"	}
+	batF35 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat35.dds"	}
+	batF36 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat36.dds"	}
+	batF37 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat37.dds"	}
+	batF38 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat38.dds"	}
+	batF39 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat39.dds"	}
+	batF40 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat40.dds"	}
+	batF42 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat42.dds"	}
+	batF43 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat43.dds"	}
+	batF44 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat44.dds"	}
+	batF45 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat45.dds"	}
+	batF46 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat46.dds"	}
+	batF47 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat47.dds"	}
+	batF48 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat48.dds"	}
+	batF49 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat49.dds"	}
+	batF50 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat50.dds"	}
+	batF51 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat51.dds"	}
+	batF52 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat52.dds"	}
+	batF53 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat53.dds"	}
+	batF54 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat54.dds"	}
+	batF55 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/batbabes/bat55.dds"	}
+
+}
+
+portrait_groups = {
+    bat = {
+		default = batF01
+		game_setup = { 
+           	add = {
+                portraits = {
+					batF01 batF02 batF03 batF04 batF05
+					batF06 batF07 batF08 batF09 batF10
+					batF11 batF12 batF13 batF14 batF15 
+					batF16 batF17 batF18 batF19 batF20
+					batF21 batF22 batF23 batF24 batF25
+					batF26 batF27 batF28 batF29 batF30 
+					batF31 batF32 batF33 batF34 batF35
+					batF32 batF33 batF34 batF35 batF36
+					batF37 batF38 batF39 batF40
+					batF42 batF43 batF44 batF45 batF46
+					batF47 batF48 batF49 batF50 batF51
+					batF52 batF53 batF54 batF55 
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					batF01 batF02 batF03 batF04 batF05
+					batF06 batF07 batF08 batF09 batF10
+					batF11 batF12 batF13 batF14 batF15 
+					batF16 batF17 batF18 batF19 batF20
+					batF21 batF22 batF23 batF24 batF25
+					batF26 batF27 batF28 batF29 batF30 
+					batF31 batF32 batF33 batF34 batF35
+					batF32 batF33 batF34 batF35 batF36
+					batF37 batF38 batF39 batF40
+					batF42 batF43 batF44 batF45 batF46
+					batF47 batF48 batF49 batF50 batF51
+					batF52 batF53 batF54 batF55 
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					batF01 batF02 batF03 batF04 batF05
+					batF06 batF07 batF08 batF09 batF10
+					batF11 batF12 batF13 batF14 batF15 
+					batF16 batF17 batF18 batF19 batF20
+					batF21 batF22 batF23 batF24 batF25
+					batF26 batF27 batF28 batF29 batF30 
+					batF31 batF32 batF33 batF34 batF35
+					batF32 batF33 batF34 batF35 batF36
+					batF37 batF38 batF39 batF40
+					batF42 batF43 batF44 batF45 batF46
+					batF47 batF48 batF49 batF50 batF51
+					batF52 batF53 batF54 batF55 
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					batF01 batF02 batF03 batF04 batF05
+					batF06 batF07 batF08 batF09 batF10
+					batF11 batF12 batF13 batF14 batF15 
+					batF16 batF17 batF18 batF19 batF20
+					batF21 batF22 batF23 batF24 batF25
+					batF26 batF27 batF28 batF29 batF30 
+					batF31 batF32 batF33 batF34 batF35
+					batF32 batF33 batF34 batF35 batF36
+					batF37 batF38 batF39 batF40
+					batF42 batF43 batF44 batF45 batF46
+					batF47 batF48 batF49 batF50 batF51
+					batF52 batF53 batF54 batF55 
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					batF01 batF02 batF03 batF04 batF05
+					batF06 batF07 batF08 batF09 batF10
+					batF11 batF12 batF13 batF14 batF15 
+					batF16 batF17 batF18 batF19 batF20
+					batF21 batF22 batF23 batF24 batF25
+					batF26 batF27 batF28 batF29 batF30 
+					batF31 batF32 batF33 batF34 batF35
+					batF32 batF33 batF34 batF35 batF36
+					batF37 batF38 batF39 batF40
+					batF42 batF43 batF44 batF45 batF46
+					batF47 batF48 batF49 batF50 batF51
+					batF52 batF53 batF54 batF55 
+                }
+            }
+        }
+	}
+}

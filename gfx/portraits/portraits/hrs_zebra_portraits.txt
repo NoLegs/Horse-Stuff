@@ -18,19 +18,39 @@ portraits = {
 	zebF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf16.dds"	}
 	zebF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf17.dds"	}
 	zebF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf18.dds"	}
+	zebF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf19.dds"	}
+	zebF20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf20.dds"	}
+	zebF21 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf21.dds"	}
+	zebF22 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf22.dds"	}
+	zebF23 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf23.dds"	}
+	zebF24 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf24.dds"	}	
+	zebF25 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf25.dds"	}
+	zebF26 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf26.dds"	}
+	zebF27 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf27.dds"	}
+	zebF28 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf28.dds"	}
+	zebF29 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf29.dds"	}
+	zebF30 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf30.dds"	}	
+	zebF31 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf31.dds"	}
+	zebF32 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf32.dds"	}
+	zebF33 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf33.dds"	}
+	zebF34 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf34.dds"	}
+	zebF35 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/zebra/zebraf35.dds"	}
 
 }
 
 portrait_groups = {
     zebra = {
-		default = zebF01
+		default = zebF30
 		game_setup = { 
            	add = {
                 portraits = {
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
 				}
 			}
 		}
@@ -41,7 +61,10 @@ portrait_groups = {
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
 				}
 			}
 		}
@@ -52,7 +75,10 @@ portrait_groups = {
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
 				}
 			}
 		}
@@ -63,7 +89,10 @@ portrait_groups = {
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
 				}
 			}
 		}	
@@ -74,7 +103,10 @@ portrait_groups = {
 					zebF01 zebF02 zebF03 zebF04 zebF05
 					zebF06 zebF07 zebF08 zebF09 zebF10
 					zebF11 zebF12 zebF13 zebF14 zebF15 
-					zebF16 zebF17 zebF18
+					zebF16 zebF17 zebF18 zebF19 zebF20
+					zebF21 zebF22 zebF23 zebF24 zebF25
+					zebF26 zebF27 zebF28 zebF29 zebF30 
+					zebF31 zebF32 zebF33 zebF34 zebF35
                 }
             }
         }

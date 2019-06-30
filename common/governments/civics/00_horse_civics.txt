@@ -127,7 +127,7 @@ civic_empress_of_the_night = {
 		ethics = { 
 			NOT = { value = ethic_gestalt_consciousness } 
 		}
-		authority = { 
+		authority = {
 			value = auth_imperial
 			NOT = { value = auth_corporate } 
 		}
@@ -158,5 +158,186 @@ civic_empress_of_the_night = {
 	modifier = {
 		country_base_influence_produces_add = 0.5
 		pop_citizen_happiness = 0.10
+	}
+}
+
+civic_zebra_tribal_unity = {
+	modification = no
+	potential = {
+		ethics = { 
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 
+			NOT = { value = auth_corporate } 
+		}
+	}
+	possible = {	
+		ethics = {
+			OR = {
+				value = ethic_fanatic_spiritualist
+				value = ethic_spiritualist
+				value = ethic_fanatic_militarist
+				value = ethic_militarist
+			}
+			NOT = {
+				value = ethic_fanatic_egalitarian
+				value = ethic_egalitarian
+			}	
+		}
+		civics = {
+			NOT = { 
+				value =	civic_solar_goddess
+				value = civic_dark_imperator
+				value = civic_fanatic_purifiers
+				value = civic_empress_of_the_night
+			}
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		country_unity_produces_mult = 0.15
+		planet_jobs_specialist_produces_mult = 0.10
+	}
+}
+
+civic_zebra_tribal_hierarchy = {
+	modification = no
+	potential = {
+		ethics = { 
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 
+			NOT = { value = auth_corporate } 
+		}
+	}
+	possible = {	
+		ethics = {
+			OR = {
+				value = ethic_fanatic_spiritualist
+				value = ethic_spiritualist
+				value = ethic_fanatic_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_authoritarian
+				value = ethic_authoritarian
+			}
+			NOT = {
+				value = ethic_fanatic_egalitarian
+				value = ethic_egalitarian
+			}	
+		}
+		civics = {
+			NOT = { 
+				value =	civic_solar_goddess
+				value = civic_dark_imperator
+				value = civic_fanatic_purifiers
+				value = civic_empress_of_the_night
+			}
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		army_damage_mult = 0.10
+		pop_citizen_happiness = 0.10
+		pop_government_ethic_attraction = 0.10
+	}
+}
+
+civic_griffon_greed = {
+	modification = no
+	potential = {
+		ethics = { 
+			NOT = { value = ethic_gestalt_consciousness } 
+		}
+		authority = { 
+			NOT = { value = auth_corporate } 
+		}
+	}
+	possible = {	
+		ethics = {
+			OR = {
+				value = ethic_fanatic_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_authoritarian
+				value = ethic_authoritarian
+			}
+			NOT = {
+				value = ethic_fanatic_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_spiritualist
+				value = ethic_spiritualist
+			}	
+		}
+		civics = {
+			NOT = { 
+				value =	civic_solar_goddess
+				value = civic_dark_imperator
+				value =	civic_zebra_tribal_hierarchy
+				value = civic_zebra_tribal_unity
+				value = civic_fanatic_purifiers
+				value = civic_empress_of_the_night
+			}
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.25
+		trade_value_mult = 0.10
+	}
+}
+
+civic_griffon_greed_corp = {
+	modification = no
+	potential = { 
+		authority = { value = auth_corporate } 
+	}
+	possible = {	
+		ethics = {
+			OR = {
+				value = ethic_fanatic_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_authoritarian
+				value = ethic_authoritarian
+			}
+			NOT = {
+				value = ethic_fanatic_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_spiritualist
+				value = ethic_spiritualist
+			}	
+		}
+	}
+	random_weight = { 
+		base = 0 
+		modifier = {
+			factor = 0
+			is_species_class = HRS
+		}
+	}
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.10
+		trade_value_mult = 0.15
+		branch_office_value_mult = 0.15
 	}
 }

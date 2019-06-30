@@ -1,0 +1,300 @@
+namespace = horse_ritual_spawn
+namespace = horse_ritual_menu
+
+## Discovery event
+country_event = {
+	id = horse_ritual_spawn.1
+	title = "horse_ritual_spawn.1.title"
+	desc = "horse_ritual_spawn.1.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	
+	trigger = {
+		has_technology = tech_magic_amplification
+		NOT = {
+			has_country_flag = ritual_room_created
+		}
+	}
+
+	immediate = {
+		set_country_flag = ritual_room_created
+		create_country = {
+			name = "Ritual Room"
+			type = ritual_room_country
+			flag = {
+				icon = {
+					category = "ritual"
+					file = "ritual_room.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+		}	
+		last_created_country = {
+			save_global_event_target_as = ritual_room_target
+		}
+		establish_communications_no_message = event_target:ritual_room_target
+	}
+	
+	option = { 
+		name = horse_ritual_spawn.1.a
+	}
+}
+
+### Menu
+country_event = {
+	id = horse_ritual_menu.0
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		from = {
+			is_country_type = ritual_room_country
+		}
+		NOT = { has_country_flag = "ritual_diplo_active" }
+	}
+	immediate = {
+		country_event = { id = horse_ritual_menu.1 }
+		set_country_flag = "ritual_diplo_active"
+		
+	}
+}
+
+country_event = {
+	id = horse_ritual_menu.1
+	title = "horse_ritual_menu.1.title"
+	desc = "horse_ritual_menu.1.desc"
+	is_triggered_only = yes
+	show_sound = event_mystic_reveal
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	custom_gui_option = "enclave_trader_option"
+	
+	picture_event_data = {
+		room = horse_ritual_room
+	}
+	
+	after = { 
+		remove_country_flag = "ritual_diplo_active"
+	}
+
+	option = { ### Ritual of Power
+		name = horse_ritual_menu.1.a
+		custom_tooltip = TT_ritual_of_power
+		allow = {
+			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
+		}
+		add_resource = { magic_crystals = -200 }
+		hidden_effect = {
+			if = { 
+				limit = { has_modifier = ritual_cooldown }
+				country_event = { id = horse_ritual_menu.2 }
+			}
+			else_if = {
+				country_event = { id = horse_ritual_menu.21 }
+			}
+		}
+	}
+	
+	option = { ### Ritual of Might
+		name = horse_ritual_menu.1.b
+		custom_tooltip = TT_ritual_of_might
+		allow = {
+			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
+		}
+		add_resource = { magic_crystals = -200 }
+		hidden_effect = {
+			if = { 
+				limit = { has_modifier = ritual_cooldown }
+				country_event = { id = horse_ritual_menu.2 }
+			}
+			else_if = {
+				country_event = { id = horse_ritual_menu.22 }
+			}
+		}
+	}
+	
+	option = { ### Ritual of Health
+		name = horse_ritual_menu.1.c
+		custom_tooltip = TT_ritual_of_health
+		allow = {
+			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
+		}
+		add_resource = { magic_crystals = -200 }
+		hidden_effect = {
+			if = { 
+				limit = { has_modifier = ritual_cooldown }
+				country_event = { id = horse_ritual_menu.2 }
+			}
+			else_if = {
+				country_event = { id = horse_ritual_menu.23 }
+			}
+		}
+	}
+	
+	option = { ### Ritual of Knowledge
+		name = horse_ritual_menu.1.d
+		custom_tooltip = TT_ritual_of_knowledge
+		allow = {
+			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
+		}
+		add_resource = { magic_crystals = -200 }
+		hidden_effect = {
+			if = { 
+				limit = { has_modifier = ritual_cooldown }
+				country_event = { id = horse_ritual_menu.2 }
+			}
+			else_if = {
+				country_event = { id = horse_ritual_menu.24 }
+			}
+		}
+	}
+	
+	option = { ### Leave
+		name = horse_ritual_menu.1.e
+		
+		remove_country_flag = "ritual_diplo_active"
+	}
+}
+
+country_event = { ### Can't cast anything right now.
+	id = horse_ritual_menu.2
+	title = "horse_ritual_menu.2.title"
+	desc = "horse_ritual_menu.2.desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	custom_gui_option = "enclave_trader_option"
+	
+	picture_event_data = {
+		room = horse_ritual_room
+	}
+
+	option = {
+		name = horse_ritual_menu.2.a
+		remove_country_flag = "ritual_diplo_active"
+	}
+}
+
+country_event = {
+	id = horse_ritual_menu.21
+	title = "horse_ritual_menu.21.title"
+	desc = "horse_ritual_menu.21.desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	custom_gui_option = "enclave_trader_option"
+	
+	picture_event_data = {
+		room = horse_ritual_room
+	}
+
+	option = { ### Ritual of Power
+		name = horse_ritual_menu.21.a
+		
+		add_modifier = {
+			modifier = "ritual_power" 
+			days = 365
+		}
+		add_modifier = {
+			modifier = "ritual_cooldown" 
+			days = 730
+		}
+		
+		remove_country_flag = "ritual_diplo_active"
+	}
+}
+
+country_event = {
+	id = horse_ritual_menu.22
+	title = "horse_ritual_menu.22.title"
+	desc = "horse_ritual_menu.22.desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	custom_gui_option = "enclave_trader_option"
+	
+	picture_event_data = {
+		room = horse_ritual_room
+	}
+
+	option = { ### Ritual of Might
+		name = horse_ritual_menu.22.a
+		
+		add_modifier = {
+			modifier = "ritual_might" 
+			days = 365
+		}
+		add_modifier = {
+			modifier = "ritual_cooldown" 
+			days = 730
+		}
+		
+		remove_country_flag = "ritual_diplo_active"
+	}
+}
+
+country_event = {
+	id = horse_ritual_menu.23
+	title = "horse_ritual_menu.23.title"
+	desc = "horse_ritual_menu.23.desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	custom_gui_option = "enclave_trader_option"
+	
+	picture_event_data = {
+		room = horse_ritual_room
+	}
+
+	option = { ### Ritual of Health
+		name = horse_ritual_menu.23.a
+		
+		add_modifier = {
+			modifier = "ritual_health" 
+			days = 365
+		}
+		add_modifier = {
+			modifier = "ritual_cooldown" 
+			days = 730
+		}
+		
+		remove_country_flag = "ritual_diplo_active"
+	}
+}
+
+country_event = {
+	id = horse_ritual_menu.24
+	title = "horse_ritual_menu.24.title"
+	desc = "horse_ritual_menu.24.desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	custom_gui_option = "enclave_trader_option"
+	
+	picture_event_data = {
+		room = horse_ritual_room
+	}
+
+	option = { ### Knowledge
+		name = horse_ritual_menu.24.a
+		
+		add_modifier = {
+			modifier = "ritual_knowledge" 
+			days = 365
+		}
+		add_modifier = {
+			modifier = "ritual_cooldown" 
+			days = 730
+		}
+		
+		remove_country_flag = "ritual_diplo_active"
+	}
+}

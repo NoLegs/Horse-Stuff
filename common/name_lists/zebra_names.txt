@@ -1,0 +1,200 @@
+﻿
+zebra = {
+	ship_names = {
+		generic = {
+			"Marsh Dweller" "Forest Dweller" "Mountain Dweller" "Jungle Dweller" "Ocean Dweller" "Plains Dweller" "White Clay" "Wave Chill" "Dawn Caller" "Cleared Thicket" "Kinfolk" "White Fish" "Gray Snow" "Firekeeper" "Animal Whisperer" "Big Voice"	"Big Hare" "Flint Striker" "Star Gazer" "Black Foot" "Short Robe" "Hemp Weaver" "Eastman" "Islander" "Big Belly" "Fish Spearer" "Little Snake" "Pointed Shirt" "Planted Fields" "Smelly Water" "Snowshoe Lacer" "Sun Chaser"    "Wild Rice"  "Burning Hoof" "Stoney" "Horn Carver" "Iron Hoof" "Wild Boar" "Burning Trail" "Horseshoe" "Snowfall Frost" "Sun Gazer"  "Wealth Born" "Royal Child" "Flower Picker" "Wise One"  "Saddle Rager" "Sea Crown" "God Hand" "World Seeker" "First Borne" "Second Borne" "Third Borne"  "Fourth Borne" "Thankful One" "Spirit Seeker" "Soothsayer" "Reincarnated One" "World Shaper" "Weed Picker" "Sun Setter" "Moon Riser" "Tiger Tamer" "Playful Child" "Black Foot" "Bird Woman" "Spirit Channeler" "Sky Rider" "Rainbow Watcher" "Cloud Gazer" "Star Seer" "Wind Blower" "Fire Maker" "Stone Striker" "Waiting Moon" "Fleet Star" "Pretty Praire" "Leather Hoof" "Sturdy Oak" "Easy Kill" "Wild Dove" "Traitor Seeker" "Grasshopper" "Moose" "Mouse" "Pebbles" "Running Water" 	
+		}
+
+		corvette = { 
+			"Mouse" "Snake" "Fox" "Spider" "Owl"
+		}
+		
+		destroyer = {
+			"Hawk" "Falcon"
+		}
+		
+		cruiser = {
+			"Tiger" "Lion" "Hunter" "Panther" "Wolf" "Alligator" "Anaconda"
+		}
+		
+		battleship = {
+			"Dragon" "Warrior" "Champion" "Hydra" "Cerberus" "Basilisk" "Manticore" "Orc"
+		}
+
+		titan = {
+			"Roc" "Kraken" "Leviathan"
+		}
+
+		colossus = {
+			"Eye of Truth" 
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+			"Light Bringer" "Clan Protector"
+		}	
+	}
+	
+	ship_class_names = {
+		generic = {
+			Cherry Amber Oak Maple Yew Ebony Iron Emerald Stone Willow Cinnamon Clay Iron Steel Leather Bone Leaf Twig Branch Log Light Night Defender Defender Mountain Forest Tree River Stream Earth 
+		}		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Sky Flyers" "Tribal Defenders" "Night Warriors" "Lion Pack" "Dawn Callers" "Chief's Guard" "Eastern Champions" "Southern Raiders"
+		}
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Tribal Guard"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Traveling Hunters"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Penal Guard"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Warrior Clones"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Golem Army"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Golem Guard"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Truth Weavers"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Dragon Troops"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Divine Chosen"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Tribal Occupation Warriors"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Golem Occupiers"
+		}
+
+		primitive_army = {
+			sequential_name = "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "Post-Atomic Army %C%"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Nyumbani" "Mji" "Kabila" "Ustaarabu" "Shamba" "Usalama" "Msitu" "Everfree" "Bahari" "Nyota" "Mbao" "Wanyama" "Teknolojia" "Viwanda" "Mahali" "Milima" "Bonde" "Jumuiya" "Upepo" "Nchi" "Mito" "Nyasi" "Mimea" "Kukimbia" "Makao" "Kuhifadhi" "Garuri" "Gatuge" "Dima" "Dejen" "Woricho" "Kerireria" "Kigumara" "Bugasarenda" "Afsa" "Jilfeyn" "Konrelani" "Bukolula" "Wobureka" "Kajachorwa" "Rukabanda" "Muhomo" "Kibonranyi" "Makaranyi" "Bonsosa" "Duta" "Yaringo" "Amarezon" "Kihanringo" "Mabago" "Bisabeho" "Qogare" "Dhamo" "Ifakayanga" "Kakonze" "Buckswana" "Whoazambique" "Himallama"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# Always combined with a second name
+			first_names = {
+				Aada Kamaria Kakena Kamara Jahaira Jiona Jamaa Ujana Shani Hediye Aapo Imani Juma Jaha Oyana Nadira Neema Barika Zahara Mosiya Aatami Jina Imarisha Kanika Penda Mwatabu Mtupeni Adea Cloudy Nalah Abdala Lotus Kaluwa Mwamini Aza Nbushe Binti Adia Winter Nyimbo Jafari Alix Zecora Jama Mwanahasimi Initha Kamaria Aiysha Orange Tambika Johannes Kanene Muraty Otesha Julisha Issa Kesi Akina Zalika Zecora Simba Jamani Onyesha Nigesa Mzuzi Kalere Lakeisha Banou Nea Braze Kijana Itanya Jamba Imara Inara Mwanaidi Penda Chiku
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				" "
+			}
+			
+			regnal_first_names = {
+				Aada Kamaria Kakena Kamara Jahaira Jiona Jamaa Ujana Shani Hediye Aapo Imani Juma Jaha Oyana Nadira Neema Barika Zahara Mosiya Aatami Jina Imarisha Kanika Penda Mwatabu Mtupeni Adea Cloudy Nalah Abdala Lotus Kaluwa Mwamini Aza Nbushe Binti Adia Winter Nyimbo Jafari Alix Zecora Jama Mwanahasimi Initha Kamaria Aiysha Orange Tambika Johannes Kanene Muraty Otesha Julisha Issa Kesi Akina Zalika Zecora Simba Jamani Onyesha Nigesa Mzuzi Kalere Lakeisha Banou Nea Braze Kijana Itanya Jamba Imara Inara Mwanaidi Penda Chiku
+			}
+	
+			regnal_second_names = {
+				" "
+			}
+		}
+	}
+}
