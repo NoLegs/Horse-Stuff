@@ -1,0 +1,84 @@
+portraits = {
+
+	AnthroboF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo01.dds"	}
+	AnthroboF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo02.dds"	}
+	AnthroboF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo03.dds"	}
+	AnthroboF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo04.dds"	}
+	AnthroboF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo05.dds"	}
+	AnthroboF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo06.dds"	}
+	AnthroboF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo07.dds"	}	
+	AnthroboF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo08.dds"	}
+	AnthroboF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo09.dds"	}
+	AnthroboF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo10.dds"	}
+	AnthroboF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo11.dds"	}
+	AnthroboF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo12.dds"	}
+	AnthroboF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo13.dds"	}	
+	AnthroboF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo14.dds"	}
+	AnthroboF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo15.dds"	}
+	AnthroboF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo16.dds"	}
+	AnthroboF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo17.dds"	}
+	AnthroboF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo18.dds"	}
+	AnthroboF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/anthro/robopone/anthrobo19.dds"	}
+
+
+}
+
+portrait_groups = {
+    Anthrobo = {
+		default = AnthroboF01
+		game_setup = { 
+           	add = {
+                portraits = {
+					AnthroboF01 AnthroboF02 AnthroboF03 AnthroboF04 AnthroboF05
+					AnthroboF06 AnthroboF07 AnthroboF08 AnthroboF09 AnthroboF10
+					AnthroboF11 AnthroboF12 AnthroboF13 AnthroboF14 AnthroboF15 
+					AnthroboF16 AnthroboF17 AnthroboF18 AnthroboF19
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					AnthroboF01 AnthroboF02 AnthroboF03 AnthroboF04 AnthroboF05
+					AnthroboF06 AnthroboF07 AnthroboF08 AnthroboF09 AnthroboF10
+					AnthroboF11 AnthroboF12 AnthroboF13 AnthroboF14 AnthroboF15 
+					AnthroboF16 AnthroboF17 AnthroboF18 AnthroboF19
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					AnthroboF01 AnthroboF02 AnthroboF03 AnthroboF04 AnthroboF05
+					AnthroboF06 AnthroboF07 AnthroboF08 AnthroboF09 AnthroboF10
+					AnthroboF11 AnthroboF12 AnthroboF13 AnthroboF14 AnthroboF15 
+					AnthroboF16 AnthroboF17 AnthroboF18 AnthroboF19
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					AnthroboF01 AnthroboF02 AnthroboF03 AnthroboF04 AnthroboF05
+					AnthroboF06 AnthroboF07 AnthroboF08 AnthroboF09 AnthroboF10
+					AnthroboF11 AnthroboF12 AnthroboF13 AnthroboF14 AnthroboF15 
+					AnthroboF16 AnthroboF17 AnthroboF18 AnthroboF19
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					AnthroboF01 AnthroboF02 AnthroboF03 AnthroboF04 AnthroboF05
+					AnthroboF06 AnthroboF07 AnthroboF08 AnthroboF09 AnthroboF10
+					AnthroboF11 AnthroboF12 AnthroboF13 AnthroboF14 AnthroboF15 
+					AnthroboF16 AnthroboF17 AnthroboF18 AnthroboF19
+                }
+            }
+        }
+	}
+}

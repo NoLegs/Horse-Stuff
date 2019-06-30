@@ -12,6 +12,7 @@ HRS = {
 		"griffon"
 		"zebra"
 		"diamonddog"
+		"bat"
 	}
 	
 	non_randomized_portraits = {
@@ -38,4 +39,22 @@ FER = {
 	
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+POB = {	
+	possible = { authority = { OR = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE } } }
+    archetype = MACHINE
+	
+	portraits = {
+		"Anthrobo"
+		"Ferobo"
+	}
+	
+	non_randomized_portraits = {
+		"Anthrobo"
+		"Ferobo"
+	}
+	
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = "robot_pops_move"
 }

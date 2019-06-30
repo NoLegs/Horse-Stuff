@@ -81,3 +81,13 @@ FER = {
 		name_list = "horse"
 	}
 }
+
+POB = {
+	synthetic_equestrian = {
+		name = "Synthetic Equestrian"
+		plural = "Synthetic Equestrians"
+		home_planet = Equestria
+		home_system = "Equus"
+		name_list = "horse"
+	}
+}

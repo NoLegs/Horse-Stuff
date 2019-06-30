@@ -1,0 +1,91 @@
+portraits = {
+
+	FeroboF01 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo01.dds"	}
+	FeroboF02 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo02.dds"	}
+	FeroboF03 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo03.dds"	}
+	FeroboF04 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo04.dds"	}
+	FeroboF05 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo05.dds"	}
+	FeroboF06 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo06.dds"	}
+	FeroboF07 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo07.dds"	}	
+	FeroboF08 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo08.dds"	}
+	FeroboF09 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo09.dds"	}
+	FeroboF10 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo10.dds"	}
+	FeroboF11 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo11.dds"	}
+	FeroboF12 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo12.dds"	}
+	FeroboF13 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo13.dds"	}	
+	FeroboF14 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo14.dds"	}
+	FeroboF15 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo15.dds"	}
+	FeroboF16 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo16.dds"	}
+	FeroboF17 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo17.dds"	}
+	FeroboF18 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo18.dds"	}
+	FeroboF19 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo19.dds"	}
+	FeroboF20 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo20.dds"	}
+	FeroboF21 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo21.dds"	}
+	FeroboF22 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo22.dds"	}
+	FeroboF23 = { greeting_sound = "humanoid_portrait_j_female" texturefile = "gfx/models/portraits/feral/ferobo/ferobo23.dds"	}
+}
+
+portrait_groups = {
+    Ferobo = {
+		default = FeroboF01
+		game_setup = { 
+           	add = {
+                portraits = {
+					FeroboF01 FeroboF02 FeroboF03 FeroboF04 FeroboF05
+					FeroboF06 FeroboF07 FeroboF08 FeroboF09 FeroboF10
+					FeroboF11 FeroboF12 FeroboF13 FeroboF14 FeroboF15 
+					FeroboF16 FeroboF17 FeroboF18 FeroboF19 FeroboF20
+					FeroboF21 FeroboF22 FeroboF23
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					FeroboF01 FeroboF02 FeroboF03 FeroboF04 FeroboF05
+					FeroboF06 FeroboF07 FeroboF08 FeroboF09 FeroboF10
+					FeroboF11 FeroboF12 FeroboF13 FeroboF14 FeroboF15 
+					FeroboF16 FeroboF17 FeroboF18 FeroboF19 FeroboF20
+					FeroboF21 FeroboF22 FeroboF23
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					FeroboF01 FeroboF02 FeroboF03 FeroboF04 FeroboF05
+					FeroboF06 FeroboF07 FeroboF08 FeroboF09 FeroboF10
+					FeroboF11 FeroboF12 FeroboF13 FeroboF14 FeroboF15 
+					FeroboF16 FeroboF17 FeroboF18 FeroboF19 FeroboF20
+					FeroboF21 FeroboF22 FeroboF23
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					FeroboF01 FeroboF02 FeroboF03 FeroboF04 FeroboF05
+					FeroboF06 FeroboF07 FeroboF08 FeroboF09 FeroboF10
+					FeroboF11 FeroboF12 FeroboF13 FeroboF14 FeroboF15 
+					FeroboF16 FeroboF17 FeroboF18 FeroboF19 FeroboF20
+					FeroboF21 FeroboF22 FeroboF23
+				}
+			}
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					FeroboF01 FeroboF02 FeroboF03 FeroboF04 FeroboF05
+					FeroboF06 FeroboF07 FeroboF08 FeroboF09 FeroboF10
+					FeroboF11 FeroboF12 FeroboF13 FeroboF14 FeroboF15 
+					FeroboF16 FeroboF17 FeroboF18 FeroboF19 FeroboF20
+					FeroboF21 FeroboF22 FeroboF23
+                }
+            }
+        }
+	}
+}
