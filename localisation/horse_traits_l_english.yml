@@ -7,10 +7,10 @@
  trait_earth_attuned_desc:0 "This species is magically attuned to the earth, giving it a close connection to nature and the planets they live on."
 
  trait_magically_gifted:0 "Magically Gifted"
- trait_magically_gifted_desc:0 "§MMagical!§!\n\nThis species has the gift of magical, granting it access to powerful spells, research, and rituals."
+ trait_magically_gifted_desc:0 "§MMagical!§!\n\nThis species has the gift of magic, granting it access to powerful spells, research, and rituals."
 
- trait_pony_power:0 "Pony Power"
- trait_pony_power_desc:0 "§MMagical!§!\n\nThis species has all three essential pony traits, the ability of flight and cloud manipulation, attunement and understanding of the earth, and incredible magical prowess."
+ trait_pony_power:0 "Cutie Marked"
+ trait_pony_power_desc:0 "§MMagical!§!\n\nThis species has the power of cutie marks, special symbols given through magic to young foals. These symbols usually represent what they're best at in life."
 
  trait_party_ponies:0 "Party Ponies"
  trait_party_ponies_desc:0 "This species is well known for their frequent and spontaneous parties. It's hard to go a week without a party being thrown for some event or occasion!"

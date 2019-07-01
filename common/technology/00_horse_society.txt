@@ -48,15 +48,11 @@ tech_basic_magic_theory = {
 	cost = @tier1cost2
 	tier = 1
 	area = society
-	category = { pony }
+	category = { generic }
 	weight = 1.0
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -69,16 +65,12 @@ tech_combat_spells = {
 	cost = @tier2cost1
 	tier = 2
 	area = society
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_basic_magic_theory" }
 	weight = @tier1weight2
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -89,16 +81,12 @@ tech_advanced_combat_spells = {
 	cost = @tier2cost2
 	tier = 2
 	area = society
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_combat_spells" }
 	weight = @tier2weight1
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -109,16 +97,12 @@ tech_planet_weather_control = {
 	cost = @tier2cost2
 	tier = 2
 	area = society
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_basic_magic_theory" }
 	weight = @tier1weight3
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -130,16 +114,12 @@ tech_climate_magic = {
 	cost = @tier3cost2
 	tier = 3
 	area = society
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_planet_weather_control" }
 	weight = @tier3weight1
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -151,16 +131,12 @@ tech_magical_terraforming = {
 	cost = @tier3cost3
 	tier = 4
 	area = society
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_climate_magic" }
 	weight = @tier3weight1
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {

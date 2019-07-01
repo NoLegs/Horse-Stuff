@@ -22,6 +22,7 @@ r_element_of_magic = {
 	triggered_country_modifier = {
 		potential = { always = yes }
 		
+		country_influence_produces_mult = 0.25
 	}
 	active_effect = {
 		add_modifier = {
@@ -68,10 +69,204 @@ r_element_of_kindness = {
 	triggered_country_modifier = {
 		potential = { always = yes }
 		
+		country_trust_growth = 0.25
+		country_trade_attractiveness = 0.15
+		country_trust_cap_add = 100
 	}
 	active_effect = {
 		add_modifier = {
 			modifier = "element_of_kindness_triumph" 
+			days = @triumph_duration
+		}
+		
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown" 
+				days = @triumph_duration
+			}		
+		}
+	}
+
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_element_of_laughter = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_element_of_laughter"
+	sound = "relic_activation_extradimensional_warlock"
+	score = 1000
+		
+	ai_weight = {
+		weight = 100
+	}
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = { always = yes }
+		
+		pop_amenities_usage_mult = -0.25
+	}
+	active_effect = {
+		add_modifier = {
+			modifier = "element_of_laughter_triumph" 
+			days = @triumph_duration
+		}
+		
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown" 
+				days = @triumph_duration
+			}		
+		}
+	}
+
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_element_of_generosity = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_element_of_generosity"
+	sound = "relic_activation_extradimensional_warlock"
+	score = 1000
+		
+	ai_weight = {
+		weight = 100
+	}
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = { always = yes }
+		
+		planet_jobs_energy_produces_mult = 0.25
+	}
+	active_effect = {
+		add_modifier = {
+			modifier = "element_of_generosity_triumph" 
+			days = @triumph_duration
+		}
+		
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown" 
+				days = @triumph_duration
+			}		
+		}
+	}
+
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_element_of_loyalty = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_element_of_loyalty"
+	sound = "relic_activation_extradimensional_warlock"
+	score = 1000
+		
+	ai_weight = {
+		weight = 100
+	}
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = { always = yes }
+		
+		country_subject_power_penalty_mult = -0.50
+		country_subject_trust_cap_add = 100
+		subject_integration_influence_cost_mult = -0.25
+	}
+	active_effect = {
+		add_modifier = {
+			modifier = "element_of_loyalty_triumph" 
+			days = @triumph_duration
+		}
+		
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown" 
+				days = @triumph_duration
+			}		
+		}
+	}
+
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_element_of_honesty = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_element_of_honesty"
+	sound = "relic_activation_extradimensional_warlock"
+	score = 1000
+		
+	ai_weight = {
+		weight = 100
+	}
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = { always = yes }
+		
+		army_morale = 0.25
+		army_damage_mult = 0.20
+	}
+	active_effect = {
+		add_modifier = {
+			modifier = "element_of_honesty_triumph" 
 			days = @triumph_duration
 		}
 		

@@ -1,0 +1,7 @@
+has_magic = {
+	OR = {
+		has_trait = trait_pony_power
+		has_trait = trait_magically_gifted
+		has_trait = trait_emotionovores
+	}
+}

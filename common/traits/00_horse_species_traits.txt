@@ -1,3 +1,28 @@
+trait_pony_power = {
+	cost = 3
+	potential_crossbreeding_chance = 0
+	opposites = { }
+	allowed_archetypes = { BIOLOGICAL }
+	icon = "gfx/interface/icons/traits/trait_pony_power.dds"
+	randomized = no
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.025
+		planet_researchers_produces_mult = 0.025
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+trait_magically_gifted = {
+	cost = 1
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_pony_power" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_researchers_produces_mult = 0.05
+	}
+}
+
 trait_cloud_builder = {
 	cost = 1
 	potential_crossbreeding_chance = 0.5
@@ -14,18 +39,8 @@ trait_earth_attuned = {
 	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
-		planet_jobs_unity_produces_mult = 0.10
-		planet_jobs_food_produces_mult = 0.10
-	}
-}
-
-trait_magically_gifted = {
-	cost = 1
-	potential_crossbreeding_chance = 0.5
-	opposites = { "trait_pony_power" }
-	allowed_archetypes = { BIOLOGICAL }
-	modifier = {
-		planet_researchers_produces_mult = 0.10
+		planet_jobs_unity_produces_mult = 0.05
+		planet_jobs_food_produces_mult = 0.05
 	}
 }
 
@@ -35,8 +50,8 @@ trait_emotionovores = {
 	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_emotionovores.dds"
-	initial = no
 	randomized = no
+	initial = no
 	modification = no
 	modifier = {
 		pop_environment_tolerance = 0.30
@@ -46,21 +61,7 @@ trait_emotionovores = {
 		weight = 0
 	}
 }
-trait_pony_power = {
-	cost = 3
-	potential_crossbreeding_chance = 0
-	opposites = { }
-	allowed_archetypes = { BIOLOGICAL }
-	icon = "gfx/interface/icons/traits/trait_harmonic.dds"
-	randomized = no
-	modifier = {
-		planet_jobs_unity_produces_mult = 0.15
-		planet_researchers_produces_mult = 0.10
-	}
-	ai_weight = {
-		weight = 0
-	}
-}
+
 trait_party_ponies = {
 	cost = -2
 	potential_crossbreeding_chance = 0

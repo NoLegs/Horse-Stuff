@@ -1,0 +1,23 @@
+﻿l_english:
+
+## Relics ##
+r_element_of_magic:0 "Element of Magic"
+r_element_of_magic_desc:0 "Originally held by Twilight Sparkle, the Element of Magic is a powerful artifact that can improve the magical abilities of it's user and others."
+r_element_of_kindness:0 "Element of Kindness"
+r_element_of_kindness_desc:0 "Originally held by Fluttershy, the Element of Kindness is a powerful artifact that can instill kindness, love, and friendship in others."
+r_element_of_laughter:0 "Element of Laughter"
+r_element_of_laughter_desc:0 "An ancient artifact from Equestria that was most famously held by Pinkie Pie, the Element of Laughter can cheer just about anyone up. It also has a lesser known ability that... makes people more compatible."
+r_element_of_honesty:0 "Element of Honesty"
+r_element_of_honesty_desc:0 "The Element of Honesty, once held by Applejack, inspires others, gives them strength, and encourages them to tell the truth."
+r_element_of_loyalty:0 "Element of Loyalty"
+r_element_of_loyalty_desc:0 "Strong loyalty and friendship is important, doubly so when dealing with things on an interstellar scale. The Element of Loyalty can inspire the fleets of our great nation to do amazing feats. This Element was once held by Rainbow Dash."
+r_element_of_generosity:0 "Element of Generosity"
+r_element_of_generosity_desc:0 "A true true friend helps a friend in need. Originally used by Rarity, the Element of Generosity can help quite a lot with our economy. Who knew being so helpful to others would help us?"
+
+## Relic Modifiers ##
+element_of_magic_triumph:0 "Element of Magic Triumph"
+element_of_kindness_triumph:0 "Element of Kindness Triumph"
+element_of_laughter_triumph:0 "Element of Laughter Triumph"
+element_of_honesty_triumph:0 "Element of Honesty Triumph"
+element_of_loyalty_triumph:0 "Element of Loyalty Triumph"
+element_of_generosity_triumph:0 "Element of Generosity Triumph"

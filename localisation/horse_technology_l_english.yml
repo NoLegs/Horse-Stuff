@@ -30,18 +30,35 @@
  tech_thaumaturgy:0 "Thaumaturgy"
  tech_thaumaturgy_desc:0 ""
  
- tech_magic_crystal_alloy:0 "Magic Crystal Alloy"
+ tech_magic_crystal_alloy:0 "Crystal Alloy Ship Armor"
  tech_magic_crystal_alloy_desc:0 ""
  
- tech_enchanted_crystal_alloy:0 "Enchanted Crystal Alloy"
+ tech_enchanted_crystal_alloy:0 "Enchanted Crystal Alloy Ship Armor"
  tech_enchanted_crystal_alloy_desc:0 ""
  
  tech_magic_amplification:0 "Magic Amplification Rituals"
  tech_magic_amplification_desc:0 ""
  
+ ### Physics ###
+ tech_magical_shielding:0 "Magical Ship Shielding"
+ tech_magical_shielding_desc:0 ""
+ 
+ tech_advanced_magical_shielding:0 "Advanced Magical Ship Shielding"
+ tech_advanced_magical_shielding_desc:0 ""
+ 
+ ### Racial ###
+ tech_chn_egg_incubation:0 "Egg Incubation"
+ tech_chn_egg_incubation_desc:0 ""
+ 
+ tech_chn_mind_control:0 "Changeling Hypnosis"
+ tech_chn_mind_control_desc:0 ""
+ 
  ### Categories ###
- pony:0 "Magical"
- pony_desc:0 "All things involving the art of magic, spellmaking, enchanting, etc etc."
+ generic:0 "Magical"
+ generic_desc:0 "All things involving the art of magic, spellmaking, enchanting, etc etc."
+ 
+ changeling:0 "Changeling Technology"
+ changeling_desc:0 "Technologies specifically for the changeling species and any other species related to them."
  
  ### Resources ###
  magic_crystals:0 "Magic Crystals"
@@ -49,9 +66,14 @@
  
  ### Ship Components ###
  MAGIC_CRYSTAL_ARMOR_1:0 "Crystal Alloy Armor"
- MAGIC_CRYSTAL_ARMOR_1_desc:0 "Special armor crafted and made with a high amount of Magic Crystals."
+ MAGIC_CRYSTAL_ARMOR_1_DESC:0 "Special armor crafted and made with a high amount of Magic Crystals."
  MAGIC_CRYSTAL_ARMOR_2:0 "Enchanted Crystal Alloy Armor"
- MAGIC_CRYSTAL_ARMOR_2_desc:0 "Crystal Alloy Armor that has been specially enchanted for better strength."
+ MAGIC_CRYSTAL_ARMOR_2_DESC:0 "Crystal Alloy Armor that has been specially enchanted for better strength."
+ 
+ MAGICAL_SHIELDING_1:0 "Magical Shielding"
+ MAGICAL_SHIELDING_1_DESC:0 "Advanced spells designed for shielding ships of any size."
+ MAGICAL_SHIELDING_2:0 "Advanced Magical Shielding"
+ MAGICAL_SHIELDING_2_DESC:0 "Magical Shielding that has been improved and upgraded."
  
  SMALL_CRYSTAL_ALLOY_1:0 "Small Crystal Alloy"
  MEDIUM_CRYSTAL_ALLOY_1:0 "Medium Crystal Alloy"
@@ -60,6 +82,14 @@
  SMALL_CRYSTAL_ALLOY_2:0 "Small Enchanted Crystal Alloy"
  MEDIUM_CRYSTAL_ALLOY_2:0 "Medium Enchanted Crystal Alloy"
  LARGE_CRYSTAL_ALLOY_2:0 "Large Enchanted Crystal Alloy"
+ 
+ SMALL_MAGICAL_SHIELDING_1:0 "Small Magical Shielding"
+ MEDIUM_MAGICAL_SHIELDING_1:0 "Medium Magical Shielding"
+ LARGE_MAGICAL_SHIELDING_1:0 "Large Magical Shielding"
+ 
+ SMALL_MAGICAL_SHIELDING_2:0 "Small Advanced Magical Shielding"
+ MEDIUM_MAGICAL_SHIELDING_2:0 "Medium Advanced Magical Shielding"
+ LARGE_MAGICAL_SHIELDING_2:0 "Large Advanced Magical Shielding"
  
  ### Armies ###
  magic_army:0 "Magic Army"

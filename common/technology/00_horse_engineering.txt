@@ -46,7 +46,7 @@ tech_magic_crystals = {
 	cost = @tier2cost2
 	tier = 1
 	area = engineering
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_basic_magic_theory" }
 	weight = @tier1weight1
 	weight_modifier = {
@@ -59,11 +59,7 @@ tech_magic_crystals = {
 	}
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -74,7 +70,7 @@ tech_mass_enchantments = {
 	cost = @tier2cost2
 	tier = 2
 	area = engineering
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_magic_crystals" }
 	weight = @tier2weight1
 	weight_modifier = {
@@ -87,11 +83,7 @@ tech_mass_enchantments = {
 	}
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -102,7 +94,7 @@ tech_thaumaturgy = {
 	cost = @tier3cost2
 	tier = 3
 	area = engineering
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_magic_crystals" }
 	weight = @tier3weight1
 	weight_modifier = {
@@ -115,11 +107,7 @@ tech_thaumaturgy = {
 	}
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -130,16 +118,12 @@ tech_magic_crystal_alloy = {
 	cost = @tier2cost2
 	tier = 2
 	area = engineering
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_magic_crystals" }
 	weight = @tier2weight3
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -150,16 +134,12 @@ tech_enchanted_crystal_alloy = {
 	cost = @tier2cost3
 	tier = 3
 	area = engineering
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_magic_crystal_alloy" }
 	weight = @tier2weight1
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {
@@ -170,16 +150,12 @@ tech_magic_amplification = {
 	cost = @tier2cost2
 	tier = 2
 	area = engineering
-	category = { pony }
+	category = { generic }
 	prerequisites = { "tech_magic_crystals" }
 	weight = @tier2weight2
 	
 	potential = {
-		OR = {
-			has_trait = trait_pony_power
-			has_trait = trait_magically_gifted
-			has_trait = trait_emotionovores
-		}
+		has_magic = yes
 	}
 
 	modifier = {

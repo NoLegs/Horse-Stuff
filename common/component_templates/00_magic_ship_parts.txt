@@ -1,9 +1,5 @@
 # Icons set here are the ones show in the actual slot. The reason is so that we can support different icons for different sizes. 
 
-#############
-# UTILITIES #
-#############
-
 # Crystal Alloy
 utility_component_template = {
 	key = "SMALL_CRYSTAL_ALLOY_1"
@@ -157,4 +153,159 @@ utility_component_template = {
 			alloys = @l_t3_upkeep_alloys
 		}
 	}
+}
+
+###############
+
+utility_component_template = {
+	key = "SMALL_MAGICAL_SHIELDING_1"
+	size = small
+	icon = "GFX_ship_part_magical_shielding_1"
+	icon_frame = 1
+	power = @power_S1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_s_t1_cost
+			magic_crystals = 5
+		}	
+		upkeep = {
+			energy = @shield_s_t1_upkeep_energy
+			alloys = @shield_s_t1_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = 80
+		ship_shield_regen_add_static = 0.8 #Regeneration per day
+	}
+	prerequisites = { "tech_magical_shielding" }
+	component_set = "MAGICAL_SHIELDING_1"
+	upgrades_to = "SMALL_MAGICAL_SHIELDING_2"
+}
+
+utility_component_template = {
+	key = "MEDIUM_MAGICAL_SHIELDING_1"
+	size = medium
+	icon = "GFX_ship_part_magical_shielding_1"
+	icon_frame = 1
+	power = @power_M1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_m_t1_cost
+			magic_crystals = 10
+		}
+		upkeep = {
+			energy = @shield_m_t1_upkeep_energy
+			alloys = @shield_m_t1_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = 260
+		ship_shield_regen_add_static = 1.8 #Regeneration per day
+	}
+	prerequisites = { "tech_magical_shielding" }
+	component_set = "MAGICAL_SHIELDING_1"
+	upgrades_to = "MEDIUM_MAGICAL_SHIELDING_2"
+}
+
+utility_component_template = {
+	key = "LARGE_MAGICAL_SHIELDING_1"
+	size = large
+	icon = "GFX_ship_part_magical_shielding_1"
+	icon_frame = 1
+	power = @power_L1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_l_t1_cost
+			magic_crystals = 15
+		}
+		upkeep = {
+			energy = @shield_l_t1_upkeep_energy
+			alloys = @shield_l_t1_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = 590
+		ship_shield_regen_add_static = 4 #Regeneration per day
+	}
+	prerequisites = { "tech_magical_shielding" }
+	component_set = "MAGICAL_SHIELDING_1"
+	upgrades_to = "LARGE_MAGICAL_SHIELDING_2"
+}
+
+utility_component_template = {
+	key = "SMALL_MAGICAL_SHIELDING_2"
+	size = small
+	icon = "GFX_ship_part_magical_shielding_2"
+	icon_frame = 1
+	power = @power_S1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_s_t1_cost
+			magic_crystals = 20
+		}	
+		upkeep = {
+			energy = @shield_s_t3_upkeep_energy
+			alloys = @shield_s_t3_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = 120
+		ship_shield_regen_add_static = 1.2 #Regeneration per day
+	}
+	prerequisites = { "tech_advanced_magical_shielding" }
+	component_set = "MAGICAL_SHIELDING_2"
+}
+
+utility_component_template = {
+	key = "MEDIUM_MAGICAL_SHIELDING_2"
+	size = medium
+	icon = "GFX_ship_part_magical_shielding_2"
+	icon_frame = 1
+	power = @power_M1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_m_t1_cost
+			magic_crystals = 25
+		}
+		upkeep = {
+			energy = @shield_m_t3_upkeep_energy
+			alloys = @shield_m_t3_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = 415
+		ship_shield_regen_add_static = 2.8 #Regeneration per day
+	}
+	prerequisites = { "tech_advanced_magical_shielding" }
+	component_set = "MAGICAL_SHIELDING_2"
+}
+
+utility_component_template = {
+	key = "LARGE_MAGICAL_SHIELDING_2"
+	size = large
+	icon = "GFX_ship_part_magical_shielding_2"
+	icon_frame = 1
+	power = @power_L1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @shield_l_t1_cost
+			magic_crystals = 30
+		}
+		upkeep = {
+			energy = @shield_l_t3_upkeep_energy
+			alloys = @shield_l_t3_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_shield_add = 700
+		ship_shield_regen_add_static = 4.0 #Regeneration per day
+	}
+	prerequisites = { "tech_advanced_magical_shielding" }
+	component_set = "MAGICAL_SHIELDING_2"
 }

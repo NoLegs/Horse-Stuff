@@ -11,7 +11,6 @@ planet_event = {
 
 	trigger = {
 		FROM = {
-##	Depricated		has_trait = trait_emotionovores 
 			has_valid_civic = civic_changeling_swarms
 		}
 		FROMFROM = {
@@ -25,9 +24,24 @@ planet_event = {
 	
 	immediate = {
 		while = {
-		count = 1
-		create_pop = {
-			species = owner_main_species
+			limit = { 
+				owner = {
+					NOT = { has_technology = tech_chn_egg_incubation }
+				}
+			}
+			count = 1
+			create_pop = {
+				species = owner_main_species
+			}
+		}
+		
+		while = {
+			limit = { 
+				owner = { has_technology = tech_chn_egg_incubation }
+			}
+			count = 2
+			create_pop = {
+				species = owner_main_species
 			}
 		}
 	}

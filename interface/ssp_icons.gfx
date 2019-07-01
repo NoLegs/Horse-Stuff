@@ -3,4 +3,26 @@ spriteTypes = {
 		name = "GFX_message_parasite_complete"
 		texturefile = "gfx/interface/icons/message/message_buggo_complete.dds"
 	}
+	
+	
+	### Ship parts
+	spriteType = {
+		name = "GFX_ship_part_crystal_alloy_armor"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_crystal_alloy_armor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_crystal_alloy_armor_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_crystal_alloy_armor_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_magical_shielding_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_magical_shielding_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_magical_shielding_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_magical_shielding_2.dds"
+	}
 }
