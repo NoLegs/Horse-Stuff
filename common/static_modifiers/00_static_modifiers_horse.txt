@@ -69,3 +69,13 @@ ritual_knowledge = {
 
 ritual_cooldown = {
 }
+
+
+### Relic Modifiers 
+element_of_magic_triumph = {
+	biological_pop_happiness = 0.25
+}
+
+element_of_kindness_triumph = {
+	country_energy_produces_mult = 0.25
+}

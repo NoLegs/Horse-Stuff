@@ -1,0 +1,94 @@
+@activation_cost = 150
+@triumph_duration = 3600
+
+r_element_of_magic = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_element_of_magic"
+	sound = "relic_activation_extradimensional_warlock"
+	score = 1000
+		
+	ai_weight = {
+		weight = 100
+	}
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = { always = yes }
+		
+	}
+	active_effect = {
+		add_modifier = {
+			modifier = "element_of_magic_triumph" 
+			days = @triumph_duration
+		}
+		
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown" 
+				days = @triumph_duration
+			}		
+		}
+	}
+
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_element_of_kindness = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_element_of_kindness"
+	sound = "relic_activation_extradimensional_warlock"
+	score = 1000
+		
+	ai_weight = {
+		weight = 100
+	}
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = { always = yes }
+		
+	}
+	active_effect = {
+		add_modifier = {
+			modifier = "element_of_kindness_triumph" 
+			days = @triumph_duration
+		}
+		
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown" 
+				days = @triumph_duration
+			}		
+		}
+	}
+
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
