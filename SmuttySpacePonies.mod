@@ -1,4 +1,4 @@
-name="-!Smutty Space Ponies!-"
+name="-!SSP The Age of Friendship!-"
 path="mod/SmuttySpacePonies"
 tags={
 	"Species"
