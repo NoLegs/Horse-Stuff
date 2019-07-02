@@ -15,8 +15,6 @@
 #	}
 #}
 
-# Corporate
-
 civic_alicorn_leader = {
 	modification = no
 	potential = {
@@ -24,7 +22,10 @@ civic_alicorn_leader = {
 			NOT = { value = ethic_gestalt_consciousness } 
 		}
 		authority = { 
-			value = auth_imperial
+			OR = {
+				value = auth_imperial
+				value = auth_dictatorial
+			}
 			NOT = { value = auth_corporate } 
 		}
 	}
@@ -58,7 +59,10 @@ civic_dark_imperator = {
 			NOT = { value = ethic_gestalt_consciousness } 
 		}
 		authority = { 
-			value = auth_imperial
+			OR = {
+				value = auth_imperial
+				value = auth_dictatorial
+			}
 			NOT = { value = auth_corporate } 
 		}
 	}
@@ -95,7 +99,10 @@ civic_solar_goddess = {
 			NOT = { value = ethic_gestalt_consciousness } 
 		}
 		authority = { 
-			value = auth_imperial
+			OR = {
+				value = auth_imperial
+				value = auth_dictatorial
+			}
 			NOT = { value = auth_corporate } 
 		}
 	}
@@ -128,7 +135,10 @@ civic_empress_of_the_night = {
 			NOT = { value = ethic_gestalt_consciousness } 
 		}
 		authority = {
-			value = auth_imperial
+			OR = {
+				value = auth_imperial
+				value = auth_dictatorial
+			}
 			NOT = { value = auth_corporate } 
 		}
 	}

@@ -18,4 +18,25 @@ spriteTypes = {
 		name = "GFX_resource_magic_crystals_large"
 		textureFile = "gfx/interface/icons/resources/magic_crystals_large.dds"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_resource_magical_stability"
+		textureFile = "gfx/interface/icons/resources/magical_stability.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_resource_magical_stability_grey"
+		textureFile = "gfx/interface/icons/resources/magical_stability_grey.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_text_resource_magical_stability"
+		textureFile = "gfx/interface/icons/resources/magical_stability.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_resource_magical_stability_large"
+		textureFile = "gfx/interface/icons/resources/magical_stability_large.dds"
+	}
 }

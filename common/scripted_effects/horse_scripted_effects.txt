@@ -1,0 +1,539 @@
+check_for_magical_stability = {
+	if = {
+		limit = {
+		
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 0
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 10
+				}
+
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_11_20 }
+			remove_country_flag = magic_stability_11_20
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_21_30 }
+			remove_country_flag = magic_stability_21_30
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_31_40 }
+			remove_country_flag = magic_stability_31_40
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_41_50 }
+			remove_country_flag = magic_stability_41_50
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_51_60 }
+			remove_country_flag = magic_stability_51_60
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_61_70 }
+			remove_country_flag = magic_stability_61_70
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_71_80 }
+			remove_country_flag = magic_stability_71_80
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_81_90 }
+			remove_country_flag = magic_stability_81_90
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_91_100 }
+			remove_country_flag = magic_stability_91_100
+		}
+		
+		set_country_flag = magic_stability_00_10 
+	}
+	
+	else_if = {
+		limit = {
+		
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 11
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 20
+				}
+	
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_21_30 }
+			remove_country_flag = magic_stability_21_30
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_31_40 }
+			remove_country_flag = magic_stability_31_40
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_41_50 }
+			remove_country_flag = magic_stability_41_50
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_51_60 }
+			remove_country_flag = magic_stability_51_60
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_61_70 }
+			remove_country_flag = magic_stability_61_70
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_71_80 }
+			remove_country_flag = magic_stability_71_80
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_81_90 }
+			remove_country_flag = magic_stability_81_90
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_91_100 }
+			remove_country_flag = magic_stability_91_100
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_00_10 }
+			remove_country_flag = magic_stability_00_10
+		}
+		
+		set_country_flag = magic_stability_11_20 
+	}
+	
+	else_if = {
+		limit = {
+		
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 21
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 30
+				}
+	
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_31_40 }
+			remove_country_flag = magic_stability_31_40
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_41_50 }
+			remove_country_flag = magic_stability_41_50
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_51_60 }
+			remove_country_flag = magic_stability_51_60
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_61_70 }
+			remove_country_flag = magic_stability_61_70
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_71_80 }
+			remove_country_flag = magic_stability_71_80
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_81_90 }
+			remove_country_flag = magic_stability_81_90
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_91_100 }
+			remove_country_flag = magic_stability_91_100
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_00_10 }
+			remove_country_flag = magic_stability_00_10
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_11_20 }
+			remove_country_flag = magic_stability_11_20
+		}
+		
+		set_country_flag = magic_stability_21_30 
+	}
+	
+	else_if = {
+		limit = {
+		
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 31
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 40
+				}
+		
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_41_50 }
+			remove_country_flag = magic_stability_41_50
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_51_60 }
+			remove_country_flag = magic_stability_51_60
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_61_70 }
+			remove_country_flag = magic_stability_61_70
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_71_80 }
+			remove_country_flag = magic_stability_71_80
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_81_90 }
+			remove_country_flag = magic_stability_81_90
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_91_100 }
+			remove_country_flag = magic_stability_91_100
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_00_10 }
+			remove_country_flag = magic_stability_00_10
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_11_20 }
+			remove_country_flag = magic_stability_11_20
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_21_30 }
+			remove_country_flag = magic_stability_21_30
+		}
+		
+		set_country_flag = magic_stability_31_40 
+	}
+	
+	else_if = {
+		limit = {
+		
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 41
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 50
+				}
+		
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_51_60 }
+			remove_country_flag = magic_stability_51_60
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_61_70 }
+			remove_country_flag = magic_stability_61_70
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_71_80 }
+			remove_country_flag = magic_stability_71_80
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_81_90 }
+			remove_country_flag = magic_stability_81_90
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_91_100 }
+			remove_country_flag = magic_stability_91_100
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_00_10 }
+			remove_country_flag = magic_stability_00_10
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_11_20 }
+			remove_country_flag = magic_stability_11_20
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_21_30 }
+			remove_country_flag = magic_stability_21_30
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_31_40 }
+			remove_country_flag = magic_stability_31_40
+		}
+		
+		set_country_flag = magic_stability_41_50
+	}
+	
+	else_if = {
+		limit = {
+		
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 51
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 60
+				}
+		
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_61_70 }
+			remove_country_flag = magic_stability_61_70
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_71_80 }
+			remove_country_flag = magic_stability_71_80
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_81_90 }
+			remove_country_flag = magic_stability_81_90
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_91_100 }
+			remove_country_flag = magic_stability_91_100
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_00_10 }
+			remove_country_flag = magic_stability_00_10
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_11_20 }
+			remove_country_flag = magic_stability_11_20
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_21_30 }
+			remove_country_flag = magic_stability_21_30
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_31_40 }
+			remove_country_flag = magic_stability_31_40
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_41_50 }
+			remove_country_flag = magic_stability_41_50
+		}
+		
+		set_country_flag = magic_stability_51_60
+	}
+	
+	else_if = {
+		limit = {
+		
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 61
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 70
+				}
+			
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_71_80 }
+			remove_country_flag = magic_stability_71_80
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_81_90 }
+			remove_country_flag = magic_stability_81_90
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_91_100 }
+			remove_country_flag = magic_stability_91_100
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_00_10 }
+			remove_country_flag = magic_stability_00_10
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_11_20 }
+			remove_country_flag = magic_stability_11_20
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_21_30 }
+			remove_country_flag = magic_stability_21_30
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_31_40 }
+			remove_country_flag = magic_stability_31_40
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_41_50 }
+			remove_country_flag = magic_stability_41_50
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_51_60 }
+			remove_country_flag = magic_stability_51_60
+		}
+		
+		set_country_flag = magic_stability_61_70
+	}
+	
+	else_if = {
+		limit = {
+			
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 71
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 80
+				}
+			
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_81_90 }
+			remove_country_flag = magic_stability_81_90
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_91_100 }
+			remove_country_flag = magic_stability_91_100
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_00_10 }
+			remove_country_flag = magic_stability_00_10
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_11_20 }
+			remove_country_flag = magic_stability_11_20
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_21_30 }
+			remove_country_flag = magic_stability_21_30
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_31_40 }
+			remove_country_flag = magic_stability_31_40
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_41_50 }
+			remove_country_flag = magic_stability_41_50
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_51_60 }
+			remove_country_flag = magic_stability_51_60
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_61_70 }
+			remove_country_flag = magic_stability_61_70
+		}
+		
+		set_country_flag = magic_stability_71_80
+	}
+	
+	else_if = {
+		limit = {
+		
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 81
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 90
+				}
+			
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_91_100 }
+			remove_country_flag = magic_stability_91_100
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_00_10 }
+			remove_country_flag = magic_stability_00_10
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_11_20 }
+			remove_country_flag = magic_stability_11_20
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_21_30 }
+			remove_country_flag = magic_stability_21_30
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_31_40 }
+			remove_country_flag = magic_stability_31_40
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_41_50 }
+			remove_country_flag = magic_stability_41_50
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_51_60 }
+			remove_country_flag = magic_stability_51_60
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_61_70 }
+			remove_country_flag = magic_stability_61_70
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_71_80 }
+			remove_country_flag = magic_stability_71_80
+		}
+		
+		set_country_flag = magic_stability_81_90
+	}
+	
+	else = {
+		limit = {
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value >= 91
+				}
+				resource_stockpile_compare = { 
+					resource = magical_stability 
+					value <= 100
+				}
+		}
+		
+		if = {
+			limit = { has_country_flag = magic_stability_00_10 }
+			remove_country_flag = magic_stability_00_10
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_11_20 }
+			remove_country_flag = magic_stability_11_20
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_21_30 }
+			remove_country_flag = magic_stability_21_30
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_31_40 }
+			remove_country_flag = magic_stability_31_40
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_41_50 }
+			remove_country_flag = magic_stability_41_50
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_51_60 }
+			remove_country_flag = magic_stability_51_60
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_61_70 }
+			remove_country_flag = magic_stability_61_70
+		}
+		else_if = {
+			limit = { has_country_flag = magic_stability_71_80 }
+			remove_country_flag = magic_stability_71_80
+		}
+		else = {
+			limit = { has_country_flag = magic_stability_81_90 }
+			remove_country_flag = magic_stability_81_90
+		}
+		
+		set_country_flag = magic_stability_91_100
+	}
+}

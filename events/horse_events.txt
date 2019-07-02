@@ -145,3 +145,21 @@ country_event = {
 		}
 	}
 }
+
+
+namespace = magical_stability_events
+country_event = {
+	id = magical_stability_events.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		owner = {
+			has_magic = yes
+		}
+	}
+
+	immediate = {
+		check_for_magical_stability = yes
+	}
+}

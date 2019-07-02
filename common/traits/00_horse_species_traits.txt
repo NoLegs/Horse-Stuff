@@ -5,6 +5,7 @@ trait_pony_power = {
 	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_pony_power.dds"
 	randomized = no
+	modification = no
 	modifier = {
 		planet_jobs_unity_produces_mult = 0.025
 		planet_researchers_produces_mult = 0.025
@@ -18,6 +19,7 @@ trait_magically_gifted = {
 	potential_crossbreeding_chance = 0.5
 	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
+	modification = no
 	modifier = {
 		planet_researchers_produces_mult = 0.05
 	}
@@ -28,6 +30,7 @@ trait_cloud_builder = {
 	potential_crossbreeding_chance = 0.5
 	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
+	modification = no
 	modifier = {
 		pop_housing_usage_mult = -0.10
 	}
@@ -38,6 +41,7 @@ trait_earth_attuned = {
 	potential_crossbreeding_chance = 0.5
 	opposites = { "trait_pony_power" }
 	allowed_archetypes = { BIOLOGICAL }
+	modification = no
 	modifier = {
 		planet_jobs_unity_produces_mult = 0.05
 		planet_jobs_food_produces_mult = 0.05
@@ -45,17 +49,50 @@ trait_earth_attuned = {
 }
 
 trait_emotionovores = {
-	cost = 0
+	cost = 1
 	potential_crossbreeding_chance = 0
 	opposites = { }
 	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_emotionovores.dds"
 	randomized = no
-	initial = no
 	modification = no
 	modifier = {
-		pop_environment_tolerance = 0.30
+		pop_environment_tolerance = 0.20
 		planet_jobs_food_produces_mult = -0.2
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+trait_hive_builders = {
+	cost = 1
+	potential_crossbreeding_chance = 0
+	opposites = { }
+	allowed_archetypes = { BIOLOGICAL }
+	icon = "gfx/interface/icons/traits/trait_hive_builders.dds"
+	randomized = no
+	modification = no
+	modifier = {
+		planet_buildings_cost_mult = -0.05
+		planet_districts_cost_mult = -0.05
+		planet_building_build_speed_mult = 0.20
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+trait_oviposition = {
+	cost = 2
+	potential_crossbreeding_chance = 0
+	opposites = { }
+	allowed_archetypes = { BIOLOGICAL }
+	icon = "gfx/interface/icons/traits/trait_oviposition.dds"
+	randomized = no
+	modification = no
+	modifier = {
+		pop_growth_speed = 0.10
 	}
 	ai_weight = {
 		weight = 0
@@ -69,6 +106,7 @@ trait_party_ponies = {
 	allowed_archetypes = { BIOLOGICAL }
 	icon = "gfx/interface/icons/traits/trait_party_ponies.dds"
 	randomized = no
+	modification = no
 	modifier = {
 		pop_amenities_usage_mult = 0.15
 		planet_pops_consumer_goods_upkeep_mult = 0.10

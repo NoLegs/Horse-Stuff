@@ -54,6 +54,14 @@ mod_job_alchemical_foundry_workers_add:0 "$job_thaumaturgic_refiners$ Jobs"
 mod_job_alchemical_foundry_workers_per_pop:0 "§G+1§! $job_thaumaturgic_refiners$ Job per $VALUE$ Pops"
 mod_job_alchemical_foundry_workers_per_pop_short:0 "\n§G+1§! job_thaumaturgic_refiners per $VALUE$ £pop£"
 
+job_magical_nobles:0 "Magical Noble"
+job_magical_nobles_plural:0 "Magical Nobles"
+job_magical_nobles_desc:2 "These members of nobility are different from usual nobility, they posses magical talent."
+job_magical_nobles_effect_desc:1 "Magical Nobles give §Y4§! Unity, §Y2§! Society, and §Y5§! Stability\n"
+mod_job_magical_nobles_add:0 "$job_magical_nobles$ Jobs"
+mod_job_magical_nobles_per_pop:0 "§G+1§! $job_magical_nobles$ Job per $VALUE$ Pops"
+mod_job_magical_nobles_per_pop_short:0 "\n§G+1§! job_magical_nobles per $VALUE$ £pop£"
+
 ### Deposits ###
 d_cloud_city:0 "Cloud City"
 d_cloud_city_desc:0 ""
@@ -86,3 +94,6 @@ building_thaumaturgic_grid_desc:0 ""
 
 building_alchemical_foundry:0 "Alchemical Foundry"
 building_alchemical_foundry_desc:0 ""
+
+building_mage_quarter:0 "Mage Quarter"
+building_mage_quarter_desc:0 ""

@@ -1,5 +1,6 @@
 ﻿l_english:
 
+ ### Pony Traits ###
  trait_cloud_builder:0 "Cloud Builders"
  trait_cloud_builder_desc:0 "This species has the ability to build on clouds! "
 
@@ -14,24 +15,21 @@
 
  trait_party_ponies:0 "Party Ponies"
  trait_party_ponies_desc:0 "This species is well known for their frequent and spontaneous parties. It's hard to go a week without a party being thrown for some event or occasion!"
-
- trait_greedy:0 "Greedy"
- trait_greedy_desc:0 ""
-
+ 
+ ### Changeling Traits ###
  trait_emotionovores:0 "Emotionovores"
  trait_emotionovores_desc:0 "§MMagical!§!\n\nThis species feeds on the emotions of others and has the ability to drain pops of their life, as well as converting them to their species."
+ 
+ trait_oviposition:0 "Oviposition"
+ trait_oviposition_desc:0 "This species has an alternative method of breeding that involves laying their eggs in others. This can be members of their own species or others."
+ 
+ trait_hive_builders:0 "Hive Builders"
+ trait_hive_builders_desc:0 "This species constructs their dwellings out of a mixture of a biological material they produce and natural materials."
+
+ 
 
  trait_territorial:0 "Territorial"
  trait_territorial_desc:0 ""
 
- trait_harmonic:0 "Harmonic"
- trait_harmonic_desc:0 ""
-
- trait_chaotic:0 "Chaotic"
- trait_chaotic_desc:0 ""
-
- trait_magic_dependency:0 "Magic Dependency"
- trait_magic_dependency_desc:0 ""
-
- trait_extreme_magic_dependency:0 "Extreme Magic Dependency"
- trait_extreme_magic_dependency_desc:0 ""
+ trait_greedy:0 "Greedy"
+ trait_greedy_desc:0 ""

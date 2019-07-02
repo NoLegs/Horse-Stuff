@@ -11,7 +11,10 @@ planet_event = {
 
 	trigger = {
 		FROM = {
-			has_valid_civic = civic_changeling_swarms
+			OR = {
+				has_valid_civic = civic_changeling_swarms
+				has_trait = trait_oviposition
+			}
 		}
 		FROMFROM = {
 			is_robot_pop = no
