@@ -85,11 +85,14 @@ country_event = {
 		remove_country_flag = "ritual_diplo_active"
 	}
 
-	option = { ### Ritual of Power
+	option = { ### Starswirls Ritual of Lightning
 		name = horse_ritual_menu.1.a
 		custom_tooltip = TT_ritual_of_power
 		allow = {
-			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
+			resource_stockpile_compare = { 
+				resource = magic_crystals 
+				value >= 200 
+			}
 		}
 		add_resource = { magic_crystals = -200 }
 		hidden_effect = {
@@ -103,11 +106,14 @@ country_event = {
 		}
 	}
 	
-	option = { ### Ritual of Might
+	option = { ### Strong Hooves Ritual of Strength 
 		name = horse_ritual_menu.1.b
 		custom_tooltip = TT_ritual_of_might
 		allow = {
-			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
+			resource_stockpile_compare = { 
+				resource = magic_crystals 
+				value >= 200 
+			}
 		}
 		add_resource = { magic_crystals = -200 }
 		hidden_effect = {
@@ -121,13 +127,16 @@ country_event = {
 		}
 	}
 	
-	option = { ### Ritual of Health
+	option = { ### Swifts Ritual of Fertility
 		name = horse_ritual_menu.1.c
 		custom_tooltip = TT_ritual_of_health
 		allow = {
-			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
+			resource_stockpile_compare = { 
+				resource = magic_crystals 
+				value >= 269
+			}
 		}
-		add_resource = { magic_crystals = -200 }
+		add_resource = { magic_crystals = -269 }
 		hidden_effect = {
 			if = { 
 				limit = { has_modifier = ritual_cooldown }
@@ -143,9 +152,12 @@ country_event = {
 		name = horse_ritual_menu.1.d
 		custom_tooltip = TT_ritual_of_knowledge
 		allow = {
-			resource_stockpile_compare = { resource = magic_crystals value >= 200 }
+			resource_stockpile_compare = { 
+				resource = magic_crystals 
+				value >= 400 
+			}
 		}
-		add_resource = { magic_crystals = -200 }
+		add_resource = { magic_crystals = -400 }
 		hidden_effect = {
 			if = { 
 				limit = { has_modifier = ritual_cooldown }
@@ -196,7 +208,7 @@ country_event = {
 		room = horse_ritual_room
 	}
 
-	option = { ### Ritual of Power
+	option = { ### Starswirls Ritual of Lightning
 		name = horse_ritual_menu.21.a
 		
 		add_modifier = {
@@ -205,6 +217,10 @@ country_event = {
 		}
 		add_modifier = {
 			modifier = "ritual_cooldown" 
+			days = 730
+		}
+		add_modifier = {
+			modifier = "magical_stability_6" 
 			days = 730
 		}
 		
@@ -225,7 +241,7 @@ country_event = {
 		room = horse_ritual_room
 	}
 
-	option = { ### Ritual of Might
+	option = { ### Strong Hooves Ritual of Strength 
 		name = horse_ritual_menu.22.a
 		
 		add_modifier = {
@@ -234,6 +250,10 @@ country_event = {
 		}
 		add_modifier = {
 			modifier = "ritual_cooldown" 
+			days = 730
+		}
+		add_modifier = {
+			modifier = "magical_stability_4" 
 			days = 730
 		}
 		
@@ -254,7 +274,7 @@ country_event = {
 		room = horse_ritual_room
 	}
 
-	option = { ### Ritual of Health
+	option = { ### Swifts Ritual of Fertility
 		name = horse_ritual_menu.23.a
 		
 		add_modifier = {
@@ -263,6 +283,10 @@ country_event = {
 		}
 		add_modifier = {
 			modifier = "ritual_cooldown" 
+			days = 730
+		}
+		add_modifier = {
+			modifier = "magical_stability_4" 
 			days = 730
 		}
 		
@@ -283,7 +307,7 @@ country_event = {
 		room = horse_ritual_room
 	}
 
-	option = { ### Knowledge
+	option = { ### Ritual of Knowledge
 		name = horse_ritual_menu.24.a
 		
 		add_modifier = {
@@ -292,6 +316,10 @@ country_event = {
 		}
 		add_modifier = {
 			modifier = "ritual_cooldown" 
+			days = 730
+		}
+		add_modifier = {
+			modifier = "magical_stability_6" 
 			days = 730
 		}
 		

@@ -94,16 +94,18 @@ country_event = {
 	}
 
 	immediate = {
+		add_resource = { magical_stability = 100 }
 		give_technology = { 
 			tech = tech_basic_magic_theory 
 			message = no
 		}
-		
 		every_planet_within_border = {
 			limit = { is_capital = yes }
 			
 			add_deposit = d_magic_crystal_caverns
+			add_deposit = d_magical_siphon
 		}
+		
 	}
 }
 

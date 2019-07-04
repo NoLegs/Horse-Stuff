@@ -26,13 +26,13 @@ magic_crystals_deficit = {
 planet_productivity_ritual = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
 	icon_frame = 1
-	planet_jobs_produces_mult = 0.25
+	planet_jobs_produces_mult = 0.15
 }
 
 planet_fertility_ritual = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
 	icon_frame = 1
-	pop_growth_speed = 0.25
+	pop_growth_speed = 0.10
 }
 
 planet_planetary_shield_ritual = {
@@ -43,33 +43,9 @@ planet_planetary_shield_ritual = {
 
 
 planet_weak_magic_field = {
-	icon = "gfx/interface/icons/planet_modifiers/pm_weak_magnetic_field.dds"
+	icon = "gfx/interface/icons/planet_modifiers/weakend_magical_field.dds"
 	icon_frame = 1
 }
-
-### Empire Magic Modifiers 
-ritual_power = {
-	country_energy_produces_mult = 0.25
-}
-
-ritual_might = {
-	ship_weapon_damage = 0.25
-	ship_speed_mult = 0.25
-	army_damage_mult = 0.25
-}
-
-ritual_health = {
-	pop_growth_speed = 0.15
-	biological_pop_happiness = 0.10
-}
-
-ritual_knowledge = {
-	all_technology_research_speed = 0.10
-}
-
-ritual_cooldown = {
-}
-
 
 ### Relic Modifiers 
 element_of_magic_triumph = {
@@ -100,14 +76,44 @@ element_of_generosity_triumph = {
 }
 
 
-### Magical Stability modifiers
-magic_stability_00_10= { }
-magic_stability_11_20= { }
-magic_stability_21_30= { }
-magic_stability_31_40= { }
-magic_stability_41_50= { }
-magic_stability_51_60= { }
-magic_stability_61_70= { }
-magic_stability_71_80= { }
-magic_stability_81_90= { }
-magic_stability_91_100= { }
+### Empire Magic Modifiers 
+ritual_power = {
+	country_energy_produces_mult = 0.10
+	weapon_type_energy_weapon_damage_mult = 0.05
+}
+
+ritual_might = {
+	ship_weapon_damage = 0.30
+	ship_speed_mult = 0.10
+	army_damage_mult = 0.10
+}
+
+ritual_health = {
+	pop_growth_speed = 0.15
+	biological_pop_happiness = 0.05
+	country_food_produces_mult = -0.20
+}
+
+ritual_knowledge = {
+	country_engineering_tech_research_speed = 0.05
+	country_physics_tech_research_speed = 0.05
+	country_society_tech_research_speed = 0.05
+	country_energy_produces_mult = -0.20
+}
+
+ritual_cooldown = {
+}
+
+### Magical Stability Modifiers ###
+magical_stability_2 = {
+	icon = "gfx/interface/icons/modifiers/mod_magical_stability_drain.dds"
+	country_base_magical_stability_produces_add = -2
+}
+magical_stability_4 = {
+	icon = "gfx/interface/icons/modifiers/mod_magical_stability_drain.dds"
+	country_base_magical_stability_produces_add = -4
+}
+magical_stability_6 = {
+	icon = "gfx/interface/icons/modifiers/mod_magical_stability_drain.dds"
+	country_base_magical_stability_produces_add = -6
+}

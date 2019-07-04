@@ -42,6 +42,9 @@ decision_search_for_deposits_horse = {
 	}
 }
 
+
+
+
 decision_pony_parties = {
 	owned_planets_only = yes
 	sound = event_administrative_work
@@ -72,6 +75,8 @@ decision_pony_parties = {
 	}
 }
 
+
+
 decision_productivity_ritual = {
 	owned_planets_only = yes
 	sound = event_administrative_work
@@ -81,7 +86,7 @@ decision_productivity_ritual = {
 	resources = {
 		category = decisions
 		cost = {
-			magic_crystals = 100
+			magic_crystals = 50
 		}
 	}
 	
@@ -109,7 +114,7 @@ decision_productivity_ritual = {
 	}
 }
 
-decision_fertility_ritual = {
+decision_magical_fertility_aides = {
 	owned_planets_only = yes
 	sound = event_administrative_work
 	icon = decision_resources
@@ -118,8 +123,8 @@ decision_fertility_ritual = {
 	resources = {
 		category = decisions
 		cost = {
-			magic_crystals = 100
-			food = 800
+			magic_crystals = 50
+			food = 400
 		}
 	}
 	
