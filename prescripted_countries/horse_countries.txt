@@ -207,8 +207,9 @@ changelingswarm = {
 		adjective="Changeling"
 		name_list="horse"
 		trait="trait_hive_mind"
+		trait="trait_hive_builders"
+		trait="trait_oviposition"
 		trait="trait_emotionovores"
-		trait="trait_rapid_breeders"
 	}
 	name="Changeling Swarm"
 	adjective="Changeling"
@@ -253,6 +254,6 @@ changelingswarm = {
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_changeling_swarms"
-		"civic_emotionovores"
+		"civic_hive_pooled_knowledge"
 	}
 }

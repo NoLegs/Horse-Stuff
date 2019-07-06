@@ -131,7 +131,3 @@
  HT_CROWN_VISIER:0 "Crown Visier"
  gov_solar_cult:0 "Solar Cult"
  gov_solar_cult_desc:0 "Solar Cult Description"
- 
- ### Tooltips ###
- tt_magic_amplification:0 "Unlocks magic rituals for your planets, as well as magic rituals that affect your entire empire."
- tt_egg_incubation:0 "Increases the amount of pops you get from converting other species by §Y1§!"

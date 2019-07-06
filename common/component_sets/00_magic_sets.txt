@@ -28,3 +28,10 @@ component_set = {
 	icon = "GFX_ship_part_magical_shielding_2"
 	icon_frame = 1	
 }
+
+component_set = {
+	key = "MAGI_DRIVE"
+	
+	icon = "GFX_ship_part_magi_drive"
+	icon_frame = 1	
+}

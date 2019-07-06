@@ -1,0 +1,69 @@
+magic_systems_init_01 = { ### Mineral System
+	class = "rl_standard_stars"
+	usage = misc_system_init
+	usage_odds = 0
+	
+	flags = { magic_systems magic_systems_01 }
+	
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 100
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 125
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 150
+	}
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	planet = {
+		class = pc_broken
+		orbit_distance = 100
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+	}
+
+	planet = {
+		class = pc_asteroid
+		orbit_distance = { min = 0 max = 20 }
+		orbit_angle = { min = 0 max = 36 }
+	}
+	planet = {
+		class = pc_asteroid
+		orbit_distance = { min = 0 max = 20 }
+		orbit_angle = { min = 0 max = 36 }
+	}
+	planet = {
+		class = pc_asteroid
+		orbit_distance = { min = 0 max = 20 }
+		orbit_angle = { min = 0 max = 36 }
+	}
+	planet = {
+		class = pc_asteroid
+		orbit_distance = { min = 0 max = 20 }
+		orbit_angle = { min = 0 max = 36 }
+	}
+	planet = {
+		class = pc_asteroid
+		orbit_distance = { min = 0 max = 20 }
+		orbit_angle = { min = 0 max = 36 }
+	}
+	planet = {
+		class = pc_asteroid
+		orbit_distance = { min = 0 max = 20 }
+		orbit_angle = { min = 0 max = 36 }
+	}
+	
+	init_effect = { }
+}

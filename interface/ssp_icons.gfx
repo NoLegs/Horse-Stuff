@@ -25,4 +25,9 @@ spriteTypes = {
 		name = "GFX_ship_part_magical_shielding_2"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_magical_shielding_2.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ship_part_magi_drive"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_magi_drive.dds"
+	}
 }

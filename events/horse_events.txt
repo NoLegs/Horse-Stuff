@@ -103,7 +103,6 @@ country_event = {
 			limit = { is_capital = yes }
 			
 			add_deposit = d_magic_crystal_caverns
-			add_deposit = d_magical_siphon
 		}
 		
 	}
@@ -163,5 +162,14 @@ country_event = {
 
 	immediate = {
 		check_for_magical_stability = yes
+	}
+}
+country_event = {
+	id = magical_stability_events.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		add_resource = { magical_stability = -20 }
 	}
 }

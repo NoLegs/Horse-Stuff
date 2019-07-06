@@ -46,6 +46,14 @@
  tech_advanced_magical_shielding:0 "Advanced Magical Ship Shielding"
  tech_advanced_magical_shielding_desc:0 ""
  
+ tech_magic_dimensional_tearing:0 "Magic Dimensional Tearing"
+ tech_magic_dimensional_tearing_desc:0 ""
+ 
+ tech_magi_drives:0 "Magi Drives"
+ tech_magi_drives_desc:0 ""
+ 
+ tech_dimensional_probing:0 "Interdimensional Probing"
+ tech_dimensional_probing_desc:0 ""
  ### Racial ###
  tech_chn_egg_incubation:0 "Egg Incubation"
  tech_chn_egg_incubation_desc:0 ""
@@ -94,6 +102,17 @@
  MEDIUM_MAGICAL_SHIELDING_2:0 "Medium Advanced Magical Shielding"
  LARGE_MAGICAL_SHIELDING_2:0 "Large Advanced Magical Shielding"
  
+ 
+ MAGI_DRIVE:0 "Magi-Drive"
+ MAGI_DRIVE_desc:0 ""
+ 
+ MAGI_DRIVE_1:0 "Magi-Drive"
+ 
  ### Armies ###
  magic_army:0 "Magic Army"
  magic_army_2:0 "Advanced Magic Army"
+ 
+ ### Tooltips ###
+ tt_magic_amplification:0 "Unlocks magic rituals for your planets, as well as magic rituals that affect your entire empire."
+ tt_egg_incubation:0 "Increases the amount of pops you get from converting other species by §Y1§!"
+ tt_magic_dimensional_tearing:0 "This technology leads to other, more powerful, technologies that deal with the veil between dimensions."

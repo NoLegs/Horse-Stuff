@@ -73,3 +73,56 @@ tech_advanced_magical_shielding = {
 	modifier = {
 	}
 }
+
+### Ripping open the fabric of space-time and entering a dimension of pure magic.
+## Gateway to Magi-Drives, Summoning Magic
+tech_magic_dimensional_tearing = {
+	cost = @tier4cost2
+	tier = 4
+	area = physics
+	category = { generic }
+	prerequisites = { "tech_magic_crystal_alloy" }
+	weight = @tier4weight2
+	is_rare = yes
+	
+	potential = {
+		has_magic = yes
+	}
+
+	modifier = {
+		custom_tooltip = tt_magic_dimensional_tearing
+	}
+}
+
+tech_magi_drives = {
+	cost = @tier4cost1
+	tier = 4
+	area = physics
+	category = { generic }
+	prerequisites = { "tech_magic_dimensional_tearing" }
+	weight = @tier2weight1
+	
+	potential = {
+		has_magic = yes
+	}
+
+	modifier = {
+	}
+}
+
+tech_dimensional_probing = {
+	cost = @tier4cost2
+	tier = 4
+	area = physics
+	category = { generic }
+	prerequisites = { "tech_magic_dimensional_tearing" }
+	weight = @tier2weight2
+	
+	potential = {
+		has_magic = yes
+	}
+
+	modifier = {
+		science_ship_survey_speed = 0.50
+	}
+}

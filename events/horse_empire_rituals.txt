@@ -211,9 +211,35 @@ country_event = {
 	option = { ### Starswirls Ritual of Lightning
 		name = horse_ritual_menu.21.a
 		
-		add_modifier = {
-			modifier = "ritual_power" 
-			days = 365
+		if = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_91_100
+					has_country_flag = magic_stability_81_90
+					has_country_flag = magic_stability_71_80
+					has_country_flag = magic_stability_61_70
+					has_country_flag = magic_stability_51_60
+				}
+			}
+			add_modifier = {
+				modifier = "ritual_power" 
+				days = 365
+			}
+		}
+		else = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_41_50
+					has_country_flag = magic_stability_31_40
+					has_country_flag = magic_stability_21_30
+					has_country_flag = magic_stability_11_20
+					has_country_flag = magic_stability_00_10
+				}
+			}
+			add_modifier = {
+				modifier = "ritual_power_2" 
+				days = 365
+			}
 		}
 		add_modifier = {
 			modifier = "ritual_cooldown" 
@@ -244,9 +270,45 @@ country_event = {
 	option = { ### Strong Hooves Ritual of Strength 
 		name = horse_ritual_menu.22.a
 		
-		add_modifier = {
-			modifier = "ritual_might" 
-			days = 365
+		if = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_91_100
+					has_country_flag = magic_stability_81_90
+					has_country_flag = magic_stability_71_80
+				}
+			}
+			add_modifier = {
+				modifier = "ritual_might" 
+				days = 365
+			}
+		}
+		else_if = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_61_70
+					has_country_flag = magic_stability_51_60
+					has_country_flag = magic_stability_41_50
+				}
+			}
+			add_modifier = {
+				modifier = "ritual_might_2" 
+				days = 365
+			}
+		}
+		else = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_31_40
+					has_country_flag = magic_stability_21_30
+					has_country_flag = magic_stability_11_20
+					has_country_flag = magic_stability_00_10
+				}
+			}
+			add_modifier = {
+				modifier = "ritual_might_3" 
+				days = 365
+			}
 		}
 		add_modifier = {
 			modifier = "ritual_cooldown" 
@@ -277,9 +339,35 @@ country_event = {
 	option = { ### Swifts Ritual of Fertility
 		name = horse_ritual_menu.23.a
 		
-		add_modifier = {
-			modifier = "ritual_health" 
-			days = 365
+		if = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_91_100
+					has_country_flag = magic_stability_81_90
+					has_country_flag = magic_stability_71_80
+					has_country_flag = magic_stability_61_70
+					has_country_flag = magic_stability_51_60
+				}
+			}
+			add_modifier = {
+				modifier = "ritual_health" 
+				days = 365
+			}
+		}
+		else = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_41_50
+					has_country_flag = magic_stability_31_40
+					has_country_flag = magic_stability_21_30
+					has_country_flag = magic_stability_11_20
+					has_country_flag = magic_stability_00_10
+				}
+			}
+			add_modifier = {
+				modifier = "ritual_health_2" 
+				days = 365
+			}
 		}
 		add_modifier = {
 			modifier = "ritual_cooldown" 
@@ -310,9 +398,35 @@ country_event = {
 	option = { ### Ritual of Knowledge
 		name = horse_ritual_menu.24.a
 		
-		add_modifier = {
-			modifier = "ritual_knowledge" 
-			days = 365
+		if = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_91_100
+					has_country_flag = magic_stability_81_90
+					has_country_flag = magic_stability_71_80
+					has_country_flag = magic_stability_61_70
+					has_country_flag = magic_stability_51_60
+				}
+			}
+			add_modifier = {
+				modifier = "ritual_knowledge"
+				days = 365
+			}
+		}
+		else = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_41_50
+					has_country_flag = magic_stability_31_40
+					has_country_flag = magic_stability_21_30
+					has_country_flag = magic_stability_11_20
+					has_country_flag = magic_stability_00_10
+				}
+			}
+			add_modifier = {
+				modifier = "ritual_knowledge_2" 
+				days = 365
+			}
 		}
 		add_modifier = {
 			modifier = "ritual_cooldown" 

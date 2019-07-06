@@ -1,0 +1,25 @@
+namespace = magic
+
+### Scientists propose pullings stars from another dimension.
+country_event = {
+	id = magic.1
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+	}
+	
+	immediate = {
+		no_scope = {
+			# makes system positions originate from galactic core
+			spawn_system = {
+				min_distance >= 450
+				max_distance <= 460
+				min_orientation_angle = 60
+				max_orientation_angle = 62
+				initializer = magic_systems_init_01
+			}
+		}
+	}
+}

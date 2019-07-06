@@ -22,31 +22,6 @@ magic_crystals_deficit = {
 }
 
 
-### Magic Ritual Effects ###
-planet_productivity_ritual = {
-	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
-	icon_frame = 1
-	planet_jobs_produces_mult = 0.15
-}
-
-planet_fertility_ritual = {
-	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
-	icon_frame = 1
-	pop_growth_speed = 0.10
-}
-
-planet_planetary_shield_ritual = {
-	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
-	icon_frame = 1
-	planet_orbital_bombardment_damage = -0.50
-}
-
-
-planet_weak_magic_field = {
-	icon = "gfx/interface/icons/planet_modifiers/weakend_magical_field.dds"
-	icon_frame = 1
-}
-
 ### Relic Modifiers 
 element_of_magic_triumph = {
 	country_engineering_tech_research_speed = 0.15
@@ -76,10 +51,70 @@ element_of_generosity_triumph = {
 }
 
 
+### Magic Ritual Effects ###
+planet_productivity_ritual = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	planet_jobs_produces_mult = 0.15
+}
+planet_productivity_ritual_2 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	planet_jobs_produces_mult = 0.10
+}
+
+planet_fertility_ritual = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	pop_growth_speed = 0.10
+}
+planet_fertility_ritual_2 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	pop_growth_speed = 0.05
+}
+
+
+
+planet_planetary_shield_ritual = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	planet_orbital_bombardment_damage = -0.50
+}
+planet_planetary_shield_ritual_2 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	planet_orbital_bombardment_damage = -0.40
+}
+planet_planetary_shield_ritual_3 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	planet_orbital_bombardment_damage = -0.30
+}
+planet_planetary_shield_ritual_4 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	planet_orbital_bombardment_damage = -0.20
+}
+planet_planetary_shield_ritual_5 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources.dds"
+	icon_frame = 1
+	planet_orbital_bombardment_damage = -0.10
+}
+
+
+planet_weak_magic_field = {
+	icon = "gfx/interface/icons/planet_modifiers/weakend_magical_field.dds"
+	icon_frame = 1
+}
+
 ### Empire Magic Modifiers 
 ritual_power = {
 	country_energy_produces_mult = 0.10
 	weapon_type_energy_weapon_damage_mult = 0.05
+}
+ritual_power_2 = {
+	country_energy_produces_mult = 0.05
 }
 
 ritual_might = {
@@ -87,11 +122,23 @@ ritual_might = {
 	ship_speed_mult = 0.10
 	army_damage_mult = 0.10
 }
+ritual_might_2 = {
+	ship_weapon_damage = 0.20
+	ship_speed_mult = 0.05
+	army_damage_mult = 0.05
+}
+ritual_might_3 = {
+	ship_weapon_damage = 0.10
+}
 
 ritual_health = {
 	pop_growth_speed = 0.15
 	biological_pop_happiness = 0.05
 	country_food_produces_mult = -0.20
+}
+ritual_health_2 = {
+	pop_growth_speed = 0.10
+	country_food_produces_mult = -0.25
 }
 
 ritual_knowledge = {
@@ -99,6 +146,12 @@ ritual_knowledge = {
 	country_physics_tech_research_speed = 0.05
 	country_society_tech_research_speed = 0.05
 	country_energy_produces_mult = -0.20
+}
+ritual_knowledge_2 = {
+	country_engineering_tech_research_speed = 0.05
+	country_physics_tech_research_speed = 0.02
+	country_society_tech_research_speed = 0.02
+	country_energy_produces_mult = -0.25
 }
 
 ritual_cooldown = {

@@ -99,13 +99,49 @@ decision_productivity_ritual = {
 		NOT = { has_modifier = planet_weak_magic_field }
 	}	
 	effect = {
+		if = {
+			limit = {
+				owner = {
+					OR = {
+						has_country_flag = magic_stability_91_100
+						has_country_flag = magic_stability_81_90
+						has_country_flag = magic_stability_71_80
+						has_country_flag = magic_stability_61_70
+						has_country_flag = magic_stability_51_60
+					}
+				}
+			}
+			add_modifier = {
+				modifier = "planet_productivity_ritual_2"
+				days = 365
+			}
+		}
+		else = {
+			limit = {
+				owner = {
+					OR = {
+						has_country_flag = magic_stability_41_50
+						has_country_flag = magic_stability_31_40
+						has_country_flag = magic_stability_21_30
+						has_country_flag = magic_stability_11_20
+						has_country_flag = magic_stability_00_10
+					}
+				}
+			}
+			add_modifier = {
+				modifier = "planet_productivity_ritual_2" 
+				days = 365
+			}
+		}
 		add_modifier = {
 			modifier = "planet_weak_magic_field"
 			days = 720
 		}
-		add_modifier = { 	
-			modifier = "planet_productivity_ritual" 
-			days = 360
+		owner = { 
+			add_modifier = { 	
+				modifier = "magical_stability_2" 
+				days = 360
+			}
 		}
 	}
 	
@@ -137,13 +173,49 @@ decision_magical_fertility_aides = {
 		NOT = { has_modifier = planet_weak_magic_field }
 	}	
 	effect = {
+		if = {
+			limit = {
+				owner = {
+					OR = {
+						has_country_flag = magic_stability_91_100
+						has_country_flag = magic_stability_81_90
+						has_country_flag = magic_stability_71_80
+						has_country_flag = magic_stability_61_70
+						has_country_flag = magic_stability_51_60
+					}
+				}
+			}
+			add_modifier = {
+				modifier = "planet_fertility_ritual"
+				days = 365
+			}
+		}
+		else = {
+			limit = {
+				owner = {
+					OR = {
+						has_country_flag = magic_stability_41_50
+						has_country_flag = magic_stability_31_40
+						has_country_flag = magic_stability_21_30
+						has_country_flag = magic_stability_11_20
+						has_country_flag = magic_stability_00_10
+					}
+				}
+			}
+			add_modifier = {
+				modifier = "planet_fertility_ritual_2" 
+				days = 365
+			}
+		}
 		add_modifier = {
 			modifier = "planet_weak_magic_field"
 			days = 720
 		}
-		add_modifier = { 	
-			modifier = "planet_fertility_ritual" 
-			days = 360
+		owner = { 
+			add_modifier = { 	
+				modifier = "magical_stability_2" 
+				days = 360
+			}
 		}
 	}
 	
@@ -175,13 +247,85 @@ decision_planetary_shield_ritual = {
 		NOT = { has_modifier = planet_weak_magic_field }
 	}	
 	effect = {
+		if = {
+			limit = { 
+				owner = {
+					OR = {
+						has_country_flag = magic_stability_91_100
+						has_country_flag = magic_stability_81_90
+					}
+				}
+			}
+			add_modifier = {
+				modifier = "planet_planetary_shield_ritual"
+				days = 365
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					OR = {
+						has_country_flag = magic_stability_71_80
+						has_country_flag = magic_stability_61_70
+					}
+				}
+			}
+			add_modifier = {
+				modifier = "planet_planetary_shield_ritual_2" 
+				days = 365
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					OR = {
+						has_country_flag = magic_stability_51_60
+						has_country_flag = magic_stability_41_50
+					}
+				}
+			}
+			add_modifier = {
+				modifier = "planet_planetary_shield_ritual_3" 
+				days = 365
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					OR = {
+						has_country_flag = magic_stability_31_40
+						has_country_flag = magic_stability_21_30
+					}
+				}
+			}
+			add_modifier = {
+				modifier = "planet_planetary_shield_ritual_4" 
+				days = 365
+			}
+		}
+		else = {
+			limit = {
+				owner = {
+					OR = {
+						has_country_flag = magic_stability_11_20
+						has_country_flag = magic_stability_00_10
+					}
+				}
+			}
+			add_modifier = {
+				modifier = "planet_planetary_shield_ritual_5" 
+				days = 365
+			}
+		}
 		add_modifier = {
 			modifier = "planet_weak_magic_field"
 			days = 720
 		}
-		add_modifier = { 	
-			modifier = "planet_planetary_shield_ritual" 
-			days = 360
+		owner = { 
+			add_modifier = { 	
+				modifier = "magical_stability_4" 
+				days = 360
+			}
 		}
 	}
 	

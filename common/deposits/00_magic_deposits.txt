@@ -38,38 +38,6 @@ d_magic_crystal_caverns = {
 	}
 }
 
-d_magical_siphon = {
-	is_for_colonizeable = yes
-	use_for_min_max_adjustments = yes
-	
-	category = deposit_cat_rare
-	
-	potential = {
-		can_have_habitable_deposits = yes
-	}
-	
-	resources = { 
-		produces = {
-			magical_stability = 6
-		}
-	}
-	
-	drop_weight = {
-		weight = 3.0
-		modifier = {
-			factor = 3.25
-			is_wet = yes
-		}
-		modifier = {
-			factor = 3.5
-			OR = {
-				is_dry = yes
-				is_cold = yes
-			}
-		}
-	}
-}
-
 d_magic_crystal_orbital = {
 	station = shipclass_mining_station
 	is_for_colonizeable = no

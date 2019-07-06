@@ -11,12 +11,24 @@ d_alchemical_refinery:0 "Alchemical Refinery"
 ## Planet Modifiers ##
 planet_productivity_ritual:0 "Productivity Ritual"
 planet_productivity_ritual_desc:0 ""
+planet_productivity_ritual_2:0 "Productivity Ritual"
+planet_productivity_ritual_2_desc:0 ""
 
 planet_fertility_ritual:0 "Fertility Ritual"
 planet_fertility_ritual_desc:0 ""
+planet_fertility_ritual_2:0 "Fertility Ritual"
+planet_fertility_ritual_2_desc:0 ""
 
 planet_planetary_shield_ritual:0 "Magical Planetary Shielding"
 planet_planetary_shield_ritual_desc:0 ""
+planet_planetary_shield_ritual_2:0 "Magical Planetary Shielding"
+planet_planetary_shield_ritual_2_desc:0 ""
+planet_planetary_shield_ritual_3:0 "Magical Planetary Shielding"
+planet_planetary_shield_ritual_3_desc:0 ""
+planet_planetary_shield_ritual_4:0 "Magical Planetary Shielding"
+planet_planetary_shield_ritual_4_desc:0 ""
+planet_planetary_shield_ritual_5:0 "Magical Planetary Shielding"
+planet_planetary_shield_ritual_5_desc:0 ""
 
 planet_weak_magic_field:0 "Weak Magic Field"
 planet_weak_magic_field_desc:0 "This planet is still recovering from a powerful ritual cast on it."
@@ -24,15 +36,25 @@ planet_weak_magic_field_desc:0 "This planet is still recovering from a powerful 
 ## Empire Modifiers ##
 ritual_power:0 "Starswirl's Ritual of Lightning"
 ritual_power_desc:0 ""
+ritual_power_2:0 "Starswirl's Ritual of Lightning"
+ritual_power_2_desc:0 ""
 
 ritual_might:0 "Strong Hoof's Ritual of Strength"
 ritual_might_desc:0 ""
+ritual_might_2:0 "Strong Hoof's Ritual of Strength"
+ritual_might_2_desc:0 ""
+ritual_might_3:0 "Strong Hoof's Ritual of Strength"
+ritual_might_3_desc:0 ""
 
 ritual_health:0 "Swift's Ritual of Fertility"
 ritual_health_desc:0 ""
+ritual_health_2:0 "Swift's Ritual of Fertility"
+ritual_health_2_desc:0 ""
 
 ritual_knowledge:0 "Ritual of Knowledge"
 ritual_knowledge_desc:0 ""
+ritual_knowledge_2:0 "Ritual of Knowledge"
+ritual_knowledge_2_desc:0 ""
 
 ritual_cooldown:0 "Weakened Magical Fields"
 ritual_cooldown_desc:0 "The nations magical fields are still recovering from a powerful ritual what was just recently casted."

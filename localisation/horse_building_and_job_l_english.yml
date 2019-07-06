@@ -75,9 +75,6 @@ d_cloud_agri_center_desc:0 ""
 d_magic_crystal_caverns:0 "Magic Crystal Caverns"
 d_magic_crystal_caverns_desc:0 "Magic Crystals pour out of every crevice and wall in these wonderful crystalline caverns."
 
-d_magical_siphon:0 "Magical Siphon"
-d_magical_siphon_desc:0 "Siphons are natural parts of magical fields, they take in excess magic that has been altered from it's base form, whether that be harmonic magic or chaos magic, and converts it back into pure magic."
-
 ### Buildings ###
 
 building_magic_crystal_plant:0 "Magic Crystal Mine"
