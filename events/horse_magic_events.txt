@@ -14,11 +14,43 @@ country_event = {
 		no_scope = {
 			# makes system positions originate from galactic core
 			spawn_system = {
-				min_distance >= 450
-				max_distance <= 460
-				min_orientation_angle = 60
-				max_orientation_angle = 62
+				min_distance >= 550
+				max_distance <= 560
+				min_orientation_angle = 80
+				max_orientation_angle = 78
 				initializer = magic_systems_init_01
+			}
+			
+			spawn_system = {
+				min_distance >= 550
+				max_distance <= 560
+				min_orientation_angle = 84
+				max_orientation_angle = 82
+				initializer = magic_systems_init_02
+			}
+			
+			spawn_system = {
+				min_distance >= 550
+				max_distance <= 560
+				min_orientation_angle = 86
+				max_orientation_angle = 88
+				initializer = magic_systems_init_03
+			}
+			
+			spawn_system = {
+				min_distance >= 550
+				max_distance <= 560
+				min_orientation_angle = 89
+				max_orientation_angle = 90
+				initializer = magic_systems_init_04
+			}
+			
+			spawn_system = {
+				min_distance >= 550
+				max_distance <= 560
+				min_orientation_angle = 92
+				max_orientation_angle = 94
+				initializer = magic_systems_init_05
 			}
 		}
 	}

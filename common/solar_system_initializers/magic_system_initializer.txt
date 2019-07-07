@@ -36,33 +36,215 @@ magic_systems_init_01 = { ### Mineral System
 
 	planet = {
 		class = pc_asteroid
+		count = { min = 6 max = 12 }
 		orbit_distance = { min = 0 max = 20 }
 		orbit_angle = { min = 0 max = 36 }
+		
+		init_effect = {
+			set_deposit = d_minerals_3
+		}
 	}
+	
+	init_effect = { }
+}
+
+magic_systems_init_02 = { ### Energy System
+	class = "rl_trinary_stars"
+	usage = misc_system_init
+	usage_odds = 0
+	
+	flags = { magic_systems magic_systems_02 }
+	
 	planet = {
-		class = pc_asteroid
-		orbit_distance = { min = 0 max = 20 }
-		orbit_angle = { min = 0 max = 36 }
+		count = 1
+		class = star
+		orbit_distance = 35
+		orbit_angle = 0
+		size = { min = 25 max = 30 }
+		has_ring = no
+		
+		init_effect = {
+			set_deposit = d_energy_6
+		}
 	}
+
 	planet = {
-		class = pc_asteroid
-		orbit_distance = { min = 0 max = 20 }
-		orbit_angle = { min = 0 max = 36 }
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 100
+		size = { min = 20 max = 25 }
+		has_ring = no
+		
+		init_effect = {
+			set_deposit = d_energy_4
+		}
 	}
+
 	planet = {
-		class = pc_asteroid
-		orbit_distance = { min = 0 max = 20 }
-		orbit_angle = { min = 0 max = 36 }
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 100
+		size = { min = 20 max = 25 }
+		has_ring = no
+		
+		init_effect = {
+			set_deposit = d_energy_6
+		}
 	}
+	
 	planet = {
-		class = pc_asteroid
-		orbit_distance = { min = 0 max = 20 }
-		orbit_angle = { min = 0 max = 36 }
+		class = pc_molten
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
 	}
+	
 	planet = {
-		class = pc_asteroid
-		orbit_distance = { min = 0 max = 20 }
-		orbit_angle = { min = 0 max = 36 }
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+	}
+	
+	init_effect = { }
+}
+
+magic_systems_init_03 = { ### Physics
+	class = "rl_standard_stars"
+	usage = misc_system_init
+	usage_odds = 0
+	
+	flags = { magic_systems magic_systems_03 }
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 0
+		size = { min = 20 max = 28 }
+		has_ring = no
+		
+		init_effect = {
+			set_deposit = d_physics_4
+		}
+	}
+	
+	planet = {
+		class = rl_unhabitable_planets
+		orbit_distance = 26
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
+		
+		init_effect = {
+			set_deposit = d_physics_2
+		}
+	}
+	
+	planet = {
+		class = rl_unhabitable_planets
+		orbit_distance = 12
+		orbit_angle = { min = 120 max = 270 }
+		size = 20
+		
+		init_effect = {
+			set_deposit = d_physics_2
+		}
+	}
+	
+	init_effect = { }
+}
+
+magic_systems_init_04 = { ### Engineering
+	class = "rl_standard_stars"
+	usage = misc_system_init
+	usage_odds = 0
+	
+	flags = { magic_systems magic_systems_04 }
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 0
+		size = { min = 20 max = 28 }
+		has_ring = no
+		
+		init_effect = {
+			set_deposit = d_engineering_4
+		}
+	}
+	
+	planet = {
+		class = rl_unhabitable_planets
+		orbit_distance = 25
+		orbit_angle = { min = 144 max = 270 }
+		size = 22
+		
+		init_effect = {
+			set_deposit = d_engineering_2
+		}
+	}
+	
+	planet = {
+		class = rl_unhabitable_planets
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 144 }
+		size = 18
+		
+		init_effect = {
+			set_deposit = d_engineering_2
+		}
+	}
+	
+	planet = {
+		class = rl_unhabitable_planets
+		orbit_distance = 44
+		orbit_angle = { min = 120 max = 270 }
+		size = 25
+		
+		init_effect = {
+			set_deposit = d_engineering_3
+		}
+	}
+	
+	init_effect = { }
+}
+
+magic_systems_init_05 = { ### Tomb System
+	class = "rl_standard_stars"
+	usage = misc_system_init
+	usage_odds = 0
+	
+	flags = { magic_systems magic_systems_05 }
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 0
+		size = { min = 20 max = 28 }
+		has_ring = no
+	}
+	
+	planet = {
+		class = pc_nuked
+		orbit_distance = 25
+		orbit_angle = { min = 144 max = 270 }
+		size = { min = 10 max = 13 }
+		moon = {
+			class = rl_unhabitable_planets
+			orbit_distance = 5
+			orbit_angle = { min = 90 max = 270 }
+		}
+	}
+	
+	planet = {
+		class = pc_nuked
+		orbit_distance = 35
+		orbit_angle = { min = 40 max = 160 }
+		size = { min = 12 max = 16 }
 	}
 	
 	init_effect = { }
