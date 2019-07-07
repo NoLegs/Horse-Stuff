@@ -169,7 +169,104 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = yes
 
+	trigger = {
+		owner = {
+			has_magic = yes
+		}
+	}
+	
 	immediate = {
-		add_resource = { magical_stability = -20 }
+		if = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_51_60
+					has_country_flag = magic_stability_41_50
+				}
+			}
+		
+			if = {
+				limit = { has_modifier = low_magical_stability_40 }
+				remove_modifier = low_magical_stability_40
+			}
+			else_if = {
+				limit = { has_modifier = low_magical_stability_20 }
+				remove_modifier = low_magical_stability_20
+			}
+			else = {
+				limit = { has_modifier = low_magical_stability_00 }
+				remove_modifier = low_magical_stability_00
+			}
+			
+			add_modifier = { modifier = low_magical_stability_60 }
+		}
+		
+		else_if = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_41_50
+					has_country_flag = magic_stability_31_40
+				}
+			}
+			
+			if = {
+				limit = { has_modifier = low_magical_stability_60 }
+				remove_modifier = low_magical_stability_60
+			}
+			else_if = {
+				limit = { has_modifier = low_magical_stability_20 }
+				remove_modifier = low_magical_stability_20
+			}
+			else = {
+				limit = { has_modifier = low_magical_stability_00 }
+				remove_modifier = low_magical_stability_00
+			}
+			
+			add_modifier = { modifier = low_magical_stability_40 }
+		}
+		
+		else_if = {
+			limit = { 
+				OR = {
+					has_country_flag = magic_stability_21_30
+					has_country_flag = magic_stability_11_20
+				}
+			}
+			
+			if = {
+				limit = { has_modifier = low_magical_stability_60 }
+				remove_modifier = low_magical_stability_60
+			}
+			else_if = {
+				limit = { has_modifier = low_magical_stability_40 }
+				remove_modifier = low_magical_stability_40
+			}
+			else = {
+				limit = { has_modifier = low_magical_stability_00 }
+				remove_modifier = low_magical_stability_00
+			}
+			
+			add_modifier = { modifier = low_magical_stability_20 }
+		}
+		
+		else = {
+			limit = {
+				has_country_flag = magic_stability_00_10
+			}
+			
+			if = {
+				limit = { has_modifier = low_magical_stability_60 }
+				remove_modifier = low_magical_stability_60
+			}
+			else_if = {
+				limit = { has_modifier = low_magical_stability_40 }
+				remove_modifier = low_magical_stability_40
+			}
+			else = {
+				limit = { has_modifier = low_magical_stability_20 }
+				remove_modifier = low_magical_stability_20
+			}
+			
+			add_modifier = { modifier = low_magical_stability_00 }
+		}
 	}
 }

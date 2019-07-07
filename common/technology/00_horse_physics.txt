@@ -126,3 +126,20 @@ tech_dimensional_probing = {
 		science_ship_survey_speed = 0.50
 	}
 }
+
+tech_interdimensional_summoning = {
+	cost = @tier4cost3
+	tier = 4
+	area = physics
+	category = { generic }
+	prerequisites = { "tech_dimensional_probing" }
+	weight = @tier2weight1
+	
+	potential = {
+		has_magic = yes
+	}
+
+	modifier = {
+		custom_tooltip = tt_interdimensional_summoning
+	}
+}

@@ -1,57 +1,68 @@
 namespace = magic
 
-### Scientists propose pullings stars from another dimension.
 country_event = {
 	id = magic.1
 	hide_window = yes
 	is_triggered_only = yes
-	fire_only_once = yes
 
 	trigger = {
 	}
 	
 	immediate = {
-		no_scope = {
-			# makes system positions originate from galactic core
-			spawn_system = {
-				min_distance >= 550
-				max_distance <= 560
-				min_orientation_angle = 80
-				max_orientation_angle = 78
-				initializer = magic_systems_init_01
-			}
-			
-			spawn_system = {
-				min_distance >= 550
-				max_distance <= 560
-				min_orientation_angle = 84
-				max_orientation_angle = 82
-				initializer = magic_systems_init_02
-			}
-			
-			spawn_system = {
-				min_distance >= 550
-				max_distance <= 560
-				min_orientation_angle = 86
-				max_orientation_angle = 88
-				initializer = magic_systems_init_03
-			}
-			
-			spawn_system = {
-				min_distance >= 550
-				max_distance <= 560
-				min_orientation_angle = 89
-				max_orientation_angle = 90
-				initializer = magic_systems_init_04
-			}
-			
-			spawn_system = {
-				min_distance >= 550
-				max_distance <= 560
-				min_orientation_angle = 92
-				max_orientation_angle = 94
-				initializer = magic_systems_init_05
+		capital_scope = {
+			random_list = {
+				# randomly chooses a magic system
+				20 = {
+					spawn_system = {
+						min_distance = 5
+						max_distance = 20
+						initializer = magic_systems_init_01
+					}
+				}
+				20 = {
+					spawn_system = {
+						min_distance = 5
+						max_distance = 20
+						initializer = magic_systems_init_02
+					}
+				}
+				20 = {
+					spawn_system = {
+						min_distance = 5
+						max_distance = 20
+						initializer = magic_systems_init_03
+					}
+				}
+				20 = {
+					spawn_system = {
+						min_distance = 5
+						max_distance = 20
+						initializer = magic_systems_init_04
+					}
+				}
+				20 = {
+					spawn_system = {
+						min_distance = 5
+						max_distance = 20
+						initializer = magic_systems_init_05
+					}
+				}
 			}
 		}
+		
+		country_event = { id = magic.2 }
+	}
+}
+
+country_event = {
+	id = magic.2
+	title = "magic.2.title"
+	desc = "magic.2.desc"
+	picture = GFX_evt_magic_star_summoning
+	is_triggered_only = yes
+	
+	option = {
+		name = magic.2.a
+		add_resource = { influence = 100 }
 	}
 }

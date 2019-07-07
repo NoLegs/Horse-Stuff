@@ -35,5 +35,6 @@ on_tech_increased = {
 on_monthly_pulse = {
 	events = {
 		magical_stability_events.1
+		magical_stability_events.2
 	}
 }

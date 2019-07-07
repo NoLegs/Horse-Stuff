@@ -54,6 +54,9 @@
  
  tech_dimensional_probing:0 "Interdimensional Probing"
  tech_dimensional_probing_desc:0 ""
+ 
+ tech_interdimensional_summoning:0 "Interdimensional Summoning"
+ tech_interdimensional_summoning_desc:0 ""
  ### Racial ###
  tech_chn_egg_incubation:0 "Egg Incubation"
  tech_chn_egg_incubation_desc:0 ""
@@ -73,7 +76,7 @@
  magic_crystals_desc:0 "These magical crystals contain large amounts of magical power within them, making them vital components of sorcery and spellcraft."
  
  magical_stability:0 "Magical Stability"
- magical_stability_desc:0 "This is the magical stability of your empire, it's score determines just how effective rituals will work in your empire."
+ magical_stability_desc:0 "This is the magical stability of your empire, its score determines just how effective rituals will work in your empire."
  
  ### Ship Components ###
  MAGIC_CRYSTAL_ARMOR_1:0 "Crystal Alloy Armor"
@@ -116,3 +119,4 @@
  tt_magic_amplification:0 "Unlocks magic rituals for your planets, as well as magic rituals that affect your entire empire."
  tt_egg_incubation:0 "Increases the amount of pops you get from converting other species by §Y1§!"
  tt_magic_dimensional_tearing:0 "This technology leads to other, more powerful, technologies that deal with the veil between dimensions."
+ tt_interdimensional_summoning:0 "This technology will allow us to summon things from other dimensions. The possibilities are endless."

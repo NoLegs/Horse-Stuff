@@ -170,3 +170,16 @@ magical_stability_6 = {
 	icon = "gfx/interface/icons/modifiers/mod_magical_stability_drain.dds"
 	country_base_magical_stability_produces_add = -6
 }
+
+low_magical_stability_60 = {
+	pop_happiness = -0.10
+}
+low_magical_stability_40 = {
+	pop_happiness = -0.15
+}
+low_magical_stability_20 = {
+	pop_happiness = -0.20
+}
+low_magical_stability_00 = {
+	pop_happiness = -0.30
+}

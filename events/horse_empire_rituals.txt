@@ -169,8 +169,16 @@ country_event = {
 		}
 	}
 	
-	option = { ### Leave
+	option = { ### Show me more
 		name = horse_ritual_menu.1.e
+		
+		hidden_effect = {
+			country_event = { id = horse_ritual_menu.3 }
+		}
+	}
+	
+	option = { ### Leave
+		name = horse_ritual_menu.1.f
 		
 		remove_country_flag = "ritual_diplo_active"
 	}
@@ -428,6 +436,110 @@ country_event = {
 				days = 365
 			}
 		}
+		add_modifier = {
+			modifier = "ritual_cooldown" 
+			days = 730
+		}
+		add_modifier = {
+			modifier = "magical_stability_6" 
+			days = 730
+		}
+		
+		remove_country_flag = "ritual_diplo_active"
+	}
+}
+
+country_event = {
+	id = horse_ritual_menu.3
+	title = "horse_ritual_menu.3.title"
+	desc = "horse_ritual_menu.3.desc"
+	is_triggered_only = yes
+	show_sound = event_mystic_reveal
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	custom_gui_option = "enclave_trader_option"
+	
+	picture_event_data = {
+		room = horse_ritual_room
+	}
+	
+	after = { 
+		remove_country_flag = "ritual_diplo_active"
+	}
+
+	option = { ### Magical System Summoning
+		name = horse_ritual_menu.3.a
+		custom_tooltip = TT_magic_system_summoning
+		trigger = {
+			has_technology = tech_interdimensional_summoning
+		}
+		allow = {
+			resource_stockpile_compare = { 
+				resource = magic_crystals 
+				value >= 400 
+			}
+			
+			NOT = {
+				OR = {
+					has_modifier = low_magical_stability_60
+					has_modifier = low_magical_stability_40
+					has_modifier = low_magical_stability_20
+					has_modifier = low_magical_stability_00
+				}
+			}
+			
+		}
+		add_resource = { magic_crystals = -400 }
+		hidden_effect = {
+			if = { 
+				limit = { has_modifier = ritual_cooldown }
+				country_event = { id = horse_ritual_menu.2 }
+			}
+			else_if = {
+				country_event = { id = horse_ritual_menu.31 }
+			}
+		}
+	}
+	
+	option = { ### Go Back
+		name = horse_ritual_menu.3.e
+		
+		hidden_effect = {
+			country_event = { id = horse_ritual_menu.1 }
+		}
+	}
+	
+	option = { ### Leave
+		name = horse_ritual_menu.3.f
+		
+		remove_country_flag = "ritual_diplo_active"
+	}
+}
+
+country_event = {
+	id = horse_ritual_menu.31
+	title = "horse_ritual_menu.31.title"
+	desc = "horse_ritual_menu.31.desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	custom_gui_option = "enclave_trader_option"
+	
+	picture_event_data = {
+		room = horse_ritual_room
+	}
+
+	option = { ### System Summoning Ritual
+		name = horse_ritual_menu.31.a
+		custom_tooltip = TT_magic_system_summoning_timer
+		
+		hidden_effect = {
+			country_event = { 
+				id = magic.1
+				days = 60
+			}
+		}
+		
 		add_modifier = {
 			modifier = "ritual_cooldown" 
 			days = 730
