@@ -131,3 +131,8 @@
  HT_CROWN_VISIER:0 "Crown Visier"
  gov_solar_cult:0 "Solar Cult"
  gov_solar_cult_desc:0 "Solar Cult Description"
+ 
+ 
+ ### Special Projects ###
+ repairing_element_of_magic:0 "Repairing the Element of Magic"
+ repairing_element_of_magic_desc:0 "Yeehaw"

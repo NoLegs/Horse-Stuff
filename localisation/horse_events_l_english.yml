@@ -49,6 +49,90 @@ magic.2.title:0 "Planetary Summoning"
 magic.2.desc:0 "After the exhaustive ritual conducted not too long ago, a new star system has appeared near §Y[Root.Capital.GetName]§!. We will need to send a survey ship to scan it before we can claim it for our nation."
 magic.2.a:0 "Okay"
 
+### Digsites ###
+## Element of Magic ##
+element_of_magic_site1:0 "Alien Outpost"
+element_of_magic_site1_desc:0 ""
+
+harmony_digsites.1.title:0 "A Hint of Magic"
+harmony_digsites.1.desc:0 ""
+harmony_digsites.1.a:0 ""
+
+harmony_digsites.2.title:0 "Star Trails"
+harmony_digsites.2.desc:0 ""
+harmony_digsites.2.a:0 ""
+
+element_of_magic_site2:0 "Olrien Research Station"
+element_of_magic_site2_desc:0 ""
+
+harmony_digsites.3.title:0 "Strange Happenings"
+harmony_digsites.3.desc:0 ""
+harmony_digsites.3.a:0 ""
+
+harmony_digsites.4.title:0 "Magical Morphing"
+harmony_digsites.4.desc:0 ""
+harmony_digsites.4.a:0 ""
+
+harmony_digsites.5.title:0 "The Next Destination"
+harmony_digsites.5.desc:0 ""
+harmony_digsites.5.a:0 ""
+
+element_of_magic_site3:0 "Shan'Ol'Rie, Olrien Homeworld"
+element_of_magic_site3_desc:0 ""
+
+harmony_digsites.6.title:0 "Effects of Raw Magic"
+harmony_digsites.6.desc:0 ""
+harmony_digsites.6.a:0 ""
+
+harmony_digsites.7.title:0 "Impact Site"
+harmony_digsites.7.desc:0 ""
+harmony_digsites.7.a:0 ""
+
+harmony_digsites.8.title:0 "A Broken Artifact"
+harmony_digsites.8.desc:0 ""
+harmony_digsites.8.a:0 ""
+
+harmony_digsites.9.title:0 "The Element of Magic"
+harmony_digsites.9.desc:0 ""
+harmony_digsites.9.a:0 ""
+
+
+## The Element of Loyalty ##
+
+element_of_loyalty_site1:0 "Asteroid City"
+element_of_loyalty_site1_desc:0 ""
+
+harmony_digsites.10.title:0 "Empty Streets"
+harmony_digsites.10.desc:0 ""
+harmony_digsites.10.a:0 ""
+
+harmony_digsites.11.title:0 "Voknin Artifacts"
+harmony_digsites.11.desc:0 ""
+harmony_digsites.11.a:0 ""
+
+harmony_digsites.12.title:0 "To Voknin Prime"
+harmony_digsites.12.desc:0 ""
+harmony_digsites.12.a:0 ""
+
+element_of_loyalty_site2:0 "Falling Ark Ships"
+element_of_loyalty_site2_desc:0 ""
+
+harmony_digsites.13.title:0 "Dredging Through Debris"
+harmony_digsites.13.desc:0 ""
+harmony_digsites.13.a:0 ""
+
+harmony_digsites.14.title:0 "Voknin Research"
+harmony_digsites.14.desc:0 ""
+harmony_digsites.14.a:0 ""
+
+harmony_digsites.15.title:0 "The Cause"
+harmony_digsites.15.desc:0 ""
+harmony_digsites.15.a:0 ""
+
+## Marauder Events ##
+harmony_digsites.16.title:0 "The Voknin's Marauders"
+harmony_digsites.16.desc:0 ""
+
 ### Tooltips ###
 TT_ritual_of_power:0 "Gives the §YRitual of Power§! modifier, granting §G+25%§! monthly energy credits for §Y365 days§!, but the magical fields of your empire will be weakend for §R730 Days§!\n\nIf you have already casted a ritual, you will not be able to do so again until the §YWeakened Magical Fields§! modifier has been removed.\n\n"
 TT_ritual_of_might:0 "Gives the §YRitual of Might§! modifier, granting §G+25%§! Ship Weapons Damage, §G+25%§! Sublight Speed, and §G+25%§! Army Damage for §Y365 days§!, but the magical fields of your empire will be weakend for §R730 Days§!\n\nIf you have already casted a ritual, you will not be able to do so again until the §YWeakened Magical Fields§! modifier has been removed.\n\n"

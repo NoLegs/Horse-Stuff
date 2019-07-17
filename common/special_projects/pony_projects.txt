@@ -1,0 +1,35 @@
+special_project = {
+	key = "repairing_element_of_magic"
+	cost = 5000
+	tech_department = physics_technology
+	picture = GFX_evt_landing_ship
+	
+	event_scope = planet_event
+	
+	on_success = {
+		owner = {
+			country_event = { id = harmony_digsites.9 }
+		}
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "repairing_element_of_generosity"
+	cost = 5000
+	tech_department = physics_technology
+	picture = GFX_evt_landing_ship
+	
+	event_scope = planet_event
+	
+	on_success = {
+		owner = {
+			country_event = { id = harmony_digsites.21 }
+		}
+	}
+	
+	on_fail = {
+	}
+}

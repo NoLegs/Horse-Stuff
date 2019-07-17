@@ -1,0 +1,181 @@
+element_of_magic_site1 = { ## Olrien Outpost
+	desc = element_of_magic_site1_desc
+	picture = GFX_evt_overgrown_city
+	stages = 2
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	
+	stage = { ### A Hint of Magic
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.1
+	}
+	
+	stage = { ### Star Trails
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.2
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
+element_of_magic_site2 = { ## Olrien Research Station
+	desc = element_of_magic_site2_desc
+	picture = GFX_evt_overgrown_city
+	stages = 3
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	
+	stage = { ### Strange Happenings
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.3
+	}
+	
+	stage = { ### Magical Morphing
+		difficulty = 4
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.4
+	}
+	
+	stage = { ### The Next Destination
+		difficulty = 4
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.5
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
+
+element_of_magic_site3 = { ## Shan'Ol'Rie, Olrien Homeworld
+	desc = element_of_magic_site3_desc
+	picture = GFX_evt_overgrown_city
+	stages = 3
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	
+	stage = { ### Effects of Raw Magic
+		difficulty = 4
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.6
+	}
+	
+	stage = { ### Impact Site
+		difficulty = 5
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.7
+	}
+	
+	stage = { ### The Element of Magic
+		difficulty = 6
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.8
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
+
+element_of_loyalty_site1 = { ## Asteroid City
+	desc = element_of_loyalty_site1_desc
+	picture = GFX_evt_overgrown_city
+	stages = 3
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	
+	stage = { ### Empty Streets
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.10
+	}
+	
+	stage = { ### Voknin Artifacts - gives 5 artifacts
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.11
+	}
+	
+	stage = { ### Pointing to Voknin Prime
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.12
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
+
+element_of_loyalty_site2 = { ## Failing Ark Ships
+	desc = element_of_loyalty_site2_desc
+	picture = GFX_evt_overgrown_city
+	stages = 3
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	
+	stage = { ### Dredging Through Debris
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.13
+	}
+	
+	stage = { ### Voknin Research - gives physics research
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.14
+	}
+	
+	stage = { ### The Cause
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.15
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}

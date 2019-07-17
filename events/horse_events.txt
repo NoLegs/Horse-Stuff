@@ -15,6 +15,16 @@ country_event = {
 	}
 }
 
+planet_event = { ### TEsting shit
+	id = horse.1234
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		create_archaeological_site = element_of_loyalty_site1
+	}
+}
+
 # Narshty Buggos
 country_event = {
 	id = horse.2
@@ -268,5 +278,550 @@ country_event = {
 			
 			add_modifier = { modifier = low_magical_stability_00 }
 		}
+	}
+}
+
+
+namespace = harmony_digsites
+
+### Element of Magic
+fleet_event = { ### A Hint of Magic
+	id = harmony_digsites.1
+	title = "harmony_digsites.1.title"
+	desc = "harmony_digsites.1.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### Star Trails
+	id = harmony_digsites.2
+	title = "harmony_digsites.2.title"
+	desc = "harmony_digsites.2.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### Strange Happenings
+	id = harmony_digsites.3
+	title = "harmony_digsites.3.title"
+	desc = "harmony_digsites.3.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### Magical Morphing
+	id = harmony_digsites.4
+	title = "harmony_digsites.4.title"
+	desc = "harmony_digsites.4.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### The Next Destination
+	id = harmony_digsites.5
+	title = "harmony_digsites.5.title"
+	desc = "harmony_digsites.5.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### Effects of Raw Magic
+	id = harmony_digsites.6
+	title = "harmony_digsites.6.title"
+	desc = "harmony_digsites.6.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### Impact Site
+	id = harmony_digsites.7
+	title = "harmony_digsites.7.title"
+	desc = "harmony_digsites.7.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### The Element of Magic
+	id = harmony_digsites.8
+	title = "harmony_digsites.8.title"
+	desc = "harmony_digsites.8.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = INTERESTING
+		
+		owner = {
+			capital_scope = {
+				enable_special_project = {
+					name = "repairing_element_of_magic"
+					location = this
+					owner = root
+				}
+			}
+		}
+	}
+}
+
+country_event = { ### The Element of Magic
+	id = harmony_digsites.9
+	title = "harmony_digsites.9.title"
+	desc = "harmony_digsites.9.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	
+	immediate = {
+		add_relic =  r_element_of_magic
+	}
+	
+	option = {
+		name = INTERESTING
+	}
+}
+
+fleet_event = { ### Empty Streets
+	id = harmony_digsites.10
+	title = "harmony_digsites.10.title"
+	desc = "harmony_digsites.10.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### Voknin Artifacts
+	id = harmony_digsites.11
+	title = "harmony_digsites.11.title"
+	desc = "harmony_digsites.11.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### To Voknin Prime
+	id = harmony_digsites.12
+	title = "harmony_digsites.12.title"
+	desc = "harmony_digsites.12.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### Dreding Through Debris
+	id = harmony_digsites.13
+	title = "harmony_digsites.13.title"
+	desc = "harmony_digsites.13.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### Voknin Research
+	id = harmony_digsites.14
+	title = "harmony_digsites.14.title"
+	desc = "harmony_digsites.14.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+fleet_event = { ### The Cause
+	id = harmony_digsites.15
+	title = "harmony_digsites.15.title"
+	desc = "harmony_digsites.15.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	archaeology = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = DIG
+	}
+}
+
+country_event = { ### We found the Voknin's marauders
+	id = harmony_digsites.16
+	title = "harmony_digsites.16.title"
+	desc = "harmony_digsites.16.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		any_country = {
+			is_country_type = dormant_marauders
+			has_country_flag = marauders_with_loyalty
+			has_communications = yes
+		}
+	}
+	
+	option = {
+		name = harmony_digsites.16.a
+	}
+}
+
+country_event = {
+	id = harmony_digsites.161
+	is_triggered_only = yes
+	fire_only_once = yes
+	hide_window = yes
+
+	trigger = {
+		any_country = {
+			is_country_type = dormant_marauders
+		}
+	}
+
+	immediate = {
+		set_country_flag = marauders_with_loyalty
+	}
+}
+
+country_event = { ### Getting the element of loyalty
+	id = harmony_digsites.17
+	title = "harmony_digsites.17.title"
+	desc = "harmony_digsites.17.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		any_country = {
+				OR = {
+					is_country_type = dormant_marauders
+					is_country_type = awakened_marauders
+				}
+			has_country_flag = marauders_with_loyalty
+			exists = yes
+		}	
+	}
+	
+	option = {
+		name = INTERESTING
+		
+		add_relic = r_element_of_loyalty
+	}
+}
+
+country_event = {
+	id = harmony_digsites.181
+	is_triggered_only = yes
+	fire_only_once = yes
+	hide_window = yes
+
+	trigger = {
+		any_country = {
+			is_country_type = enclave
+			has_country_flag = trader_enclave_country
+		}
+	}
+
+	immediate = {
+		set_country_flag = enclave_with_generosity
+	}
+}
+
+country_event = { ### Trader Offer
+	id = harmony_digsites.18
+	title = "harmony_digsites.18.title"
+	desc = "harmony_digsites.18.desc"
+	picture = GFX_evt_magic_ritual_image
+	fire_only_once = yes
+	is_triggered_only = yes
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	force_open = yes
+
+	picture_event_data = {
+		portrait = event_target:traders
+		room = enclave_trader_room
+	}
+	
+	trigger = {
+		any_country = {
+			is_country_type = enclave
+			has_country_flag = enclave_with_generosity
+			has_communications = yes
+		}
+	}
+	
+	option = { ### Sure, gimme that shit nigga
+		name = harmony_digsites.18.a
+		
+		allow = {
+			resource_stockpile_compare = { 
+				resource = energy 
+				value >= 10000
+			}
+		}
+
+		hidden_effect = {
+			country_event = { id = harmony_digsites.19 }
+		}
+	}
+	
+	option = { ### No thank you
+		name = harmony_digsites.18.b
+	}
+}
+
+country_event = { ### Thank you for trading, byeeeeeee
+	id = harmony_digsites.19
+	title = "harmony_digsites.19.title"
+	desc = "harmony_digsites.19.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	diplomatic = yes
+	custom_gui = "enclave_trader_window"
+	force_open = yes
+
+	picture_event_data = {
+		portrait = event_target:traders
+		room = enclave_trader_room
+	}
+	
+	option = { 
+		name = harmony_digsites.19.a
+		
+		add_resource = { magic_crystals = -10000 }
+		
+		event_target:traders = {
+			add_opinion_modifier = {
+				who = root
+				modifier = opinion_trade_gift
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = harmony_digsites.20
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { ### The artifact don't work.
+	id = harmony_digsites.20
+	title = "harmony_digsites.20.title"
+	desc = "harmony_digsites.20.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	
+	option = { 
+		name = harmony_digsites.20.a
+		
+		capital_scope = {
+			enable_special_project = {
+				name = "repairing_element_of_generosity"
+				location = this
+				owner = root
+			}
+		}
+	}
+}
+
+country_event = { ### Artifact works now.
+	id = harmony_digsites.21
+	title = "harmony_digsites.21.title"
+	desc = "harmony_digsites.21.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	
+	option = { 
+		name = harmony_digsites.21.a
+		
+		add_relic = r_element_of_generosity
+	}
+}
+
+country_event = { ### We took the element of generosity from them.
+	id = harmony_digsites.22
+	title = "harmony_digsites.22.title"
+	desc = "harmony_digsites.2.desc"
+	picture = GFX_evt_magic_ritual_image
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = {
+			any_country = {
+				is_country_type = enclave
+				has_country_flag = enclave_with_generosity
+				exists = yes
+			}
+		}	
+	}
+	
+	option = {
+		name = INTERESTING
+		
+		add_relic = r_element_of_generosity
 	}
 }

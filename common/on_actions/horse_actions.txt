@@ -19,6 +19,19 @@ on_game_start_country = {
 		horse.6
 	}
 }
+on_game_start = {
+	events = {
+		harmony_digsites.161
+		harmony_digsites.181
+	}
+}
+
+on_country_destroyed = {
+	events = {
+		harmony_digsites.17
+		harmony_digsites.22
+	}
+}
 
 on_custom_diplomacy = {
 	events = {
@@ -36,5 +49,12 @@ on_monthly_pulse = {
 	events = {
 		magical_stability_events.1
 		magical_stability_events.2
+	}
+}
+
+on_bi_yearly_pulse = {
+	events = {
+		harmony_digsites.18
+		harmony_digsites.16
 	}
 }
