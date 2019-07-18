@@ -133,6 +133,27 @@ harmony_digsites.15.a:0 ""
 harmony_digsites.16.title:0 "The Voknin's Marauders"
 harmony_digsites.16.desc:0 ""
 
+harmony_digsites.17.title:0 "Loyalty in the Rubble"
+harmony_digsites.17.desc:0 ""
+
+harmony_digsites.18.title:0 "A Generous Deal"
+harmony_digsites.18.desc:0 ""
+harmony_digsites.18.a:0 "Sure, take our energy credits."
+harmony_digsites.18.b:0 "No thank you."
+
+harmony_digsites.19.title:0 "A Generous Deal"
+harmony_digsites.19.desc:0 ""
+
+harmony_digsites.20.title:0 "Broken Generosity"
+harmony_digsites.20.desc:0 ""
+
+harmony_digsites.21.title:0 "Element of Generosity Repaired"
+harmony_digsites.21.desc:0 ""
+
+harmony_digsites.22.title:0 "Generosity in the Rubble"
+harmony_digsites.22.desc:0 ""
+
+
 ### Tooltips ###
 TT_ritual_of_power:0 "Gives the §YRitual of Power§! modifier, granting §G+25%§! monthly energy credits for §Y365 days§!, but the magical fields of your empire will be weakend for §R730 Days§!\n\nIf you have already casted a ritual, you will not be able to do so again until the §YWeakened Magical Fields§! modifier has been removed.\n\n"
 TT_ritual_of_might:0 "Gives the §YRitual of Might§! modifier, granting §G+25%§! Ship Weapons Damage, §G+25%§! Sublight Speed, and §G+25%§! Army Damage for §Y365 days§!, but the magical fields of your empire will be weakend for §R730 Days§!\n\nIf you have already casted a ritual, you will not be able to do so again until the §YWeakened Magical Fields§! modifier has been removed.\n\n"

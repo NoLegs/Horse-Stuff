@@ -614,10 +614,9 @@ country_event = { ### We found the Voknin's marauders
 	fire_only_once = yes
 	
 	trigger = {
-		any_country = {
+		from = {
 			is_country_type = dormant_marauders
 			has_country_flag = marauders_with_loyalty
-			has_communications = yes
 		}
 	}
 	
@@ -652,13 +651,12 @@ country_event = { ### Getting the element of loyalty
 	fire_only_once = yes
 	
 	trigger = {
-		any_country = {
-				OR = {
-					is_country_type = dormant_marauders
-					is_country_type = awakened_marauders
-				}
+		this = {
+			OR = {
+				is_country_type = dormant_marauders
+				is_country_type = awakened_marauders
+			}
 			has_country_flag = marauders_with_loyalty
-			exists = yes
 		}	
 	}
 	
@@ -704,10 +702,9 @@ country_event = { ### Trader Offer
 	}
 	
 	trigger = {
-		any_country = {
+		from = {
 			is_country_type = enclave
 			has_country_flag = enclave_with_generosity
-			has_communications = yes
 		}
 	}
 	
@@ -759,6 +756,7 @@ country_event = { ### Thank you for trading, byeeeeeee
 		}
 		
 		hidden_effect = {
+			set_country_flag = has_element_of_generosity
 			country_event = {
 				id = harmony_digsites.20
 				days = 5
@@ -810,13 +808,14 @@ country_event = { ### We took the element of generosity from them.
 	fire_only_once = yes
 	
 	trigger = {
-		NOT = {
-			any_country = {
-				is_country_type = enclave
-				has_country_flag = enclave_with_generosity
-				exists = yes
-			}
-		}	
+		this = {
+			is_country_type = enclave
+			has_country_flag = enclave_with_generosity
+		}
+		
+		FROM = {
+			has_country_flag = has_element_of_generosity
+		}
 	}
 	
 	option = {

@@ -26,6 +26,8 @@ on_game_start = {
 	}
 }
 
+#This = destroyed country
+#From = optional, destroyer (country)
 on_country_destroyed = {
 	events = {
 		harmony_digsites.17
@@ -36,6 +38,17 @@ on_country_destroyed = {
 on_custom_diplomacy = {
 	events = {
 		horse_ritual_menu.0
+	}
+}
+
+
+# Executed right after country has established communications with another country
+# This = Country which established the communications
+# From = Country which communications were established with
+on_post_communications_established = {
+	events = {
+		harmony_digsites.16
+		harmony_digsites.18
 	}
 }
 
