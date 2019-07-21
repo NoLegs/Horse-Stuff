@@ -153,6 +153,71 @@ harmony_digsites.21.desc:0 ""
 harmony_digsites.22.title:0 "Generosity in the Rubble"
 harmony_digsites.22.desc:0 ""
 
+## Fallen Empire Events ##
+harmony_digsites.23.title:0 ""
+harmony_digsites.23.desc:0 ""
+
+harmony_digsites.24.title:0 "Generosity in the Rubble"
+harmony_digsites.24.desc:0 ""
+
+## Element of Honesty ##
+element_of_honesty_site:0 "Radioactive Ruins"
+element_of_honesty_site_desc:0 ""
+
+harmony_digsites.25.title:0 "Alien Secrets"
+harmony_digsites.25.desc:0 ""
+
+harmony_digsites.26.title:0 "Atomic Dealings"
+harmony_digsites.26.desc:0 ""
+
+harmony_digsites.27.title:0 "The Artifact Vault"
+harmony_digsites.27.desc:0 ""
+
+harmony_digsites.28.title:0 "The Element of Honesty"
+harmony_digsites.28.desc:0 ""
+
+## Element of Kindness ##
+harmony_digsites.30.title:0 "Campaign of Peace"
+harmony_digsites.30.desc:0 ""
+harmony_digsites.30.a:0 ""
+harmony_digsites.30.b:0 ""
+harmony_digsites.30.c:0 ""
+
+harmony_digsites.31.title:0 "Universal Friendship"
+harmony_digsites.31.desc:0 ""
+harmony_digsites.31.a:0 ""
+
+harmony_digsites.32.title:0 "Stellar Friendship"
+harmony_digsites.32.desc:0 ""
+harmony_digsites.32.a:0 ""
+
+harmony_digsites.34.title:0 "A Friendly Offer"
+harmony_digsites.34.desc:0 ""
+harmony_digsites.34.a:0 ""
+
+harmony_digsites.35.title:0 "A True True Friend"
+harmony_digsites.35.desc:0 ""
+harmony_digsites.35.a:0 ""
+
+harmony_digsites.36.title:0 "Primitive Enlightenment Completed"
+harmony_digsites.36.desc:0 ""
+harmony_digsites.36.a:0 ""
+
+harmony_digsites.37.title:0 "Primitive Heist"
+harmony_digsites.37.desc:0 ""
+harmony_digsites.37.a:0 ""
+
+harmony_digsites.38.title:0 "Averting Disaster"
+harmony_digsites.38.desc:0 ""
+harmony_digsites.38.a:0 ""
+
+harmony_digsites.39.title:0 "Disaster Averted"
+harmony_digsites.39.desc:0 ""
+harmony_digsites.319.a:0 ""
+
+harmony_digsites.40.title:0 "Last Light"
+harmony_digsites.40.desc:0 ""
+harmony_digsites.40.a:0 ""
 
 ### Tooltips ###
 TT_ritual_of_power:0 "Gives the §YRitual of Power§! modifier, granting §G+25%§! monthly energy credits for §Y365 days§!, but the magical fields of your empire will be weakend for §R730 Days§!\n\nIf you have already casted a ritual, you will not be able to do so again until the §YWeakened Magical Fields§! modifier has been removed.\n\n"

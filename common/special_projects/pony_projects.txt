@@ -33,3 +33,42 @@ special_project = {
 	on_fail = {
 	}
 }
+
+special_project = {
+	key = "peace_bringer_enlightenment"
+	cost = 5000
+	tech_department = society_technology
+	picture = GFX_evt_landing_ship
+	
+	event_scope = planet_event
+	
+	on_success = {
+		from = {
+			country_event = { id = harmony_digsites.36 }
+		}
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "peace_bringer_disaster"
+	days_to_research = 60
+	timelimit = 365
+	picture = GFX_evt_landing_ship
+	
+	event_scope = planet_event
+	
+	on_success = {
+		from = {
+			planet_event = { id = harmony_digsites.39 }
+		}
+	}
+	
+	on_fail = {
+		from = {
+			planet_event = { id = harmony_digsites.40 }
+		}
+	}
+}

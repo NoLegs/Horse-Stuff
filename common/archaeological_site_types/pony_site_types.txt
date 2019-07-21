@@ -179,3 +179,48 @@ element_of_loyalty_site2 = { ## Failing Ark Ships
 			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
 		}
 	}
+}
+
+element_of_honesty_site = { ## Radioactive Ruins
+	desc = element_of_honesty_site_desc
+	picture = GFX_evt_overgrown_city
+	stages = 4
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	
+	stage = { ### Alien Secrets
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.25
+	}
+	
+	stage = { ### Atomic Dealings
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.26
+	}
+	
+	stage = { ### The Artifact Vault
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.27
+	}
+
+	stage = { ### The Element of Honesty
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = harmony_digsites.28
+	}
+	
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
