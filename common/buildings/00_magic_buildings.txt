@@ -111,7 +111,7 @@ building_enchanters_workshop = {
 	triggered_desc = {
 		trigger = { 
 			exists = owner
-			 { is_ai = no }	
+			owner = { is_ai = no }	
 		}
 		text = job_enchanter_effect_desc
 	}	
