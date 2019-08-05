@@ -15,7 +15,7 @@ building_magic_crystal_plant = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = no }					
+			owner = { is_ai = no }						
 		}
 		modifier = {
 			job_magic_crystal_miner_add = 2
@@ -34,7 +34,7 @@ building_magic_crystal_plant = {
 	triggered_desc = {
 		trigger = { 
 			exists = owner
-			owner = { is_gestalt = no } 
+			owner = { is_ai = no }	
 		}
 		text = job_magic_crystal_miner_effect_desc
 	}	
@@ -91,7 +91,7 @@ building_enchanters_workshop = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = no }					
+			owner = { is_ai = no }					
 		}
 		modifier = {
 			job_enchanter_add = 2
@@ -111,7 +111,7 @@ building_enchanters_workshop = {
 	triggered_desc = {
 		trigger = { 
 			exists = owner
-			owner = { is_gestalt = no } 
+			 { is_ai = no }	
 		}
 		text = job_enchanter_effect_desc
 	}	
@@ -119,7 +119,7 @@ building_enchanters_workshop = {
 	ai_weight = {
 		weight = 0
 		modifier = {
-			weight = 30
+			weight = 0
 			owner = { 
 				NOT = { # Prevents building spam by AI
 					has_country_flag = buildings_new_enchanters_workshop
@@ -161,7 +161,7 @@ building_thaumaturgic_research_center = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = no }					
+			owner = { is_ai = no }					
 		}
 		modifier = {
 			job_thaumaturgic_researcher_add = 2
@@ -181,7 +181,7 @@ building_thaumaturgic_research_center = {
 	triggered_desc = {
 		trigger = { 
 			exists = owner
-			owner = { is_gestalt = no } 
+			owner = { is_ai = no }	
 		}
 		text = job_thaumaturgic_researcher_effect_desc
 	}	
@@ -231,7 +231,7 @@ building_thaumaturgic_refinery = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = no }					
+			owner = { is_ai = no }					
 		}
 		modifier = {
 			job_thaumaturgic_refiners_add = 2
@@ -253,7 +253,7 @@ building_thaumaturgic_refinery = {
 	triggered_desc = {
 		trigger = { 
 			exists = owner
-			owner = { is_gestalt = no } 
+			owner = { is_ai = no }	
 		}
 		text = job_thaumaturgic_refiners_effect_desc
 	}	
@@ -261,7 +261,7 @@ building_thaumaturgic_refinery = {
 	ai_weight = {
 		weight = 0
 		modifier = {
-			weight = 30
+			weight = 0
 			owner = { 
 				NOT = { # Prevents building spam by AI
 					has_country_flag = buildings_new_thaumaturgic_refinery
@@ -303,7 +303,7 @@ building_thaumaturgic_grid = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = no }					
+			owner = { is_ai = no }					
 		}
 		modifier = {
 			job_thaumaturgic_electricians_add = 2
@@ -324,7 +324,7 @@ building_thaumaturgic_grid = {
 	triggered_desc = {
 		trigger = { 
 			exists = owner
-			owner = { is_gestalt = no } 
+			owner = { is_ai = no }	
 		}
 		text = job_thaumaturgic_electricians_effect_desc
 	}	
@@ -374,7 +374,7 @@ building_alchemical_foundry = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = no }					
+			owner = { is_ai = no }					
 		}
 		modifier = {
 			job_alchemical_foundry_workers_add = 2
@@ -403,7 +403,7 @@ building_alchemical_foundry = {
 	ai_weight = {
 		weight = 0
 		modifier = {
-			weight = 30
+			weight = 0
 			owner = { 
 				NOT = { # Prevents building spam by AI
 					has_country_flag = buildings_new_alchemical_foundry
