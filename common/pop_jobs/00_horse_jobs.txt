@@ -12,7 +12,6 @@ cloud_clerk = {
 		complex_worker_job_check_trigger = yes
 		owner = { 
 			is_fallen_empire = no 
-			is_gestalt = no
 		}
 	}
 	
@@ -73,7 +72,6 @@ magic_crystal_miner = {
 		complex_worker_job_check_trigger = yes
 		owner = { 
 			is_fallen_empire = no 
-			is_gestalt = no
 		}
 	}
 	
